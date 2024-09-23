@@ -6,7 +6,7 @@
 {"key":"本地","name":"尤东风自用接口💠他人请谨慎用之","type":3,"api":"csp_LocalFile","changeable":0},
 {"key": "Aliself","name":"个人💠阿里","type":3,"api":"csp_AliShare","jar":"./pg.jar",
  "changeable": 1,"filterable": 1,"timeout": 60,
- "ext": "./lib/tokenm.json$$$https://7407.kstore.space/sub/alishare.txt$$$db$$$1",
+ "ext": "./lib/tokenm.json$$$./sub/alishare.txt$$$db$$$1",
  "style": {"type": "list","ratio": 1.1}
 },
 {"key":"AliShare","name":"我的💠阿里","type":3,"api":"csp_MyAli","searchable": 0,"quickSearch": 0,
@@ -15,7 +15,7 @@
 },
 {"key":"ikun","name": "采集💠集合","type":3,"api":"https://git.acwing.com/hogo18/hh/-/raw/main/lib/drpy2.min.js",
  "searchable": 1,"quickSearch": 1,
- "ext": "https://7407.kstore.space/sub/采集之王.js?type=url&params=https://7407.kstore.space/sub/采集静态.json$1$1"
+ "ext": "https://7407.kstore.space/sub/采集之王.js?type=url&params=./sub/采集静态.json$1$1"
 },
 {"key":"享看采集","name":"苹果影视()","type":3,"api":"csp_LiteApple","searchable":1,"filterable":1,"timeout":10},
 {"key":"厂长","name":"厂长影视()","type":3,"api":"csp_Czzy","timeout": 10,"searchable": 1,"filterable":1},
@@ -205,7 +205,7 @@
 },
 {"key":"SP360","name":"360影视(js)","type":3,
  "api":"./lib/drpy2.min.js",
- "searchable": 2,"playerType":2,"ext":"https://7407.kstore.space/D_js/360.js"
+ "searchable": 2,"playerType":2,"ext":"./sub/360.js"
 },
 {"key":"搜狗","name":"搜狗影视(js)","api":"./lib/drpy2.min.js", 
  "searchable":1,"type":3,"order_num":0,"ext": "https://git.acwing.com/hogo18/hh/-/raw/main/js/sogou.js"
@@ -224,7 +224,7 @@
  "jar":"./pg.jar"
 },
 {"key":"阿里云集合","name":"阿里💠分享(1)","type":3,"api":"csp_AliShare","searchable":1,"switchable":0,
- "ext":{"token": "file://TV/ali_token.txt","share": "https://7407.kstore.space/sub/alishare1.json"},
+ "ext":{"token": "file://TV/ali_token.txt","share": "./sub/alishare1.json"},
  "style": {"type": "list"},"timeout": 30
 },
 {"key":"阿里云集合1","name":"阿里💠分享(2)","type":3,"api":"csp_AliShare","searchable":1,"switchable":0,
