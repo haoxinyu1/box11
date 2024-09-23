@@ -5,7 +5,7 @@
     "sites": [
         {
             "key": "豆瓣",
-            "name": "🍥豆瓣推荐🍥观看网盘资源请先在第二项配置网盘参数",
+            "name": "🍥豆瓣推荐🍥观看网盘资源请先配置网盘参数",
             "type": 3,
             "api": "csp_Douban",
             "searchable": 0,
@@ -565,7 +565,7 @@
         {
             "name": "live.fan",
             "type": 0,
-            "url": "http://127.0.0.1:10079/p/0/proxy/https://raw.githubusercontent.com/dxawi/0/main/tvlive.txt",
+            "url": "http://127.0.0.1:10079/p/0/proxy/https://raw.github.com/dxawi/0/main/tvlive.txt",
             "playerType": 1,
             "ua": "okhttp/3.15",
             "epg": "http://127.0.0.1:10079/p/0/proxy/http://epg.112114.xyz/?ch={name}&date={date}",
@@ -598,7 +598,7 @@
             "name": "Json",
             "type": 1,
             "playerType": 1,
-            "url": "http://127.0.0.1:10079/p/0/proxy/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/json/live.json",
+            "url": "http://127.0.0.1:10079/p/0/proxy/https://raw.github.com/FongMi/CatVodSpider/main/json/live.json",
             "epg": "http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/?ch={name}&date={date}",
             "logo": "http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/logo/{name}.png",
             "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36"
@@ -672,7 +672,7 @@
         {
             "name": "proxy",
             "hosts": [
-                "raw.githubusercontent.com",
+                "raw.github.com",
                 "googlevideo.com",
                 "cdn.v82u1l.com",
                 "cdn.iz8qkg.com",
