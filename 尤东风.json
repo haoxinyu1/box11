@@ -13,9 +13,9 @@
  "filterable": 0,"indexs": 0, "ext": {"token":"http://127.0.0.1:9978/file/TVBox/token.txt"},
  "style": {"type": "list"},"timeout": 30
 },
-{"key":"ikun","name": "采集💠集合","type":3,"api":"https://git.acwing.com/hogo18/hh/-/raw/main/lib/drpy2.min.js",
+{"key":"ikun","name": "采集💠集合","type":3,"api":"./lib/drpy2.min.js",
  "searchable": 1,"quickSearch": 1,
- "ext": "https://7407.kstore.space/sub/采集之王.js?type=url&params=./sub/采集静态.json$1$1"
+ "ext": "./lib/采集之王.js?type=url&params=./sub/采集静态.json$1$1"
 },
 {"key":"享看采集","name":"苹果影视()","type":3,"api":"csp_LiteApple","searchable":1,"filterable":1,"timeout":10},
 {"key":"厂长","name":"厂长影视()","type":3,"api":"csp_Czzy","timeout": 10,"searchable": 1,"filterable":1},
