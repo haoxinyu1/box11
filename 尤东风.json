@@ -92,17 +92,16 @@
  "jar":"https://git.acwing.com/hogo18/hh/-/raw/main/jar/xm.txt",
  "ext":"https://git.acwing.com/hogo18/hh/-/raw/main/sub/mm.json"
 },
-{"key":"圣城xBPQ","name":"圣城影视(PQ)","type":3,"api":"csp_XBPQ","searchable":1,"quickSearch":1,"filterable":1,
- "ext":{
-   "分类url": "https://sc1080.top/index.php/vod/show/area/{area}/by/{by}/class/{class}/id/{cateId}/page/{catePg}/year/{year}.html",
-   "分类": "电视剧$2#电影$1#综艺$3#动漫$4#记录片$5#4K片库$20",
-   "简介": "尤东风友情提醒🔺勿信广告，避免受骗🔺+剧情：</span>&&</span>",
-   "搜索url": "/index.php/vod/search.html?wd={wd}",
-   "线路数组": "data-dropdown-value=&&</div>",
-   "线路标题": "尤东风💠+<span>&&</span>[排序:M>蓝光>海外>资源>云>腾讯>奇艺>优酷>芒果>秒播>夸克>]",
-   "播放数组": "sort-item\"&&</div>"
-   } 
-},
+{"key":"月亮PQ","name":"月亮影院(PQ)","type":3,"api":"csp_XBPQ","searchable":1,"filterable":1,
+ "quickSearch":1,"ext":{
+     "分类url":"https://www.zqzdzj.com/vodshow/{cateId}/area/{area}/by/{by}/class/{class}/page/{catePg}/year/{year}.html",
+     "分类":"电视剧$2#电影$1#综艺$3#动漫$4",
+     "数组": "class=\"pack-ykpack\">&&pack-subtitle cor3 hidden",
+     "简介":"尤东风友情提醒🔺勿信广告，避免受骗🔺+id=\"cText\">&&</a>",
+     "线路数组":"channelname swiper-slide\">&&</a>",
+     "线路标题":"尤东风💠+&nbsp;&&<[排序:腾讯>奇艺>优酷>芒果>搜狐]"
+     }
+}, 
 {"key":"星辰xBPQ","name":"星辰影视(PQ)","type":3,"api":"csp_XBPQ","searchable":1,"quickSearch":1,"filterable":1,
  "ext":{
   "分类url":"https://citytv.cc/tv/dianying/area/{area}/by/{by}/class/{class}/id/{cateId}/page/{catePg}/year/{year}",
@@ -196,8 +195,8 @@
 {"key":"ligutv","name":"哩咕TV(js)","type":3,"api":"./lib/drpy2.min.js",
   "ext": "./sub/ligutv.js","searchable":1 
 },
-{"key":"月亮PQ","name": "月亮影视(js)","type":3,"api":"./lib/drpy2.min.js",
- "searchable": 1,"quickSearch": 1,"ext": "./sub/月亮影视.js"
+{"key":"酷云影视","name": "酷云影视(js)","type":3,"api":"./lib/drpy2.min.js",
+ "searchable": 1,"quickSearch": 1,"ext": "./sub/sc1080.js"
 },
 {"key":"毒舌电影","name":"雨见视频(js)","type":3,"api":"./lib/drpy2.min.js",
   "ext": "./sub/雨见视频.js",
