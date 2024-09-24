@@ -197,7 +197,7 @@
   "ext": "./sub/ligutv.js","searchable":1 
 },
 {"key":"月亮PQ","name": "月亮影视(js)","type":3,"api":"./lib/drpy2.min.js",
- "searchable": 1,"quickSearch": 1,"ext": "https://7407.kstore.space/D_js/月亮影视.js"
+ "searchable": 1,"quickSearch": 1,"ext": "./sub/月亮影视.js"
 },
 {"key":"毒舌电影","name":"雨见视频(js)","type":3,"api":"./lib/drpy2.min.js",
   "ext": "./sub/雨见视频.js",
