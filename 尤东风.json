@@ -169,6 +169,12 @@
      "线路标题":"尤东风💠+<span>&&</span>[排序:TK>HD>XS>YI>DI>]"
     }
 },
+{"key":"迅雷","name":"迅雷磁力(js)","type":3,"api":"./lib/drpy2.min.js",
+ "searchable":1,"ext": "./js/迅雷.js"
+},
+{"key":"bt磁力","name":"b_t磁力(js)","type":3,"api":"./lib/drpy2.min.js",
+ "searchable":1,"ext": "./js/bt磁力.js"
+},
 {"key":"AV4K","name":"4KAV影视(js)","type":3,"api":"./lib/drpy2.min.js",
   "searchable":1,"ext": "./sub/4k-av.js"  
 },
