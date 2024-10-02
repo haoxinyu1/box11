@@ -175,6 +175,12 @@
 {"key":"bt磁力","name":"b_t磁力(js)","type":3,"api":"./lib/drpy2.min.js",
  "searchable":1,"ext": "./js/bt磁力.js"
 },
+{"key":"熊影磁力","name":"熊影磁力(js)","api":"./lib/drpy2.min.js",
+  "ext": "./js/cilixiong.js","type":3,"searchable":1
+},
+{"key":"港影磁力","name":"港影磁力(js)","api":"./lib/drpy2.min.js",
+  "ext": "./js/dygang.js","type":3,"searchable":1
+},
 {"key":"AV4K","name":"4KAV影视(js)","type":3,"api":"./lib/drpy2.min.js",
   "searchable":1,"ext": "./sub/4k-av.js"  
 },
