@@ -83,10 +83,10 @@ d.forEach(function(it) {
 });
 }
 if (tabsm === true){
-	TABS.push("磁力");
+	TABS.push("尤东风💠磁力");
 }
 if (tabse === true){
-	TABS.push("電驢");
+	TABS.push("尤东风💠電驢");
 }
 if (false && tabsa.length + tabsq.length > 1){
 	TABS.push("選擇右側綫路");
