@@ -1,27 +1,29 @@
 var rule = {
-    模板: '自动',
+    //模板: '自动',
     title: 'sc1080',
     host: 'https://sc1080.top/',
-	//url: '/index.php/vod/show/id/fyclass/page/fypage.html',
-	url: '/index.php/vod/show/id/fyfilter.html',
-	filter_url:'{{fl.cateId}}/letter/{{fl.letter}}/page/fypage/year/{{fl.year}}',
-    class_parse: '.nav-menu-items&&li;a&&Text;a&&href;/index.php/vod/type/id/(.*?).html',//vod-type-id-(.*?).html
-    searchUrl: '/index.php/vod/search/page/fypage/wd/**.html',//
+	url: 'index.php/vod/show/id/fyclass/fyfilter.html',
+	filter_url:'/letter/{{fl.letter}}/page/fypage/year/{{fl.year}}',
+	class_name:"电视剧&电影库&综艺库&动漫库&纪录片&Netflix片&短剧库",
+	class_url:"2&1&3&4&5&20&21",
+    searchUrl: '/index.php/vod/search/page/fypage/wd/**.html',
 	一级: 'body&&.module-item;a&&title;img&&data-src;.module-item-text&&Text;a&&href',
-	//tab_exclude:'|夸克浏览器秒播专线|闪电蓝光[跨域/仅支持夸克浏览器或APP]|蓝光L[仅支持App]|',
-	//搜索:'body .module-search-item;h3&&Text;.lazyload&&data-src;.>&&Text;a&&href;.video-info-item&&Text',
+	搜索:'body&&.module-search-item;h3&&Text;.lazyload&&data-src;.video-info-item&&Text;a&&href',
+	play_parse:true,
 	二级: {
     "title": "h1&&Text;.scroll-box&&Text",
     "img": ".lazyload&&data-src",
     "desc": ".video-info-items:eq(1)&&Text;.video-info-items:eq(2)&&Text;.video-info-items:eq(3)&&Text",
-      //影视信息如主演导演等
-    "content": ".vod_content&&Text",//获取简介
-    "tabs": ".tab-item",//影视来源，
-    "lists": ".scroll-content:eq(#id) a"//影视列表
+    "content": ".vod_content&&Text",
+	"tabs": ".tab-item span",
+	"lists": ".module-blocklist .scroll-content:eq(#id) a"
      },
+	tab_remove:['夸克浏览器秒播专线','闪电蓝光[跨域/仅支持夸克浏览器或APP]','蓝光L[仅支持App]','YK节点'],
+	tab_order:['木耳蓝光','蓝光M','资源库','量子云','蓝光N','蓝光NB','蓝光LK','非凡云','海外云'],
+	tab_rename:{'木耳蓝光':'尤东风💠木耳蓝光','蓝光M':'尤东风💠蓝光M','资源库':'尤东风💠资源库','量子云':'尤东风💠量子云'},
 	filter: 
 	{
-        "1": [ {"key": "year","name": "年份","value": 
+        "2": [ {"key": "year","name": "年份","value": 
 			    [
 				 {"n": "全部","v": ""},{"n": "2024","v": "2024"},{"n": "2023","v": "2023"},{"n": "2022","v": "2022"},
 				 {"n": "2021","v": "2021"},
@@ -36,11 +38,11 @@ var rule = {
 				{"n":"F","v":"F"},{"n":"G","v":"G"},{"n":"H","v":"H"},{"n":"I","v":"I"},{"n":"J","v":"J"},{"n":"K","v":"K"},
 				{"n":"L","v":"L"},{"n":"M","v":"M"},{"n":"N","v":"N"},{"n":"O","v":"O"},{"n":"P","v":"P"},{"n":"Q","v":"Q"},
 				{"n":"R","v":"R"},{"n":"S","v":"S"},{"n":"T","v":"T"},{"n":"U","v":"U"},{"n":"V","v":"V"},{"n":"W","v":"W"},
-				{"n":"X","v":"X"},{"n":"Y","v":"Y"},{"n":"Z","v":"Z"}
+				{"n":"X","v":"X"},{"n":"Y","v":"Y"},{"n":"Z","v":"Z"},{"n":"0-9","v":"0-9"}
 				]
 			  }	
 	       ],
-        "2": [ {"key": "year","name": "年份","value": 
+        "1": [ {"key": "year","name": "年份","value": 
 			     [
 				 {"n": "全部","v": ""},{"n": "2024","v": "2024"},{"n": "2023","v": "2023"},{"n": "2022","v": "2022"},
 				 {"n": "2021","v": "2021"},
@@ -55,7 +57,7 @@ var rule = {
 				{"n":"F","v":"F"},{"n":"G","v":"G"},{"n":"H","v":"H"},{"n":"I","v":"I"},{"n":"J","v":"J"},{"n":"K","v":"K"},
 				{"n":"L","v":"L"},{"n":"M","v":"M"},{"n":"N","v":"N"},{"n":"O","v":"O"},{"n":"P","v":"P"},{"n":"Q","v":"Q"},
 				{"n":"R","v":"R"},{"n":"S","v":"S"},{"n":"T","v":"T"},{"n":"U","v":"U"},{"n":"V","v":"V"},{"n":"W","v":"W"},
-				{"n":"X","v":"X"},{"n":"Y","v":"Y"},{"n":"Z","v":"Z"}
+				{"n":"X","v":"X"},{"n":"Y","v":"Y"},{"n":"Z","v":"Z"},{"n":"0-9","v":"0-9"}
 				]
 			   }	
 	        ],
@@ -155,13 +157,4 @@ var rule = {
 			   }	
 	         ]
     },
-	filter_def: {
-		1:{cateId:'1'},
-		2:{cateId:'2'},
-		3:{cateId:'3'},
-		4:{cateId:'4'},
-		5:{cateId:'5'},	
-		20:{cateId:'20'},
-		21:{cateId:'21'}
-	},
 }
