@@ -9,10 +9,6 @@
  "ext": "./lib/tokenm.json$$$./sub/alishare.txt$$$db$$$1",
  "style": {"type": "list","ratio": 1.1}
 },
-{"key":"AliShare","name":"我的💠阿里","type":3,"api":"csp_MyAli","searchable": 0,"quickSearch": 0,
- "filterable": 0,"indexs": 0, "ext": {"token":"file://TV/ali_token.txt"},
- "style": {"type": "list"},"timeout": 30
-},
 {"key":"ikun","name": "采集💠集合","type":3,"api":"./lib/drpy2.min.js",
  "searchable": 1,"quickSearch": 1,
  "ext": "./lib/采集之王.js?type=url&params=./sub/采集静态.json$1$1"
