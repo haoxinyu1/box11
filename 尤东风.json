@@ -21,9 +21,6 @@
 {"key":"c南瓜影视","name":"南瓜影视()","type":3,"api":"csp_Nangua","searchable":1,"quickSearch":1,"filterable":1},
 {"key":"Xunlei8","name":"迅雷影视()","type": 3,"api":"csp_Xunlei8","searchable":1,"quickSearch":1,"filterable":1},
 {"key":"Mp4电影","name":"Mp4电影()","type":3,"api":"csp_Mp4Mov","searchable":1,"filterable":1},
-{"key": "哔嘀弹幕","name": "缘觉弹幕()","type": 3,"api": "csp_Bdys","searchable": 1,"quickSearch": 1,"filterable": 1,
- "ext": {"site": "https://www.yjys02.com","danmu": true }
-},
 {"key":"cspSixV","name":"新6影视()","type":3,"api":"csp_New6v","searchable":1,"quickSearch":1,
  "filterable": 0,"ext": "https://www.xb6v.com/"
 },
