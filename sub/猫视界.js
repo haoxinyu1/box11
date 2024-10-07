@@ -3,12 +3,11 @@ Object.assign(muban.mxpro.二级, {
 });
 var rule = {
     模板: 'mxpro',
+	模板: '自动',
     title: '猫视界',
     host: 'http://www.msjtv.com',
     url:'/vodshow/fyfilter.html',
     filter_url:'{{fl.cateId}}-----{{fl.letter}}---fypage---{{fl.year}}',
-	//class_name: '电视剧&电影&综艺&动漫',
-    //class_url: '2&1&3&4',
 	filter: 
 	{
         "1": [ {"key": "year","name": "年份","value": 
@@ -176,5 +175,7 @@ var rule = {
 	},
     class_parse: '.navbar-items li:gt(1):lt(12);a&&Text;a&&href;/(\\d+).html',
     class_exclude:'留言|首页|直播|电影解说',
-    tab_exclude: '排序',
+	tab_order:['依酷源','黑木源','量子源','非凡源','爆风源','非凡源','蓝光LK','非凡云','海外云'],
+	tab_rename:{'黑木源':'尤东风💠黑木源','爆风源':'尤东风💠爆风源','量子源':'尤东风💠量子源','非凡源':'尤东风💠非凡源','依酷源':'尤东风💠依酷源'},
+	tab_exclude: '排序',
 }
