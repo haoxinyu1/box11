@@ -58,7 +58,7 @@ var rule = {
   }),
   二级: {
     title: 'h1&&Text',
-    tabs: '.top a',
+    tabs: '.player_name',
     lists: '.main-list-sections__BodyArea-sc-8bb7334b-2 .listitem a',
   },
   搜索: $js.toString(()=>{
@@ -86,4 +86,5 @@ var rule = {
       })
     setResult(d)
   }),
+  tab_rename:{'金牌影院播放器':'尤东风💠在线播放'},
 }
