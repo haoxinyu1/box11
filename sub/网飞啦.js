@@ -7,6 +7,7 @@ var rule = {
     filter_url:'{{fl.cateId}}-letter-{{fl.letter}}-page-fypage-year-{{fl.year}}',
     class_parse: '.navbar-items&&li;a&&Text;a&&href;/vod-type-id-(.*?).html',//vod-type-id-(.*?).html
     searchUrl: '/vod-search-page-fypage-wd-**.html',
+	tab_rename:{'海外M':'尤东风💠海外M','海外L':'尤东风💠海外L','海外D':'尤东风💠海外D','海外W':'尤东风💠海外W'},
 	filter: 
 	{
         "1": [ {"key": "year","name": "年份","value": 
