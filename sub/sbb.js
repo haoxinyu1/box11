@@ -1,6 +1,8 @@
+// 地址发布页 https://subaibai.vip/
+// 搜索数字验证
 var rule = {
     title: '素白白[优]',
-    // host:'https://www.subaibaiys.com',
+    // host:'https://www.subaibaiys.com',//cat/america/year/2023/movie_bt_tags/action/movie_bt_series/oumeidy/page/2
     host: 'https://subaibai.vip',
     hostJs: $js.toString(() => {
         print(HOST);
@@ -68,6 +70,7 @@ var rule = {
         "tabs": ".mi_paly_box .ypxingq_t",
         "lists": ".paly_list_btn:eq(#id) a"
     },
+    tab_rename:{'在线播放在线观看':'尤东风💠在线播放'},
     搜索: '.search_list&&li;*;*;*;*',
     图片来源: '@Referer=https://www.subaibaiys.com@User-Agent=Mozilla/5.0 (Linux; Android 11; PEHT00 Build/RKQ1.201217.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/83.0.4103.106 Mobile Safari/537.36',
 }
