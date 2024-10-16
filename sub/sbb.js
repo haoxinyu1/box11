@@ -2,7 +2,6 @@
 // 搜索数字验证
 var rule = {
     title: '素白白[优]',
-    // host:'https://www.subaibaiys.com',//cat/america/year/2023/movie_bt_tags/action/movie_bt_series/oumeidy/page/2
     host: 'https://subaibai.vip',
     hostJs: $js.toString(() => {
         print(HOST);
@@ -58,7 +57,18 @@ var rule = {
             input
         }
     }),
-    lazy: '',
+    /*
+    const js = $("script:contains(window.wp_nonce)").html(),
+            group = js.match(/(var.*)eval\((\w*\(\w*\))\)/),
+            md5 = Crypto,
+            result = eval(group[1] + group[2]),
+            playUrl = result.match(/url:.*?['"](.*?)['"]/)[1];
+        return JSON.stringify({
+            parse: 0,
+            url: playUrl
+        })
+        
+    lazy: '',*/
     推荐: 'body&&.mi_btcon;ul&&li;*;*;*;*',
     double:true, // 推荐内容是否双层定位
     一级: '.mrb&&li;img&&alt;img&&data-original;.jidi&&Text;a&&href',
