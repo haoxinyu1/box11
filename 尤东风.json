@@ -189,17 +189,15 @@
  "api": "./lib/drpy2.min.js",
  "ext": "https://pastebin.com/raw/K6jVguG1"
 },
-{"key":"push_agent","name":"推送()","type":3,"api":"csp_Push","ext":"./lib/tokenm.json",
- "jar":"./pg.jar"
-},
-{"key": "网盘配置","name":"网盘配置","type":3,"api":"csp_Config","jar":"./pg.jar",
-  "searchable":0,"changeable":0,"ext": "./lib/tokenm.json"
+{"key":"push_agent","name":"推送()","type":3,"api":"csp_Push","ext":"./lib/tokenm.json",},
+{"key": "网盘配置","name":"网盘配置","type":3,"api":"csp_Config","searchable":0,"changeable":0,
+ "ext": "./lib/tokenm.json"
 },
 {"key":"易搜","name":"阿里💠易搜","type": 3,"api": "csp_YiSo","quickSearch": 1,"changeable": 1,"filterable":1,
- "timeout":60,"ext":"./lib/tokenm.json$$$./lib/yiso.txt","jar":"./pg.jar"
+ "timeout":60,"ext":"./lib/tokenm.json$$$./lib/yiso.txt"
 },
 {"key":"PSearch1","name":"阿里💠搜索","type":3,"api":"csp_PanSearch","searchable":1,"quickSearch":1,"filterable":0,
- "changeable":1,"timeout":60,"ext": "./lib/tokenm.json","jar":"./pg.jar"
+ "changeable":1,"timeout":60,"ext": "./lib/tokenm.json"
 }
 ],
 "lives": 
