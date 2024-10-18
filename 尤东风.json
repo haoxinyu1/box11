@@ -39,7 +39,7 @@
  "searchable": 1,"quickSearch": 1,"ext": "./sub/电影先生.js"
 },
 {"key":"Xunlei8","name":"迅雷影视()","type": 3,"api":"csp_Xunlei8","searchable":1,"quickSearch":1,"filterable":1},
-{"key":"cspSixV","name":"新6影视()","type":3,"api":"csp_New6v","searchable":1,"quickSearch":1,
+{"key":"cspSixV","name":"新6影视()","type":3,"api":"csp_Xb6v","searchable":1,"quickSearch":1,
  "filterable": 0,"ext": "https://www.xb6v.com/"
 },
 {"key":"Mp4电影","name":"Mp4电影(js)","type":3,"searchable": 1,"api":"./lib/drpy2.min.js",
