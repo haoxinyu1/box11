@@ -29,6 +29,12 @@
 {"key":"金牌影院","name": "金牌影院(js)","type":3,"api":"./lib/drpy2.min.js",
  "searchable": 1,"quickSearch": 1,"ext": "./sub/金牌影院.js"
 },
+{"key":"网飞啦","name": "网飞影视(js)","type":3,"api":"./lib/drpy2.min.js",
+ "searchable": 1,"quickSearch": 1,"ext": "./sub/网飞啦.js"
+},
+{"key":"酷云影视","name": "酷云影视(js)","type":3,"api":"./lib/drpy2.min.js",
+ "searchable": 1,"quickSearch": 1,"ext": "./sub/sc1080.js"
+},
 {"key":"Xunlei8","name":"迅雷影视()","type": 3,"api":"csp_Xunlei8","searchable":1,"quickSearch":1,"filterable":1},
 {"key":"Mp4电影","name":"Mp4电影()","type":3,"api":"csp_Mp4Mov","searchable":1,"filterable":1},
 {"key":"cspSixV","name":"新6影视()","type":3,"api":"csp_New6v","searchable":1,"quickSearch":1,
@@ -187,9 +193,6 @@
 {"key":"AV4K","name":"4KAV影视(js)","type":3,"api":"./lib/drpy2.min.js",
   "searchable":1,"ext": "./sub/4k-av.js"  
 },
-{"key":"网飞啦","name": "网飞影视(js)","type":3,"api":"./lib/drpy2.min.js",
- "searchable": 1,"quickSearch": 1,"ext": "./sub/网飞啦.js"
-},
 {"key":"网飞猫","name":"猫影视界(js)","type":3,"api":"./lib/drpy2.min.js",
  "searchable":1,"ext": "./sub/猫视界.js"
 },
@@ -202,9 +205,6 @@
 },
 {"key":"ligutv","name":"哩咕TV(js)","type":3,"api":"./lib/drpy2.min.js",
   "ext": "./sub/ligutv.js","searchable":1 
-},
-{"key":"酷云影视","name": "酷云影视(js)","type":3,"api":"./lib/drpy2.min.js",
- "searchable": 1,"quickSearch": 1,"ext": "./sub/sc1080.js"
 },
 {"key":"毒舌电影","name":"雨见视频(js)","type":3,"api":"./lib/drpy2.min.js",
   "ext": "./sub/雨见视频.js",
