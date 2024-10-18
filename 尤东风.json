@@ -219,18 +219,9 @@
  "api":"./lib/drpy2.min.js",
  "searchable": 2,"playerType":2,"ext":"./sub/360.js"
 },
-{"key":"搜狗","name":"搜狗影视(js)","api":"./lib/drpy2.min.js", 
- "searchable":1,"type":3,"order_num":0,"ext": "https://git.acwing.com/hogo18/hh/-/raw/main/js/sogou.js"
-},
 {"key":"奇优影院","name":"奇优影院(js)","type":3,"searchable":1,"quickSearch":1,"filterable":1,
  "api": "./lib/drpy2.min.js",
  "ext": "https://pastebin.com/raw/K6jVguG1"
-},
-{"key":"酷酷V","name":"新觉APP(V)","type":3,"api":"csp_AppYsV2","searchable":1,"quickSearch":1,"filterable":1,
- "ext": "http://43.248.100.147:9891/api.php/app/"
-},
-{"key":"瑞丰V","name":"瑞丰APP(V)","api":"csp_AppYsV2","type":3,"searchable":1,"changeable":1,"playerType":2,
- "ext":"http://43.154.162.194/ruifenglb_api.php/v1.vod","categories":["连续剧","电影","动漫","综艺","短剧","少儿频道"]
 },
 {"key":"push_agent","name":"推送()","type":3,"api":"csp_Push","ext":"./lib/tokenm.json",
  "jar":"./pg.jar"
