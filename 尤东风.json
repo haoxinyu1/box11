@@ -60,7 +60,8 @@
   "ext": "./js/dygang.js","type":3,"searchable":1
 },
 {"key":"可可影视PQ","name":"可可影视(PQ)","type":3,"api":"csp_XBPQ","searchable":1,"quickSearch":1,"filterable":1,
- "ext":{ "主页url": "https://www.kkys02.com/",
+ "jar":"./jar/xpq.jar","ext":{ 
+	  "主页url": "https://www.kkys02.com/",
           "分类url": "https://www.kkys02.com/show/{cateId}-{class}--{lang}-{year}-2-{catePg}.html",
           "分类":"电视剧$2#电影$1#动漫$3#综艺$4#短剧$6",
           "数组": "module-item\">&&\"v-item-footer\">",
