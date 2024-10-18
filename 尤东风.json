@@ -111,10 +111,6 @@
      "简介":"尤东风友情提醒🔺勿信广告，避免受骗🔺+p>&&</p>"
      }
 },
-{"key":"米米xBPQ","name":"米米影视(PQ)","type":3,"api":"csp_XBPQ","searchable":1,"quickSearch":1,"filterable":1,
- "jar":"https://git.acwing.com/hogo18/hh/-/raw/main/jar/xm.txt",
- "ext":"https://git.acwing.com/hogo18/hh/-/raw/main/sub/mm.json"
-},
 {"key":"月亮PQ","name":"月亮影院(PQ)","type":3,"api":"csp_XBPQ","searchable":1,"filterable":1,
  "quickSearch":1,"ext":{
      "分类url":"https://www.zqzdzj.com/vodshow/{cateId}/area/{area}/by/{by}/class/{class}/page/{catePg}/year/{year}.html",
@@ -155,23 +151,6 @@
    "播放链接": "href=\"&&\""
    }
 },
-{"key":"可达影视","name":"可达影视(PQ)","type":3,"api":"csp_XBPQ","searchable":1,"filterable":1,
- "quickSearch":1,"ext":
-       {
-        "分类url": "https://kedays.org/shaixuan/{cateId}-{area}-{by}-{class}-{lang}-{letter}---{catePg}---{year}.html",
-        "分类":"电视剧$lianxuju#电影$dianying#综艺$zongyi#动漫$dongman#短剧$duanju",
-        "简介": "class=\"text text-row text-row-2\">&&<div>",
-        "线路数组": "data-target=\"#ewave-playlist&&</li>",
-        "线路标题": "尤东风💠+>&&<em>[不包含:线路1]",
-        "播放数组": "ewave-playlist-content&&</ul>",
-        "播放列表": "<a&&/a>",
-        "播放标题": ">&&<",
-        "播放链接": "href=\"&&\"",
-        "跳转播放链接": "urlDecode(var player_*url\":\"&&\")",
-        "搜索url": "https://www.kedays.org/soso/-------------.html?wd={wd}"
-        
-      }
-}, 
 {"key":"红巾PQ","name":"好影快看(PQ)","type":3,"api":"csp_XBPQ","searchable":1,"filterable":1,
  "quickSearch":1,"ext":{
     "影片类型": "module-info-tag\">&&立即播放",
