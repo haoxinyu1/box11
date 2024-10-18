@@ -124,5 +124,4 @@ dlist.forEach(function(it){
 });
 setResult(d);
 `,
-
 }
