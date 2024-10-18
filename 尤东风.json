@@ -43,7 +43,7 @@
  "ext": "./lib/tokenm.json$$$https://www.66ss.org$$$null$$$1"
 },
 {"key":"Mp4电影","name":"Mp4电影(js)","type":3,"searchable": 1,"api":"./lib/drpy2.min.js",
- "quickSearch": 1,"ext": "./sub/Mp4电影.js"
+ "quickSearch": 1,"ext": "./sub/MP4电影.js"
 },
 {"key":"bt磁力","name":"b_t磁力(js)","type":3,"api":"./lib/drpy2.min.js",
  "searchable":1,"ext": "./js/bt磁力.js"
