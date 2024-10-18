@@ -45,6 +45,15 @@
 {"key":"cspSixV","name":"新6影视()","type":3,"api":"csp_New6v","searchable":1,"quickSearch":1,
  "filterable": 0,"ext": "https://www.xb6v.com/"
 },
+{"key":"bt磁力","name":"b_t磁力(js)","type":3,"api":"./lib/drpy2.min.js",
+ "searchable":1,"ext": "./js/bt磁力.js"
+},
+{"key":"熊影磁力","name":"熊影磁力(js)","api":"./lib/drpy2.min.js",
+  "ext": "./js/cilixiong.js","type":3,"searchable":1
+},
+{"key":"港影磁力","name":"港影磁力(js)","api":"./lib/drpy2.min.js",
+  "ext": "./js/dygang.js","type":3,"searchable":1
+},
 {"key":"可可影视PQ","name":"可可影视(PQ)","type":3,"api":"csp_XBPQ","searchable":1,"quickSearch":1,"filterable":1,
  "ext":{ "主页url": "https://www.kkys02.com/",
           "分类url": "https://www.kkys02.com/show/{cateId}-{class}--{lang}-{year}-2-{catePg}.html",
@@ -185,15 +194,6 @@
 },
 {"key":"迅雷","name":"迅雷磁力(js)","type":3,"api":"./lib/drpy2.min.js",
  "searchable":1,"ext": "./js/迅雷.js"
-},
-{"key":"bt磁力","name":"b_t磁力(js)","type":3,"api":"./lib/drpy2.min.js",
- "searchable":1,"ext": "./js/bt磁力.js"
-},
-{"key":"熊影磁力","name":"熊影磁力(js)","api":"./lib/drpy2.min.js",
-  "ext": "./js/cilixiong.js","type":3,"searchable":1
-},
-{"key":"港影磁力","name":"港影磁力(js)","api":"./lib/drpy2.min.js",
-  "ext": "./js/dygang.js","type":3,"searchable":1
 },
 {"key":"AV4K","name":"4KAV影视(js)","type":3,"api":"./lib/drpy2.min.js",
   "searchable":1,"ext": "./sub/4k-av.js"  
