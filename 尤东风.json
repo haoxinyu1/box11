@@ -1,24 +1,19 @@
 {//以下全部资源均来自网络，如有冒犯请联系删除。[所有内容仅供学习使用，请勿用于违法用途]
-//"spider":"https://7407.kstore.space/api/xs9.jar",
-"spider":"./xs9.jar",
+"spider":"./pg.jar",
 "wallpaper":"https://tuapi.eees.cc/api.php?category=fengjing&type=302",
 "sites":[
-{"key":"本地","name":"尤东风自用接口💠他人请谨慎用之","type":3,"api":"csp_LocalFile","changeable":0},
-{"key": "Aliself","name":"个人💠阿里","type":3,"api":"csp_AliShare","jar":"./pg.jar",
- "changeable": 1,"filterable": 1,"timeout": 60,
- "ext": "./lib/tokenm.json$$$./sub/alishare.txt$$$db$$$1",
- "style": {"type": "list","ratio": 1.1}
+//{"key":"本地","name":"尤东风自用接口💠他人请谨慎用之","type":3,"api":"csp_LocalFile","changeable":0},
+{"key": "Aliself","name":"个人💠阿里","type":3,"api":"csp_AliShare","changeable": 1,"filterable": 1,"timeout": 60,
+ "ext": "./lib/tokenm.json$$$./sub/alishare.txt$$$db$$$1","style": {"type": "list","ratio": 1.1}
 },
-{"key":"阿里云集合","name":"阿里💠分享()","type":3,"api":"csp_AliShare","jar":"./pg.jar",
- "changeable": 1,"filterable": 1,"timeout": 60,
- "ext": "./lib/tokenm.json$$$./sub/alishare1.txt$$$db$$$1",
- "style": {"type": "list","ratio": 1.1}
+{"key":"阿里云集合","name":"阿里💠分享()","type":3,"api":"csp_AliShare","changeable": 1,"filterable": 1,"timeout": 60,
+ "ext": "./lib/tokenm.json$$$./sub/alishare1.txt$$$db$$$1","style": {"type": "list","ratio": 1.1}
 },
 {"key":"ikun","name": "采集💠集合(js)","type":3,"api":"./lib/drpy2.min.js",
  "searchable": 1,"quickSearch": 1,
  "ext": "./lib/采集之王.js?type=url&params=./sub/采集静态.json$1$1"
 },
-{"key":"享看采集","name":"苹果影视()","type":3,"api":"csp_LiteApple","searchable":1,"filterable":1,"timeout":10},
+//{"key":"享看采集","name":"苹果影视()","type":3,"api":"csp_LiteApple","searchable":1,"filterable":1,"timeout":10},
 {"key":"素白白","name":"素白影视(js)","type":3,"api":"./lib/drpy2.min.js","searchable":1,
  "quickSearch":1,"filterable":1,"ext": "./sub/sbb.js"
 },
