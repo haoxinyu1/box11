@@ -58,6 +58,7 @@ var rule = {
   }),
   二级: {
     title: 'h1&&Text',
+    content: '.wrapper_more_text&&Text',
     tabs: '.player_name',
     lists: '.main-list-sections__BodyArea-sc-8bb7334b-2 .listitem a',
   },
