@@ -10,10 +10,10 @@ var rule ={
     模板: 'mxone5',//
     title: '电影先生',
     //headers: {'User-Agent': 'MOBILE_UA'},
-    //host:'https://dyxs28.com/',
-    host:'https://dianying.in',
+    host:'https://dyxs28.com/',
+    //host:'https://dianying.in',
     //hostJs:'print(HOST);let html=request(HOST,{headers:{"User-Agent":PC_UA}});let src=jsp.pdfh(html,"p:eq(10)&&a&&href").replace("https","http");print(src);HOST=src',
-    hostJs:'print(HOST);let html=request(HOST,{headers:{"User-Agent":PC_UA}});let src=jsp.pdfh(html,"p:eq(8)&&a&&href");print(src);HOST=src',
+    //hostJs:'print(HOST);let html=request(HOST,{headers:{"User-Agent":PC_UA}});let src=jsp.pdfh(html,"p:eq(8)&&a&&href");print(src);HOST=src',
     url:'/pianku-fyclassfyfilter/',//.replace("https","http")
     filter_url:'-{{fl.area}}-{{fl.by}}-{{fl.class}}-{{fl.lang}}----fypage---{{fl.year}}',
     //url:'/pianku-fyclass--------fypage---/',
