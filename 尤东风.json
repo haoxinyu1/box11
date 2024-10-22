@@ -11,7 +11,7 @@
 },
 {"key":"ikun","name": "采集💠集合(js)","type":3,"api":"./lib/drpy2.min.js",
  "searchable": 1,"quickSearch": 1,
- "ext": "./lib/采集之王.js?type=url&params=./sub/采集静态.json$1$1"
+ "ext": "./lib/采集之王.js?type=url&params=../sub/采集静态.json$1$1"
 },
 //{"key":"享看采集","name":"苹果影视()","type":3,"api":"csp_LiteApple","searchable":1,"filterable":1,"timeout":10},
 {"key":"素白白","name":"素白影视(js)","type":3,"api":"./lib/drpy2.min.js","searchable":1,
