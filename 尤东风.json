@@ -31,17 +31,8 @@
 {"key":"南瓜影视","name": "南瓜影视(js)","type":3,"api":"./lib/drpy2.min.js",
  "searchable": 1,"quickSearch": 1,"ext": "./sub/南瓜影视.js"
 },
-{"key":"星河影视","name": "星河影视(js)","type":3,"api":"./lib/drpy2.min.js",
- "searchable": 1,"quickSearch": 1,"ext": "./js/星河影视.js"
-},
 {"key":"网飞啦","name": "网飞影视(js)","type":3,"api":"./lib/drpy2.min.js",
  "searchable": 1,"quickSearch": 1,"ext": "./sub/网飞啦.js"
-},
-{"key":"酷云影视","name": "酷云影视(js)","type":3,"api":"./lib/drpy2.min.js",
- "searchable": 1,"quickSearch": 1,"ext": "./sub/sc1080.js"
-},
-{"key":"电影先生","name": "电影先生(js)","type":3,"api":"./lib/drpy2.min.js",
- "searchable": 1,"quickSearch": 1,"ext": "./sub/电影先生.js"
 },
 {"key":"Xunlei8","name":"迅雷影视()","type": 3,"api":"csp_Xunlei8","searchable":1,"changeable":1,"filterable":1},
 {"key":"cspSixV","name":"新6影视()","type":3,"api":"csp_Xb6v","searchable":1,"quickSearch":1,"timeout": 60,
@@ -162,6 +153,16 @@
      "线路数组":"data-dropdown-value=&&</div>",
      "线路标题":"尤东风💠+<span>&&</span>[排序:TK>HD>XS>YI>DI>]"
     }
+},
+{"key":"想看影视1","name": "想看影视1(js)","type":3,"api":"./lib/drpy2.min.js",
+ "searchable": 1,"quickSearch": 1,"ext": "./sub/想看影视1.js"
+},
+{"key":"想看影视2","name": "想看影视2(js)","type":3,"api":"./lib/drpy2.min.js",
+ "searchable": 1,"quickSearch": 1,"ext": "./sub/想看影视2.js"
+},
+{"key":"想看影视3","name":"想看影视3(js)","type":3,"api":"./lib/drpy2.min.js",
+  "ext": "./sub/想看影视3.js",
+  "searchable":1
 },
 {"key":"迅雷","name":"迅雷磁力(js)","type":3,"api":"./lib/drpy2.min.js",
  "searchable":1,"ext": "./js/迅雷.js"
