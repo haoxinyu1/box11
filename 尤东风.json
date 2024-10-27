@@ -154,15 +154,20 @@
      "线路标题":"尤东风💠+<span>&&</span>[排序:TK>HD>XS>YI>DI>]"
     }
 },
-{"key":"想看影视1","name": "想看影视1(js)","type":3,"api":"./lib/drpy2.min.js",
- "searchable": 1,"quickSearch": 1,"ext": "./sub/想看影视1.js"
+{"key":"红中影视","name": "红中影视(js)","type":3,"api":"https://git.acwing.com/hogo18/hh/-/raw/main/lib/drpy2.min.js",
+ "searchable": 1,"quickSearch": 1,"ext": "https://git.acwing.com/hogo18/hh/-/raw/main/sub/红中影视.js"
 },
-{"key":"想看影视2","name": "想看影视2(js)","type":3,"api":"./lib/drpy2.min.js",
- "searchable": 1,"quickSearch": 1,"ext": "./sub/想看影视2.js"
+{"key":"东风影视","name": "东风影视(js)","type":3,"api":"https://git.acwing.com/hogo18/hh/-/raw/main/lib/drpy2.min.js",
+ "searchable": 1,"quickSearch": 1,"ext": "https://git.acwing.com/hogo18/hh/-/raw/main/sub/东风影视.js"
 },
-{"key":"想看影视3","name":"想看影视3(js)","type":3,"api":"./lib/drpy2.min.js",
-  "ext": "./sub/想看影视3.js",
-  "searchable":1
+{"key":"南风影视","name": "南风影视(js)","type":3,"api":"https://git.acwing.com/hogo18/hh/-/raw/main/lib/drpy2.min.js",
+ "searchable":1,"quickSearch": 1,"ext": "https://git.acwing.com/hogo18/hh/-/raw/main/sub/南风影视.js"
+},
+{"key":"西风影视","name":"西风影视(js)","type":3,"api":"https://git.acwing.com/hogo18/hh/-/raw/main/lib/drpy2.min.js",
+ "searchable":1,"ext": "https://git.acwing.com/hogo18/hh/-/raw/main/sub/西风影视.js"
+},
+{"key":"北风影视","name":"北风影视(js)","type":3,"api":"./lib/drpy2.min.js",
+  "ext": "https://git.acwing.com/hogo18/hh/-/raw/main/sub/北风影视.js","searchable":1
 },
 {"key":"迅雷","name":"迅雷磁力(js)","type":3,"api":"./lib/drpy2.min.js",
  "searchable":1,"ext": "./js/迅雷.js"
@@ -170,19 +175,12 @@
 {"key":"AV4K","name":"4KAV影视(js)","type":3,"api":"./lib/drpy2.min.js",
   "searchable":1,"ext": "./sub/4k-av.js"  
 },
-{"key":"网飞猫","name":"猫影视界(js)","type":3,"api":"./lib/drpy2.min.js",
- "searchable":1,"ext": "./sub/猫视界.js"
-},
 {"key":"黑狐影院","name":"黑狐影院(js)","type":3,
  "api":"./lib/drpy2.min.js",
  "searchable": 2,"playerType":2,"ext":"./sub/黑狐影院.js"
 },
 {"key":"ligutv","name":"哩咕TV(js)","type":3,"api":"./lib/drpy2.min.js",
   "ext": "./sub/ligutv.js","searchable":1 
-},
-{"key":"毒舌电影","name":"雨见视频(js)","type":3,"api":"./lib/drpy2.min.js",
-  "ext": "./sub/雨见视频.js",
-  "searchable":1
 },
 {"key":"SP360","name":"360影视(js)","type":3,
  "api":"./lib/drpy2.min.js",
@@ -195,12 +193,6 @@
 {"key":"push_agent","name":"推送()","type":3,"api":"csp_Push","ext":"./lib/tokenm.json"},
 {"key": "网盘配置","name":"网盘配置","type":3,"api":"csp_Config","searchable":0,"changeable":0,
  "ext": "./lib/tokenm.json"
-},
-{"key":"易搜","name":"阿里💠易搜","type": 3,"api": "csp_YiSo","quickSearch": 1,"changeable": 1,"filterable":1,
- "timeout":60,"ext":"./lib/tokenm.json$$$./lib/yiso.txt"
-},
-{"key":"PSearch1","name":"阿里💠搜索","type":3,"api":"csp_PanSearch","searchable":1,"quickSearch":1,"filterable":0,
- "changeable":1,"timeout":60,"ext": "./lib/tokenm.json"
 }
 ],
 "lives": 
