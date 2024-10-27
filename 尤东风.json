@@ -154,20 +154,20 @@
      "线路标题":"尤东风💠+<span>&&</span>[排序:TK>HD>XS>YI>DI>]"
     }
 },
-{"key":"红中影视","name": "红中影视(js)","type":3,"api":"https://git.acwing.com/hogo18/hh/-/raw/main/lib/drpy2.min.js",
- "searchable": 1,"quickSearch": 1,"ext": "https://git.acwing.com/hogo18/hh/-/raw/main/sub/红中影视.js"
+{"key":"红中影视","name": "红中影视(js)","type":3,"api":"./lib/drpy2.min.js",
+ "searchable": 1,"quickSearch": 1,"ext": "./sub/红中影视.js"
 },
-{"key":"东风影视","name": "东风影视(js)","type":3,"api":"https://git.acwing.com/hogo18/hh/-/raw/main/lib/drpy2.min.js",
- "searchable": 1,"quickSearch": 1,"ext": "https://git.acwing.com/hogo18/hh/-/raw/main/sub/东风影视.js"
+{"key":"东风影视","name": "东风影视(js)","type":3,"api":"./lib/drpy2.min.js",
+ "searchable": 1,"quickSearch": 1,"ext": "./sub/东风影视.js"
 },
-{"key":"南风影视","name": "南风影视(js)","type":3,"api":"https://git.acwing.com/hogo18/hh/-/raw/main/lib/drpy2.min.js",
- "searchable":1,"quickSearch": 1,"ext": "https://git.acwing.com/hogo18/hh/-/raw/main/sub/南风影视.js"
+{"key":"南风影视","name": "南风影视(js)","type":3,"api":"./lib/drpy2.min.js",
+ "searchable":1,"quickSearch": 1,"ext": "./sub/南风影视.js"
 },
-{"key":"西风影视","name":"西风影视(js)","type":3,"api":"https://git.acwing.com/hogo18/hh/-/raw/main/lib/drpy2.min.js",
- "searchable":1,"ext": "https://git.acwing.com/hogo18/hh/-/raw/main/sub/西风影视.js"
+{"key":"西风影视","name":"西风影视(js)","type":3,"api":"./lib/drpy2.min.js",
+ "searchable":1,"ext": "./sub/西风影视.js"
 },
 {"key":"北风影视","name":"北风影视(js)","type":3,"api":"./lib/drpy2.min.js",
-  "ext": "https://git.acwing.com/hogo18/hh/-/raw/main/sub/北风影视.js","searchable":1
+  "ext": "./sub/北风影视.js","searchable":1
 },
 {"key":"迅雷","name":"迅雷磁力(js)","type":3,"api":"./lib/drpy2.min.js",
  "searchable":1,"ext": "./js/迅雷.js"
