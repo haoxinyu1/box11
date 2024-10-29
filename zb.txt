@@ -146,7 +146,7 @@ CCTV17,http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225765/index.m3u8
 天  路,http://em.21dtv.com/songs/60041931.mkv
 一剪梅,http://em.21dtv.com/songs/60053162.mkv
 我的中国心,http://em.21dtv.com/songs/60045353.mkv #我的中国心,http://em.21dtv.com/songs/60045354.mkv
-潇洒走一回,http://em.21dtv.com/songs/60049467.mkv
+潇洒走一回,https://vd2.bdstatic.com/mda-qb17815p4w9x4yzr/sc/cae_h264/1706936180225879048/mda-qb17815p4w9x4yzr.mp4
 一场游戏一场梦,http://em.21dtv.com/songs/60091125.mkv
 遇上你是我的缘,http://em.21dtv.com/songs/60055865.mkv
 无言的结局,http://em.21dtv.com/songs/60089797.mkv
