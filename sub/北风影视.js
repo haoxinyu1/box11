@@ -81,7 +81,7 @@ d.forEach(function(it){
 	let title = pdfh(it, '.na&&Text');
 	log('title >>>>>>>>>>>>>>>>>>>>>>>>>>' + title);
 	log('burl >>>>>>>>>>>>>>>>>>>>>>>>>>' + burl);
-	let loopresult = burl;
+	let loopresult = title + '$' +burl;
     if (burl.startsWith("magnet")){
 		listm.push(loopresult);
 	}else if (burl.startsWith("ed2k")){
