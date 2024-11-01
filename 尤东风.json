@@ -13,6 +13,12 @@
  "searchable": 1,"quickSearch": 1,
  "ext": "./lib/采集之王.js?type=url&params=../sub/采集静态.json$1$1"
 },
+{"key":"凡人影视","name":"凡人影视()","type":3,"api":"csp_AppFr","searchable":1,"quickSearch":1,"filterable":1,
+ "jar":"https://github.moeyy.xyz/https://raw.githubusercontent.com/PizazzGY/TVBox/main/spider.jar"
+},
+{"key":"厂长资源","name":"厂长资源()","type": 3,"api": "csp_Czzy","searchable": 1,"quickSearch": 1,"filterable":1,
+ "jar":"https://github.moeyy.xyz/https://raw.githubusercontent.com/PizazzGY/TVBox/main/spider.jar"
+},
 {"key":"素白白","name":"素白影视(js)","type":3,"api":"./lib/drpy2.min.js","searchable":1,
  "quickSearch":1,"filterable":1,"ext": "./js/sbb.js"
 },
