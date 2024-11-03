@@ -1,23 +1,209 @@
-var rule ={
-    //模板: '自动',
-    title: '03影院',
-    host: 'https://www.03yy.live/', 
-    url:'/type/indexfyclass-fypage.html',
-    class_name:"大陆剧&韩国剧&香港剧&台湾剧&泰国剧&欧美剧&日本剧&动作片&战争片&爱情片&科幻片&恐怖片&喜剧片&剧情片&电视剧&电影&综艺&动漫",
-    class_url:"13&26&14&46&47&27&16&5&9&6&7&8&10&12&2&1&3&4",
+globalThis.h_ost = 'http://xxsp.xxmh.top/';
+var key = CryptoJS.enc.Base64.parse("MGY3OTFiZmMwZGM2MWU4Zg==");
+var iv = CryptoJS.enc.Base64.parse("MGY3OTFiZmMwZGM2MWU4Zg==");
+globalThis.AES_Decrypt = function(word) {
+    try {
+        var decrypt = CryptoJS.AES.decrypt(word, key, {
+            iv: iv,
+            mode: CryptoJS.mode.CBC,
+            padding: CryptoJS.pad.Pkcs7,
+        });
+        const decryptedText = decrypt.toString(CryptoJS.enc.Utf8);
+        if (!decryptedText) {
+            throw new Error("解密后的内容为空");
+        }
+        return decryptedText;
+    } catch (e) {
+        console.error("解密失败:", e);
+        return null;
+    }
+};
+globalThis.AES_Encrypt = function(word) {
+    var encrypted = CryptoJS.AES.encrypt(word, key, {
+        iv: iv,
+        mode: CryptoJS.mode.CBC,
+        padding: CryptoJS.pad.Pkcs7
+    });
+    return encrypted.toString();
+};
+
+globalThis.vod1 = function(t, pg) {
+    let html1 = request(h_ost + 'api.php/getappapi.index/typeFilterVodList', {
+        body: {
+            area: '全部',
+            year: '全部',
+            type_id: t,
+            page: pg,
+            sort: '最新',
+            lang: '全部',
+            class: '全部'
+        },
+        headers: {
+            'User-Agent': 'okhttp/3.14.9',
+            'Content-Type': 'application/x-www-form-urlencoded'
+        },
+        'method': 'POST'
+    }, true);
+    let html = JSON.parse(html1);
+    return (AES_Decrypt(html.data));
+}
+globalThis.vodids = function(ids) {
+    let html1 = fetch(h_ost + 'api.php/getappapi.index/vodDetail', {
+        method: 'POST',
+        headers: {
+            'User-Agent': 'okhttp/3.14.9',
+            'Content-Type': 'application/x-www-form-urlencoded'
+        },
+        body: {
+            vod_id: ids,
+        }
+    });
+    let html = JSON.parse(html1);
+    const rdata = JSON.parse(AES_Decrypt(html.data));
+    const data = {
+        vod_id: ids,
+        vod_name: rdata.vod.vod_name,
+        vod_remarks: rdata.vod.vod_remarks,
+        vod_actor: rdata.vod.vod_actor,
+        vod_director: rdata.vod.vod_director,
+        vod_content: rdata.vod.vod_content,
+        vod_play_from: '',
+        vod_play_url: ''
+    };
+
+    rdata.vod_play_list.forEach((value) => {
+        data.vod_play_from += value.player_info.show + '$$$';
+        value.urls.forEach((v) => {
+            data.vod_play_url += v.name + '$' + value.player_info.parse + '|' + v.url + '#';
+        });
+        data.vod_play_url += '$$$';
+    });
+    return data;
+}
+//搜索
+globalThis.ssvod = function(wd) {
+    var html1 = fetch(h_ost + 'api.php/getappapi.index/searchList', {
+        method: 'POST',
+        headers: {
+            'User-Agent': 'okhttp/3.14.9',
+            'Content-Type': 'application/x-www-form-urlencoded'
+        },
+        body: {
+            keywords: wd,
+            typepage_id: 1,
+        }
+    });
+    let html = JSON.parse(html1);
+    return AES_Decrypt(html.data);
+}
+//解析
+globalThis.jxx = function(id, url) {
+    /* if(""!=='104847347'){
+      return 'https://mp4.ziyuan.wang/view.php/3c120366111dde9c318be64962b5684f.mp4';
+     }*/
+    if (id.startsWith('http')) {
+        return {
+            parse: 1,
+            url: id + url,
+            jx: 0,
+            danmaku: 'http://dm.sds11.top/tdm.php?url=' + url
+        };
+    }
+    if (id == 0) {
+        return {
+            parse: 0,
+            url: id + url,
+            jx: 1,
+            danmaku: 'http://dm.sds11.top/tdm.php?url=' + url
+        };
+    }
+
+    let html1 = request(h_ost + 'api.php/getappapi.index/vodParse', {
+        method: 'POST',
+        headers: {
+            'User-Agent': 'okhttp/3.14.9',
+            'Content-Type': 'application/x-www-form-urlencoded'
+        },
+        body: {
+            parse_api: id,
+            url: AES_Encrypt(url),
+        }
+    });
+    let html = AES_Decrypt(JSON.parse(html1).data);
+    console.log(html);
+    let decry = html.replace(/\n/g, '').replace(/\\/g, '');
+    let matches = decry.match(/"url":"([^"]+)"/);
+    if (!matches || matches[1] === null) {
+        matches = decry.match(/"url": "([^"]+)"/);
+    }
+    return {
+        parse: 0,
+        url: matches[1],
+        jx: 0,
+        danmaku: 'http://dm.sds11.top/tdm.php?url=' + url
+    };
+}
+
+var rule = {
+    title: '小虎斑|小熊',
+    host: '',
+    detailUrl: 'fyid',
+    searchUrl: '**',
+    url: 'fyclass',
     searchable: 2,
-    filterable: 1,
-    searchUrl: '/search.php?searchword=**',
-    lazy: '',
-    一级: 'body&&.Pic-list ul;a&&title;img&&src;span&&Text;a&&href',
-    二级: {
-    "title": "h2&&Text;.m-content ul&&Text",
-    "img": ".m-bigbox div a img&&src",
-    "desc": ".m-content ul li:eq(0)&&Text;.m-content ul li:eq(1)&&Text;.m-content ul li:eq(2)&&Text",
-    "content": ".m-intro ul&&Text",
-     tabs:'ul#playlist li',
-     lists:'.play_list ul:eq(#id)&&li a'
-   },
-   搜索: 'json:list;name;pic;;id',
-   tab_rename:{'高清在线':'尤东风💠高清在线','普通线路2':'尤东风💠普通线路2','普通线路4':'尤东风💠普通线路4'},
+    quickSearch: 1,
+    filterable: 0,
+    class_name: '电影&电视剧&综艺&动漫',
+    class_url: '1&2&3&4',
+    play_parse: true,
+    lazy: $js.toString(() => {
+        const parts = input.split('|');
+        input = jxx(parts[0], parts[1]);
+    }),
+    推荐: $js.toString(() => {
+        let data = vod1(0, 0);
+        let bata = JSON.parse(data).recommend_list;
+        bata.forEach(it => {
+            d.push({
+                url: it.vod_id,
+                title: it.vod_name,
+                img: it.vod_pic,
+                desc: it.vod_remarks
+            });
+        });
+        setResult(d);
+    }),
+    一级: $js.toString(() => {
+        let data = vod1(input, MY_PAGE);
+        let bata = JSON.parse(data).recommend_list;
+        bata.forEach(it => {
+            d.push({
+                url: it.vod_id,
+                title: it.vod_name,
+                img: it.vod_pic,
+                desc: it.vod_remarks
+            });
+        });
+        setResult(d);
+    }),
+    二级: $js.toString(() => {
+        console.log("调试信息2" + input);
+        let data = vodids(input);
+        //console.log(data);
+        VOD = data;
+    }),
+    搜索: $js.toString(() => {
+        let data = ssvod(input);
+        let bata = JSON.parse(data).search_list;
+        bata.forEach(it => {
+            d.push({
+                url: it.vod_id,
+                title: it.vod_name,
+                img: it.vod_pic,
+                desc: it.vod_remarks
+            });
+        });
+        //  console.log(data);
+        setResult(d);
+    }),
 }
