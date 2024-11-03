@@ -1,32 +1,32 @@
-// 筛选页功能关闭中
-muban.mxone5.二级.title = 'h1&&Text;.video-info-main&&Text';
-muban.mxone5.二级.desc = '.video-info-items:eq(6)&&Text;;;.video-info-actor:eq(1)&&Text;.video-info-actor:eq(0)&&Text';
-muban.mxone5.二级.content = '.vod_content span&&Text';
-muban.mxone5.二级.tabs = '.module-tab-items&&.tab-item';
-var rule = {
-    title: '子子影视',
-    模板: 'mxone5',
-    host: 'https://www.ziziys.com',
-    url: '/list/fyclass/page/fypage.html',
-    class_name: '国产剧&日韩剧&美剧&战争片&武侠古装&记录片&电视剧&电影&动漫',
-    class_url: '13&15&14&26&28&29&2&1&3',
-    class_parse: '',
-    lazy: `js:
-		var html = JSON.parse(request(input).match(/r player_.*?=(.*?)</)[1]);
-		var url = html.url;
-		if (html.encrypt == "1") {
-			url = unescape(url)
-		} else if (html.encrypt == "2") {
-			url = unescape(base64Decode(url))
-		}
-		if (/m3u8|mp4/.test(url)) {
-			input = url
-		} else {
-			input
-		}
-	`,
-    searchUrl: '/index.php/ajax/suggest?mid=1&wd=**&limit=50',
-    detailUrl: '/vdetail/fyid.html', //非必填,二级详情拼接链接
-    搜索: 'json:list;name;pic;;id',
-    tab_rename:{'高速':'尤东风💠高速','4K②':'尤东风💠在线②','4K③':'尤东风💠在线③'},
+var rule ={
+    //模板: '自动',
+    title: '03影院',
+    host: 'https://www.03yy.live/', 
+    url:'/type/indexfyclass-fypage.html',
+    class_name:"大陆剧&韩国剧&香港剧&台湾剧&泰国剧&欧美剧&日本剧&动作片&战争片&爱情片&科幻片&恐怖片&喜剧片&剧情片&电视剧&电影&综艺&动漫",
+    class_url:"13&26&14&46&47&27&16&5&9&6&7&8&10&12&2&1&3&4",
+    searchable: 2,
+    filterable: 1,
+    searchUrl: '/search.php?searchword=**',
+    lazy: $js.toString(() => {
+        pdfh = jsp.pdfh;
+        var html = request(input);
+        var ohtml = pdfh(html, '.player_1&&Html');
+        var base64Regex = /r now base64decode="([^"]+)";/;
+        var match = ohtml.match(base64Regex);
+        url =unescape(base64Decode(match));
+
+    }),
+    一级: 'body&&.Pic-list ul;a&&title;img&&src;span&&Text;a&&href',
+    二级: {
+    "title": "h2&&Text;.m-content ul&&Text",
+    "img": ".m-bigbox div a img&&src",
+    "desc": ".m-content ul li:eq(0)&&Text;.m-content ul li:eq(1)&&Text;.m-content ul li:eq(2)&&Text",
+    "content": ".m-intro ul&&Text",
+     tabs:'ul#playlist li',
+     lists:'.play_list ul:eq(#id)&&li a'
+   },
+   搜索: 'json:list;name;pic;;id',
+   tab_rename:{'高清在线':'尤东风💠高清在线','普通线路2':'尤东风💠普通线路2','普通线路4':'尤东风💠普通线路4'},
 }
+
