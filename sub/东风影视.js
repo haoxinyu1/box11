@@ -8,15 +8,14 @@ var rule ={
     searchable: 2,
     filterable: 1,
     searchUrl: '/search.php?searchword=**',
-    lazy: $js.toString(() => {
+    lazy: `js:
         pdfh = jsp.pdfh;
         var html = request(input);
         var ohtml = pdfh(html, '.player_1&&Html');
-        var base64Regex = /r now base64decode="([^"]+)";/;
-        var match = ohtml.match(base64Regex);
-        url =unescape(base64Decode(match));
-
-    }),
+        let baseurl = /now=base64decode\("([^"]+)"\);/;
+        let matchurl = ohtml.match(baseurl)[1];
+        url =unescape(base64Decode(matchurl));
+    `,
     一级: 'body&&.Pic-list ul;a&&title;img&&src;span&&Text;a&&href',
     二级: {
     "title": "h2&&Text;.m-content ul&&Text",
