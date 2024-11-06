@@ -35,6 +35,9 @@
 {"key":"网飞啦","name": "网飞影视(js)","type":3,"api":"./lib/drpy2.min.js",
  "searchable": 1,"quickSearch": 1,"ext": "./sub/网飞啦.js"
 },
+{"key":"雨见视频","name":"雨见视频(js)","type":3,"api":"./lib/drpy2.min.js",
+  "ext": "./sub/雨见视频.js","searchable":1 
+},
 {"key":"Xunlei8","name":"迅雷影视()","type": 3,"api":"csp_Xunlei8","searchable":1,"changeable":1,"filterable":1},
 {"key":"cspSixV","name":"新6影视()","type":3,"api":"csp_Xb6v","searchable":1,"quickSearch":1,"timeout": 60,
  "ext": "./lib/tokenm.json$$$https://www.66ss.org$$$null$$$1"
@@ -191,10 +194,6 @@
 },
 {"key":"ligutv","name":"哩咕TV(js)","type":3,"api":"./lib/drpy2.min.js",
   "ext": "./sub/ligutv.js","searchable":1 
-},
-{"key":"SP360","name":"360影视(js)","type":3,
- "api":"./lib/drpy2.min.js",
- "searchable": 2,"playerType":2,"ext":"./sub/360.js"
 },
 {"key":"奇优影院","name":"奇优影院(js)","type":3,"searchable":1,"quickSearch":1,"filterable":1,
  "api": "./lib/drpy2.min.js",
