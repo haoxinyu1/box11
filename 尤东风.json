@@ -185,6 +185,10 @@
 {"key":"迅雷","name":"迅雷磁力(js)","type":3,"api":"./lib/drpy2.min.js",
  "searchable":1,"ext": "./js/迅雷.js"
 },
+{"key":"猫视界","name":"猫界影视(js)","type":3,
+ "api":"./lib/drpy2.min.js",
+ "searchable": 2,"playerType":2,"ext":"./sub/猫视界.js"
+},
 {"key":"AV4K","name":"4KAV影视(js)","type":3,"api":"./lib/drpy2.min.js",
   "searchable":1,"ext": "./sub/4k-av.js"  
 },
