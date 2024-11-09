@@ -13,9 +13,6 @@
  "searchable": 1,"quickSearch": 1,
  "ext": "./lib/采集之王.js?type=url&params=../sub/采集静态.json$1$1"
 },
-{"key":"厂长资源","name":"厂长资源()","type": 3,"api": "csp_Czzy","searchable": 1,"quickSearch": 1,"filterable":1,
- "jar":"https://github.moeyy.xyz/https://raw.github.com/PizazzGY/TVBox/main/spider.jar"
-},
 {"key":"界界影视","name": "界界影视(js)","type":3,"api":"./lib/drpy2.min.js",
  "searchable": 1,"quickSearch": 1,"ext": "./js/界界影视.js"
 },
@@ -24,8 +21,9 @@
 {"key":"金牌影院","name": "金牌影院(js)","type":3,"api":"./lib/drpy2.min.js",
  "searchable": 1,"quickSearch": 1,"ext": "./sub/金牌影院.js"
 },
-//{"key":"厂长","name":"厂长影视(js)","type":3,"searchable": 1,"api":"./lib/drpy2.min.js",
-// "quickSearch": 1,"ext": "./js/厂长资源.js"},
+{"key":"厂长","name":"厂长影视(js)","type":3,"searchable": 1,"api":"./lib/drpy2.min.js",
+ "quickSearch": 1,"ext": "./js/厂长资源.js"
+},
 {"key":"荐片","name":"荐片影视(js)","type":3,"searchable": 1,"api":"./lib/drpy2.min.js",
  "quickSearch": 1,"ext": "./sub/荐片.js"
 },
