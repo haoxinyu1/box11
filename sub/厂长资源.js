@@ -1,7 +1,7 @@
 var rule={
     title:'厂长资源', 
-    host:'https://www.czzy.site',
-    hostJs:'print(HOST);let html=request(HOST,{headers:{"User-Agent":PC_UA}});HOST = jsp.pdfh(html,".jumbotron&&h2 a&&href")',
+    host:'https://www.czzyvideo.com/',
+    //hostJs:'print(HOST);let html=request(HOST,{headers:{"User-Agent":PC_UA}});HOST = jsp.pdfh(html,".jumbotron&&h2 a&&href")',
     url:'/fyclassfyfilter',
     filterable:1,
     filter_url:'{{fl.cateId}}{{fl.class}}{{fl.area}}/page/fypage',
