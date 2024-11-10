@@ -205,6 +205,9 @@
  "ext": "https://pastebin.com/raw/K6jVguG1"
 },
 {"key":"push_agent","name":"推送()","type":3,"api":"csp_Push","ext":"./lib/tokenm.json"},
+{"key":"赛维影院","name":"赛维影院","type":1,"api":"https://lsys.dsmynas.com:3000//api.php/provide/vod/",
+ "searchable":1,"quickSearch":1,"filterable":1
+},
 {"key": "网盘配置","name":"网盘配置","type":3,"api":"csp_Config","searchable":0,"changeable":0,
  "ext": "./lib/tokenm.json"
 }
