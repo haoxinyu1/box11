@@ -40,6 +40,9 @@
 {"key":"网飞啦","name": "网飞影视(js)","type":3,"api":"./lib/drpy2.min.js",
  "searchable": 1,"quickSearch": 1,"ext": "./sub/网飞啦.js"
 },
+{"key":"电影先生","name": "电影先生(js)","type":3,"api":"./lib/drpy2.min.js",
+ "searchable": 1,"quickSearch": 1,"ext": "./sub/电影先生.js"
+},
 {"key":"雨见视频","name":"雨见视频(js)","type":3,"api":"./lib/drpy2.min.js",
   "ext": "./sub/雨见视频.js","searchable":1 
 },
