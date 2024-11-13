@@ -161,16 +161,6 @@
     "分类": "电视剧$2#电影$1#动漫$4#综艺$3#儿童$58"
      }
 },
-{"key":"dianyiPQ","name":"电影先生(PQ)","type":3,"api":"csp_XBPQ","searchable":1,"filterable":1,"quickSearch":1,
- "jar":"./jar/xpq.jar","ext":{
-     "分类url":"https://dianyi.ng/pianku-{cateId}-{area}-{by}-{class}-----{catePg}---{year}.html",
-     "分类":"电视剧$dianshiju#电影$dianying#综艺$zongyi#动漫$dongman",
-     "搜索url": "https://dianyi.ng/search--------------.html?wd={wd}",
-     "简介":"尤东风友情提醒🔺勿信广告，避免受骗🔺+video-info-content&&</span>",
-     "线路数组":"data-dropdown-value=&&</div>",
-     "线路标题":"尤东风💠+<span>&&</span>[排序:TK>HD>XS>YI>DI>]"
-    }
-},
 {"key":"红中影视","name": "红中影视(js)","type":3,"api":"./lib/drpy2.min.js",
  "searchable": 1,"quickSearch": 1,"ext": "./sub/红中影视.js"
 },
