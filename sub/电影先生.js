@@ -4,7 +4,7 @@ muban.mxpro.二级.tabs = '#y-playList&&.tab-item';
 var rule = {
     title:'电影先生',
     模板:'mxpro',
-	searchable: 2,
+    searchable: 2,
     host:'https://dianying.xianshe.ng/',
     url:'/pianku-fyclassfyfilter.html',
     filterable:1,
@@ -13,10 +13,9 @@ var rule = {
     class_name: '电视剧&电影&动漫&综艺',
     class_url: 'dianshiju&dianying&dongman&zongyi',
     searchUrl:'/search--------------.html?wd=**',
-	搜索: '.module-card-item;.module-card-item-title strong&&Text;img&&data-original;.module-item-note&&Text;a&&href',
-    //搜索:'json:list;name;pic;;id',//
-	tab_order:['HD节点','QT节点','QI节点','KU节点','CN节点','YI节点','AN节点','DI节点','BJ节点','snm3u8','wolong','yhm3u8'],
-	tab_rename:{'QT节点':'尤东风💠QT官源','QI节点':'尤东风💠QI官源','KU节点':'尤东风💠KU官源','YI节点':'尤东风💠暴风','HD节点':'尤东风💠1080p','KK节点':'尤东风💠快看','CN节点':'尤东风💠黑木耳','AN节点':'尤东风💠量子','DI节点':'尤东风💠非凡','SU节点':'尤东风💠索尼'},
+    搜索: '.module-card-item;.module-card-item-title strong&&Text;img&&data-original;.module-item-note&&Text;a&&href',
+    tab_order:['HD节点','QT节点','QI节点','KU节点','CN节点','YI节点','AN节点','DI节点','BJ节点','snm3u8','wolong','yhm3u8'],
+    tab_rename:{'QT节点':'尤东风💠QT官源','QI节点':'尤东风💠QI官源','KU节点':'尤东风💠KU官源','YI节点':'尤东风💠暴风','HD节点':'尤东风💠1080p','KK节点':'尤东风💠快看','CN节点':'尤东风💠黑木耳','AN节点':'尤东风💠量子','DI节点':'尤东风💠非凡','SU节点':'尤东风💠索尼'},
     filter: 
 	{
         "dianshiju": [ 
