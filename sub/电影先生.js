@@ -2,19 +2,21 @@ muban.mxpro.二级.desc = '.module-info-item:eq(4)&&Text;;;.module-info-item-con
 muban.mxpro.二级.content = '.show-desc p&&Text';
 muban.mxpro.二级.tabs = '#y-playList&&.tab-item';
 var rule = {
-    title:'FreeOK',
+    title:'电影先生',
     模板:'mxpro',
-    host:'https://xn--44qz85a01qpc.com/',
+	searchable: 2,
+    host:'https://dianying.xianshe.ng/',
     url:'/pianku-fyclassfyfilter.html',
-    filterable:1,//是否启用分类筛选,
+    filterable:1,
     filter_url:'---{{fl.class}}--{{fl.letter}}---fypage---{{fl.year}}',//
    // class_parse: '.navbar-items&&li:gt(1):lt(8);a&&title;a&&href;
     class_name: '电视剧&电影&动漫&综艺',
-    class_url: 'dianshiju&dianshiju&dianying&dongman&zongyi',
-    searchUrl:'/search-**----------fypage---.html',
-    搜索:'json:list;name;pic;;id',
-	tab_order:['HD节点','YI节点','HD节点','KK节点','AN节点','DI节点','QI节点','CN节点','zuidam3u8','BJ节点','snm3u8','wolong','xlm3u8','yhm3u8'],
-	tab_rename:{'YI节点':'尤东风💠暴风','HD节点':'尤东风💠1080p','KK节点':'尤东风💠快看','CN节点':'尤东风💠CN节点','QI节点':'尤东风💠QI节点','AN节点':'尤东风💠量子','DI节点':'尤东风💠DI节点','haiwaikan':'海外看'},
+    class_url: 'dianshiju&dianying&dongman&zongyi',
+    searchUrl:'/search--------------.html?wd=**',
+	搜索: '.module-card-item;.module-card-item-title strong&&Text;img&&data-original;.module-item-note&&Text;a&&href',
+    //搜索:'json:list;name;pic;;id',//
+	tab_order:['HD节点','QT节点','QI节点','KU节点','CN节点','YI节点','AN节点','DI节点','BJ节点','snm3u8','wolong','yhm3u8'],
+	tab_rename:{'QT节点':'尤东风💠QT官源','QI节点':'尤东风💠QI官源','KU节点':'尤东风💠KU官源','YI节点':'尤东风💠暴风','HD节点':'尤东风💠1080p','KK节点':'尤东风💠快看','CN节点':'尤东风💠黑木耳','AN节点':'尤东风💠量子','DI节点':'尤东风💠非凡','SU节点':'尤东风💠索尼'},
     filter: 
 	{
         "dianshiju": [ 
@@ -22,7 +24,8 @@ var rule = {
 				  [
 				   {"n":"全部","v":""},{"n":"动作","v":"动作"},{"n":"犯罪","v":"犯罪"},{"n":"历史","v":"历史"},{"n":"古装","v":"古装"},
 				   {"n":"爱情","v":"爱情"},{"n":"科幻","v":"科幻"},{"n":"奇幻","v":"奇幻"},{"n":"悬疑","v":"悬疑"},{"n":"剧情","v":"剧情"},
-				   {"n":"警匪","v":"警匪"},{"n":"喜剧","v":"喜剧"},{"n":"枪战","v":"枪战"},{"n":"武侠","v":"武侠"},{"n":"战争","v":"战争"}
+				   {"n":"警匪","v":"警匪"},{"n":"喜剧","v":"喜剧"},{"n":"枪战","v":"枪战"},{"n":"武侠","v":"武侠"},
+				   {"n":"战争","v":"战争"}
 			      ]
 			   },
 			  {"key": "year","name": "年份","value": 
