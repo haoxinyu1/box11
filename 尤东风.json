@@ -1,6 +1,6 @@
 {//以下全部资源均来自网络，如有冒犯请联系删除。[所有内容仅供学习使用，请勿用于违法用途]
 "spider":"./pg.jar",
-"wallpaper":"https://tuapi.eees.cc/api.php?category=fengjing&type=302",
+"wallpaper":"https://api.likepoems.com/img/bing",
 "sites":[
 //{"key":"本地","name":"尤东风自用接口💠他人请谨慎用之","type":3,"api":"csp_LocalFile","changeable":0},
 {"key": "Aliself","name":"尤东风自用接口💠他人请谨慎用之","type":3,"api":"csp_AliShare","changeable": 1,"filterable": 1,"timeout": 60,
