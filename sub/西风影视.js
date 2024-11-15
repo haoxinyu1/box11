@@ -17,7 +17,7 @@ limit:6,
 double:true, // 推荐内容是否双层定位
 一级:'body&&.stui-vodlist__box;a&&title;a&&data-original;.text-right&&Text;a&&href',
 二级:{
-        "title": "body&&.stui-content__detail h1&&title;p:eq(1)&&Text",
+        "title": "body&&.stui-content__detail h1&&Text;p:eq(1)&&Text",
         "img": "img.lazyload&&data-original",
         "desc": ".stui-content__detail p:eq(1)&&Text;.stui-content__detail p:eq(4)&&Text",
         "content": ".detail-sketch&&Text",
