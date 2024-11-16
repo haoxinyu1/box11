@@ -2,12 +2,8 @@
 "spider":"./jar/xs_ali.jar;md5;540cb3abf9883a2de6d73b0624ffcabcr",
 "wallpaper":"https://api.likepoems.com/img/bing",
 "sites":[
-//{"key":"本地","name":"尤东风自用接口💠他人请谨慎用之","type":3,"api":"csp_LocalFile","changeable":0},
-{"key": "Aliself","name":"尤东风自用接口💠他人请谨慎用之","type":3,"api":"csp_AliShare","changeable": 1,"filterable": 1,"timeout": 60,
- "ext": "./lib/tokenm.json$$$./sub/alishare.txt$$$db$$$1","style": {"type": "list","ratio": 1.1}
-},
-{"key":"阿里云集合","name":"阿里💠分享()","type":3,"api":"csp_AliShare","changeable": 1,"filterable": 1,"timeout": 60,
- "ext": "./lib/tokenm.json$$$./sub/alishare1.txt$$$db$$$1","style": {"type": "list","ratio": 1.1}
+{"key":"我的阿里","name": "尤东风自用接口💠他人请谨慎用之","type": 3,"api": "csp_MyAli","searchable": 0,"indexs": 0,
+ "ext":{"token":"http://127.0.0.1:9978/file/TVBox/token.txt"},"style": {"type": "list"}
 },
 {"key":"真心影视","name":"真心影视()","type":3,"api":"csp_WebGZ","searchable":1,"quickSearch":1,"filterable":1, 
  "jar":"https://7407.kstore.space/api/xs_ali.jar;md5;540cb3abf9883a2de6d73b0624ffcabc"
@@ -192,23 +188,25 @@
 {"key":"AV4K","name":"4KAV影视(js)","type":3,"api":"./lib/drpy2.min.js",
   "searchable":1,"ext": "./sub/4k-av.js"  
 },
-{"key":"黑狐影院","name":"黑狐影院(js)","type":3,
- "api":"./lib/drpy2.min.js",
- "searchable": 2,"playerType":2,"ext":"./sub/黑狐影院.js"
-},
 {"key":"ligutv","name":"哩咕TV(js)","type":3,"api":"./lib/drpy2.min.js",
   "ext": "./sub/ligutv.js","searchable":1 
 },
-{"key":"奇优影院","name":"奇优影院(js)","type":3,"searchable":1,"quickSearch":1,"filterable":1,
- "api": "./lib/drpy2.min.js",
- "ext": "https://pastebin.com/raw/K6jVguG1"
+{"key": "Aliself","name":"阿里💠分享(1)","type":3,"api":"csp_AliShare","changeable": 1,"filterable": 1,"timeout": 60,
+ "jar":"./pg.jar","ext": "./lib/tokenm.json$$$./sub/alishare.txt$$$db$$$1","style": {"type": "list","ratio": 1.1}
 },
-{"key":"push_agent","name":"推送()","type":3,"api":"csp_Push","ext":"./lib/tokenm.json"},
+{"key":"阿里云集合","name":"阿里💠分享(2)","type":3,"api":"csp_AliShare","changeable": 1,"filterable": 1,"timeout": 60,
+ "jar":"./pg.jar","ext": "./lib/tokenm.json$$$./sub/alishare1.txt$$$db$$$1","style": {"type": "list","ratio": 1.1}
+},
+{"key":"本地","name":"本地文件()","type":3,"api":"csp_LocalFile","changeable":0},
+{"key":"push_agent","name":"推送()","type":3,"api":"csp_Push","jar":"./pg.jar","ext":"./lib/tokenm.json"},
 {"key":"赛维影院","name":"赛维影院","type":1,"api":"https://lsys.dsmynas.com:3000//api.php/provide/vod/",
  "searchable":1,"quickSearch":1,"filterable":1
 },
+{"key": "配置中心","name": "配置中心","type": 3,"api": "csp_Config","searchable":0,"changeable":0,
+ "indexs": 0,"style": {"type": "rect","ratio": 1.597}
+},
 {"key": "网盘配置","name":"网盘配置","type":3,"api":"csp_Config","searchable":0,"changeable":0,
- "ext": "./lib/tokenm.json"
+ "jar":"./pg.jar","ext": "./lib/tokenm.json"
 }
 ],
 "lives": 
