@@ -5,16 +5,11 @@
 {"key":"我的阿里","name": "尤东风自用接口💠他人请谨慎用之","type": 3,"api": "csp_MyAli","searchable": 0,"indexs": 0,
  "ext":{"token":"http://127.0.0.1:9978/file/TVBox/token.txt"},"style": {"type": "list"}
 },
-{"key":"真心影视","name":"真心影视()","type":3,"api":"csp_WebGZ","searchable":1,"quickSearch":1,"filterable":1, 
- "jar":"https://7407.kstore.space/api/xs_ali.jar;md5;540cb3abf9883a2de6d73b0624ffcabc"
-},
-{"key":"洽洽影视","name": "洽洽影视()","type":3,"api":"csp_AppGZ","searchable":1,"quickSearch":1,"filterable":1,
- "jar":"https://7407.kstore.space/api/xs_ali.jar;md5;540cb3abf9883a2de6d73b0624ffcabc"
-},
+{"key":"真心影视","name":"真心影视()","type":3,"api":"csp_WebGZ","searchable":1,"quickSearch":1,"filterable":1 },
+{"key":"洽洽影视","name": "洽洽影视()","type":3,"api":"csp_AppGZ","searchable":1,"quickSearch":1,"filterable":1},
 {"key":"Xunlei8","name":"迅雷影视()","type": 3,"api":"csp_Xunlei8","searchable":1,"changeable":1,"filterable":1},
-{"key":"cspSixV","name":"新6影视()","type":3,"api":"csp_Xb6v","searchable":1,"quickSearch":1,"timeout": 60,
- "ext": "./lib/tokenm.json$$$https://www.66ss.org$$$null$$$1"
-},
+{"key":"cspSixV","name":"新6影视()","type":3,"api":"csp_New6v","searchable":1,"quickSearch":1,"ext":"https://www.xb6v.com"},
+{"key":"Mp4电影","name": "Mp4电影()","type":3,"api":"csp_Mp4Mov","searchable":1,"quickSearch":1,"filterable":1},
 {"key":"SP360","name":"360影视(js)","type":3,"api":"./lib/drpy2.min.js",
  "searchable": 2,"playerType":2,"ext":"./sub/360.js"
 },
@@ -48,8 +43,20 @@
 {"key":"雨见视频","name":"雨见视频(js)","type":3,"api":"./lib/drpy2.min.js",
   "ext": "./sub/雨见视频.js","searchable":1 
 },
-{"key":"Mp4电影","name":"Mp4电影(js)","type":3,"searchable": 1,"api":"./lib/drpy2.min.js",
- "quickSearch": 1,"ext": "./sub/MP4电影.js"
+{"key":"红中影视","name": "红中影视(js)","type":3,"api":"./lib/drpy2.min.js",
+ "searchable": 1,"quickSearch": 1,"ext": "./sub/红中影视.js"
+},
+{"key":"东风影视","name": "东风影视(js)","type":3,"api":"./lib/drpy2.min.js",
+ "searchable": 1,"quickSearch": 1,"ext": "./sub/东风影视.js"
+},
+{"key":"南风影视","name": "南风影视(js)","type":3,"api":"./lib/drpy2.min.js",
+ "searchable":1,"quickSearch": 1,"ext": "./sub/南风影视.js"
+},
+{"key":"西风影视","name":"西风影视(js)","type":3,"api":"./lib/drpy2.min.js",
+ "searchable":1,"ext": "./sub/西风影视.js"
+},
+{"key":"北风影视","name":"北风影视(js)","type":3,"api":"./lib/drpy2.min.js",
+  "ext": "./sub/北风影视.js","searchable":1
 },
 {"key":"bt磁力","name":"b_t磁力(js)","type":3,"api":"./lib/drpy2.min.js",
  "searchable":1,"ext": "./js/bt磁力.js"
@@ -162,21 +169,6 @@
     "分类url": "https://www.hitv.app/show/{cateId}-{area}-{by}-{class}-----{catePg}---{year}.html",
     "分类": "电视剧$2#电影$1#动漫$4#综艺$3#儿童$58"
      }
-},
-{"key":"红中影视","name": "红中影视(js)","type":3,"api":"./lib/drpy2.min.js",
- "searchable": 1,"quickSearch": 1,"ext": "./sub/红中影视.js"
-},
-{"key":"东风影视","name": "东风影视(js)","type":3,"api":"./lib/drpy2.min.js",
- "searchable": 1,"quickSearch": 1,"ext": "./sub/东风影视.js"
-},
-{"key":"南风影视","name": "南风影视(js)","type":3,"api":"./lib/drpy2.min.js",
- "searchable":1,"quickSearch": 1,"ext": "./sub/南风影视.js"
-},
-{"key":"西风影视","name":"西风影视(js)","type":3,"api":"./lib/drpy2.min.js",
- "searchable":1,"ext": "./sub/西风影视.js"
-},
-{"key":"北风影视","name":"北风影视(js)","type":3,"api":"./lib/drpy2.min.js",
-  "ext": "./sub/北风影视.js","searchable":1
 },
 {"key":"迅雷","name":"迅雷磁力(js)","type":3,"api":"./lib/drpy2.min.js",
  "searchable":1,"ext": "./js/迅雷.js"
