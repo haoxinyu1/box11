@@ -1,5 +1,5 @@
 {//以下全部资源均来自网络，如有冒犯请联系删除。[所有内容仅供学习使用，请勿用于违法用途]
-"spider":"./pg.jar",
+"spider":"./jar/xs_ali.jar;md5;540cb3abf9883a2de6d73b0624ffcabcr",
 "wallpaper":"https://api.likepoems.com/img/bing",
 "sites":[
 //{"key":"本地","name":"尤东风自用接口💠他人请谨慎用之","type":3,"api":"csp_LocalFile","changeable":0},
@@ -74,7 +74,7 @@
  "searchable": 1,"quickSearch": 1,"ext": "./sub/南风磁力.js"
 },
 {"key":"可可影视PQ","name":"可可影视(PQ)","type":3,"api":"csp_XBPQ","searchable":1,"quickSearch":1,"filterable":1,
- "jar":"./jar/xpq.jar","ext":{ 
+ "ext":{ 
 	  "主页url": "https://www.kkys02.com/",
           "分类url": "https://www.kkys02.com/show/{cateId}-{class}--{lang}-{year}-2-{catePg}.html",
           "分类":"电视剧$2#电影$1#动漫$3#综艺$4#短剧$6",
@@ -102,7 +102,7 @@
      }
 },
 {"key":"飞飞影视PQ","name":"飞飞影视(PQ)","type":3,"api":"csp_XBPQ","searchable":1,"quickSearch":1,"filterable":1,
- "jar":"./jar/xpq.jar","ext":{
+ "ext":{
 	"分类url": "https://www.ffys.fun/vodshow/id/{cateId}/area/{area}/by/{by}/class/{class}/page/{catePg}/year/{year}.html", 
         "分类": "电影$20#剧集$21#动漫$22#综艺$23#记录片$24#爽剧$25",
         "简介":"尤东风友情提醒🔺勿信广告，避免受骗🔺+<p>&&</p>",
@@ -111,7 +111,7 @@
        }
 },
 {"key":"优优xBPQ","name":"优优影视(PQ)","type":3,"api":"csp_XBPQ","searchable":1,"quickSearch":1,"filterable":1,
- "jar":"./jar/xpq.jar","ext":{
+ "ext":{
      "分类url":"https://nuu.su/x/area/{area}/by/{by}/class/{class}/id/{cateId}/page/{catePg}/year/{year}.html",
      "分类":"电视剧$2#电影$1#纪录$6#综艺$3#动漫$4",
      "简介":"尤东风友情提醒🔺勿信广告，避免受骗🔺+p>&&</p>"
@@ -128,7 +128,7 @@
      }
 }, 
 {"key":"星辰xBPQ","name":"星辰影视(PQ)","type":3,"api":"csp_XBPQ","searchable":1,"quickSearch":1,"filterable":1,
- "jar":"./jar/xpq.jar","ext":{
+ "ext":{
   "分类url":"https://citytv.cc/tv/dianying/area/{area}/by/{by}/class/{class}/id/{cateId}/page/{catePg}/year/{year}",
   "分类": "电视剧$dianshiju#电影$dianying#动漫$dongman#综艺$zongyi#短剧$duanju",
   "简介":"尤东风友情提醒🔺勿信广告，避免受骗🔺+class=\"detail-sketch\">&&</span>",
@@ -138,7 +138,7 @@
   } 
 },
 {"key":"全看影院PQ","name":"全看影院(PQ)","type":3,"api":"csp_XBPQ","searchable":1,"quickSearch":1,"filterable":1,
- "jar":"./jar/xpq.jar","ext":{
+ "ext":{
     "嗅探词": ".m3u8?#bdric-cdn-tos.1ljx.com#.m3u8#.mp4",
     "简介": "尤东风友情提醒🔺勿信广告，避免受骗🔺+<div class=\"stui-content__desc col-pd clearfix \"&&</div>",
     "线路数组": "<div class=\"stui-pannel__head clearfix\"&&</div>",
@@ -148,7 +148,7 @@
    }
 },
 {"key":"tvybo3","name":"TVb云播(PQ)","type":3,"api":"csp_XBPQ","playerType":1,"searchable":1,"filterable":1,
- "jar":"./jar/xpq.jar","ext":{
+ "ext":{
    "分类url": "http://www.hktvyun.com/vod/show/area/{area}/by/{by}/class/{class}/id/{cateId}/page/{catePg}/year/{year}.html",
    "分类": "剧集$2#电影$1#动漫$4#综艺$3",
    "简介": "尤东风友情提醒🔺勿信广告，避免受骗🔺+p class=\"data hidden-xs\">&&<a href=",
@@ -158,7 +158,7 @@
    }
 },
 {"key":"红巾PQ","name":"好影快看(PQ)","type":3,"api":"csp_XBPQ","searchable":1,"filterable":1,"quickSearch":1,
- "jar":"./jar/xpq.jar",	"ext":{
+ "ext":{
     "影片类型": "module-info-tag\">&&立即播放",
     "简介":"尤东风友情提醒🔺勿信广告，避免受骗🔺+剧情简介：&&</p>",
     "线路数组": "data-dropdown-value=&&</div>",
