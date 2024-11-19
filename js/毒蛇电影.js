@@ -1,5 +1,5 @@
 var rule = {
-    title: '可可影视[优]',
+    title: '毒蛇电影',
     host: 'https://www.dushe9.app',
     //host: 'https://www.kkys01.com',
     // url: '/show/fyclass-----2-fypage.html',
