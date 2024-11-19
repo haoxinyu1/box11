@@ -66,13 +66,13 @@ globalThis.vodids = function(ids) {
         vod_remarks: rdata.vod.vod_remarks,
         vod_actor: rdata.vod.vod_actor,
         vod_director: rdata.vod.vod_director,
-        vod_content: rdata.vod.vod_content,
+        vod_content: '尤东风友情提醒🔺勿信广告，避免受骗🔺'+rdata.vod.vod_content,
         vod_play_from: '',
         vod_play_url: ''
     };
 
     rdata.vod_play_list.forEach((value) => {
-        data.vod_play_from += value.player_info.show + '$$$';
+        data.vod_play_from += value.player_info.show + '💠尤东风$$$';
         value.urls.forEach((v) => {
             data.vod_play_url += v.name + '$' + value.player_info.parse + '|' + v.url + '#';
         });
