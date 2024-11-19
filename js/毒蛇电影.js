@@ -29,7 +29,7 @@ var rule = {
         desc: '.detail-info-row-main:eq(-2)&&Text;.detail-tags&&a&&Text;.detail-tags&&a:eq(1)&&Text;.detail-info-row-main:eq(1)&&Text;.detail-info-row-main&&Text',
         content: '.detail-desc&&Text',
         //tabs: '.source-item-label:nth-of-type(2)',
-        tabs: '尤东风💠'+'body&&.source-item-label[id]',
+        tabs: 'body&&.source-item-label[id]',
         lists: '.episode-list:eq(#id) a',
     },
     搜索: '.search-result-list&&a;.title:eq(1)&&Text;*;.search-result-item-header&&Text;a&&href;.desc&&Text',
