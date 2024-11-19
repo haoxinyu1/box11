@@ -26,9 +26,6 @@
 {"key":"嘟嘟电影","name": "嘟嘟电影(js)","type":3,"api":"./lib/drpy2.min.js",
  "searchable": 1,"quickSearch": 1,"ext": "./sub/嘟嘟电影.js"
 },
-{"key":"毒蛇电影","name": "毒蛇电影(js)","type":3,"api":"./lib/drpy2.min.js",
- "searchable": 1,"quickSearch": 1,"ext": "./js/毒蛇电影.js"
-},
 {"key":"厂长","name":"厂长影视(js)","type":3,"searchable": 1,"api":"./lib/drpy2.min.js",
  "quickSearch": 1,"ext": "./js/厂长资源.js"
 },
