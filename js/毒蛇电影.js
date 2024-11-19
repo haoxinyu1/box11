@@ -33,11 +33,6 @@ var rule = {
         lists: '.episode-list:eq(#id) a',
     },
     搜索: '.search-result-list&&a;.title:eq(1)&&Text;*;.search-result-item-header&&Text;a&&href;.desc&&Text',
-    // 图片替换:$js.toString(()=>{
-    //     log(input);
-    //    input = input.replace(rule.host,'https://vres.a357899.cn');
-    // }),
-    //图片替换: 'https://www.dushe9.app=>https://vres.a357899.cn',
     预处理: $js.toString(() => {
         let html = request(rule.host);
         let scripts = pdfa(html, 'script');
