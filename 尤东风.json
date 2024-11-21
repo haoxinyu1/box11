@@ -106,10 +106,9 @@
         "搜索副标题": "class=\"boottom\"*<div>&&</div"   
      }
 },
-{"key":"可可影视PQ","name":"可可影视(PQ)","type":3,"api":"csp_XBPQ","searchable":1,"quickSearch":1,"filterable":1,
+{"key":"可可影视PQ","name":"飞猫影视(PQ)","type":3,"api":"csp_XBPQ","searchable":1,"quickSearch":1,"filterable":1,
  "ext":{ 
-	  "主页url": "https://www.kkys02.com/",
-          "分类url": "https://www.kkys02.com/show/{cateId}-{class}--{lang}-{year}-2-{catePg}.html",
+          "分类url": "https://www.ncat3.com:51111/show/{cateId}-{class}--{lang}-{year}-2-{catePg}.html",
           "分类":"电视剧$2#电影$1#动漫$3#综艺$4#短剧$6",
           "数组": "module-item\">&&\"v-item-footer\">",
           "图片": "https://61.147.93.252:15002+data-original=\"&&\"",
@@ -117,7 +116,7 @@
           "副标题": "可可影视提供</span&&</div>",
           "链接": "href=\"&&\"",
           "搜索二次截取": "id=\"units_top\"&&id=\"units_footer\"",
-          "搜索url": "https://www.kkys02.com/search?os=pc&k={wd}",
+          "搜索url": "https://www.ncat3.com:51111/search?os=pc&k={wd}",
           "搜索数组": "<a&&class=\"tags\"",
           "搜索图片": "data-original=\"&&\"[替换:/vod1/>>https://61.147.93.252:15002/vod1/][不包含:https://61.147.93.155:15001/vod_pc_static_kkdy/images/p/logo_placeholder_vertical.png?ver=240905]",
           "搜索标题": "title=\"&&\"",
