@@ -3,7 +3,6 @@ Object.assign(muban.mxpro.二级, {
 });
 var rule = {
     模板: 'mxpro',
-	模板: '自动',
     title: '猫视界',
     host: 'http://www.msjtv.com',
     url:'/vodshow/fyfilter.html',
