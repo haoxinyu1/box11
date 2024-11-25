@@ -5,6 +5,7 @@
 {"key":"我的阿里","name": "尤东风自用接口💠他人请谨慎用之","type": 3,"api": "csp_MyAli","searchable": 0,"indexs": 0,
  "ext":{"token":"http://127.0.0.1:9978/file/TVBox/token.txt"},"style": {"type": "list"}
 },
+{"key": "瓜子影视","name": "瓜子影视()","type":3,"api": "csp_Gz360","searchable":1,"quickSearch":1,"filterable":1},
 {"key":"真心影视","name":"真心影视()","type":3,"api":"csp_WebGZ","searchable":1,"quickSearch":1,"filterable":1 },
 {"key":"洽洽影视","name": "洽洽影视()","type":3,"api":"csp_AppGZ","searchable":1,"quickSearch":1,"filterable":1},
 {"key":"Xunlei8","name":"迅雷影视()","type": 3,"api":"csp_Xunlei8","searchable":1,"changeable":1,"filterable":1},
