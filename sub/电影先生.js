@@ -12,6 +12,7 @@ var rule = {
    // class_parse: '.navbar-items&&li:gt(1):lt(8);a&&title;a&&href;
     class_name: '电视剧&电影&动漫&综艺',
     class_url: 'dianshiju&dianying&dongman&zongyi',
+    一级:'.module-item;.module-poster-item-title&&Text;img.lazyload&&data-original;.module-item-note&&Text;a&&href',
     searchUrl:'/search--------------.html?wd=**',
     搜索: '.module-card-item;.module-card-item-title strong&&Text;img&&data-original;.module-item-note&&Text;a&&href',
     tab_order:['HD节点','QT节点','QI节点','KU节点','CN节点','YI节点','AN节点','DI节点','BJ节点','snm3u8','wolong','yhm3u8'],
