@@ -30,9 +30,6 @@
 {"key":"goFree","name": "goFree(js)","type":3,"api":"./lib/drpy2.min.js",
  "searchable": 1,"quickSearch": 1,"ext": "./js/goFree.js"
 },
-{"key":"厂长","name":"厂长影视(js)","type":3,"searchable": 1,"api":"./lib/drpy2.min.js",
- "quickSearch": 1,"ext": "./js/厂长资源.js"
-},
 {"key":"荐片","name":"荐片影视(js)","type":3,"searchable": 1,"api":"./lib/drpy2.min.js",
  "quickSearch": 1,"ext": "./sub/荐片.js"
 },
@@ -62,10 +59,6 @@
 },
 {"key":"北风影视","name":"北风影视(js)","type":3,"api":"./lib/drpy2.min.js",
   "ext": "./sub/北风影视.js","searchable":1
-},
-{"key":"猫视界","name":"猫界影视(js)","type":3,
- "api":"./lib/drpy2.min.js",
- "searchable": 2,"playerType":2,"ext":"./sub/猫视界.js"
 },
 {"key":"ligutv","name":"哩咕TV(js)","type":3,"api":"./lib/drpy2.min.js",
   "ext": "./sub/ligutv.js","searchable":1 
