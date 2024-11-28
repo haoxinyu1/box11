@@ -108,7 +108,7 @@ var rule={
     "title": ".hl-dc-title&&Text;.hl-vod-data&&Text",
     "img": ".hl-item-thumb hl-lazy&&data-original",
     "desc": ".hl-col-xs-12:eq(2)&&Text;.hl-col-xs-12:eq(3)&&Text;.hl-col-xs-12:eq(4)&&Text",
-    "content": ".hl-text-muted&&Text",
+    "content": ".blurb&&Text",
     "tabs": ".hl-tabs-btn",
     "lists": ".hl-plays-list:eq(#id) a"
           },
