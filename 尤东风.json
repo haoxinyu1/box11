@@ -170,16 +170,6 @@
   "播放标题":">&&<[不包含:1080P]"
   } 
 },
-{"key":"全看影院PQ","name":"全看影院(PQ)","type":3,"api":"csp_XBPQ","searchable":1,"quickSearch":1,"filterable":1,
- "ext":{
-    "嗅探词": ".m3u8?#bdric-cdn-tos.1ljx.com#.m3u8#.mp4",
-    "简介": "尤东风友情提醒🔺勿信广告，避免受骗🔺+<div class=\"stui-content__desc col-pd clearfix \"&&</div>",
-    "线路数组": "<div class=\"stui-pannel__head clearfix\"&&</div>",
-    "线路标题": "尤东风💠+class=\"title\">&&</h3>",
-    "分类url": "https://wap.qkw2.cc/vod/show/{cateId}--------{catePg}---.html",
-    "分类": "国产剧$13#港台剧$14#日韩剧$15#动作片$6#动漫$4#综艺$3#短剧$28"
-   }
-},
 {"key":"tvybo3","name":"TVb云播(PQ)","type":3,"api":"csp_XBPQ","playerType":1,"searchable":1,"filterable":1,
  "ext":{
    "分类url": "http://www.hktvyun.com/vod/show/area/{area}/by/{by}/class/{class}/id/{cateId}/page/{catePg}/year/{year}.html",
