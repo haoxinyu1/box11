@@ -93,33 +93,8 @@
 {"key":"南风磁力","name": "南风磁力(js)","type":3,"api":"./lib/drpy2.min.js",
  "searchable": 1,"quickSearch": 1,"ext": "./sub/南风磁力.js"
 },
-{"key":"爱看电影PQ","name":"爱看电影(PQ)","type":3,"api":"csp_XBPQ","searchable":1,"filterable":1,"quickSearch":1,
- "ext":{
-        "分类url": "https://www.gs4x7nq4.com/vod/show/id/{cateId}/class/{class}/year/{year}/area/{area}/page/{catePg}",
-        "分类": "电视剧$2#电影$1#综艺$3#动漫$4",
-        "播放请求头": "User-Agent$Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36",
-        "简介": "尤东风友情提醒🔺勿信广告，避免受骗🔺+</label>&&</div>",
-        "影片类型": "tags\">&&director\">",
-        "影片状态": "bottom\">&&</div>",
-        "二次截取": "videoList\":\\[&&\\]",
-        "数组": "{&&}[不包含:伦理剧]",
-        "图片": "https+://ywxohs.com+obs.gduamoe.com&&\",",
-        "标题": "vodName\":\"&&\"",
-        "副标题": "vodRemarks\":\"&&\"",
-        "链接": "https://www.gs4x7nq4.com/detail/+vodId\":&&,",
-        "导演": "导演:</div>&&主演",
-        "主演": "主演:</div>&&别名",
-        "线路标题": "尤东风💠在线",
-        "播放数组": "listitem\">&&info\">",
-        "播放列表": "<a&&</a>",
-        "嗅探词": ".mp4#.m3u8#.flv#.m3u8?#.mp4?",
-        "倒序": "否",
-        "搜索url": "https://www.gs4x7nq4.com/vod/search/{wd}",
-        "搜索副标题": "class=\"boottom\"*<div>&&</div"   
-     }
-},
 {"key":"可可影视PQ","name":"飞猫影视(PQ)","type":3,"api":"csp_XBPQ","searchable":1,"quickSearch":1,"filterable":1,
- "ext":{ 
+ "jar":"https://git.acwing.com/hogo18/hh/-/raw/main/jar/xpq.jar","ext":{ 
           "分类url": "https://www.ncat3.com:51111/show/{cateId}-{class}--{lang}-{year}-2-{catePg}.html",
           "分类":"电视剧$2#电影$1#动漫$3#综艺$4#短剧$6",
           "数组": "module-item\">&&\"v-item-footer\">",
@@ -146,7 +121,7 @@
      }
 },
 {"key":"飞飞影视PQ","name":"飞飞影视(PQ)","type":3,"api":"csp_XBPQ","searchable":1,"quickSearch":1,"filterable":1,
- "ext":{
+ "jar":"https://git.acwing.com/hogo18/hh/-/raw/main/jar/xpq.jar","ext":{
 	"分类url": "https://www.ffys.fun/vodshow/id/{cateId}/area/{area}/by/{by}/class/{class}/page/{catePg}/year/{year}.html", 
         "分类": "电影$20#剧集$21#动漫$22#综艺$23#记录片$24#爽剧$25",
         "简介":"尤东风友情提醒🔺勿信广告，避免受骗🔺+<p>&&</p>",
@@ -155,14 +130,14 @@
        }
 },
 {"key":"优优xBPQ","name":"优优影视(PQ)","type":3,"api":"csp_XBPQ","searchable":1,"quickSearch":1,"filterable":1,
- "ext":{
+ "jar":"https://git.acwing.com/hogo18/hh/-/raw/main/jar/xpq.jar","ext":{
      "分类url":"https://nuu.su/x/area/{area}/by/{by}/class/{class}/id/{cateId}/page/{catePg}/year/{year}.html",
      "分类":"电视剧$2#电影$1#纪录$6#综艺$3#动漫$4",
      "简介":"尤东风友情提醒🔺勿信广告，避免受骗🔺+p>&&</p>"
      }
 },
 {"key":"月亮PQ","name":"月亮影院(PQ)","type":3,"api":"csp_XBPQ","searchable":1,"filterable":1,"quickSearch":1,
- "jar":"./jar/xpq.jar","ext":{
+ "jar":"https://git.acwing.com/hogo18/hh/-/raw/main/jar/xpq.jar","ext":{
      "分类url":"https://tv.woaimoon.net/vodshow/{cateId}/area/{area}/by/{by}/class/{class}/page/{catePg}/year/{year}.html",
      "分类":"电视剧$2#电影$1#综艺$3#动漫$4",
      "数组": "class=\"pack-ykpack\">&&pack-subtitle cor3 hidden",
@@ -171,18 +146,8 @@
      "线路标题":"尤东风💠+&nbsp;&&<[排序:腾讯>奇艺>优酷>芒果>搜狐]"
      }
 }, 
-{"key":"星辰xBPQ","name":"星辰影视(PQ)","type":3,"api":"csp_XBPQ","searchable":1,"quickSearch":1,"filterable":1,
- "ext":{
-  "分类url":"https://citytv.cc/tv/dianying/area/{area}/by/{by}/class/{class}/id/{cateId}/page/{catePg}/year/{year}",
-  "分类": "电视剧$dianshiju#电影$dianying#动漫$dongman#综艺$zongyi#短剧$duanju",
-  "简介":"尤东风友情提醒🔺勿信广告，避免受骗🔺+class=\"detail-sketch\">&&</span>",
-  "线路数组": "#playlist&&</li>",
-	"线路标题": "尤东风💠+>&&</a>[排序:神马云播>阿里云播>]",
-  "播放标题":">&&<[不包含:1080P]"
-  } 
-},
 {"key":"tvybo3","name":"TVb云播(PQ)","type":3,"api":"csp_XBPQ","playerType":1,"searchable":1,"filterable":1,
- "ext":{
+ "jar":"https://git.acwing.com/hogo18/hh/-/raw/main/jar/xpq.jar","ext":{
    "分类url": "http://www.hktvyun.com/vod/show/area/{area}/by/{by}/class/{class}/id/{cateId}/page/{catePg}/year/{year}.html",
    "分类": "剧集$2#电影$1#动漫$4#综艺$3",
    "简介": "尤东风友情提醒🔺勿信广告，避免受骗🔺+p class=\"data hidden-xs\">&&<a href=",
@@ -192,7 +157,7 @@
    }
 },
 {"key":"红巾PQ","name":"好影快看(PQ)","type":3,"api":"csp_XBPQ","searchable":1,"filterable":1,"quickSearch":1,
- "ext":{
+ "jar":"https://git.acwing.com/hogo18/hh/-/raw/main/jar/xpq.jar","ext":{
     "影片类型": "module-info-tag\">&&立即播放",
     "简介":"尤东风友情提醒🔺勿信广告，避免受骗🔺+剧情简介：&&</p>",
     "线路数组": "data-dropdown-value=&&</div>",
