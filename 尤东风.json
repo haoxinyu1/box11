@@ -203,7 +203,7 @@
 },
 {"key":"push_agent","name":"推送()","type":3,"api":"csp_Push","ext":"https://git.acwing.com/hogo18/hh/-/raw/main/lib/tokenm.json"},
 {"key": "网盘配置","name":"网盘配置","type":3,"api":"csp_Config","searchable":0,"changeable":0,
- "ext": "https://git.acwing.com/hogo18/hh/-/raw/main/lib/tokenm.json"
+ "ext": "./lib/tokenm.json"
 }
 ],
 "lives": 
