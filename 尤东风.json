@@ -94,7 +94,7 @@
  "searchable": 1,"quickSearch": 1,"ext": "./sub/南风磁力.js"
 },
 {"key":"可可影视PQ","name":"飞猫影视(PQ)","type":3,"api":"csp_XBPQ","searchable":1,"quickSearch":1,"filterable":1,
- "jar":"https://git.acwing.com/hogo18/hh/-/raw/main/jar/xpq.jar","ext":{ 
+ "jar":"./jar/xpq.jar","ext":{ 
           "分类url": "https://www.ncat3.com:51111/show/{cateId}-{class}--{lang}-{year}-2-{catePg}.html",
           "分类":"电视剧$2#电影$1#动漫$3#综艺$4#短剧$6",
           "数组": "module-item\">&&\"v-item-footer\">",
@@ -121,7 +121,7 @@
      }
 },
 {"key":"飞飞影视PQ","name":"飞飞影视(PQ)","type":3,"api":"csp_XBPQ","searchable":1,"quickSearch":1,"filterable":1,
- "jar":"https://git.acwing.com/hogo18/hh/-/raw/main/jar/xpq.jar","ext":{
+ "jar":"./jar/xpq.jar","ext":{
 	"分类url": "https://www.ffys.fun/vodshow/id/{cateId}/area/{area}/by/{by}/class/{class}/page/{catePg}/year/{year}.html", 
         "分类": "电影$20#剧集$21#动漫$22#综艺$23#记录片$24#爽剧$25",
         "简介":"尤东风友情提醒🔺勿信广告，避免受骗🔺+<p>&&</p>",
@@ -130,14 +130,14 @@
        }
 },
 {"key":"优优xBPQ","name":"优优影视(PQ)","type":3,"api":"csp_XBPQ","searchable":1,"quickSearch":1,"filterable":1,
- "jar":"https://git.acwing.com/hogo18/hh/-/raw/main/jar/xpq.jar","ext":{
+ "jar":"./jar/xpq.jar","ext":{
      "分类url":"https://nuu.su/x/area/{area}/by/{by}/class/{class}/id/{cateId}/page/{catePg}/year/{year}.html",
      "分类":"电视剧$2#电影$1#纪录$6#综艺$3#动漫$4",
      "简介":"尤东风友情提醒🔺勿信广告，避免受骗🔺+p>&&</p>"
      }
 },
 {"key":"月亮PQ","name":"月亮影院(PQ)","type":3,"api":"csp_XBPQ","searchable":1,"filterable":1,"quickSearch":1,
- "jar":"https://git.acwing.com/hogo18/hh/-/raw/main/jar/xpq.jar","ext":{
+ "jar":"./jar/xpq.jar","ext":{
      "分类url":"https://tv.woaimoon.net/vodshow/{cateId}/area/{area}/by/{by}/class/{class}/page/{catePg}/year/{year}.html",
      "分类":"电视剧$2#电影$1#综艺$3#动漫$4",
      "数组": "class=\"pack-ykpack\">&&pack-subtitle cor3 hidden",
@@ -147,7 +147,7 @@
      }
 }, 
 {"key":"tvybo3","name":"TVb云播(PQ)","type":3,"api":"csp_XBPQ","playerType":1,"searchable":1,"filterable":1,
- "jar":"https://git.acwing.com/hogo18/hh/-/raw/main/jar/xpq.jar","ext":{
+ "jar":"./jar/xpq.jar","ext":{
    "分类url": "http://www.hktvyun.com/vod/show/area/{area}/by/{by}/class/{class}/id/{cateId}/page/{catePg}/year/{year}.html",
    "分类": "剧集$2#电影$1#动漫$4#综艺$3",
    "简介": "尤东风友情提醒🔺勿信广告，避免受骗🔺+p class=\"data hidden-xs\">&&<a href=",
@@ -157,7 +157,7 @@
    }
 },
 {"key":"红巾PQ","name":"好影快看(PQ)","type":3,"api":"csp_XBPQ","searchable":1,"filterable":1,"quickSearch":1,
- "jar":"https://git.acwing.com/hogo18/hh/-/raw/main/jar/xpq.jar","ext":{
+ "jar":"./jar/xpq.jar","ext":{
     "影片类型": "module-info-tag\">&&立即播放",
     "简介":"尤东风友情提醒🔺勿信广告，避免受骗🔺+剧情简介：&&</p>",
     "线路数组": "data-dropdown-value=&&</div>",
