@@ -18,4 +18,5 @@ filterable:0,
 limit:6,
 一级:'li.stui-vodlist__item;h4&&Text;.lazyload&&data-original;.pic-text&&Text;a&&href',
 搜索:'li.stui-vodlist__item;h4&&Text;.lazyload&&data-original;.pic-text&&Text;a&&href',
+tab_rename:{'混合秒播①源':'尤东风💠华为吧','猫猫秒播源':'尤东风💠猫猫源','超清稳速③源':'尤东风💠卧龙源','高清稳速②源':'尤东风💠非凡源'},
 }
