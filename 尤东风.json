@@ -12,6 +12,7 @@
  "ext": "caHR0cHM6Ly9zYzEwODAudG9wfGU1OWQ0NGIyZWVmMDNiYTJ8ZTU5ZDQ0YjJlZWYwM2JhMg==",
  "jar": "https://git.acwing.com/hogo18/hh/-/raw/main/jar/xk.jar"
 },
+{"key":"影猫影视","name":"影猫快播","type":1,"api":"http://v.tkbot.fun/api.php/provide/vod/","searchable":1}, 
 {"key": "瓜子影视","name": "瓜子影视()","type":3,"api": "csp_Gz360","searchable":1,"quickSearch":1,"filterable":1,
  "jar": "./jar/spider.jar"
 },
@@ -191,7 +192,7 @@
     "分类": "电视剧$2#电影$1#动漫$4#综艺$3#儿童$58"
      }
 },
-{"key":"push_agent","name":"推送()","type":3,"api":"csp_Push","ext":"https://git.acwing.com/hogo18/hh/-/raw/main/lib/tokenm.json"},
+{"key":"push_agent","name":"推送()","type":3,"api":"csp_Push","ext":"./lib/tokenm.json"},
 {"key": "网盘配置","name":"网盘配置","type":3,"api":"csp_Config","searchable":0,"changeable":0,
  "ext": "./lib/tokenm.json"
 }
