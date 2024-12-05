@@ -20,15 +20,15 @@
  "jar": "./jar/spider.txt"
 },
 {"key":"真心影视","name":"真心影视()","type":3,"api":"csp_WebGZ","searchable":1,"quickSearch":1,"filterable":1,
- "jar": "./jar/spider.jar"
+ "jar": "./jar/spider.txt"
 },
 {"key":"洽洽影视","name": "洽洽影视()","type":3,"api":"csp_AppGZ","searchable":1,"quickSearch":1,"filterable":1,
- "jar": "./jar/spider.jar"
+ "jar": "./jar/spider.txt"
 },
 {"key":"Xunlei8","name":"迅雷影视()","type": 3,"api":"csp_Xunlei8","searchable":1,"changeable":1,"filterable":1},
 {"key":"cspSixV","name":"新6影视()","type":3,"api":"csp_Xb6v","searchable":1,"quickSearch":1,"ext":"https://www.xb6v.com"},
 {"key":"Mp4电影","name": "Mp4电影()","type":3,"api":"csp_Mp4Mov","searchable":1,"quickSearch":1,"filterable":1,
- "jar": "./jar/spider.jar"
+ "jar": "./jar/spider.txt"
 },
 {"key":"SP360","name":"360影视(js)","type":3,"api":"./lib/drpy2.min.js",
  "searchable": 2,"playerType":2,"ext":"./sub/360.js"
