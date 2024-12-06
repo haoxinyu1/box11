@@ -46,6 +46,9 @@
 {"key":"嘟嘟电影","name": "嘟嘟电影(js)","type":3,"api":"./lib/drpy2.min.js",
  "searchable": 1,"quickSearch": 1,"ext": "./sub/嘟嘟电影.js"
 },
+{"key":"111tvs","name":"111影视(js)","type":3,"api":"./lib/drpy2.min.js",
+ "searchable": 2,"ext":"./js/111tvs.js"
+},
 {"key":"全网影视","name": "全网影视(js)","type":3,"api":"./lib/drpy2.min.js",
  "searchable": 1,"quickSearch": 1,"ext": "./js/全网影视.js"
 },
