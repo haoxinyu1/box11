@@ -30,8 +30,8 @@
 {"key":"Mp4电影","name": "Mp4电影()","type":3,"api":"csp_Mp4Mov","searchable":1,"quickSearch":1,"filterable":1,
  "jar": "./jar/spider.txt"
 },
-{"key":"111tvs","name":"111影视(js)","type":3,"api":"./lib/drpy2.min.js",
- "searchable": 2,"ext":"./js/111tvs.js"
+{"key":"瓜子js","name":"瓜子影视(js)","type":3,"api":"./lib/drpy2.min.js",
+ "searchable": 2,"playerType":2,"ext":"./js/瓜子.js"
 },
 {"key":"全网影视","name": "全网影视(js)","type":3,"api":"./lib/drpy2.min.js",
  "searchable": 1,"quickSearch": 1,"ext": "./js/全网影视.js"
@@ -60,6 +60,9 @@
 },
 {"key":"南瓜影视","name": "南瓜影视(js)","type":3,"api":"./lib/drpy2.min.js",
  "searchable": 1,"quickSearch": 1,"ext": "./sub/南瓜影视.js"
+},
+{"key":"111tvs","name":"111影视(js)","type":3,"api":"./lib/drpy2.min.js",
+ "searchable": 2,"ext":"./js/111tvs.js"
 },
 {"key":"网飞啦","name": "网飞影视(js)","type":3,"api":"./lib/drpy2.min.js",
  "searchable": 1,"quickSearch": 1,"ext": "./sub/网飞啦.js"
