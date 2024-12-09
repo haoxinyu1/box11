@@ -321,7 +321,7 @@ var rule = {
         });
         VOD = {
             vod_name: data2.vod_name,
-            vod_img: data2.vod_pic,
+            vod_pic: data2.vod_pic,
             //vod_type: data2.videoTag.toString(),
             //vod_desc: data2.vod_use_content,
             vod_content: '尤东风友情提醒🔺勿信广告，避免受骗🔺'+data2.vod_use_content,
