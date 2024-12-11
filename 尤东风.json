@@ -8,7 +8,7 @@
 {"key":"阿里云集合","name":"阿里💠分享()","type":3,"api":"csp_AliShare","changeable": 1,"filterable": 1,"timeout": 60,
  "ext": "./lib/tokenm.json$$$./sub/alishare1.txt$$$db$$$1","style": {"type": "list","ratio": 1.1}
 },
-{"key": "客星","name": "客星影視()","type":3,"api":"csp_Xdai","playerType": 2,
+{"key": "客星","name": "酷云影視()","type":3,"api":"csp_Xdai","playerType": 2,
  "ext": "caHR0cHM6Ly9zYzEwODAudG9wfGU1OWQ0NGIyZWVmMDNiYTJ8ZTU5ZDQ0YjJlZWYwM2JhMg==",
  "jar": "https://git.acwing.com/hogo18/hh/-/raw/main/jar/xk.jar"
 },
