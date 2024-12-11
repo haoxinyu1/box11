@@ -1,6 +1,6 @@
 var rule = {
     title: '可可影视',
-    host: 'https://www.kkys03.com/',//https://www.dushe9.app
+    host: 'https://www.kkys03.com/',//https://www.dushe9.app  //https://www.ncat3.com:51111/
     //host: 'https://www.kkys01.com',
     // url: '/show/fyclass-----2-fypage.html',
     url: '/show/fyclass-fyfilter-fypage.html',
