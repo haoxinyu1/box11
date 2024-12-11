@@ -223,15 +223,17 @@
 {"name": "1080解析2","type": 1,"url": "https://jxjson.icu/neibu.php?url=",
  "ext": {"header": {"User-Agent": "okhttp/4.9.1"}}
 },
+{"name": "2160解析","type": 1,"url": "http://1.94.221.189:88/algorithm.php?url=",
+ "ext": {"header": {"User-Agent": "okhttp/4.9.1"}}
+},
+{"name":"测试解析00","url": "https://ylu.cc/index.php?url="},
 {"name":"测试解析11","url": "https://bd.jx.cn/?url="},
 {"name":"hogo解析00","url": "https://jx.m3u8.pw/?url="}, 
 {"name":"hogo解析01","url":"https://jx.2s0.cn/player/?url="},
 {"name":"hogo解析02","url":"https://www.yemu.xyz/?url="},
 {"name":"hogo解析03","url":"https://jx.xmflv.com/?url="},
 {"name":"hogo解析04","url":"https://www.ckplayer.vip/jiexi/?url="}, 
-{"name":"hogo解析05","url":"https://www.playm3u8.cn/jiexi.php?url="},
-{"name":"自动解析04","url":"http://39.104.230.177:1122/lxjx/myvip.php?url=","type":1},
-{"name":"测试解析22","type":1,"url": "http://122.228.85.203:6789/api/?key="} 
+{"name":"hogo解析05","url":"https://www.playm3u8.cn/jiexi.php?url="}
 ],
 "flags":["imgo","youku","qq","iqiyi","qiyi","fun","letv","leshi","sohu","tudou","xigua","cntv","1905","pptv","mgtv","wasu","bilibili","斗音"],
 "ads":["mimg.0c1q0l.cn","www.googletagmanager.com","www.google-analytics.com","mc.usihnbcq.cn","mg.g1mm3d.cn",
