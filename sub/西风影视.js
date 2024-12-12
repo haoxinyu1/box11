@@ -11,7 +11,26 @@ searchUrl:'vod/search.html?wd=**&submit=',
 searchable:2,//是否启用全局搜索,
 quickSearch:0,//是否启用快速搜索,
 filterable:0,//是否启用分类筛选,
-lazy:'',
+play_parse:true,
+lazy:`js:
+  let html = request(input);
+  let hconf = html.match(/r player_.*?=(.*?)</)[1];
+  let json = JSON5.parse(hconf);
+  let url = json.url;
+  if (json.encrypt == '1') {
+    url = unescape(url);
+  } else if (json.encrypt == '2') {
+    url = unescape(base64Decode(url));
+  }
+  if (/\\.(m3u8|mp4|m4a|mp3)/.test(url)) {
+    input = {
+      parse: 0,
+      jx: 0,
+      url: url,
+    };
+  } else {
+    input;
+  }`,
 limit:6,
 推荐:'*',
 double:true, // 推荐内容是否双层定位
