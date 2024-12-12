@@ -31,9 +31,6 @@
 {"key": "素白白","name": "素白影視()","type":3,"api":"csp_Subaibai","searchable":1,"quickSearch":1,
  "filterable":1,"ext": "http://subaibai.com","jar": "./jar/spider.txt"
 },
-{"key": "瓜子影视","name": "瓜子影视()","type":3,"api": "csp_Gz360","searchable":1,"quickSearch":1,"filterable":1,
- "jar": "./jar/spider.txt"
-},
 {"key":"真心影视","name":"真心影视()","type":3,"api":"csp_WebGZ","searchable":1,"quickSearch":1,"filterable":1,
  "jar": "./jar/spider.txt"
 },
