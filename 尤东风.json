@@ -25,6 +25,9 @@
 {"key": "瓜子影视","name": "瓜子影视()","type":3,"api": "csp_Gz360","searchable":1,"quickSearch":1,"filterable":1,
  "jar": "./jar/spider.txt"
 },
+{"key":"SP360","name":"360影视(js)","type":3,"api":"./lib/drpy2.min.js",
+ "searchable": 2,"playerType":2,"ext":"./sub/360.js"
+},
 {"key":"真心影视","name":"真心影视()","type":3,"api":"csp_WebGZ","searchable":1,"quickSearch":1,"filterable":1,
  "jar": "./jar/spider.txt"
 },
@@ -41,9 +44,6 @@
 },
 {"key":"嘟嘟电影","name": "嘟嘟电影(js)","type":3,"api":"./lib/drpy2.min.js",
  "searchable": 1,"quickSearch": 1,"ext": "./sub/嘟嘟电影.js"
-},
-{"key":"SP360","name":"360影视(js)","type":3,"api":"./lib/drpy2.min.js",
- "searchable": 2,"playerType":2,"ext":"./sub/360.js"
 },
 {"key":"ikun","name": "采集💠集合(js)","type":3,"api":"./lib/drpy2.min.js",
  "searchable": 1,"quickSearch": 1,
