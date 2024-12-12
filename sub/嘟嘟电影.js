@@ -11,7 +11,25 @@ searchable:2,
 quickSearch:0,
 filterable:0,
 play_parse:true,
-lazy:'',
+lazy:`js:
+  let html = request(input);
+  let hconf = html.match(/r player_.*?=(.*?)</)[1];
+  let json = JSON5.parse(hconf);
+  let url = json.url;
+  if (json.encrypt == '1') {
+    url = unescape(url);
+  } else if (json.encrypt == '2') {
+    url = unescape(base64Decode(url));
+  }
+  if (/\\.(m3u8|mp4|m4a|mp3)/.test(url)) {
+    input = {
+      parse: 0,
+      jx: 0,
+      url: url,
+    };
+  } else {
+    input;
+  }`,
 limit:6,
 推荐:'ul.myui-vodlist;li;*;*;*;*',
 double:true, // 推荐内容是否双层定位
