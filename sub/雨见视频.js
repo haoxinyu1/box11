@@ -10,7 +10,7 @@ var rule={
     quickSearch: 0,
     filterable: 1,
     play_parse:true,
-lazy:`js:
+  lazy:`js:
   let html = request(input);
   let hconf = html.match(/r player_.*?=(.*?)</)[1];
   let json = JSON5.parse(hconf);
