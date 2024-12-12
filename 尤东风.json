@@ -8,6 +8,9 @@
 {"key":"阿里云集合","name":"阿里💠分享()","type":3,"api":"csp_AliShare","changeable": 1,"filterable": 1,"timeout": 60,
  "ext": "./lib/tokenm.json$$$./sub/alishare1.txt$$$db$$$1","style": {"type": "list","ratio": 1.1}
 },
+{"key":"瓜子js","name":"瓜子影视(js)","type":3,"api":"./lib/drpy2.min.js",
+ "searchable": 2,"playerType":2,"ext":"./js/瓜子.js"
+},
 {"key":"可可js","name":"可可影视(js)","type":3,"api":"./lib/drpy2.min.js",
  "searchable": 2,"playerType":2,"ext":"./js/可可影视.js"
 },
@@ -32,9 +35,6 @@
 {"key":"cspSixV","name":"新6影视()","type":3,"api":"csp_Xb6v","searchable":1,"quickSearch":1,"ext":"https://www.xb6v.com"},
 {"key":"Mp4电影","name": "Mp4电影()","type":3,"api":"csp_Mp4Mov","searchable":1,"quickSearch":1,"filterable":1,
  "jar": "./jar/spider.txt"
-},
-{"key":"瓜子js","name":"瓜子影视(js)","type":3,"api":"./lib/drpy2.min.js",
- "searchable": 2,"playerType":2,"ext":"./js/瓜子.js"
 },
 {"key":"全网影视","name": "全网影视(js)","type":3,"api":"./lib/drpy2.min.js",
  "searchable": 1,"quickSearch": 1,"ext": "./js/全网影视.js"
