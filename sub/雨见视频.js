@@ -9,14 +9,32 @@ var rule={
     searchable: 2,
     quickSearch: 0,
     filterable: 1,
-	play_parse: true,
+    play_parse:true,
+lazy:`js:
+  let html = request(input);
+  let hconf = html.match(/r player_.*?=(.*?)</)[1];
+  let json = JSON5.parse(hconf);
+  let url = json.url;
+  if (json.encrypt == '1') {
+    url = unescape(url);
+  } else if (json.encrypt == '2') {
+    url = unescape(base64Decode(url));
+  }
+  if (/\\.(m3u8|mp4|m4a|mp3)/.test(url)) {
+    input = {
+      parse: 0,
+      jx: 0,
+      url: url,
+    };
+  } else {
+    input;
+  }`,
     headers: {
     'User-Agent': 'Mozilla/5.0',
     },
 	//class_parse: '.hl-nav&&.hl-nav-item;a&&Text;a&&href;/(\\w+).html',
 	class_name:"电视剧&电影库&综艺库&动漫库",
 	class_url:"2&1&3&4&",
-	lazy: '',
     limit: 6, 
     推荐: 'body&&.hl-list-item;a&&title;a&&data-original;.hl-pic-text&&Text;a&&href',
     double: true,
