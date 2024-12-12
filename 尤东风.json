@@ -24,10 +24,6 @@
  "searchable": 2,"playerType":2,"ext":"./js/可可影视.js"
 },
 {"key":"客星","name":"酷云影視(js)","type":3,"api":"./cat/kyys.js"},
-{"key": "客星","name": "酷云影視()","type":3,"api":"csp_Xdai","playerType": 2,
- "ext": "caHR0cHM6Ly9zYzEwODAudG9wfGU1OWQ0NGIyZWVmMDNiYTJ8ZTU5ZDQ0YjJlZWYwM2JhMg==",
- "jar": "https://git.acwing.com/hogo18/hh/-/raw/main/jar/xk.jar"
-},
 {"key":"影猫影视","name":"影猫快播","type":1,"api":"http://v.tkbot.fun/api.php/provide/vod/","searchable":1}, 
 {"key": "素白白","name": "素白影視()","type":3,"api":"csp_Subaibai","searchable":1,"quickSearch":1,
  "filterable":1,"ext": "http://subaibai.com","jar": "./jar/spider.txt"
