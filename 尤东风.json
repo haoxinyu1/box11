@@ -23,6 +23,7 @@
 {"key":"可可js","name":"可可影视(js)","type":3,"api":"./lib/drpy2.min.js",
  "searchable": 2,"playerType":2,"ext":"./js/可可影视.js"
 },
+{"key":"客星","name":"酷云影視(js)","type":3,"api":"./cat/kyys.js"},
 {"key": "客星","name": "酷云影視()","type":3,"api":"csp_Xdai","playerType": 2,
  "ext": "caHR0cHM6Ly9zYzEwODAudG9wfGU1OWQ0NGIyZWVmMDNiYTJ8ZTU5ZDQ0YjJlZWYwM2JhMg==",
  "jar": "https://git.acwing.com/hogo18/hh/-/raw/main/jar/xk.jar"
