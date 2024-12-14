@@ -43,7 +43,7 @@ var rule = {
             type_name: vod_type,
             vod_actor: actor,
             vod_director: director,
-            vod_content: content,
+            vod_content: '尤东风友情提醒🔺勿信广告，避免受骗🔺'+content,
             vod_remarks: area,
             vod_pic: urljoin2(input, img)
         };
