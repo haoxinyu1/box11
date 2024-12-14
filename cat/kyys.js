@@ -158,7 +158,7 @@ async function detail(id) {
         });
         urls.push(nameUrls.join('#'));
     });
-    videos.vod_play_from = froms.join('$$$');
+    videos.vod_play_from = froms.join('💠$$$');
     videos.vod_play_url = urls.join('$$$');
     return JSON.stringify({
         list: [videos],
