@@ -59,8 +59,8 @@ var rule = {
   二级: {
     title: 'h1&&Text',
     content: '.wrapper_more_text&&Text',
-    //tabs: '.top a',//
-    tabs: '.player_name',
+    tabs: 'js:TABS = ["尤东风💠在线"]',
+    //tabs: '.player_name',
     lists: '.main-list-sections__BodyArea-sc-8bb7334b-2 .listitem a',
   },
   搜索: $js.toString(()=>{
