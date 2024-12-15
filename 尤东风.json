@@ -89,9 +89,9 @@
 {"key":"bt磁力","name":"B_t磁力(js)","type":3,"api":"./lib/drpy2.min.js",
  "searchable":1,"ext": "./js/bt磁力.js"
 },
-{"key":"ikun","name": "采集💠集合(js)","type":3,"api":"https://ghproxy.net/https://raw.githubusercontent.com/hogo18/box/main/lib/drpy2.min.js",
+{"key":"ikun","name": "采集💠集合(js)","type":3,"api":"./lib/drpy2.min.js",
  "searchable": 1,"quickSearch": 1,
- "ext":"https://ghproxy.net/https://raw.githubusercontent.com/hogo18/box/main/lib/采集之王.js?type=url&params=https://ghproxy.net/https://raw.githubusercontent.com/hogo18/box/main/sub/采集静态.json$1$1"
+ "ext":"./lib/采集之王.js?type=url&params=./sub/采集静态.json$1$1"
 },
 {"key":"爱看电影PQ","name":"爱看电影(PQ)","type":3,"api":"csp_XBPQ","searchable":1,"filterable":1,"quickSearch":1,
  "jar":"https://github.moeyy.xyz/https://raw.githubusercontent.com/hogo18/box/main/jar/spider.jar","ext":{
