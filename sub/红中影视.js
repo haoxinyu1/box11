@@ -206,4 +206,5 @@ var rule = {
         //  console.log(data);
         setResult(d);
     }),
+    tab_remove:['VIP线路💠尤东风','本周热门电视剧'],
 }
