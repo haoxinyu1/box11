@@ -84,7 +84,7 @@
 {"key":"Xunlei8","name":"迅雷磁力()","type": 3,"api":"csp_Xunlei8","searchable":1,"changeable":1,"filterable":1},
 {"key":"cspSixV","name":"新6磁力()","type":3,"api":"csp_Xb6v","searchable":1,"quickSearch":1,"ext":"https://www.xb6v.com"},
 {"key":"Mp4电影","name": "Mp4磁力()","type":3,"api":"csp_Mp4Mov","searchable":1,"quickSearch":1,"filterable":1,
- "jar": " https://github.moeyy.xyz/https://raw.githubusercontent.com/hogo18/box/main/jar/spider.txt"
+ "jar": " ./jar/spider.txt"
 },
 {"key":"bt磁力","name":"B_t磁力(js)","type":3,"api":"./lib/drpy2.min.js",
  "searchable":1,"ext": "./js/bt磁力.js"
