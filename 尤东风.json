@@ -30,7 +30,7 @@
  "searchable": 2,"playerType":2,"ext":"https://ghproxy.net/https://raw.githubusercontent.com/hogo18/box/main/js/毒蛇电影.js"
 },
 {"key":"素白白","name": "素白影視()","type":3,"api":"csp_Subaibai","searchable":1,"quickSearch":1,
- "filterable":1,"ext": "http://subaibai.com","jar": "https://git.acwing.com/hogo18/hh/-/raw/main/jar/spider.txt"
+ "filterable":1,"ext": "http://subaibai.com","jar": "./jar/spider.txt"
 },
 {"key":"真心影视","name":"真心影视()","type":3,"api":"csp_WebGZ","searchable":1,"quickSearch":1,"filterable":1,
  "jar": " https://github.moeyy.xyz/https://raw.githubusercontent.com/hogo18/box/main/jar/spider.txt"
@@ -66,14 +66,14 @@
 {"key":"111tvs","name":"111影视(js)","type":3,"api":"https://ghproxy.net/https://raw.githubusercontent.com/hogo18/box/main/lib/drpy2.min.js",
  "searchable": 2,"ext":"https://ghproxy.net/https://raw.githubusercontent.com/hogo18/box/main/js/111tvs.js"
 },
-{"key":"红中影视","name": "红中影视(js)","type":3,"api":"https://git.acwing.com/hogo18/hh/-/raw/main/lib/drpy2.min.js",
- "searchable": 1,"quickSearch": 1,"ext": "https://git.acwing.com/hogo18/hh/-/raw/main/sub/红中影视.js"
+{"key":"红中影视","name": "红中影视(js)","type":3,"api":"./lib/drpy2.min.js",
+ "searchable": 1,"quickSearch": 1,"ext": "./sub/红中影视.js"
 },
-{"key":"东风影视","name": "东风影视(js)","type":3,"api":"https://git.acwing.com/hogo18/hh/-/raw/main/lib/drpy2.min.js",
+{"key":"东风影视","name": "东风影视(js)","type":3,"api":"./lib/drpy2.min.js",
  "searchable": 1,"quickSearch": 1,"ext": "https://git.acwing.com/hogo18/hh/-/raw/main/sub/东风影视.js"
 },
-{"key":"南风影视","name": "南风影视(js)","type":3,"api":"https://git.acwing.com/hogo18/hh/-/raw/main/lib/drpy2.min.js",
- "searchable":1,"quickSearch": 1,"ext": "https://git.acwing.com/hogo18/hh/-/raw/main/sub/南风影视.js"
+{"key":"南风影视","name": "南风影视(js)","type":3,"api":"./lib/drpy2.min.js",
+ "searchable":1,"quickSearch": 1,"ext": "./sub/南风影视.js"
 },
 {"key":"西风影视","name":"西风影视(js)","type":3,"api":"https://git.acwing.com/hogo18/hh/-/raw/main/lib/drpy2.min.js",
  "searchable":1,"ext": "https://git.acwing.com/hogo18/hh/-/raw/main/sub/西风影视.js"
