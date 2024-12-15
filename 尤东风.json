@@ -94,7 +94,7 @@
  "ext":"./lib/采集之王.js?type=url&params=./sub/采集静态.json$1$1"
 },
 {"key":"爱看电影PQ","name":"金牌系💠III(PQ)","type":3,"api":"csp_XBPQ","searchable":1,"filterable":1,"quickSearch":1,
- "jar":"https://github.moeyy.xyz/https://raw.githubusercontent.com/hogo18/box/main/jar/spider.txt",
+ "jar":"./jar/spider.txt",
  "ext":{
         "分类url": "https://www.gs4x7nq4.com/vod/show/id/{cateId}/class/{class}/year/{year}/area/{area}/page/{catePg}",
         "分类": "电视剧$2#电影$1#综艺$3#动漫$4",
@@ -120,7 +120,7 @@
      }
 },
 {"key":"可可影视PQ","name":"可可系💠III(PQ)","type":3,"api":"csp_XBPQ","searchable":1,"quickSearch":1,"filterable":1,
- "jar":"https://github.moeyy.xyz/https://raw.githubusercontent.com/hogo18/box/main/jar/spider.txt",
+ "jar":"./jar/spider.txt",
  "ext":{ 
           "分类url": "https://www.ncat3.com:51111/show/{cateId}-{class}--{lang}-{year}-2-{catePg}.html",
           "分类":"电视剧$2#电影$1#动漫$3#综艺$4#短剧$6",
@@ -148,7 +148,7 @@
      }
 },
 {"key":"飞飞影视PQ","name":"飞飞影视(PQ)","type":3,"api":"csp_XBPQ","searchable":1,"quickSearch":1,"filterable":1,
- "jar":"https://github.moeyy.xyz/https://raw.githubusercontent.com/hogo18/box/main/jar/spider.txt",
+ "jar":"./jar/spider.txt",
  "ext":{
 	"分类url": "https://www.ffys.fun/vodshow/id/{cateId}/area/{area}/by/{by}/class/{class}/page/{catePg}/year/{year}.html", 
         "分类": "电影$20#剧集$21#动漫$22#综艺$23#记录片$24#爽剧$25",
@@ -158,7 +158,7 @@
        }
 },
 {"key":"优优xBPQ","name":"优优影视(PQ)","type":3,"api":"csp_XBPQ","searchable":1,"quickSearch":1,"filterable":1,
- "jar":"https://github.moeyy.xyz/https://raw.githubusercontent.com/hogo18/box/main/jar/spider.txt",
+ "jar":"./jar/spider.txt",
  "ext":{
      "分类url":"https://nuu.su/x/area/{area}/by/{by}/class/{class}/id/{cateId}/page/{catePg}/year/{year}.html",
      "分类":"电视剧$2#电影$1#纪录$6#综艺$3#动漫$4",
@@ -166,7 +166,7 @@
      }
 },
 {"key":"tvybo3","name":"TVb云播(PQ)","type":3,"api":"csp_XBPQ","playerType":1,"searchable":1,"filterable":1,
- "jar":"https://github.moeyy.xyz/https://raw.githubusercontent.com/hogo18/box/main/jar/spider.txt",
+ "jar":"./jar/spider.txt",
  "ext":{
    "免嗅": "1",
    "分类url": "http://www.hktvyun.com/vod/show/area/{area}/by/{by}/class/{class}/id/{cateId}/page/{catePg}/year/{year}.html",
@@ -178,7 +178,7 @@
    }
 },
 {"key":"红巾PQ","name":"好影快看(PQ)","type":3,"api":"csp_XBPQ","searchable":1,"filterable":1,"quickSearch":1,
- "jar":"https://github.moeyy.xyz/https://raw.githubusercontent.com/hogo18/box/main/jar/spider.txt",
+ "jar":"./jar/spider.txt",
  "ext":{
     "影片类型": "module-info-tag\">&&立即播放",
     "简介":"尤东风友情提醒🔺勿信广告，避免受骗🔺+剧情简介：&&</p>",
