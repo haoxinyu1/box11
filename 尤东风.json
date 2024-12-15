@@ -39,11 +39,11 @@
  "jar": "./jar/spider.txt"
 },
 {"key":"影猫影视","name":"影猫快播","type":1,"api":"http://v.tkbot.fun/api.php/provide/vod/","searchable":1}, 
-{"key":"厂长","name":"厂长影视(js)","type":3,"api":"https://ghproxy.net/https://raw.githubusercontent.com/hogo18/box/main/lib/drpy2.min.js",
- "searchable":1,"quickSearch":1,"ext":"https://ghproxy.net/https://raw.githubusercontent.com/hogo18/box/main/js/厂长资源.js"
+{"key":"厂长","name":"厂长影视(js)","type":3,"api":"./lib/drpy2.min.js",
+ "searchable":1,"quickSearch":1,"ext":"./js/厂长资源.js"
 },
-{"key":"月亮PQ","name":"月亮影院(js)","type":3,"api":"https://ghproxy.net/https://raw.githubusercontent.com/hogo18/box/main/lib/drpy2.min.js",
- "searchable":1,"quickSearch":1,"ext":"https://ghproxy.net/https://raw.githubusercontent.com/hogo18/box/main/sub/月亮影视.js"
+{"key":"月亮PQ","name":"月亮影院(js)","type":3,"api":"./lib/drpy2.min.js",
+ "searchable":1,"quickSearch":1,"ext":"./sub/月亮影视.js"
 },
 {"key":"全网影视","name": "全网影视(js)","type":3,"api":"https://ghproxy.net/https://raw.githubusercontent.com/hogo18/box/main/lib/drpy2.min.js",
  "searchable": 1,"quickSearch": 1,"ext": "https://ghproxy.net/https://raw.githubusercontent.com/hogo18/box/main/js/全网影视.js"
