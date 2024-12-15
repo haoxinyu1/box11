@@ -70,24 +70,24 @@
  "searchable": 1,"quickSearch": 1,"ext": "./sub/红中影视.js"
 },
 {"key":"东风影视","name": "东风影视(js)","type":3,"api":"./lib/drpy2.min.js",
- "searchable": 1,"quickSearch": 1,"ext": "https://git.acwing.com/hogo18/hh/-/raw/main/sub/东风影视.js"
+ "searchable": 1,"quickSearch": 1,"ext": "./sub/东风影视.js"
 },
 {"key":"南风影视","name": "南风影视(js)","type":3,"api":"./lib/drpy2.min.js",
  "searchable":1,"quickSearch": 1,"ext": "./sub/南风影视.js"
 },
-{"key":"西风影视","name":"西风影视(js)","type":3,"api":"https://git.acwing.com/hogo18/hh/-/raw/main/lib/drpy2.min.js",
- "searchable":1,"ext": "https://git.acwing.com/hogo18/hh/-/raw/main/sub/西风影视.js"
+{"key":"西风影视","name":"西风影视(js)","type":3,"api":"./lib/drpy2.min.js",
+ "searchable":1,"ext": "./sub/西风影视.js"
 },
-{"key":"北风影视","name":"北风影视(js)","type":3,"api":"https://git.acwing.com/hogo18/hh/-/raw/main/lib/drpy2.min.js",
-  "ext": "https://git.acwing.com/hogo18/hh/-/raw/main/sub/北风影视.js","searchable":1
+{"key":"北风影视","name":"北风影视(js)","type":3,"api":"./lib/drpy2.min.js",
+  "ext": "./sub/北风影视.js","searchable":1
 },
 {"key":"Xunlei8","name":"迅雷磁力()","type": 3,"api":"csp_Xunlei8","searchable":1,"changeable":1,"filterable":1},
 {"key":"cspSixV","name":"新6磁力()","type":3,"api":"csp_Xb6v","searchable":1,"quickSearch":1,"ext":"https://www.xb6v.com"},
 {"key":"Mp4电影","name": "Mp4磁力()","type":3,"api":"csp_Mp4Mov","searchable":1,"quickSearch":1,"filterable":1,
  "jar": " https://github.moeyy.xyz/https://raw.githubusercontent.com/hogo18/box/main/jar/spider.txt"
 },
-{"key":"bt磁力","name":"B_t磁力(js)","type":3,"api":"https://git.acwing.com/hogo18/hh/-/raw/main/lib/drpy2.min.js",
- "searchable":1,"ext": "https://git.acwing.com/hogo18/hh/-/raw/main/js/bt磁力.js"
+{"key":"bt磁力","name":"B_t磁力(js)","type":3,"api":"./lib/drpy2.min.js",
+ "searchable":1,"ext": "./js/bt磁力.js"
 },
 {"key":"ikun","name": "采集💠集合(js)","type":3,"api":"https://ghproxy.net/https://raw.githubusercontent.com/hogo18/box/main/lib/drpy2.min.js",
  "searchable": 1,"quickSearch": 1,
