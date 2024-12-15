@@ -93,8 +93,9 @@
  "searchable": 1,"quickSearch": 1,
  "ext":"./lib/采集之王.js?type=url&params=./sub/采集静态.json$1$1"
 },
-{"key":"爱看电影PQ","name":"爱看电影(PQ)","type":3,"api":"csp_XBPQ","searchable":1,"filterable":1,"quickSearch":1,
- "jar":"https://github.moeyy.xyz/https://raw.githubusercontent.com/hogo18/box/main/jar/spider.jar","ext":{
+{"key":"爱看电影PQ","name":"金牌系💠III(PQ)","type":3,"api":"csp_XBPQ","searchable":1,"filterable":1,"quickSearch":1,
+ "jar":"https://github.moeyy.xyz/https://raw.githubusercontent.com/hogo18/box/main/jar/spider.txt",
+ "ext":{
         "分类url": "https://www.gs4x7nq4.com/vod/show/id/{cateId}/class/{class}/year/{year}/area/{area}/page/{catePg}",
         "分类": "电视剧$2#电影$1#综艺$3#动漫$4",
         "播放请求头": "User-Agent$Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36",
@@ -118,8 +119,9 @@
         "搜索副标题": "class=\"boottom\"*<div>&&</div"   
      }
 },
-{"key":"可可影视PQ","name":"飞猫影视(PQ)","type":3,"api":"csp_XBPQ","searchable":1,"quickSearch":1,"filterable":1,
- "jar":"./jar/xpq.jar","ext":{ 
+{"key":"可可影视PQ","name":"可可系💠III(PQ)","type":3,"api":"csp_XBPQ","searchable":1,"quickSearch":1,"filterable":1,
+ "jar":"https://github.moeyy.xyz/https://raw.githubusercontent.com/hogo18/box/main/jar/spider.txt",
+ "ext":{ 
           "分类url": "https://www.ncat3.com:51111/show/{cateId}-{class}--{lang}-{year}-2-{catePg}.html",
           "分类":"电视剧$2#电影$1#动漫$3#综艺$4#短剧$6",
           "数组": "module-item\">&&\"v-item-footer\">",
@@ -146,7 +148,8 @@
      }
 },
 {"key":"飞飞影视PQ","name":"飞飞影视(PQ)","type":3,"api":"csp_XBPQ","searchable":1,"quickSearch":1,"filterable":1,
- "jar":"./jar/xpq.jar","ext":{
+ "jar":"https://github.moeyy.xyz/https://raw.githubusercontent.com/hogo18/box/main/jar/spider.txt",
+ "ext":{
 	"分类url": "https://www.ffys.fun/vodshow/id/{cateId}/area/{area}/by/{by}/class/{class}/page/{catePg}/year/{year}.html", 
         "分类": "电影$20#剧集$21#动漫$22#综艺$23#记录片$24#爽剧$25",
         "简介":"尤东风友情提醒🔺勿信广告，避免受骗🔺+<p>&&</p>",
@@ -155,24 +158,17 @@
        }
 },
 {"key":"优优xBPQ","name":"优优影视(PQ)","type":3,"api":"csp_XBPQ","searchable":1,"quickSearch":1,"filterable":1,
- "jar":"./jar/xpq.jar","ext":{
+ "jar":"https://github.moeyy.xyz/https://raw.githubusercontent.com/hogo18/box/main/jar/spider.txt",
+ "ext":{
      "分类url":"https://nuu.su/x/area/{area}/by/{by}/class/{class}/id/{cateId}/page/{catePg}/year/{year}.html",
      "分类":"电视剧$2#电影$1#纪录$6#综艺$3#动漫$4",
      "简介":"尤东风友情提醒🔺勿信广告，避免受骗🔺+p>&&</p>"
      }
 },
-{"key":"月亮PQ","name":"月亮影院(PQ)","type":3,"api":"csp_XBPQ","searchable":1,"filterable":1,"quickSearch":1,
- "jar":"./jar/xpq.jar","ext":{
-     "分类url":"https://tv.woaimoon.net/vodshow/{cateId}/area/{area}/by/{by}/class/{class}/page/{catePg}/year/{year}.html",
-     "分类":"电视剧$2#电影$1#综艺$3#动漫$4",
-     "数组": "class=\"pack-ykpack\">&&pack-subtitle cor3 hidden",
-     "简介":"尤东风友情提醒🔺勿信广告，避免受骗🔺+id=\"cText\">&&</a>",
-     "线路数组":"channelname swiper-slide\">&&</a>",
-     "线路标题":"尤东风💠+&nbsp;&&<[排序:腾讯>奇艺>优酷>芒果>搜狐]"
-     }
-}, 
 {"key":"tvybo3","name":"TVb云播(PQ)","type":3,"api":"csp_XBPQ","playerType":1,"searchable":1,"filterable":1,
- "jar":"./jar/xpq.jar","ext":{
+ "jar":"https://github.moeyy.xyz/https://raw.githubusercontent.com/hogo18/box/main/jar/spider.txt",
+ "ext":{
+   "免嗅": "1",
    "分类url": "http://www.hktvyun.com/vod/show/area/{area}/by/{by}/class/{class}/id/{cateId}/page/{catePg}/year/{year}.html",
    "分类": "剧集$2#电影$1#动漫$4#综艺$3",
    "简介": "尤东风友情提醒🔺勿信广告，避免受骗🔺+p class=\"data hidden-xs\">&&<a href=",
@@ -182,7 +178,8 @@
    }
 },
 {"key":"红巾PQ","name":"好影快看(PQ)","type":3,"api":"csp_XBPQ","searchable":1,"filterable":1,"quickSearch":1,
- "jar":"./jar/xpq.jar","ext":{
+ "jar":"https://github.moeyy.xyz/https://raw.githubusercontent.com/hogo18/box/main/jar/spider.txt",
+ "ext":{
     "影片类型": "module-info-tag\">&&立即播放",
     "简介":"尤东风友情提醒🔺勿信广告，避免受骗🔺+剧情简介：&&</p>",
     "线路数组": "data-dropdown-value=&&</div>",
