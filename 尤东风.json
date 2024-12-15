@@ -57,14 +57,14 @@
 {"key":"南瓜影视","name": "南瓜影视(js)","type":3,"api":"./lib/drpy2.min.js",
  "searchable": 1,"quickSearch": 1,"ext": "./sub/南瓜影视.js"
 },
-{"key":"网飞啦","name": "网飞影视(js)","type":3,"api":"https://ghproxy.net/https://raw.githubusercontent.com/hogo18/box/main/lib/drpy2.min.js",
- "searchable": 1,"quickSearch": 1,"ext": "https://ghproxy.net/https://raw.githubusercontent.com/hogo18/box/main/sub/网飞啦.js"
+{"key":"网飞啦","name": "网飞影视(js)","type":3,"api":"./lib/drpy2.min.js",
+ "searchable": 1,"quickSearch": 1,"ext": "./sub/网飞啦.js"
 },
-{"key":"电影先生","name": "电影先生(js)","type":3,"api":"https://ghproxy.net/https://raw.githubusercontent.com/hogo18/box/main/lib/drpy2.min.js",
- "searchable": 1,"quickSearch": 1,"ext": "https://ghproxy.net/https://raw.githubusercontent.com/hogo18/box/main/sub/电影先生.js"
+{"key":"电影先生","name": "电影先生(js)","type":3,"api":"./lib/drpy2.min.js",
+ "searchable": 1,"quickSearch": 1,"ext": "./sub/电影先生.js"
 },
-{"key":"111tvs","name":"111影视(js)","type":3,"api":"https://ghproxy.net/https://raw.githubusercontent.com/hogo18/box/main/lib/drpy2.min.js",
- "searchable": 2,"ext":"https://ghproxy.net/https://raw.githubusercontent.com/hogo18/box/main/js/111tvs.js"
+{"key":"111tvs","name":"111影视(js)","type":3,"api":"./lib/drpy2.min.js",
+ "searchable": 2,"ext":"./js/111tvs.js"
 },
 {"key":"红中影视","name": "红中影视(js)","type":3,"api":"./lib/drpy2.min.js",
  "searchable": 1,"quickSearch": 1,"ext": "./sub/红中影视.js"
