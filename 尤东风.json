@@ -26,17 +26,17 @@
 {"key":"可可js","name":"可可系💠I(js)","type":3,"api":"./lib/drpy2.min.js",
  "searchable": 2,"playerType":2,"ext":"./js/可可影视.js"
 },
-{"key":"毒蛇js","name":"可可系💠II(js)","type":3,"api":"https://ghproxy.net/https://raw.githubusercontent.com/hogo18/box/main/lib/drpy2.min.js",
- "searchable": 2,"playerType":2,"ext":"https://ghproxy.net/https://raw.githubusercontent.com/hogo18/box/main/js/毒蛇电影.js"
+{"key":"毒蛇js","name":"可可系💠II(js)","type":3,"api":"./lib/drpy2.min.js",
+ "searchable": 2,"playerType":2,"ext":"./js/毒蛇电影.js"
 },
 {"key":"素白白","name": "素白影視()","type":3,"api":"csp_Subaibai","searchable":1,"quickSearch":1,
  "filterable":1,"ext": "http://subaibai.com","jar": "./jar/spider.txt"
 },
 {"key":"真心影视","name":"真心影视()","type":3,"api":"csp_WebGZ","searchable":1,"quickSearch":1,"filterable":1,
- "jar": " https://github.moeyy.xyz/https://raw.githubusercontent.com/hogo18/box/main/jar/spider.txt"
+ "jar": " ./jar/spider.txt"
 },
 {"key":"洽洽影视","name": "洽洽影视()","type":3,"api":"csp_AppGZ","searchable":1,"quickSearch":1,"filterable":1,
- "jar": " https://github.moeyy.xyz/https://raw.githubusercontent.com/hogo18/box/main/jar/spider.txt"
+ "jar": "./jar/spider.txt"
 },
 {"key":"影猫影视","name":"影猫快播","type":1,"api":"http://v.tkbot.fun/api.php/provide/vod/","searchable":1}, 
 {"key":"厂长","name":"厂长影视(js)","type":3,"api":"https://ghproxy.net/https://raw.githubusercontent.com/hogo18/box/main/lib/drpy2.min.js",
