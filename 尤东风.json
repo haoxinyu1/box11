@@ -14,14 +14,11 @@
 {"key":"SP360","name":"360影视(js)","type":3,"api":"./lib/drpy2.min.js",
  "searchable": 2,"playerType":2,"ext":"./sub/360.js"
 },
-{"key":"界界影视","name": "金牌系💠I (js)","type":3,"api":"https://ghproxy.net/https://raw.githubusercontent.com/hogo18/box/main/lib/drpy2.min.js",
- "searchable": 1,"quickSearch": 1,"ext": "https://ghproxy.net/https://raw.githubusercontent.com/hogo18/box/main/js/界界影视.js"
+{"key":"界界影视","name": "金牌系💠I (js)","type":3,"api":"./lib/drpy2.min.js",
+ "searchable": 1,"quickSearch": 1,"ext": "./js/界界影视.js"
 },
 {"key":"金牌影院","name":"金牌系💠II (js)","type":3,"api":"https://ghproxy.net/https://raw.githubusercontent.com/hogo18/box/main/lib/drpy2.min.js",
  "searchable": 1,"quickSearch": 1,"ext": "https://ghproxy.net/https://raw.githubusercontent.com/hogo18/box/main/sub/金牌影院.js"
-},
-{"key": "酷云影院","name": "酷云系💠I(js)","type":3,
- "api":"https://git.acwing.com/hogo18/hh/-/raw/main/cat/68gy.js"
 },
 {"key":"客星","name":"酷云系💠II(js)","type":3,
  "api":"https://ghproxy.net/https://raw.githubusercontent.com/hogo18/box/main/cat/kyys.js"
