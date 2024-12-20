@@ -1,7 +1,7 @@
 rule = {
     host: 'http://gz360.tv',
-    class_name: '电影&电视剧&动漫&综艺',
-    class_url: '3&4&5&6',
+    class_name: '电视剧&电影&动漫&综艺',
+    class_url: '4&3&5&6',
     //homeVod: '.van-swipe-item;img&&alt;a&&href;img&&data-src;.movie-cover&&Text',
     categoryVodJS: `
       var params = '{"pid":' + classId+',"pageSize":24,"page":' +page+'}';
