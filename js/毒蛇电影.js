@@ -23,7 +23,8 @@ var rule = {
     limit: 20,
     推荐: '.section-box:eq(2)&&.module-box-inner&&.module-item;*;*;*;*',
     double: false,
-    一级: '.module-box-inner&&.module-item;.v-item-title:eq(1)&&Text;img:last-of-type&&data-original;.v-item-bottom&&span:eq(1)&&Text;a&&href',
+    一级: '.module-item;.v-item-title&&Text;img.lazyload&&data-original;.v-item-bottom span&&Text;a&&href',
+    //一级: '.module-box-inner&&.module-item;.v-item-title:eq(1)&&Text;img:last-of-type&&data-original;.v-item-bottom&&span:eq(1)&&Text;a&&href',
     二级: {
         title: '.detail-pic&&img&&alt;.detail-tags&&a&&Text',
         img: '.detail-pic&&img&&data-original',
