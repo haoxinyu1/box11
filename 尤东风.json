@@ -154,7 +154,7 @@
      }
 },
 {"key": "iysdq","name":"影视大全(PQ)","type":3,"api":"csp_XBPQ","searchable":1,"filterable":1,
- "jar":"https://github.moeyy.xyz/https://raw.githubusercontent.com/hogo18/box/main/jar/spider.txt",
+ "jar":"./jar/spider.txt",
  "ext": {
          "分类url": "https://www.iysdq.cc/vodshow/1-----------/area/{area}/by/{by}/class/{class}/id/{cateId}/page/{catePg}/year/{year}.html",
          "分类": "电视剧$2#电影$1#动漫$4#综艺$3#短剧$5",
@@ -163,7 +163,7 @@
         }
 },
 {"key":"花姐影院PQ","name":"花姐影院(PQ)","type":3,"api":"csp_XBPQ","searchable":1,"quickSearch":1,"filterable":1,
- "jar":"https://github.moeyy.xyz/https://raw.githubusercontent.com/hogo18/box/main/jar/spider.txt",
+ "jar":"./jar/spider.txt",
  "ext":{
          "数组":"fed-lazy&&</a>",
          "副标题":"fed-text-center\">&&</span",
