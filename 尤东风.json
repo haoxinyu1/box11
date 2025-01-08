@@ -19,10 +19,10 @@
 {"key":"SP360","name":"360影视(js)","type":3,"api":"./lib/drpy2.min.js",
  "searchable": 2,"playerType":2,"ext":"./sub/360.js"
 },
-{"key":"qqjs","name":"腾讯影视(js)","type":3,"api":"./lib/drpy2.min.js",
+{"key":"qqjs","name":"腾云驾雾(js)","type":3,"api":"./lib/drpy2.min.js",
  "searchable": 2,"playerType":2,"ext":"./js/qq.js"
 },
-{"key":"qyjs","name":"奇异影视(js)","type":3,"api":"./lib/drpy2.min.js",
+{"key":"qyjs","name":"奇珍异兽(js)","type":3,"api":"./lib/drpy2.min.js",
  "searchable": 2,"playerType":2,"ext":"./js/qy.js"
 },
 {"key":"界界影视","name": "金牌系💠I (js)","type":3,"api":"./lib/drpy2.min.js",
