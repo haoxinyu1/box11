@@ -235,7 +235,7 @@
    }
  ], 
 "parses":[
-{"name": "1080解析1","type": 1,"url": "https://zy.qiaoji8.com/neibu.php?url=",
+{"name": "1080解析1","type": 1,"url": "https://zy.qiaoji8.com/gouzi.php?url=",
  "ext": {"header": {"User-Agent": "okhttp/4.9.1"}}
 },
 {"name": "1080解析2","type": 1,"url": "https://jxjson.icu/neibu.php?url=",
