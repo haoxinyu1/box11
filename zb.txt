@@ -46,6 +46,25 @@ CCTV14,http://150.158.112.123/%E5%85%AC%E4%BC%97%E5%8F%B7~%E7%8E%89%E7%8E%89%E8%
 CCTV15,http://150.158.112.123/%E5%85%AC%E4%BC%97%E5%8F%B7~%E7%8E%89%E7%8E%89%E8%BD%AF%E4%BB%B6%E5%BA%93/mg.php?id=cctv15
 CCTV17,http://150.158.112.123/%E5%85%AC%E4%BC%97%E5%8F%B7~%E7%8E%89%E7%8E%89%E8%BD%AF%E4%BB%B6%E5%BA%93/mg.php?id=cctv17
 
+CCTV5,http://nas.zyylover.homes:35455/itv/1000000005000265005.m3u8?cdn=ystenlive
+CCTV5+,http://nas.zyylover.homes:35455/itv/1000000005000265016.m3u8?cdn=ystenlive
+CCTV16,http://nas.zyylover.homes:35455/itv/1000000006000233002.m3u8?cdn=ystenlive
+CCTV1,http://nas.zyylover.homes:35455/itv/1000000005000265001.m3u8?cdn=ystenlive
+CCTV2,http://nas.zyylover.homes:35455/itv/1000000005000265002.m3u8?cdn=ystenlive
+CCTV3,http://nas.zyylover.homes:35455/itv/1000000005000265003.m3u8?cdn=ystenlive
+CCTV4,http://nas.zyylover.homes:35455/itv/1000000005000265004.m3u8?cdn=ystenlive
+CCTV6,http://nas.zyylover.homes:35455/itv/1000000005000265006.m3u8?cdn=ystenlive
+CCTV7,http://nas.zyylover.homes:35455/itv/1000000005000265007.m3u8?cdn=ystenlive
+CCTV8,http://nas.zyylover.homes:35455/itv/1000000005000265008.m3u8?cdn=ystenlive
+CCTV9,http://nas.zyylover.homes:35455/itv/1000000005000265009.m3u8?cdn=ystenlive
+CCTV10,http://nas.zyylover.homes:35455/itv/1000000005000265010.m3u8?cdn=ystenlive
+CCTV11,http://nas.zyylover.homes:35455/itv/1000000005000265011.m3u8?cdn=ystenlive
+CCTV12,http://nas.zyylover.homes:35455/itv/1000000005000265012.m3u8?cdn=ystenlive
+CCTV13,http://nas.zyylover.homes:35455/itv/5000000011000031108.m3u8?cdn=bestzb
+CCTV14,http://nas.zyylover.homes:35455/itv/1000000005000265013.m3u8?cdn=ystenlive
+CCTV15,http://nas.zyylover.homes:35455/itv/1000000005000265014.m3u8?cdn=ystenlive
+CCTV17,http://nas.zyylover.homes:35455/itv/1000000006000268004.m3u8?cdn=ystenlive
+
 CCTV5,http://www.clmy.cc:35455/gaoma/cctv5.m3u8
 CCTV5+,http://www.clmy.cc:35455/gaoma/cctv5+.m3u8
 CCTV16,http://www.clmy.cc:35455/gaoma/cctv16.m3u8
