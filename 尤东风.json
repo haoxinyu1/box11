@@ -26,12 +26,17 @@
 {"key":"qyjs","name":"奇珍异兽(js)","type":3,"api":"./lib/drpy2.min.js",
  "searchable": 2,"playerType":2,"ext":"./js/qy.js"
 },
+{"key": "金牌影院","name":"金牌系💠I()","type":3,"api": "csp_Jpys","searchable":1,"changeable": 1,"playerType":1,
+ "jar":"./jar/jp.jar"
+},
+/*
 {"key":"界界影视","name": "金牌系💠I (js)","type":3,"api":"./lib/drpy2.min.js",
  "searchable": 1,"quickSearch": 1,"ext": "./js/界界影视.js"
 },
 {"key":"金牌影院","name":"金牌系💠II (js)","type":3,"api":"./lib/drpy2.min.js",
  "searchable": 1,"quickSearch": 1,"ext": "./sub/金牌影院.js"
 },
+*/
 {"key": "Apple","name": "苹果影视(js)","type": 3,"api": "./cat/Apple.js"},
 {"key":"ng.js","name":"旺旺影视(js)","type":3,"api": "./cat/ng.js"},
 {"key": "南果","name": "酷云系💠I(js)","type": 3,"api": "./cat/南果.js"},
