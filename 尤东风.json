@@ -29,7 +29,7 @@
 {"key": "金牌影院","name":"金牌系💠I()","type":3,"api": "csp_JpysGuard",
  "jar":"./jar/jp.jar"
 },
-{"key": "Apple","name": "苹果影视(js)","type": 3,"api": "./cat/Apple.js"},
+{"key": "Apple","name": "苹果影视(js)","type": 3,"api": "csp_LiteAppleGuard","jar":"./jar/jp.jar"},
 {"key":"ng.js","name":"旺旺影视(js)","type":3,"api": "./cat/ng.js"},
 {"key": "南果","name": "酷云系💠I(js)","type": 3,"api": "./cat/南果.js"},
 {"key":"客星","name":"酷云系💠II(js)","type":3,"api":"./cat/kyys.js"},
