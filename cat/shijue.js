@@ -1,272 +1,257 @@
-import { Crypto,_} from 'assets://js/lib/cat.js';
-let siteUrl = 'http://118.25.18.217:6632';
+import { Crypto, load, _ } from 'assets://js/lib/cat.js';
+let siteUrl = 'https://www.wwgz.cn';
 let siteKey = '';
 let siteType = 0;
-let cookies = '';
 let headers = {
-    'User-Agent': 'okhttp/3.12.1',
-    'Content-Type': 'application/json;'
+    'User-Agent': 'Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1',
+    'Referer': siteUrl + '/'
 };
-let key = ['TFLYWVJ5EG5YB1PLZLVVMGVLBGRIDCSW', 'nj6E5K4yYYT5W4ScJ3J3rJ2zrzcJkpTk'];
+let PARSE_URL = 'https://nmvod.cn:3166/webcloud/relay.php';
 
-async function request(reqUrl){
+let jxUrl = ['https://api.cnmcom.com/webcloud/nma.php?url=','https://api.cnmcom.com/webcloud/nmb.php?url=', 'https://api.cnmcom.com/webcloud/nmc.php?vid=', 'https://vip.wwgz.cn:5200/nmplay/webcloud/m3u8.php?url='];
+async function request(reqUrl, postData, post) {
+
     let res = await req(reqUrl, {
-        method: 'get',
+        method: post ? 'post' : 'get',
         headers: headers,
+        data: postData || {},
+        postType: post ? 'form' : '',
     });
-    return res.content;
+
+    let content = res.content;
+    return content;
 }
 
 async function init(cfg) {
     siteKey = cfg.skey;
     siteType = cfg.stype;
-    initHost();
+    if (cfg.ext) {
+        siteUrl = cfg.ext;
+    }
+    const html1 = (await req(siteUrl + '/player/initial.js', {
+        method: 'get',
+        headers: {
+            'User-Agent': 'Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1',
+            'Referer': siteUrl + '/',
+        }
+    })).content;
+    PARSE_URL = html1.split('src="')[1].split('?url=')[0];
+    const html = (await req(PARSE_URL, {
+        method: 'get',
+        headers: {
+            'User-Agent': 'Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1',
+            'Referer': siteUrl + '/',
+        }
+    })).content;
+    //console.log('html', html);
+    const url = html.match(/src = '(.*?)' \+ videoUrl;/);
+    jxUrl[0] = url[1];
 }
 
 async function home(filter) {
-    let res = await request(`${siteUrl}/api/v3/drama/getCategory?orderBy=type_id`);
-    //console.log(res);
-    let data = JSON.parse(res).data;
-    let dy = {
-        "class": "类型",
-        "area": "地区",
-        "lang": "语言",
-        "year": "年份",
-        "letter": "字母",
-        "by": "排序",
-        "sort": "排序",
-    };
-    let filters = {};
-    let classes = [];
-    _.forEach(data, item => {
-        let jsontype_extend = JSON.parse(item["converUrl"]);
-        classes.push({
-            type_id: item['id'],
-            type_name: item['name']
-        });
-        filters[item['id']] = [];
-        for (let key in dy) {
-            if (jsontype_extend[key]) {
-                let values = jsontype_extend[key].split(',');
-                filters[item['id']].push({
-                    key: key,
-                    name: dy[key],
-                    value: _.map(values, v => {
-                        return {
-                            n: v,
-                            v: v
-                        }
-                    })
-                });
-            }
-        }
-    })
+    let classes = [{
+        type_id: '1',
+        type_name: '电影',
+    },{
+        type_id: '2',
+        type_name: '剧集',
+    },{
+        type_id: '3',
+        type_name: '综艺',
+    },{
+        type_id: '4',
+        type_name: '动漫',
+    },{
+        type_id: '26',
+        type_name: '短剧',
+    }];
+    let filterObj = genFilterObj();
     return JSON.stringify({
         class: classes,
-        filters: filters,
+        filters: filterObj
     });
 }
 
 async function homeVod() {
-    let res = await request(`${siteUrl}/api/ex/v3/security/tag/list`);
-    let data = JSON.parse(res).data;
-    let result = aes(aes(data, key[0]), key[1], 'decrypt', true);
-    let videos = _.map(result[0]['carousels'], item => {
-        return {
-            vod_id: item['link'].split("id=")[1],
-            vod_name: item["title"],
-            vod_pic: item["cover"],
-            vod_remarks: item['sort'],
-        };
-    })
+    let url = siteUrl;
+    let videos = await getVideos(url);
     return JSON.stringify({
         list: videos,
     });
 }
 
-async function category(tid, pg, filter, extend) {
-    let param = '';
-    if (extend['area']) {
-        param = param + "vodArea=" + extend['area'] + "&";
-    }
-    if (extend['class']) {
-        param = param + "vodClass=" + extend['class'] + "&";
-    }
-    if (extend['lang']) {
-        param = param + "vodLang=" + extend['lang'] + "&";
-    }
-    if (extend['year']) {
-        param = param + "vodYear=" + extend['year'] + "&";
-    }
-    param = param + "pagesize=20&typeId1=" +tid + "&page=" + pg;
-    let path = aes(aes(param, key[1], 'encrypt'), key[0], 'encrypt', true);
-    let res = await request(`${siteUrl}/api/ex/v3/security/drama/list?query=${path}`);
-    let data = JSON.parse(res).data;
-    data = aes(aes(data, key[0]), key[1], 'decrypt', true)['list'];
-    let videos = _.map(data, item => {
-        return {
-            vod_id: item['id'],
-            vod_name: item['name'],
-            vod_pic: item['coverImage']['path'],
-            vod_year: item['year'],
-            vod_remarks: item['remark'],
-        };
-    });
+async function category(tid, pg, filter, ext) {
+    if (!pg) pg = 1;
+    if (pg <= 0) pg = 1;
+
+    let id = ext['id'] || tid;
+    let year = ext['year'] || '';
+    let area = ext['area'] || '';
+    let url = siteUrl + '/index.php?m=vod-list-id-'+id+'-pg-'+pg+'-order--by-time-class-0-year-'+year+'-letter--area-'+area+'-lang-.html';
+    
+    let videos = await getVideos(url);
     return JSON.stringify({
         list: videos,
         page: pg,
-        pagecount: 999,
     });
 }
 
 async function detail(id) {
-    let res = await request(`${siteUrl}/api/v3/drama/getDetail?id=${id}`);
-    //console.log(res);
-    let data = JSON.parse(res).data;
-    let vod = {
-        'vod_name': data.name,
-        'vod_pic':  data.Image,
-        'vod_area': data.area,
-        'type_name': data.clazz,
-        'vod_actor': data.actor,
-        'vod_director': data.director,
-        'vod_content': '尤东风友情提醒🔺勿信广告，避免受骗🔺' + data.brief,
+    try {
+        const html = await request(siteUrl + id);
+        let $ = load(html);
+        let content = $('.detail-con p').text();
+        let director = _.map($('.desc_item:eq(2) font a'), (n) => {
+            return $(n).text();
+        }).join(' ');
+        let actor = _.map($('.desc_item:eq(1) font a'), (n) => {
+            return $(n).text();
+        }).join(' ');
+        let playFrom = $('.hd > ul > li > a').text();
+        if (playFrom.indexOf('云播') >= 0) {
+            playFrom = '云播';
+        } else {
+            playFrom = 'Leospring';
+        }
+        let play1Url = siteUrl + $('.greenBtn').attr('href');
+        //('play1Url', play1Url);
+        let html2 = await request(play1Url);
+        let nameUrls = html2.split("mac_url='")[1].split("';")[0];
+        
+        const video = {
+            vod_play_from: playFrom,
+            vod_play_url: nameUrls,
+            vod_content: content,
+            vod_director: director,
+            vod_actor: actor,
+        };
+        const list = [video];
+        const result = { list };
+        return JSON.stringify(result);
+    } catch (e) {
+    console.log('err', e);
     }
-    let play = []
-    let names = []
-    let plays = {}
-    _.forEach(data['videos'], item => {
-        if(names.indexOf(item['sourceCn']) == -1) {
-            plays[item['source']] = [];
-            names.push(item['sourceCn']);
-        }
-        let url = `vodPlayFrom=${item['source']}&playUrl=${item['path']}`
-        if(item['path'] && (item['path'].includes('m3u8') || item['path'].includes('mp4') || item['path'].includes('flv'))) {
-            url = item['path']
-        }
-        plays[item['source']].push(item['titleOld'] + '$' + url);
-    });
-    //console.log(names);
-    //console.log(plays);
-    _.forEach(plays, (item, key) => {
-        play.push(item.join('#'));
-    })
-    vod.vod_play_url = play.join('$$$');
-    vod.vod_play_from = '尤东风💠' + names.join('$$$尤东风💠');
-    return JSON.stringify({
-        list: [vod],
-    });
-}
-//console.log(await detail('105275'));
-
-async function play(flag, id) {
-    let url = id;
-    if(id.includes('vodPlayFrom')) {
-        let path = aes(aes(id, key[1], 'encrypt'), key[0], 'encrypt', true);
-        let res = await request(`${siteUrl}/api/ex/v3/security/videoUsableUrl?query=${path}`);
-        let data = JSON.parse(res).data;
-        //console.log(data);
-        url = aes(aes(data, key[0]), key[1], 'decrypt', true)['playUrl']
-        //console.log(url);
-        if (url.includes('.jpg') || url.includes('.jpeg') || url.includes('.png')) {
-            const js2Base = await js2Proxy(true, siteType, siteKey, 'm3u8/', {});
-            url = js2Base + base64Encode(url);
-        }
-    }
-    return JSON.stringify({
-        parse: 0,
-        url: url,
-    });
+    return null;
 }
 
-async function search(wd, quick, pg = 1) {
-    let param = `pagesize=20&page=${pg}&searchKeys=${wd}`;
-    let path = aes(aes(param, key[1], 'encrypt'), key[0], 'encrypt', true);
-    let res = await request(`${siteUrl}/api/ex/v3/security/drama/list?query=${path}`);
-    let data = JSON.parse(res).data;
-    data = aes(aes(data, key[0]), key[1], 'decrypt', true)['list'];
-    let videos = _.map(data, item => {
+async function search(wd, quick, pg) {
+    let url = siteUrl + '/index.php?m=vod-search';
+    const html = await request(url, {wd: wd}, true);
+    const $ = load(html);
+    const cards = $('#data_list  li')
+    let videos = _.map(cards, (n) => {
+        let id = $($(n).find('a')[0]).attr('href');
+        let name = $($(n).find('span.sTit')[0]).text();
+        let pic = $($(n).find('img')[0]).attr('src');
+        let remarks = $($(n).find('span.sStyle')[0]).text().trim();
         return {
-            vod_id: item['id'],
-            vod_name: item['name'],
-            vod_pic: item['coverImage']['path'],
-            vod_year: item['year'],
-            vod_remarks: item['remark'],
+            vod_id: id,
+            vod_name: name,
+            vod_pic: pic,
+            vod_remarks: remarks,
         };
     });
     return JSON.stringify({
-        list: videos
+        list: videos,
     });
 }
 
-async function proxy(segments, headers) {
-    let what = segments[0];
-    let url = base64Decode(segments[1]);
-    if (what == 'm3u8') {
-        let data = await request(url);
-        // 处理M3U8文件内容
-        let lines = data.trim().split('\n');
-        lines = lines.map((string, index) => {
-            if (!string.startsWith('#EXT') && !/^(http|https):\/\//.test(string)) {
-                return `${durl}${string.startsWith('/') ? '' : '/'}${string}`;
+async function play(flag, id, flags) {
+    let playUrl = id;
+    if (flag === '云播') {
+        playUrl = jxUrl[3] + id;
+    } else {
+        playUrl = jxUrl[0] + id;
+    }
+    const html = (await req(playUrl, {
+        method: 'get',
+        headers: {
+            'User-Agent': 'Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1',
+            'Referer': PARSE_URL + '?',
+        }
+    })).content;
+    //const html = await request(playUrl);
+    const $ = load(html);
+    for(const n of $('script')) {
+        if($(n).text().indexOf("url: '") >= 0) {
+            let url = $(n).text().split("url: '")[1].split("'")[0];
+            if(url) {
+                playUrl = url;
             }
-            return string;
-        });
-        // 返回修改后的内容
-        return [200, "application/vnd.apple.mpegurl", lines.join('\n')];
+            return JSON.stringify({
+                parse: 0,
+                url: playUrl,
+            });
+        }
+        if($(n).text().indexOf("var url='") >= 0) {
+            let url = $(n).text().split("var url='")[1].split("';")[0];
+            if(url) {
+                playUrl = url;
+            }
+            return JSON.stringify({
+                parse: 0,
+                url: playUrl,
+            });
+        }
     }
     return JSON.stringify({
-        code: 500,
-        content: '',
+        parse: 1,
+        url: playUrl,
     });
 }
 
-function base64Encode(text) {
-    return Crypto.enc.Base64.stringify(Crypto.enc.Utf8.parse(text));
+function genFilterObj() {
+    return {
+        '1': [{'key': 'id', 'name': '类型', 'value': [{'n': '全部类型', 'v': '1'}, {'n': '动作', 'v': '5'}, {'n': '喜剧', 'v': '6'}, {'n': '爱情', 'v': '7'}, {'n': '科幻', 'v': '8'}, {'n': '恐怖', 'v': '9'}, {'n': '剧情', 'v': '10'}, {'n': '战争', 'v': '11'},{'n': '惊悚', 'v': '16'},{'n': '奇幻', 'v': '17'}]}, 
+            {'key': 'area', 'name': '地区', 'value': [{'n': '全部地区', 'v': ''}, {'n': '大陆', 'v': '大陆'}, {'n': '香港', 'v': '香港'}, {'n': '台湾', 'v': '台湾'}, {'n': '美国', 'v': '美国'}, {'n': '韩国', 'v': '韩国'},{'n': '日本', 'v': '日本'}]}, 
+            {'key': 'year', 'name': '年份', 'value': [{'n': '全部年份', 'v': ''}, {'n': '2024', 'v': '2024'}, {'n': '2023', 'v': '2023'}, {'n': '2022', 'v': '2022'}, {'n': '2021', 'v': '2021'}, {'n': '2020', 'v': '2020'}, {'n': '2019', 'v': '2019'}, {'n': '2018', 'v': '2018'}, {'n': '2017', 'v': '2017'}, {'n': '2016', 'v': '2016'}, {'n': '2015', 'v': '2015'}, {'n': '2014', 'v': '2014'}, {'n': '2013', 'v': '2013'}, {'n': '2012', 'v': '2012'}, {'n': '2011', 'v': '2011'}, {'n': '2010', 'v': '2010'}]}
+        ], 
+        '2': [{'key': 'id', 'name': '类型', 'value': [{'n': '全部类型', 'v': '2'}, {'n': '国产剧', 'v': '12'}, {'n': '港台剧', 'v': '13'},{'n': '日韩剧', 'v': '14'}, {'n': '欧美剧', 'v': '15'}]}, 
+            {'key': 'area', 'name': '地区', 'value': [{'n': '全部地区', 'v': ''}, {'n': '大陆', 'v': '大陆'}, {'n': '台湾', 'v': '台湾'}, {'n': '香港', 'v': '香港'}, {'n': '韩国', 'v': '韩国'}, {'n': '日本', 'v': '日本'}, {'n': '美国', 'v': '美国'}, {'n': '泰国', 'v': '泰国'}, {'n': '英国', 'v': '英国'}, {'n': '新加坡', 'v': '新加坡'}, {'n': '其他', 'v': '其他'}]},
+            {'key': 'year', 'name': '年份', 'value': [{'n': '全部年份', 'v': ''}, {'n': '2024', 'v': '2024'},{'n': '2023', 'v': '2023'}, {'n': '2022', 'v': '2022'}, {'n': '2021', 'v': '2021'}, {'n': '2020', 'v': '2020'}, {'n': '2019', 'v': '2019'}, {'n': '2018', 'v': '2018'}, {'n': '2017', 'v': '2017'}, {'n': '2016', 'v': '2016'}, {'n': '2015', 'v': '2015'}, {'n': '2014', 'v': '2014'}, {'n': '2013', 'v': '2013'}, {'n': '2012', 'v': '2012'}, {'n': '2011', 'v': '2011'}, {'n': '2010', 'v': '2010'}, {'n': '2009', 'v': '2009'}, {'n': '2008', 'v': '2008'}, {'n': '2006', 'v': '2006'}, {'n': '2005', 'v': '2005'}]}
+        ]
+    };
 }
 
-function base64Decode(text) {
-    return Crypto.enc.Utf8.stringify(Crypto.enc.Base64.parse(text));
+async function getRecommend(url) {
+    const html = await request(url);
+    const $ = load(html);
+    const cards = $('ul.list_06 li')
+    let videos = _.map(cards, (n) => {
+        let id = $($(n).find('a')[0]).attr('href');
+        let name = $($(n).find('a')[0]).attr('title');
+        let pic = $($(n).find('img')[0]).attr('src');
+        let remarks = $($(n).find('font')[0]).text().trim().replaceAll('0.0', '');
+        return {
+            vod_id: id,
+            vod_name: name,
+            vod_pic: pic,
+            vod_remarks: remarks,
+        };
+    });
+    return videos;
 }
 
-async function initHost() {
-    try {
-        let res = await request('https://www.shijue.pro/token.txt');
-        siteUrl = JSON.parse(res).domain;
-    } catch (e) {
-        console.log('initHost error', e);
-    }
-}
-function aes(word, key, mode = 'decrypt', bool = false) {
-    // 将字符串转换为字节数组，并处理key长度以匹配AES要求（通常是16, 24或32字节）
-    const secretKey = Crypto.enc.Utf8.parse(key);
-    
-    if (mode === 'decrypt') {
-        // 解码Base64编码的字符串
-        const base64Word = Crypto.enc.Base64.parse(word);
-        const cipherParams = Crypto.lib.CipherParams.create({ ciphertext: base64Word });
-        
-        // 使用AES ECB模式进行解密
-        const decrypted = Crypto.AES.decrypt(cipherParams, secretKey, { mode: Crypto.mode.ECB, padding: Crypto.pad.Pkcs7 });
-        let result = decrypted.toString(Crypto.enc.Utf8);
-        
-        if (bool) {
-            result = JSON.parse(result);
+async function getVideos(url) {
+    const html = await request(url);
+    const $ = load(html);
+    const cards = $('ul.resize_list li')
+    let videos = [];
+    _.forEach(cards, (n) => {
+        let id = $($(n).find('a')[0]).attr('href');
+        let name = $($(n).find('a')[0]).attr('title');
+        let pic = $($(n).find('img')[0]).attr('src');
+        let remarks = $(n).find('span.sBottom').text().trim();
+        if(pic) {
+            videos.push({
+                vod_id: id,
+                vod_name: name,
+                vod_pic: pic,
+                vod_remarks: remarks,
+            });
         }
-        return result;
-    } else if (mode === 'encrypt') {
-        // 对word进行AES加密前先转为CryptoJS word数组
-        const source = Crypto.enc.Utf8.parse(word);
-        
-        // 使用AES ECB模式进行加密
-        const encrypted = Crypto.AES.encrypt(source, secretKey, { mode: Crypto.mode.ECB, padding: Crypto.pad.Pkcs7 });
-        let result = encrypted.ciphertext.toString(Crypto.enc.Base64);
-        
-        if (bool) {
-            result = encodeURIComponent(result);
-        }
-        return result;
-    }
+    });
+    return videos;
 }
 
 export function __jsEvalReturn() {
@@ -278,6 +263,5 @@ export function __jsEvalReturn() {
         detail: detail,
         play: play,
         search: search,
-        proxy: proxy,
     };
 }
