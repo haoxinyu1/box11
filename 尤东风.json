@@ -91,7 +91,7 @@
  "searchable": 1,"quickSearch": 1,
  "ext":"./lib/采集之王.js?type=url&params=./sub/采集静态.json$1$1"
 },
-{"key":"Xunlei8","name":"迅雷磁力","type":3,"api":"csp_XBPQ",
+{"key":"Xunlei8","name":"迅雷磁力(PQ)","type":3,"api":"csp_XBPQ",
  "jar":"./jar/spider.txt",
  "ext": {"数组": "b30de590050ee&&</div></div",
   "请求头":"Mozilla/5.0(Windows NT 10.0; Win64; x64)AppleWebKit/537.36 (KHTML,like Gecko)Chrome/135.0.0.0 Safari/537.36 Edg/135.0.0.0",         
@@ -138,7 +138,7 @@
 {"key": "iysdq","name":"影视大全(PQ)","type":3,"api":"csp_XBPQ","searchable":1,"filterable":1,
  "jar":"./jar/spider.txt",
  "ext": {
-         "分类url": "https://www.iysdq.cc/vodshow/1-----------/area/{area}/by/{by}/class/{class}/id/{cateId}/page/{catePg}/year/{year}.html",
+         "分类url": "https://www.iysdq.cc/vodshow/{cateId}-{area}-------{catePg}---{year}.html",
          "分类": "电视剧$2#电影$1#动漫$4#综艺$3#短剧$5",
          "线路数组":"#playlist&&</a>",
          "线路标题":"尤东风💠+ data-toggle=\"tab\">&&</a>"
