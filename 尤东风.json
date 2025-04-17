@@ -85,7 +85,6 @@
 {"key":"北风影视","name":"北风影视(js)","type":3,"api":"./lib/drpy2.min.js",
   "ext": "./sub/北风影视.js","searchable":1
 },
-{"key":"Xunlei8","name":"迅雷磁力()","type": 3,"api":"csp_Xunlei8","searchable":1,"changeable":1,"filterable":1},
 {"key":"cspSixV","name":"新6磁力()","type":3,"api":"csp_Xb6v","searchable":1,"quickSearch":1,"ext":"https://www.xb6v.com"},
 {"key":"Mp4电影","name": "Mp4磁力()","type":3,"api":"csp_Mp4Mov","searchable":1,"quickSearch":1,"filterable":1,
  "jar": "./jar/spider.txt"
@@ -97,6 +96,22 @@
  "searchable": 1,"quickSearch": 1,
  "ext":"./lib/采集之王.js?type=url&params=./sub/采集静态.json$1$1"
 },
+{"key":"Xunlei8","name":"迅雷磁力","type":3,"api":"csp_XBPQ",
+ "jar":"./jar/spider.txt",
+ "ext": {"数组": "b30de590050ee&&</div></div",
+  "请求头":"Mozilla/5.0(Windows NT 10.0; Win64; x64)AppleWebKit/537.36 (KHTML,like Gecko)Chrome/135.0.0.0 Safari/537.36 Edg/135.0.0.0",         
+         "referer":"https://xunlei8.cc/",
+         "标题": "title=\"&&\"",
+         "图片": "src=\"&&\"", 
+         "副标题": "pic-tag pic-tag-top\">&&</span>", 
+         "链接": "href=\"&&\"",
+         "播放数组": "copylink&&</a>",
+         "播放链接": "alt=\"&&\"",
+         "简介": "b1f40f7888\"&&</p>",
+         "分类url": "https://xunlei8.cc/{cateId}-{class}-{year}-{area}-hot-{catePg}-30.html;;m",
+         "分类": "电视剧$tv#电影$list"
+        }
+ },
 {"key":"可可影视PQ","name":"可可系💠III(PQ)","type":3,"api":"csp_XBPQ","searchable":1,"quickSearch":1,"filterable":1,
  "jar":"./jar/spider.txt",
  "ext":{ 
