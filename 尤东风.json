@@ -20,6 +20,46 @@
 {"key":"qyjs","name":"奇珍异兽(js)","type":3,"api":"./lib/drpy2.min.js",
  "searchable": 2,"playerType":2,"ext":"./js/qy.js"
 },
+{"key": "星河App","name": "星河App()", "type": 3,"quickSearch": 1,"api": "csp_AppGet",
+ "jar":"https://git.acwing.com/hogo18/hh/-/raw/main/jar/tv.jar",
+ "ext": {
+        "url": "http://121.62.22.204:9876",
+        "dataKey": "f5e2tx53ykp6s2c9",
+        "dataIv": "f5e2tx53ykp6s2c9",
+        "deviceId": "",
+        "version": "361"
+       }
+},
+{"key": "雨滴App","name": "雨滴App()", "type": 3,"quickSearch": 1,"api": "csp_AppGet",
+ "jar":"https://git.acwing.com/hogo18/hh/-/raw/main/jar/tv.jar",
+ "ext": {
+        "url": "https://c8w2ov7u5wg2z1o8p21c.aliyuncs.click:27899",
+        "dataKey": "k9o3p2c8b7m3z0o8",
+        "dataIv": "k9o3p2c8b7m3z0o8",
+        "deviceId": "",
+        "version": "100"
+      }
+},
+{"key": "格格App","name": "格格App()", "type": 3,"quickSearch": 1,"api": "csp_AppGet",
+ "jar":"https://git.acwing.com/hogo18/hh/-/raw/main/jar/tv.jar",
+ "ext": {
+        "url": "http://111.180.198.40:1110",
+        "dataKey": "asgcxhjkts124573",
+        "dataIv": "asgcxhjkts124573",
+        "deviceId": "",
+        "version": "119"
+      }
+},
+{"key": "光速App","name": "光速App()", "type": 3,"quickSearch": 1,"api": "csp_AppGet",
+ "jar":"https://git.acwing.com/hogo18/hh/-/raw/main/jar/tv.jar",
+ "ext": {
+        "url": "http://59.153.167.137:8899",
+        "dataKey": "4d83b87c4c5ea111",
+        "dataIv": "4d83b87c4c5ea111",
+        "deviceId": "",
+        "version": "462"
+      }
+},
 {"key": "金牌影院","name":"金牌系💠I()","type":3,"api": "csp_JpysGuard",
  "jar":"./jar/jp.jar"
 },
