@@ -31,7 +31,7 @@
        }
 },
 {"key": "雨滴App","name": "雨滴App()", "type": 3,"quickSearch": 1,"api": "csp_AppGet",
- "jar":"https://git.acwing.com/hogo18/hh/-/raw/main/jar/tv.jar",
+ "jar":"./jar/tv.jar",
  "ext": {
         "url": "https://c8w2ov7u5wg2z1o8p21c.aliyuncs.click:27899",
         "dataKey": "k9o3p2c8b7m3z0o8",
@@ -41,7 +41,7 @@
       }
 },
 {"key": "格格App","name": "格格App()", "type": 3,"quickSearch": 1,"api": "csp_AppGet",
- "jar":"https://git.acwing.com/hogo18/hh/-/raw/main/jar/tv.jar",
+ "jar":"./jar/tv.jar",
  "ext": {
         "url": "http://111.180.198.40:1110",
         "dataKey": "asgcxhjkts124573",
@@ -51,7 +51,7 @@
       }
 },
 {"key": "光速App","name": "光速App()", "type": 3,"quickSearch": 1,"api": "csp_AppGet",
- "jar":"https://git.acwing.com/hogo18/hh/-/raw/main/jar/tv.jar",
+ "jar":"./jar/tv.jar",
  "ext": {
         "url": "http://59.153.167.137:8899",
         "dataKey": "4d83b87c4c5ea111",
