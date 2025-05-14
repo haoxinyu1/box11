@@ -68,8 +68,9 @@
 { "key": "猎手影视", "name": "猎手影视(py)","type": 3,"api":"./sub/猎手影视.py",
   "searchable":1, "quickSearch": 1, "filterable": 1, "playerType": 2
 },**/
-{"key": "Apple","name": "苹果影视(js)","type": 3,"api": "csp_LiteAppleGuard","jar":"./jar/jp.jar"},
-{"key":"shijue","name":"视觉影视(js)","type":3,"api": "./cat/shijue.js"},
+{"key":"Apple","name":"苹果影视()","type":3,"api": "csp_LiteApple","searchable":1,"filterable":1,
+ "jar":"./jar/tv.jar"
+},
 {"key":"可可js","name":"可可系💠I(js)","type":3,"api":"./lib/drpy2.min.js",
  "searchable": 2,"playerType":2,"ext":"./js/可可影视.js"
 },
