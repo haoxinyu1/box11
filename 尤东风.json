@@ -21,7 +21,7 @@
  "searchable": 2,"playerType":2,"ext":"./js/qy.js"
 },
 {"key": "星河App","name": "星河App()", "type": 3,"quickSearch": 1,"api": "csp_AppGet",
- "jar":"https://git.acwing.com/hogo18/hh/-/raw/main/jar/tv.jar",
+ "jar":"./jar/tv.jar",
  "ext": {
         "url": "http://121.62.22.204:9876",
         "dataKey": "f5e2tx53ykp6s2c9",
