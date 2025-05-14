@@ -129,8 +129,8 @@
   "ext": "./sub/北风影视.js","searchable":1
 },
 {"key":"cspSixV","name":"新6磁力()","type":3,"api":"csp_Xb6v","searchable":1,"quickSearch":1,"ext":"https://www.xb6v.com"},
-{"key":"Mp4电影","name": "Mp4磁力()","type":3,"api":"csp_Mp4Mov","searchable":1,"quickSearch":1,"filterable":1,
- "jar": "./jar/spider.txt"
+{"key":"Mp4电影","name": "Mp4磁力()","type":3,"api":"https://git.acwing.com/hogo18/hh/-/raw/main/lib/drpy2.min.js",
+ "ext": "https://git.acwing.com/hogo18/hh/-/raw/main/js/MP4电影.js","searchable":1
 },
 {"key":"bt磁力","name":"B_t磁力(js)","type":3,"api":"./lib/drpy2.min.js",
  "searchable":1,"ext": "./js/bt磁力.js"
