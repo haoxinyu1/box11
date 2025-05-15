@@ -8,9 +8,14 @@
 {"key":"阿里云集合","name":"阿里💠分享()","type":3,"api":"csp_AliShare","changeable": 1,"filterable": 1,"timeout": 60,
  "ext": "./lib/tokenm.json$$$./sub/alishare1.txt$$$db$$$1","style": {"type": "list","ratio": 1.1}
 },
+{"key":"真心影视","name":"瓜子影视()","type":3,"api":"csp_Gz360","searchable":1,"quickSearch":1,"filterable":1,
+ "jar": " http://我不是.摸鱼儿.top/by/jar/moyuer.php;md5;306c98ac3375da1a7b4242a44a80a4ae"
+},
+/**
 {"key":"瓜子js","name":"瓜子系💠I(js)","type":3,"api":"./lib/drpy2.min.js",
  "searchable": 2,"playerType":2,"ext":"./js/瓜子.js"
 },
+**/
 {"key":"SP360","name":"360影视(js)","type":3,"api":"./lib/drpy2.min.js",
  "searchable": 2,"playerType":2,"ext":"./sub/360.js"
 },
@@ -20,19 +25,57 @@
 {"key":"qyjs","name":"奇珍异兽(js)","type":3,"api":"./lib/drpy2.min.js",
  "searchable": 2,"playerType":2,"ext":"./js/qy.js"
 },
-{"key": "金牌影院","name":"金牌系💠I()","type":3,"api": "csp_JpysGuard",
- "jar":"./jar/jp.jar"
+{"key": "星河App","name": "星河App()", "type": 3,"quickSearch": 1,"api": "csp_AppGet",
+ "jar":"./jar/tv.jar",
+ "ext": {
+        "url": "http://121.62.22.204:9876",
+        "dataKey": "f5e2tx53ykp6s2c9",
+        "dataIv": "f5e2tx53ykp6s2c9",
+        "deviceId": "",
+        "version": "361"
+       }
 },
-{ "key": "金牌影视", "name": "金牌系💠II(py)","type": 3,"api":"http://我不是.摸鱼儿.com/py/金牌影视.py","searchable":1, 
+{"key": "雨滴App","name": "雨滴App()", "type": 3,"quickSearch": 1,"api": "csp_AppGet",
+ "jar":"./jar/tv.jar",
+ "ext": {
+        "url": "https://c8w2ov7u5wg2z1o8p21c.aliyuncs.click:27899",
+        "dataKey": "k9o3p2c8b7m3z0o8",
+        "dataIv": "k9o3p2c8b7m3z0o8",
+        "deviceId": "",
+        "version": "100"
+      }
+},
+{"key": "格格App","name": "格格App()", "type": 3,"quickSearch": 1,"api": "csp_AppGet",
+ "jar":"./jar/tv.jar",
+ "ext": {
+        "url": "http://111.180.198.40:1110",
+        "dataKey": "asgcxhjkts124573",
+        "dataIv": "asgcxhjkts124573",
+        "deviceId": "",
+        "version": "119"
+      }
+},
+{"key": "光速App","name": "光速App()", "type": 3,"quickSearch": 1,"api": "csp_AppGet",
+ "jar":"./jar/tv.jar",
+ "ext": {
+        "url": "http://59.153.167.137:8899",
+        "dataKey": "4d83b87c4c5ea111",
+        "dataIv": "4d83b87c4c5ea111",
+        "deviceId": "",
+        "version": "462"
+      }
+},
+{"key": "金牌影院","name":"金牌影视(js)","type":3,"searchable":1,"api":"./lib/drpy2.min.js","ext":"./js/界界影视.js"},
+/**{ "key": "金牌影视", "name": "金牌系💠II(py)","type": 3,"api":"http://我不是.摸鱼儿.com/py/金牌影视.py","searchable":1, 
   "quickSearch": 1, "filterable": 1, "playerType": 2,
   "ext": { "site": "https://www.hkybqufgh.com,https://www.sizhengxt.com,https://0996zp.com,https://9zhoukj.com/,https://www.sizhengxt.com,https://www.tjrongze.com,https://www.jiabaide.cn,https://cqzuoer.com" }
 },
 { "key": "猎手影视", "name": "猎手影视(py)","type": 3,"api":"./sub/猎手影视.py",
   "searchable":1, "quickSearch": 1, "filterable": 1, "playerType": 2
+},**/
+{"key":"Apple","name":"苹果影视()","type":3,"api": "csp_LiteApple","searchable":1,"filterable":1,
+ "jar":"./jar/tv.jar"
 },
-{"key": "Apple","name": "苹果影视(js)","type": 3,"api": "csp_LiteAppleGuard","jar":"./jar/jp.jar"},
-{"key":"ng.js","name":"旺旺影视(js)","type":3,"api": "./cat/ng.js"},
-{"key":"shijue","name":"视觉影视(js)","type":3,"api": "./cat/shijue.js"},
 {"key":"可可js","name":"可可系💠I(js)","type":3,"api":"./lib/drpy2.min.js",
  "searchable": 2,"playerType":2,"ext":"./js/可可影视.js"
 },
@@ -41,9 +84,6 @@
 },
 {"key":"素白白","name": "素白影視()","type":3,"api":"csp_Subaibai","searchable":1,"quickSearch":1,
  "filterable":1,"ext": "http://subaibai.com","jar": "./jar/spider.txt"
-},
-{"key":"真心影视","name":"真心影视()","type":3,"api":"csp_WebGZ","searchable":1,"quickSearch":1,"filterable":1,
- "jar": " ./jar/spider.txt"
 },
 {"key":"洽洽影视","name": "洽洽影视()","type":3,"api":"csp_AppGZ","searchable":1,"quickSearch":1,"filterable":1,
  "jar": "./jar/spider.txt"
@@ -89,8 +129,8 @@
   "ext": "./sub/北风影视.js","searchable":1
 },
 {"key":"cspSixV","name":"新6磁力()","type":3,"api":"csp_Xb6v","searchable":1,"quickSearch":1,"ext":"https://www.xb6v.com"},
-{"key":"Mp4电影","name": "Mp4磁力()","type":3,"api":"csp_Mp4Mov","searchable":1,"quickSearch":1,"filterable":1,
- "jar": "./jar/spider.txt"
+{"key":"Mp4电影","name": "Mp4磁力()","type":3,"api":"./lib/drpy2.min.js",
+ "ext": "./sub/MP4电影.js","searchable":1
 },
 {"key":"bt磁力","name":"B_t磁力(js)","type":3,"api":"./lib/drpy2.min.js",
  "searchable":1,"ext": "./js/bt磁力.js"
