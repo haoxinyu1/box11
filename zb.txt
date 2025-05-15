@@ -1,4 +1,5 @@
 新闻综合,#genre#
+CCTV13,http://39.164.160.249:9901/tsfile/live/0013_1.m3u8
 CCTV13,http://iptv.huuc.edu.cn/hls/cctv13hd.m3u8
 北京卫视,http://iptv.huuc.edu.cn/hls/btv1hd.m3u8
 东方卫视,http://iptv.huuc.edu.cn/hls/dfhd.m3u8
