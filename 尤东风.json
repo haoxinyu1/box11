@@ -223,7 +223,7 @@
 },
 {"key":"push_agent","name":"推送()","type":3,"api":"csp_Push","ext":"./lib/tokenm.json"},
 {"key": "网盘配置","name":"网盘配置","type":3,"api":"csp_Config","searchable":0,"changeable":0,
- "ext": "./jar/spider.jar"
+ "ext": "./lib/tokenm.json"
 }
 ],
 "lives": 
