@@ -70,6 +70,9 @@
                 "version": "200"
             }
 },
+{"key":"素白白","name": "素白影視()","type":3,"api":"csp_SuBaiBai","ext": "https://www.subaibai.com",
+ "jar": "./jar/spider.jar"
+},
 {"key":"Apple","name":"苹果影视()","type":3,"api": "csp_LiteApple","searchable":1,"filterable":1,
  "jar":"./jar/spider.jar"
 },
@@ -80,15 +83,9 @@
 {"key":"毒蛇js","name":"可可系💠II(js)","type":3,"api":"./lib/drpy2.min.js",
  "searchable": 2,"playerType":2,"ext":"./js/毒蛇电影.js"
 },
-{"key":"素白白","name": "素白影視()","type":3,"api":"csp_SuBaiBai","ext": "https://www.subaibai.com",
- "jar": "./jar/spider.jar"
-},
 {"key":"影猫影视","name":"影猫快播","type":1,"api":"http://v.tkbot.fun/api.php/provide/vod/","searchable":1}, 
 {"key":"统一影视","name":"统一影视(js)","type":3,"api":"./lib/drpy2.min.js",
  "searchable": 2,"playerType":2,"ext":"./js/统一影视.js"
-},
-{"key":"月亮PQ","name":"月亮影院(js)","type":3,"api":"./lib/drpy2.min.js",
- "searchable":1,"quickSearch":1,"ext":"./sub/月亮影视.js"
 },
 {"key":"全网影视","name": "全网影视(js)","type":3,"api":"./lib/drpy2.min.js",
  "searchable": 1,"quickSearch": 1,"ext": "./js/全网影视.js"
