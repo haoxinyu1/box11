@@ -95,9 +95,6 @@
 {"key":"素白白","name": "素白影視()","type":3,"api":"csp_SuBaiBai","ext": "https://www.subaibai.com",
  "jar": "./jar/spider.jar"
 },
-{"key":"洽洽影视","name": "洽洽影视()","type":3,"api":"csp_AppGZ","searchable":1,"quickSearch":1,"filterable":1,
- "jar": "./jar/spider.txt"
-},
 {"key":"影猫影视","name":"影猫快播","type":1,"api":"http://v.tkbot.fun/api.php/provide/vod/","searchable":1}, 
 {"key":"厂长","name":"厂长影视(js)","type":3,"api":"./lib/drpy2.min.js",
  "searchable":1,"quickSearch":1,"ext":"./js/厂长资源.js"
@@ -150,7 +147,7 @@
  "ext":"./lib/采集之王.js?type=url&params=./sub/采集静态.json$1$1"
 },
 {"key":"Xunlei8","name":"迅雷磁力(PQ)","type":3,"api":"csp_XBPQ",
- "jar":"./jar/spider.txt",
+ "jar":"./jar/spider.jar",
  "ext": {"数组": "b30de590050ee&&</div></div",
   "请求头":"Mozilla/5.0(Windows NT 10.0; Win64; x64)AppleWebKit/537.36 (KHTML,like Gecko)Chrome/135.0.0.0 Safari/537.36 Edg/135.0.0.0",         
          "referer":"https://xunlei8.cc/",
@@ -166,7 +163,7 @@
         }
  },
 {"key":"可可影视PQ","name":"可可系💠III(PQ)","type":3,"api":"csp_XBPQ","searchable":1,"quickSearch":1,"filterable":1,
- "jar":"./jar/spider.txt",
+ "jar":"./jar/spider.jar",
  "ext":{ 
           "分类url": "https://www.ncat3.com:51111/show/{cateId}-{class}--{lang}-{year}-2-{catePg}.html",
           "分类":"电视剧$2#电影$1#动漫$3#综艺$4#短剧$6",
@@ -194,7 +191,7 @@
      }
 },
 {"key": "iysdq","name":"影视大全(PQ)","type":3,"api":"csp_XBPQ","searchable":1,"filterable":1,
- "jar":"./jar/spider.txt",
+ "jar":"./jar/spider.jar",
  "ext": {
          "分类url": "https://www.iysdq.cc/vodshow/{cateId}-{area}-------{catePg}---{year}.html",
          "分类": "电视剧$2#电影$1#动漫$4#综艺$3#短剧$5",
@@ -203,7 +200,7 @@
         }
 },
 {"key": "花姐影院PQ","name":"狐狸影视(PQ)","type":3,"api":"csp_XBPQ",
- "jar":"./jar/spider.txt",
+ "jar":"./jar/spider.jar",
  "ext": {
        "副标题":"☪",
        "分类url": "https://honghuli.com/leibiao/{cateId}--------{catePg}---.html",
@@ -211,7 +208,7 @@
        }
 },
 {"key":"飞飞影视PQ","name":"飞飞影视(PQ)","type":3,"api":"csp_XBPQ","searchable":1,"quickSearch":1,"filterable":1,
- "jar":"./jar/spider.txt",
+ "jar":"../jar/spider.jar",
  "ext":{
 	"分类url": "https://www.ffys.fun/vodshow/id/{cateId}/area/{area}/by/{by}/class/{class}/page/{catePg}/year/{year}.html", 
         "分类": "电影$20#剧集$21#动漫$22#综艺$23#记录片$24#爽剧$25",
@@ -221,7 +218,7 @@
        }
 },
 {"key":"优优xBPQ","name":"优优影视(PQ)","type":3,"api":"csp_XBPQ","searchable":1,"quickSearch":1,"filterable":1,
- "jar":"./jar/spider.txt",
+ "jar":"./jar/spider.jar",
  "ext":{
      "分类url":"https://nuu.su/x/area/{area}/by/{by}/class/{class}/id/{cateId}/page/{catePg}/year/{year}.html",
      "分类":"电视剧$2#电影$1#纪录$6#综艺$3#动漫$4",
@@ -229,7 +226,7 @@
      }
 },
 {"key":"tvybo3","name":"TVb云播(PQ)","type":3,"api":"csp_XBPQ","playerType":1,"searchable":1,"filterable":1,
- "jar":"./jar/spider.txt",
+ "jar":"./jar/spider.jar",
  "ext":{
    "免嗅": "1",
    "分类url": "http://www.hktvyun.com/vod/show/area/{area}/by/{by}/class/{class}/id/{cateId}/page/{catePg}/year/{year}.html",
@@ -241,7 +238,7 @@
    }
 },
 {"key":"红巾PQ","name":"好影快看(PQ)","type":3,"api":"csp_XBPQ","searchable":1,"filterable":1,"quickSearch":1,
- "jar":"./jar/spider.txt",
+ "jar":"./jar/spider.jar",
  "ext":{
     "影片类型": "module-info-tag\">&&立即播放",
     "简介":"尤东风友情提醒🔺勿信广告，避免受骗🔺+剧情简介：&&</p>",
@@ -253,7 +250,7 @@
 },
 {"key":"push_agent","name":"推送()","type":3,"api":"csp_Push","ext":"./lib/tokenm.json"},
 {"key": "网盘配置","name":"网盘配置","type":3,"api":"csp_Config","searchable":0,"changeable":0,
- "ext": "./lib/tokenm.json"
+ "ext": "./jar/spider.jar"
 }
 ],
 "lives": 
