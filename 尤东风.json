@@ -82,8 +82,8 @@
 {"key":"毒蛇js","name":"可可系💠II(js)","type":3,"api":"./lib/drpy2.min.js",
  "searchable": 2,"playerType":2,"ext":"./js/毒蛇电影.js"
 },
-{"key":"素白白","name": "素白影視()","type":3,"api":"csp_Subaibai","searchable":1,"quickSearch":1,
- "filterable":1,"ext": "http://subaibai.com","jar": "./jar/spider.txt"
+{"key":"素白白","name": "素白影視()","type":3,"api":"csp_SuBaiBai","ext": "https://www.subaibai.com",
+ "jar": "./jar/spider.jar"
 },
 {"key":"洽洽影视","name": "洽洽影视()","type":3,"api":"csp_AppGZ","searchable":1,"quickSearch":1,"filterable":1,
  "jar": "./jar/spider.txt"
