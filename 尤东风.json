@@ -21,11 +21,11 @@
  "searchable": 2,"playerType":2,"ext":"./js/qy.js"
 },
 {"key":"热播APP","name":"热播APP()","type":3,"api":"csp_AppRJ","searchable":1,"filterable": 0,
- "jar":"https://github.moeyy.xyz/https://raw.githubusercontent.com/hogo18/box/main/jar/spider.jar",
+ "jar":"./jar/spider.jar",
  "ext": {"url": "http://v.rbotv.cn"}
 },
 {"key": "仓鼠App","name": "仓鼠App()", "type": 3,"quickSearch": 1,"api": "csp_AppGet2",
- "jar":"https://github.moeyy.xyz/https://raw.githubusercontent.com/hogo18/box/main/jar/spider.jar",
+ "jar":"./jar/spider.jar",
  "ext": {
           "url": "https://qjappcms.cs4k.top",
                 "dataKey": "Z98KXaLtO2wC1Pte",
@@ -35,7 +35,7 @@
          }
 },
 {"key": "星河App","name": "星河App()", "type": 3,"quickSearch": 1,"api": "csp_AppGet",
- "jar":"https://github.moeyy.xyz/https://raw.githubusercontent.com/hogo18/box/main/jar/spider.jar",
+ "jar":"./jar/spider.jar",
  "ext": {
          "url": "http://121.62.22.204:9876",
                 "dataKey": "f5e2tx53ykp6s2c9",
@@ -45,7 +45,7 @@
          }
 },
 {"key": "雨滴App","name": "雨滴App()", "type": 3,"quickSearch": 1,"api": "csp_AppGet",
- "jar":"https://github.moeyy.xyz/https://raw.githubusercontent.com/hogo18/box/main/jar/spider.jar",
+ "jar":"./jar/spider.jar",
  "ext": {
         "url": "https://c8w2ov7u5wg2z1o8p21c.aliyuncs.click:27899",
         "dataKey": "k9o3p2c8b7m3z0o8",
@@ -55,7 +55,7 @@
       }
 },
 {"key": "彼岸App","name": "彼岸App()", "type": 3,"quickSearch": 1,"api": "csp_AppGet",
- "jar":"https://github.moeyy.xyz/https://raw.githubusercontent.com/hogo18/box/main/jar/spider.jar",
+ "jar":"./jar/spider.jar",
  "ext": {
            "url": "https://mfsp33.top",
                 "dataKey": "1234567887654321",
@@ -65,7 +65,7 @@
         }
 },
 {"key": "晴天App","name": "晴天App()", "type": 3,"quickSearch": 1,"api": "csp_AppGet",
- "jar":"https://github.moeyy.xyz/https://raw.githubusercontent.com/hogo18/box/main/jar/spider.jar",
+ "jar":"./jar/spider.jar",
  "ext": {
            "url": "https://qjappcms.sun4k.top",
                 "dataKey": "sBxqXVF5pAHbGzrH",
