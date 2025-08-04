@@ -246,13 +246,7 @@
 {"name": "1080解析2","type": 1,"url": "https://jxjson.icu/neibu.php?url=",
  "ext": {"header": {"User-Agent": "okhttp/4.9.1"}}
 },
-{"name": "1080解析3","type": 1,"url": "https://150.138.78.37:4399/api?key=2b879e7ecc09a112c1d9f85c42967aca&url=",
- "ext": {"header": {"User-Agent": "okhttp/4.9.1"}}
-},
-{"name": "2160解析","type": 1,"url": "http://1.94.221.189:88/algorithm.php?url=",
- "ext": {"header": {"User-Agent": "okhttp/4.9.1"}}
-},
-{"name":"测试解析00","url": "https://ylu.cc/index.php?url="},
+{"name":"测试解析00","url": "https://yparse.ik9.cc/index.php?url="},
 {"name":"测试解析11","url": "https://bd.jx.cn/?url="},
 {"name":"hogo解析00","url": "https://jx.m3u8.pw/?url="}, 
 {"name":"hogo解析01","url":"https://jx.2s0.cn/player/?url="},
