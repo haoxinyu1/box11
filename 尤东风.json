@@ -38,9 +38,10 @@
 {"key": "星河App","name": "星河App()", "type": 3,"quickSearch": 1,"api": "csp_AppGet",
  "jar":"./jar/spider.jar",
  "ext": {
-         "url": "http://121.62.22.204:9876",
-                "dataKey": "f5e2tx53ykp6s2c9",
-                "dataIv": "f5e2tx53ykp6s2c9",
+                "url": "",
+                "site": "http://tengxunyunaliyun.oss-cn-shanghai.aliyuncs.com/tengxunyun.txt",
+                "dataKey": "n3l2tx5jdkp9s2c8",
+                "dataIv": "n3l2tx5jdkp9s2c8",
                 "deviceId": "",
                 "version": "361"
          }
