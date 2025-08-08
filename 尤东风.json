@@ -24,8 +24,19 @@
  "jar":"./jar/spider.jar",
  "ext": {"url": "http://v.rbotv.cn"}
 },
+{ "key": "灵虎","name": "灵虎APP()","type":3,"quickSearch": 1,"api": "csp_AppGet",
+  "jar":"./jar/spider.jar",
+  "ext": {
+                "url": "",
+                "site": "https://bind.315999.xyz/89.txt",
+                "dataKey": "#getapp@TMD@2025",
+                "dataIv": "#getapp@TMD@2025",
+                "deviceId": "",
+                "version": "120"
+          }
+},
 {"key": "仓鼠App","name": "仓鼠App()", "type": 3,"quickSearch": 1,"api": "csp_AppGet2",
- "jar":"./jar/spider.jar",
+ "jar":"https://ghfile.geekertao.top/https://raw.githubusercontent.com/hogo18/box/main/jar/spider.jar",
  "ext": {
                 "url": "",
                 "site": "https://ceshi307386.oss-cn-beijing.aliyuncs.com/csurl.txt",
@@ -35,8 +46,8 @@
                 "version": "120"
          }
 },
-{"key": "星河App","name": "星河App()", "type": 3,"quickSearch": 1,"api": "csp_AppGet",
- "jar":"./jar/spider.jar",
+{"key": "白蛇App","name": "白蛇App()", "type": 3,"quickSearch": 1,"api": "csp_AppGet",
+ "jar":"https://ghfile.geekertao.top/https://raw.githubusercontent.com/hogo18/box/main/jar/spider.jar",
  "ext": {
                 "url": "",
                 "site": "http://tengxunyunaliyun.oss-cn-shanghai.aliyuncs.com/tengxunyun.txt",
@@ -47,7 +58,7 @@
          }
 },
 {"key": "雨滴App","name": "雨滴App()", "type": 3,"quickSearch": 1,"api": "csp_AppGet",
- "jar":"./jar/spider.jar",
+ "jar":"https://ghfile.geekertao.top/https://raw.githubusercontent.com/hogo18/box/main/jar/spider.jar",
  "ext": {
         "url": "https://c8w2ov7u5wg2z1o8p21c.aliyuncs.click:27899",
         "dataKey": "k9o3p2c8b7m3z0o8",
@@ -56,20 +67,10 @@
         "version": "100"
       }
 },
-{"key": "彼岸App","name": "彼岸App()", "type": 3,"quickSearch": 1,"api": "csp_AppGet",
- "jar":"./jar/spider.jar",
- "ext": {
-           "url": "https://mfsp33.top",
-                "dataKey": "1234567887654321",
-                "dataIv": "1234567887654321",
-                "deviceId": "298e5fe29c74b35aabb9836ee2f6f449f",
-                "version": "315"
-        }
-},
 {"key": "晴天App","name": "晴天App()", "type": 3,"quickSearch": 1,"api": "csp_AppGet",
- "jar":"./jar/spider.jar",
+ "jar":"https://ghfile.geekertao.top/https://raw.githubusercontent.com/hogo18/box/main/jar/spider.jar",
  "ext": {
-           "url": "https://qjappcms.sun4k.top",
+                "url": "https://qjappcms.sun4k.top",
                 "dataKey": "sBxqXVF5pAHbGzrH",
                 "dataIv": "sBxqXVF5pAHbGzrH",
                 "deviceId": "",
