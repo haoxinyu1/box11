@@ -83,7 +83,6 @@
 {"key":"Apple","name":"苹果影视()","type":3,"api": "csp_LiteApple","searchable":1,"filterable":1,
  "jar":"./jar/spider.jar"
 },
-{"key":"影猫影视","name":"影猫快播","type":1,"api":"http://v.tkbot.fun/api.php/provide/vod/","searchable":1}, 
 {"key": "金牌影院","name":"金牌影视(js)","type":3,"searchable":1,"api":"./lib/drpy2.min.js","ext":"./js/界界影视.js"},
 {"key":"可可js","name":"可可系💠I(js)","type":3,"api":"./lib/drpy2.min.js",
  "searchable": 2,"playerType":2,"ext":"./js/可可影视.js"
