@@ -36,7 +36,7 @@
           }
 },
 {"key": "仓鼠App","name": "仓鼠App()", "type": 3,"quickSearch": 1,"api": "csp_AppGet2",
- "jar":"https://ghfile.geekertao.top/https://raw.githubusercontent.com/hogo18/box/main/jar/spider.jar",
+ "jar":"./jar/spider.jar",
  "ext": {
                 "url": "",
                 "site": "https://ceshi307386.oss-cn-beijing.aliyuncs.com/csurl.txt",
@@ -47,7 +47,7 @@
          }
 },
 {"key": "白蛇App","name": "白蛇App()", "type": 3,"quickSearch": 1,"api": "csp_AppGet",
- "jar":"https://ghfile.geekertao.top/https://raw.githubusercontent.com/hogo18/box/main/jar/spider.jar",
+ "jar":"./jar/spider.jar",
  "ext": {
                 "url": "",
                 "site": "http://tengxunyunaliyun.oss-cn-shanghai.aliyuncs.com/tengxunyun.txt",
@@ -58,7 +58,7 @@
          }
 },
 {"key": "雨滴App","name": "雨滴App()", "type": 3,"quickSearch": 1,"api": "csp_AppGet",
- "jar":"https://ghfile.geekertao.top/https://raw.githubusercontent.com/hogo18/box/main/jar/spider.jar",
+ "jar":"./jar/spider.jar",
  "ext": {
         "url": "https://c8w2ov7u5wg2z1o8p21c.aliyuncs.click:27899",
         "dataKey": "k9o3p2c8b7m3z0o8",
@@ -68,7 +68,7 @@
       }
 },
 {"key": "晴天App","name": "晴天App()", "type": 3,"quickSearch": 1,"api": "csp_AppGet",
- "jar":"https://ghfile.geekertao.top/https://raw.githubusercontent.com/hogo18/box/main/jar/spider.jar",
+ "jar":"./jar/spider.jar",
  "ext": {
                 "url": "https://qjappcms.sun4k.top",
                 "dataKey": "sBxqXVF5pAHbGzrH",
