@@ -96,12 +96,6 @@
 {"key":"全网影视","name": "全网影视(js)","type":3,"api":"./lib/drpy2.min.js",
  "searchable": 1,"quickSearch": 1,"ext": "./js/全网影视.js"
 },
-{"key":"嘟嘟电影","name": "嘟嘟电影(js)","type":3,"api":"./lib/drpy2.min.js",
- "searchable": 1,"quickSearch": 1,"ext": "./sub/嘟嘟电影.js"
-},
-{"key":"荐片","name":"荐片影视(js)","type":3,"api":"./lib/drpy2.min.js",
- "quickSearch":1,"searchable":1,"ext": "./sub/荐片.js"
-},
 {"key":"111tvs","name":"111影视(js)","type":3,"api":"./lib/drpy2.min.js",
  "searchable": 2,"ext":"./js/111tvs.js"
 },
@@ -115,12 +109,6 @@
  "searchable":1,"quickSearch": 1,"ext": "./sub/南风影视.js"
 },
 {"key":"cspSixV","name":"新6磁力()","type":3,"api":"csp_Xb6v","searchable":1,"quickSearch":1,"ext":"https://www.xb6v.com"},
-{"key":"Mp4电影","name": "Mp4磁力()","type":3,"api":"./lib/drpy2.min.js",
- "ext": "./sub/MP4电影.js","searchable":1
-},
-{"key":"bt磁力","name":"B_t磁力(js)","type":3,"api":"./lib/drpy2.min.js",
- "searchable":1,"ext": "./js/bt磁力.js"
-},
 {"key":"ikun","name": "采集💠集合(js)","type":3,"api":"./lib/drpy2.min.js",
  "searchable": 1,"quickSearch": 1,
  "ext":"./lib/采集之王.js?type=url&params=./sub/采集静态.json$1$1"
