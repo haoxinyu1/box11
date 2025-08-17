@@ -24,6 +24,17 @@
  "jar":"./jar/spider.jar",
  "ext": {"url": "http://v.rbotv.cn"}
 },
+{"key": "APP云云","name": "云云APP()","type":3,"quickSearch":1,"api": "csp_AppQi",
+ "jar":"./jar/spider.jar",
+ "ext": {
+                "url": "",
+                "site": "https://staraugust123456.oss-cn-hangzhou.aliyuncs.com/1.txt",
+                "dataKey": "staraugust123456",
+                "dataIv": "staraugust123456",
+                "deviceId": "",
+                "version": "120"
+         }
+},
 { "key": "灵虎","name": "灵虎APP()","type":3,"quickSearch": 1,"api": "csp_AppGet",
   "jar":"./jar/spider.jar",
   "ext": {
