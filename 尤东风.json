@@ -98,6 +98,10 @@
 {"key":"可可js","name":"可可系💠I(js)","type":3,"api":"./lib/drpy2.min.js",
  "searchable": 2,"playerType":2,"ext":"./js/可可影视.js"
 },
+{"key": "七味影视","name":"七味影视(js)","type":3,"searchable":1,
+ "api":"./lib/drpy2.min.js",
+ "ext":"./js/七味影视.js"
+},
 {"key":"毒蛇js","name":"可可系💠II(js)","type":3,"api":"./lib/drpy2.min.js",
  "searchable": 2,"playerType":2,"ext":"./js/毒蛇电影.js"
 },
