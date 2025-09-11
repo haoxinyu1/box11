@@ -243,10 +243,6 @@
    }
  ], 
 "parses":[
-{"name": "4K解析","type": 1,"url": "http://43.139.94.96:8866/api/?key=7e67ab331ee255664f2989ca2171c2dd&url=",
-   "ext": {"flag": ["qq","腾讯","qiyi","爱奇艺"],
-	        "header": { "User-Agent": "okhttp/4.9.1"} }
-},
 {"name": "1080解析1","type": 1,"url": "https://zy.qiaoji8.com/gouzi.php?url=",
  "ext": {"header": {"User-Agent": "okhttp/4.9.1"}}
 },
