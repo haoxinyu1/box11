@@ -103,8 +103,8 @@
  "api":"./lib/drpy2.min.js",
  "ext":"./js/七味影视.js"
 },
-{"key":"毒蛇js","name":"可可系💠II(js)","type":3,"api":"./lib/drpy2.min.js",
- "searchable": 2,"playerType":2,"ext":"./js/毒蛇电影.js"
+{"key":"剧迷js","name":"剧迷影视(js)","type":3,"api":"./lib/drpy2.min.js",
+ "searchable": 2,"playerType":2,"ext":"./js/剧迷.js"
 },
 {"key":"统一影视","name":"统一影视(js)","type":3,"api":"./lib/drpy2.min.js",
  "searchable": 2,"playerType":2,"ext":"./js/统一影视.js"
