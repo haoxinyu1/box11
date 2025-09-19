@@ -50,9 +50,9 @@
  "jar":"./jar/spider.jar",
  "ext": {
           "url": "",
-                "site": "https://ceshi307386.oss-cn-beijing.aliyuncs.com/csurl.txt",
-                "dataKey": "Z98KXaLtO2wC1Pte",
-                "dataIv": "Z98KXaLtO2wC1Pte",
+                "site": "https://ceshi307386.oss-cn-beijing.aliyuncs.com/ceshi421.txt",
+                "dataKey": "da61247f5b662597",
+                "dataIv": "da61247f5b662597",
                 "deviceId": "",
                 "version": "120"
          }
@@ -78,14 +78,15 @@
         "version": "100"
       }
 },
-{"key": "晴天App","name": "晴天App()", "type": 3,"quickSearch": 1,"api": "csp_AppGet",
+{"key": "晴天App","name": "晴天App()", "type": 3,"quickSearch": 1,"api": "csp_AppQi",
  "jar":"./jar/spider.jar",
  "ext": {
-                "url": "https://qjappcms.sun4k.top",
-                "dataKey": "sBxqXVF5pAHbGzrH",
-                "dataIv": "sBxqXVF5pAHbGzrH",
+          "url": "",
+                "site": "https://lanyinghz.oss-cn-hangzhou.aliyuncs.com/lanyingxmy.txt",
+                "dataKey": "ca94b06ca359d80e",
+                "dataIv": "ca94b06ca359d80e",
                 "deviceId": "",
-                "version": "119"
+                "version": "120"
             }
 },
 {"key":"素白白","name": "素白影視()","type":3,"api":"csp_SuBaiBai","ext": "https://www.subaibai.com",
@@ -102,8 +103,8 @@
  "api":"./lib/drpy2.min.js",
  "ext":"./js/七味影视.js"
 },
-{"key":"毒蛇js","name":"可可系💠II(js)","type":3,"api":"./lib/drpy2.min.js",
- "searchable": 2,"playerType":2,"ext":"./js/毒蛇电影.js"
+{"key":"剧迷js","name":"剧迷影视(js)","type":3,"api":"./lib/drpy2.min.js",
+ "searchable": 2,"playerType":2,"ext":"./js/剧迷.js"
 },
 {"key":"统一影视","name":"统一影视(js)","type":3,"api":"./lib/drpy2.min.js",
  "searchable": 2,"playerType":2,"ext":"./js/统一影视.js"

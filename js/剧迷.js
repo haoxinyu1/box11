@@ -1,0 +1,27 @@
+var rule = {
+  title: '剧迷',
+  host: 'https://gimy.ai/',
+  url: '/cat/fyclass--------fypage---.html',
+  homeUrl:"/",
+  searchUrl: '/search/**----------fypage---.html',
+  searchable: 2,
+  quickSearch: 0,
+  filterable: 0,
+  headers:{ 'User-Agent': PC_UA, 'Referer': '', 'content-type': 'text/html;charset=utf-8', 'Cookie': '_ga=GA1.1.1981039924.1758099667; _ga_KMJB0TDLVW=GS2.1.s1758099667$o1$g1$t1758100432$j59$l0$h0; cf_clearance=1eCGNAKh9x8wH5lIURU59gv9DlH4f1YEhbJSMsyrXzM-1758100434-1.2.1.1-flviFxJG.VYstZ.byJuFXMWCrMrlH9nuvWWxS69ql3LoM3fT8zIVr.yA4z8ec8lHR6sPv4JaE14n1VR_Tl5xzNlA8doTk3sQibBpolAlPmQ0M0sSIDA_2g2Tu96dr1yK.ZcuahqLHegHcjLxmYeajhq5a2a4WmsH6R_U4QYeCdoi8Gae1tzfye_wFE2XuSqOg3xK6J_zEH32G_5tx7.QxAQa8ZiN8c3rzJpOleeBVgg'},
+  class_parse: '.my-scrollmenu a:gt(0):lt(10);a&&Text;a&&href;/(\\d+)',
+  play_parse: true,
+  lazy: "/",
+  limit: 6,
+  double: true,
+  推荐: '*',
+  一级: '.layout-box li:has(.video-pic);a&&title;a&&data-original;.note&&Text;a&&href',
+  二级: {
+    title: 'h1&&Text;.col-md-6:eq(1)&&Text',
+    img: '.lazyload&&data-original',
+    desc: '.col-md-6:eq(4)&&Text;.col-md-6:eq(7)&&Text;.col-md-6:eq(3)&&Text;.col-md-12:eq(1)&&Text;.col-md-6:eq(2)&&Text',
+    content: '.details-content-all&&Text',
+    tabs: '.box-main-content .playlist-mobile .gico',
+    lists: '.playlist-mobile:eq(#id) li'
+  },
+  搜索: '.clearfix .col-md-3;a&&title;.video-pic&&data-original;.note&&Text;a&&href',
+}
