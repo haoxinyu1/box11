@@ -95,7 +95,7 @@
 {"key":"Apple","name":"苹果影视()","type":3,"api": "csp_LiteApple","searchable":1,"filterable":1,
  "jar":"./jar/spider.jar"
 },
-{"key": "金牌影视()","name": "金牌影视()","type": 3,"api": "csp_Jpys",
+{"key": "金牌影视()","name": "金牌影院()","type": 3,"api": "csp_Jpys",
  "jar":"./jar/spider.jar",
   "ext": "https://m.hkybqufgh.com,https://m.sizhengxt.com,https://m.9zhoukj.com,https://m.sizhengxt.com,https://m.jiabaide.cn"
 },
