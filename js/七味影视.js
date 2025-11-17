@@ -1,6 +1,6 @@
 var rule = { 
     title: "七味",
-    host: "https://www.qn63.com//",
+    host: "https://www.qn63.com",
 	hostJs:'print(HOST);let html=request(HOST,{headers:{"User-Agent":PC_UA}});let src=jsp.pdfh(html,".content ul li:eq(-4)&&a&&href");print(src);HOST=src',
     headers:{ 'User-Agent': PC_UA, 'Referer': '', 'content-type': 'application/x-www-form-urlencoded', 'Cookie': ''},
     homeUrl:"",
