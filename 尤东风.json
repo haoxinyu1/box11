@@ -1,6 +1,6 @@
 {//以下全部资源均来自网络，如有冒犯请联系删除。[所有内容仅供学习使用，请勿用于违法用途]
 "spider":"./jar/spider.jar",
-"wallpaper":"https://api.likepoems.com/img/bing",
+"wallpaper":"https://wp.upx8.com/api.php",
 "sites":[
 {"key":"瓜子js","name":"尤东风自用接口💠他人请谨慎用之","type":3,"api":"./lib/drpy2.min.js",
  "searchable": 2,"playerType":2,"ext":"./js/瓜子.js"
