@@ -2,6 +2,16 @@
 "spider":"./jar/spider.jar",
 "wallpaper":"https://api.likepoems.com/img/bing",
 "sites":[
+{
+			"key": "闪影视界",
+			"name": "🐱视界┃2K",
+			"type": 3,
+			"api": "./lib/drpy2.min.js",
+			"searchable": 1,
+			"quickSearch": 1,
+			"filterable": 1,
+			"ext": "./js/AppGet.js?type=url&params=http://156.238.236.120:14500$J6AIORKJ3PQOJKM9$J6AIORKJ3PQOJKM9"
+		},
 {"key":"瓜子js","name":"尤东风自用接口💠他人请谨慎用之","type":3,"api":"./lib/drpy2.min.js",
  "searchable": 2,"playerType":2,"ext":"./js/瓜子.js"
 },
