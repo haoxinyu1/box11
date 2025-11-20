@@ -1,6 +1,6 @@
 {//以下全部资源均来自网络，如有冒犯请联系删除。[所有内容仅供学习使用，请勿用于违法用途]
 "spider":"./jar/spider.jar",
-"wallpaper":"https://api.likepoems.com/img/bing",
+"wallpaper":"https://wp.upx8.com/api.php",
 "sites":[
 {"key":"瓜子js","name":"尤东风自用接口💠他人请谨慎用之","type":3,"api":"./lib/drpy2.min.js",
  "searchable": 2,"playerType":2,"ext":"./js/瓜子.js"
@@ -46,15 +46,12 @@
                 "version": "120"
          }
 },
-{"key": "白蛇App","name": "白蛇App()", "type": 3,"quickSearch": 1,"api": "csp_AppGet",
+{"key": "白蛇App","name": "柒月APP()", "type": 3,"quickSearch": 1,"api": "csp_AppGet",
  "ext": {
-                "url": "",
-                "site": "http://tengxunyunaliyun.oss-cn-shanghai.aliyuncs.com/tengxunyun.txt",
-                "dataKey": "n3l2tx5jdkp9s2c8",
-                "dataIv": "n3l2tx5jdkp9s2c8",
-                "deviceId": "",
-                "version": "361"
-         }
+                "url": "https://www.ys.mk",
+                "dataKey": "mayday6770249ash",
+                "dataIv": "mayday6770249ash"
+        }
 },
 {"key": "雨滴App","name": "雨滴App()", "type": 3,"quickSearch": 1,"api": "csp_AppGet",
  "ext": {
@@ -81,9 +78,17 @@
 {"key": "金牌影视()","name": "金牌影院()","type": 3,"api": "csp_Jpys",
   "ext": "https://y2s52n7.com,https://m.hkybqufgh.com,https://m.sizhengxt.com,https://m.9zhoukj.com,https://m.sizhengxt.com,https://m.jiabaide.cn"
 },
-{"key": "金牌影院","name":"金牌影视(js)","type":3,"searchable":1,"api":"./lib/drpy2.min.js","ext":"./js/界界影视.js"},
+{"key": "金牌影院","name":"金牌影视(js)","type":3,"searchable":1,"api":"./lib/drpy2.min.js","ext":"./sub/金牌影院.js"},
 {"key":"可可js","name":"可可系💠I(js)","type":3,"api":"./lib/drpy2.min.js",
  "searchable": 2,"playerType":2,"ext":"./js/可可影视.js"
+},
+{"key":"闪影视界","name": "闪影视界(js)","type": 3,"api": "./lib/drpy2.min.js","searchable": 1,
+ "quickSearch": 1,"filterable": 1,
+ "ext": "./lib/AppGet.js?type=url&params=http://156.238.236.120:14500$J6AIORKJ3PQOJKM9$J6AIORKJ3PQOJKM9"
+},
+{"key": "柒月APP","name": "柒月APP(js)","type": 3,"api": "./lib/drpy2.min.js","searchable": 1,
+ "quickSearch": 1,"filterable": 1,
+ "ext": "./lib/AppGet.js?type=url&params=https://www.ys.mk$mayday6770249ash$mayday6770249ash"
 },
 {"key": "七味影视","name":"七味影视(js)","type":3,"searchable":1,
  "api":"./lib/drpy2.min.js",
