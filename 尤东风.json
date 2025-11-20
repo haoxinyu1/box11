@@ -97,9 +97,6 @@
 {"key":"统一影视","name":"统一影视(js)","type":3,"api":"./lib/drpy2.min.js",
  "searchable": 2,"playerType":2,"ext":"./js/统一影视.js"
 },
-{"key":"111tvs","name":"111影视(js)","type":3,"api":"./lib/drpy2.min.js",
- "searchable": 2,"ext":"./js/111tvs.js"
-},
 {"key":"红中影视","name": "红中影视(js)","type":3,"api":"./lib/drpy2.min.js",
  "searchable": 1,"quickSearch": 1,"ext": "./sub/红中影视.js"
 },
