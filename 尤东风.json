@@ -5,6 +5,13 @@
 {"key":"瓜子js","name":"尤东风自用接口💠他人请谨慎用之","type":3,"api":"./lib/drpy2.min.js",
  "searchable": 2,"playerType":2,"ext":"./js/瓜子.js"
 },
+{"key": "py_团夕","name":"团夕影视(py)","type":3,"searchable":1,"quickSearch":0,"playerType":2,
+ "api": "./lib/AppV2.py",
+ "ext": {"api": "http://dmmax.juxiafan.com/icciu_api.php/v1.vod",
+         "datasignkey": "6QQNUsP3PkD2ajJCPCY8",
+         "apisignkey": "lvdoutv-1.0.0"
+        }
+},
 {"key":"电影天堂c","name":"电影天堂c","type":1,"api":"http://caiji.dyttzyapi.com/api.php/provide/vod","searchable":1,
  "categories": ["国产剧","香港剧","韩国剧","泰国剧","动作片","战争片","恐怖片","大陆综艺","国产动漫"]
 },
