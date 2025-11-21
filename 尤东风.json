@@ -18,6 +18,9 @@
  "ext": {"url": "http://v.rbotv.cn"}
 },
 {"key": "农民影视","name": "农民影视()","type": 3,"api": "csp_Wwys","ext": "https://www.wwgz.cn"},
+{"key": "闪影","name": "闪影APP()","type": 3,"api": "csp_AppYs","searchable": 1,"quickSearch": 1,"filterable": 1,
+ "ext": "http://38.47.213.61:41271/mogai_api.php/v1.vod"
+},
 {"key": "APP云云","name": "小猪APP()","type":3,"quickSearch":1,"api": "csp_AppQi",
  "ext": {
           "site": "https://tiantangyoulu.oss-cn-beijing.aliyuncs.com/tengxunyun.txt",
@@ -79,9 +82,6 @@
   "ext": "https://y2s52n7.com,https://m.hkybqufgh.com,https://m.sizhengxt.com,https://m.9zhoukj.com,https://m.sizhengxt.com,https://m.jiabaide.cn"
 },
 {"key": "金牌影院","name":"金牌影视(js)","type":3,"searchable":1,"api":"./lib/drpy2.min.js","ext":"./sub/金牌影院.js"},
-{"key":"可可js","name":"可可系💠I(js)","type":3,"api":"./lib/drpy2.min.js",
- "searchable": 2,"playerType":2,"ext":"./js/可可影视.js"
-},
 {"key":"闪影视界","name": "闪影视界(js)","type": 3,"api": "./lib/drpy2.min.js","searchable": 1,
  "quickSearch": 1,"filterable": 1,
  "ext": "./lib/AppGet.js?type=url&params=http://156.238.236.120:14500$J6AIORKJ3PQOJKM9$J6AIORKJ3PQOJKM9"
@@ -96,12 +96,6 @@
 },
 {"key":"统一影视","name":"统一影视(js)","type":3,"api":"./lib/drpy2.min.js",
  "searchable": 2,"playerType":2,"ext":"./js/统一影视.js"
-},
-{"key":"全网影视","name": "全网影视(js)","type":3,"api":"./lib/drpy2.min.js",
- "searchable": 1,"quickSearch": 1,"ext": "./js/全网影视.js"
-},
-{"key":"111tvs","name":"111影视(js)","type":3,"api":"./lib/drpy2.min.js",
- "searchable": 2,"ext":"./js/111tvs.js"
 },
 {"key":"红中影视","name": "红中影视(js)","type":3,"api":"./lib/drpy2.min.js",
  "searchable": 1,"quickSearch": 1,"ext": "./sub/红中影视.js"
@@ -153,6 +147,58 @@
     "类型": "动作片$6#喜剧片$7#爱情片$8#科幻片$9#奇幻片$10#恐怖片$11#剧情片$12#战争片$20#动画片$26#悬疑片$22#冒险片$23#犯罪片$24#惊悚片$45#歌舞片$46#灾难片$47#网络片$48||国产剧$13#港台剧$14#日剧$15#韩剧$33#欧美剧$16#泰剧$34#新马剧$35#其他剧$25||内地综艺$27#港台综艺$28#日本综艺$29#韩国综艺$36#欧美综艺$30#新马泰综艺$37#其他综艺$38||国产动漫$31#日本动漫$32#韩国动漫$39#港台动漫$40#新马泰动漫$41#欧美动漫$42#其他动漫$43",
     "分类url": "https://www.ylys.tv/vodshow/{cateId}-{area}-{by}-{class}-{lang}-{letter}---{catePg}---{year}.html"
      }
+},
+{"key": "3Q影视","name":"3Q影视(PQ)","type":3,"api":"csp_XBPQ","searchable":1,"filterable":1,
+ "ext": {
+    "主页url": "https://qqqys.com",
+    "首页": "120",
+    "起始页": "1",
+    "分类url": "https://qqqys.com/api.php/filter/vod?type_name={cateId}&class={class}&area={area}&sort={by}&page={catePg}&limit=24;;mrcd0",
+    "分类": "电影&剧集&综艺&动漫&短剧",
+    "分类值": "*",
+    "二次截取": "默认--list\":\\[&&\\]||首页--空",
+    "数组": "默认--{&&}||首页--md:p&&</a>",
+    "标题": "默认--vod_name\":\"&&\"||首页--title=\"&&\"",
+    "图片": "默认--vod_pic\":\"&&\"||首页--data-original=\"&&\"",
+    "副标题": "默认--vod_remarks\":\"&&\"||首页--truncate text*>&&</div",
+    "链接": "默认--/vd/+id\":&&,+.html||首页--https://qqqys.com+href=\"&&\"",
+    "影片类型": "1.5\">&&</div></div>",
+    "状态": "上映：&&</div>",
+    "导演": "导演：&&</div>",
+    "主演": "主演：&&</div>",
+    "简介": "尤东风友情提醒🔺勿信广告，避免受骗🔺+<p>&&</p>",
+    "跳转数组": "vodId:&&,",
+    "跳转链接": "https://qqqys.com/api.php/internal/search_aggregate?vod_id=+\"&&\"",
+    "线路数组": "",
+    "线路标题": "尤东风💠高清",
+    "播放数组": "vod_play_url\":&&,[替换:\">>接表题#$>>题接#\\#>>接表表题]",
+    "播放列表": "表&&表",
+    "播放标题": "题&&题",
+    "播放链接": "接&&接"
+   }
+},
+{"key":"飞快tv","name":"飞快tv(PQ)","type":3,"api":"csp_XBPQ","searchable":1,"filterable":1,"quickSearch":1,
+ "ext":{
+        "搜索url": "https://feikuai.tv/vodsearch/{wd}----------{pg}---.html",
+        "数组": "<a&&</div></div></a>",
+        "链接": "href=\"&&\"",
+        "图片": "data-original=\"&&\"",
+        "标题": "title=\"&&\"",
+        "副标题": "module-item-note\">&&<",
+        "线路二次截取": "class=\"module-tab-items-box&&</div></div>",
+        "线路数组": "class=\"module-tab-item&&</small>",
+        "线路标题": "尤东风💠+<span>&&</span>",
+        "播放数组": "class=\"module-play-list-content&&</div>",
+        "播放标题": ">&&</span>",
+        "简介": "尤东风友情提醒🔺勿信广告，避免受骗🔺+introduction-content\"><p>&&</p>",
+        "首页": "20",
+        "起始页": "1",
+        "直接播放": "0",
+        "嗅探词": ".mp4#.m3u8",
+        "分类url": "https://feikuai.tv/vodshow/{cateId}--{by}------{catePg}---{year}.html;;mrcd0",
+        "分类": "电影&电视剧&综艺&动漫",
+        "分类值": "1&2&3&4"
+        }
 },
 {"key":"push_agent","name":"推送()","type":3,"api":"csp_Push","ext":"./lib/tokenm.json"}
 ],

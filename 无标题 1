@@ -2,37 +2,14 @@
 "spider":"./jar/spider.jar",
 "wallpaper":"https://api.likepoems.com/img/bing",
 "sites":[
-{
-			"key": "闪影视界",
-			"name": "🐱视界┃2K",
-			"type": 3,
-			"api": "./lib/drpy2.min.js",
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1,
-			"ext": "./lib/AppGet.js?type=url&params=http://156.238.236.120:14500$J6AIORKJ3PQOJKM9$J6AIORKJ3PQOJKM9"
-		},
-{
-			"key": "柒月｜APP",
-			"name": "🐱柒月｜APP",
-			"type": 3,
-			"api": "./lib/drpy2.min.js",
-			"searchable": 1,
-			"quickSearch": 1,
-			"filterable": 1,
-			"ext": "./lib/AppGet.js?type=url&params=https://www.ys.mk$mayday6770249ash$mayday6770249ash"
-		},
-{"key":"瓜子js","name":"尤东风自用接口💠他人请谨慎用之","type":3,"api":"./lib/drpy2.min.js",
- "searchable": 2,"playerType":2,"ext":"./js/瓜子.js"
+{"key":"qyjs","name":"奇珍异兽(js)","type":3,"api":"https://ghfile.geekertao.top/https://raw.githubusercontent.com/hogo18/box/main/lib/drpy2.min.js",
+ "searchable": 2,"playerType":2,"ext":"https://ghfile.geekertao.top/https://raw.githubusercontent.com/hogo18/box/main/js/qy.js"
 },
-{"key":"SP360","name":"360影视(js)","type":3,"api":"./lib/drpy2.min.js",
- "searchable": 2,"playerType":2,"ext":"./sub/360.js"
+{"key":"闪影视界","name": "闪影视界(js)","type": 3,"quickSearch": 1,"filterable": 1,"api": "https://ghfile.geekertao.top/https://raw.githubusercontent.com/hogo18/box/main/lib/drpy2.min.js","searchable": 1,
+ "ext": "https://ghfile.geekertao.top/https://raw.githubusercontent.com/hogo18/box/main/lib/AppGet.js?type=url&params=http://156.238.236.120:14500$J6AIORKJ3PQOJKM9$J6AIORKJ3PQOJKM9"
 },
-{"key":"qqjs","name":"腾云驾雾(js)","type":3,"api":"./lib/drpy2.min.js",
- "searchable": 2,"playerType":2,"ext":"./js/qq.js"
-},
-{"key":"qyjs","name":"奇珍异兽(js)","type":3,"api":"./lib/drpy2.min.js",
- "searchable": 2,"playerType":2,"ext":"./js/qy.js"
+{"key": "柒月APP","name": "柒月APP(js)","type": 3,"quickSearch": 1,"filterable": 1,"api":   "https://ghfile.geekertao.top/https://raw.githubusercontent.com/hogo18/box/main/lib/drpy2.min.js","searchable": 1,
+ "ext": "https://ghfile.geekertao.top/https://raw.githubusercontent.com/hogo18/box/main/lib/AppGet.js?type=url&params=https://www.ys.mk$mayday6770249ash$mayday6770249ash"
 },
 {"key":"热播APP","name":"热播APP()","type":3,"api":"csp_AppRJ","searchable":1,"filterable": 0,
  "ext": {"url": "http://v.rbotv.cn"}
