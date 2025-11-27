@@ -92,6 +92,8 @@
   "ext": "https://y2s52n7.com,https://m.hkybqufgh.com,https://m.sizhengxt.com,https://m.9zhoukj.com,https://m.sizhengxt.com,https://m.jiabaide.cn"
 },
 {"key": "金牌影院","name":"金牌影视(js)","type":3,"searchable":1,"api":"./lib/drpy2.min.js","ext":"./sub/金牌影院.js"},
+{"key": "可可影视","name":"可可影视(js)","type":3,"searchable":1,"api":"./lib/drpy2.min.js","ext":"./js/可可影视.js"
+},
 {"key":"好看影视","name":"好看影视(js)","type":3,"api":"./lib/drpy2.min.js",
  "click": "document.querySelector(\"#playleft iframe\").contentWindow.document.querySelector(\"#start\").click();",
  "ext": "./js/好看影视.js"
