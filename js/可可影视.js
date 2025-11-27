@@ -1,14 +1,136 @@
-// 导航站 https://dl.kkys01.com/
-var rule={
-    title:'可可影视',
-    host:'http://www.kkys01.com',
+var rule = {
+    //定义获取图片地址域名变量
+    img_host: '',
+
+    author: '小可乐/2509/第二版',
+    title: '可可影视',
+    类型: '影视',
+    host: 'https://www.kkys01.com',
+    hostJs: '',
+    headers: {'User-Agent': 'MOBILE_UA'},
+    编码: 'utf-8',
+    timeout: 5000,
+
     homeUrl: '/',
-    //host:'https://dl.kkys01.com/',
-   // hostJs:'print(HOST);let html=request(HOST,{headers:{"User-Agent":PC_UA}});let src=jsp.pdfh(html,"#good&&li:eq(0)&&a&&href");print(src);HOST=src',
-    // url:'/whole/fyclass_______0_addtime_fypage.html',
-    url:'/show/fyclassfyfilter.html',
-    filterable:1,//是否启用分类筛选,
-    filter_url:'-{{fl.class}}-{{fl.area}}-{{fl.lang}}-{{fl.year}}-{{fl.by}}-fypage',//{{fl.cateId}}-{{fl.class}}-{{fl.area}}-{{fl.lang}}-{{fl.year}}-{{fl.by}}-fypage
+    url: '/show/fyclass-fyfilter-fypage.html',
+    filter_url: '{{fl.class}}-{{fl.area}}-{{fl.lang}}-{{fl.year}}-{{fl.by}}',
+    searchUrl: '/search?k=**&page=fypage&t=',
+    detailUrl: '',
+
+    limit: 9,
+    double: false,
+    class_name: '电影&剧集&综艺&动漫&短剧',
+    class_url: '1&2&4&3&6',
+
+    预处理: $js.toString(() => {
+        const sha1ToUint8ArrayLatin1 = str => {
+            if (typeof str !== 'string') {
+                return null;
+            }
+            try {
+                let latin1Str = CryptoJS.SHA1(str).toString(CryptoJS.enc.Latin1);
+                let u8Array = Uint8Array.from(latin1Str, char => char.charCodeAt(0));
+                return u8Array;
+            } catch (e) {
+                return null;
+            }
+        }
+        let hashPre = request(HOST)?.match(/a0_0x2a54\s*=\s*\['([^']+)'/)?.[1]?.trim() ?? '';
+        if (hashPre != '' && hashPre != getItem('hashpre')) {
+            setItem('tgcookie', '');
+            setItem('hashpre', '');
+            let hashIdx = parseInt('0x' + hashPre[0], 16);
+            if (Number.isInteger(hashIdx) && hashIdx >= 0 && hashIdx <= 18) {
+                let cookieFound = false;
+                let maxLoop = 100000;
+                for (let i = 0; i < maxLoop && !cookieFound; i++) {
+                    let hashInput = `${hashPre}${i}`;
+                    let sha1Arr = sha1ToUint8ArrayLatin1(hashInput);
+                    if (sha1Arr && sha1Arr[hashIdx] === 0xb0 && sha1Arr[hashIdx + 1] === 0x0b) {
+                        let defendCookie = `cdndefend_js_cookie=${hashInput}`;
+                        setItem('hashpre', hashPre);
+                        setItem('tgcookie', defendCookie);
+                        cookieFound = true;
+                    }
+                }
+            }
+        }
+        if (getItem('tgcookie')) {
+            rule_fetch_params.headers['cookie'] = getItem('tgcookie');
+        }
+        let khtml = fetch(HOST, {
+            headers: rule_fetch_params.headers
+        });
+        let tValue = khtml.match(/<input[^>]*name="t"[^>]*value="([^"]*)"/i);
+        if (tValue && tValue[1]) {
+            rule.searchUrl = rule.searchUrl + encodeURIComponent(tValue[1]);
+        }
+        let scripts = pdfa(khtml, 'script');
+        let img_script = scripts.find((it) => pdfh(it, 'script&&src').includes('rdul.js'));
+        if (img_script) {
+            let img_url = img_script.match(/src="(.*?)"/)[1];
+            let img_html = fetch(img_url);
+            rule.img_host = img_html.match(/'(.*?)'/)[1];
+            rule.图片替换 = HOST + '=>' + rule.img_host;
+        }
+    }),
+
+    推荐: '*',
+    一级: '.module-item;.v-item-title:eq(1)&&Text;img:eq(-1)&&data-original;span:eq(-1)&&Text;a&&href',
+    搜索: $js.toString(() => {
+        let t = pdfh(fetch(input), 'input:eq(0)&&value');
+        input = input.split('?')[0];
+        let surl = `${input}?k=${KEY}&page=${MY_PAGE}&t=${t}`;
+        let khtml = fetch(surl);
+        VODS = [];
+        let klists = pdfa(khtml, '.search-result-item');
+        klists.forEach((it) => {
+            VODS.push({
+                vod_name: pdfh(it, 'img&&alt'),
+                vod_pic: pd(it, 'img&&data-original', rule.img_host),
+                vod_remarks: pdfh(it, '.search-result-item-header&&Text'),
+                vod_id: pdfh(it, 'a&&href')
+            });
+        });
+    }),
+    二级: {
+        title: '.detail-title&&strong:eq(1)&&Text;.detail-tags&&Text',
+        img: '.detail-pic&&img&&data-original',
+        desc: '.detail-info-row-main:eq(-2)&&Text;.detail-tags-item:eq(0)&&Text;.detail-tags-item:eq(1)&&Text;.detail-info-row-main:eq(1)&&Text;.detail-info-row-main:eq(0)&&Text',
+        content: '.detail-desc&&Text',
+        tabs: '.source-item',
+        tab_text: 'span:eq(-1)&&Text',
+        lists: '.episode-list:eq(#id)&&a',
+        list_text: 'body&&Text',
+        list_url: 'a&&href',
+    },
+    tab_remove: ['4K(高峰不卡)'],
+    tab_rename:{'超清1':'尤东风💠超清','FF线路':'尤东风💠非凡','腾讯加速':'尤东风💠腾讯','蓝光加速':'尤东风💠蓝光'},
+    play_parse: true,
+    lazy: $js.toString(() => {
+        let kurl = input;
+        let khtml = request(kurl);
+        if (/dujia/.test(khtml)) {
+            kurl = khtml.split("PPPP = '")[1].split("';")[0];
+            const key = CryptoJS.enc.Utf8.parse('Isu7fOAvI6!&IKpAbVdhf&^F');
+            const dataObj = {
+                ciphertext: CryptoJS.enc.Base64.parse(kurl)
+            };
+            const decrypted = CryptoJS.AES.decrypt(dataObj, key, {
+                mode: CryptoJS.mode.ECB,
+                padding: CryptoJS.pad.Pkcs7
+            });
+            kurl = decrypted.toString(CryptoJS.enc.Utf8);
+        } else {
+            kurl = khtml.split('src: "')[1].split('",')[0];
+        }
+        input = {
+            jx: 0,
+            parse: 0,
+            url: kurl,
+            header: rule.headers
+        };
+    }),
     filter:{
         "1":[{"key":"class",
         "name":"类型",
@@ -237,52 +359,4 @@ var rule={
         ],
         "4":[{"key":"year","name":"年份","value":[{"n":"全部","v":""},{"n":"2025","v":"2025"},{"n":"2024","v":"2024"},{"n":"2023","v":"2023"},{"n":"2022","v":"2022"},{"n":"2021","v":"2021"},{"n":"2020","v":"2020"},{"n":"10年代","v":"10年代"},{"n":"00年代","v":"00年代"},{"n":"90年代","v":"90年代"},{"n":"80年代","v":"80年代"},{"n":"更早","v":"更早"}]},{"key":"area","name":"地区","value":[{"n":"全部","v":""},{"n":"大陆","v":"大陆"},{"n":"香港","v":"香港"},{"n":"台湾","v":"台湾"},{"n":"美国","v":"美国"},{"n":"日本","v":"日本"},{"n":"韩国","v":"韩国"},{"n":"其他","v":"其他"}]},{"key":"class","name":"类型","value":[{"n":"全部","v":""},{"n":"犯罪","v":"犯罪"},{"n":"纪录","v":"纪录"},{"n":"短片","v":"短片"},{"n":"真人秀","v":"真人秀"},{"n":"搞笑","v":"搞笑"},{"n":"晚会","v":"晚会"},{"n":"历史","v":"历史"},{"n":"喜剧","v":"喜剧"},{"n":"传记","v":"传记"},{"n":"相声","v":"相声"},{"n":"歌舞","v":"歌舞"},{"n":"冒险","v":"冒险"},{"n":"运动","v":"运动"},{"n":"Season","v":"Season"}]},{"key":"by","name":"排序","value":[{"n":"综合","v":"综合"},{"n":"最新","v":"最新"},{"n":"最热","v":"最热"}]}],
         "6":[{"key":"class","name":"类型","value":[{"n":"全部","v":""},{"n":"王爷太子","v":"王爷太子"},{"n":"霸道总裁","v":"霸道总裁"},{"n":"屌丝逆袭","v":"屌丝逆袭"},{"n":"赘婿系列","v":"赘婿系列"},{"n":"重生系列","v":"重生系列"},{"n":"穿越短剧","v":"穿越短剧"},{"n":"美女总裁","v":"美女总裁"},{"n":"娇妻系列","v":"娇妻系列"},{"n":"龙王系列","v":"龙王系列"},{"n":"龙王系列","v":"龙王系列"}]},{"key":"by","name":"排序","value":[{"n":"综合","v":"综合"},{"n":"最新","v":"最新"},{"n":"最热","v":"最热"}]}]},
-        filter_def:{
-        1:{cateId:'1'},
-        2:{cateId:'2'},
-        4:{cateId:'4'},
-        3:{cateId:'3'},
-        6:{cateId:'6'}
-    },
-    searchUrl:'search?t=yuPmbB0ihZS33T76sZjwHg%3D%3D&k=**',
-    searchable:2,//是否启用全局搜索,
-    quickSearch:0,//是否启用快速搜索,
-    headers:{
-        'User-Agent':'PC_UA'
-    },
-    //class_parse: '.nav-box&&.swiper-slide;a&&Text;a&&href;/(\\d+).html',
-    class_name: '电影&剧集&动漫&综艺记录&短剧',
-    class_url: '1&2&3&4&6',
-    //图片替换:'http://www.kkys01.com/=>https://vres.cfaqcgj.com/',
-
-    play_parse:true,
-    lazy:'',
-    limit:6,
-    推荐:'*',
-    //'body&&.module-item;.v-item-title:eq(1)&&Text;img:eq(-1)&&date-original;.span&&Text;a&&href',
-    //一级:'body&&.module-item;.v-item-title:eq(1)&&Text;img:eq(1)&&date-original;.span&&Text;a&&href',
-    一级:`js:
-pdfh=jsp.pdfh;pdfa=jsp.pdfa;pd=jsp.pd;
-let d = [];
-let html = request(input);
-let list = pdfa(html, 'body&&.module-item');
-list.forEach(it => {
-	d.push({
-		title: pdfh(it, '.v-item-title:eq(-2)&&Text'),
-		desc: pdfh(it, 'span&&Text'),
-		pic_url: pd(it, '.v-item-cover&&img:eq(1)&&data-original').replaceAll("http://www.kkys01.com","https://vres.uujjyp.cn/"),
-		url: pd(it, 'a&&href')
-	});
-});
-setResult(d);
-	`,
-    二级:{
-        "title":"h1--span&&Text;tr:eq(2)&&a&&Text",
-        "img":".img-thumbnail&&src",
-        "desc":"tr:eq(6)&&a&&Text;;;#casts&&Text;tr:eq(0)&&a&&Text",
-        "content":".detail-desc p&&Text",
-        "tabs":".source-box&&span",
-        "lists":".episode-box-main&&.episode-list&&a"
-    },
-    搜索:'body&&.search-result-item-ctn;.title&&Text;img:eq(1)&&date-original;.span&&Text;a&&href',
 }
