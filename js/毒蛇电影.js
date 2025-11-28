@@ -1,52 +1,135 @@
 var rule = {
-    title: '毒蛇电影',
+    //定义获取图片地址域名变量
+    img_host: '',
+
+    author: '小可乐/2509/第二版',
+    title: '毒舌影视',
+    类型: '影视',
     host: 'https://www.dushe9.app',
-    //host: 'https://www.kkys01.com',
-    // url: '/show/fyclass-----2-fypage.html',
+    hostJs: '',
+    headers: {'User-Agent': 'MOBILE_UA'},
+    编码: 'utf-8',
+    timeout: 5000,
+
+    homeUrl: '/',
     url: '/show/fyclass-fyfilter-fypage.html',
-    filter_url: '{{fl.类型}}-{{fl.地区}}-{{fl.语言}}-{{fl.年份}}-{{fl.排序}}',
-    searchUrl: '/search?k=**&page=fypage',
-    searchable: 2,
-    quickSearch: 0,
-    filterable: 1,
-    headers: {
-        'User-Agent': 'MOBILE_UA',
-    },
-    class_parse: '#nav-swiper&&.nav-swiper-slide;a&&Text;a&&href;/(\\w+).html',
-    cate_exclude: 'Netflix|今日更新|专题列表|排行榜',
-    tab_exclude:'可可影视提供',
-    tab_order: ['超清', 'FF线路','LZ线路','极速蓝光'],
-    tab_remove:['4K(高峰不卡)'],
-    tab_rename:{'超清':'尤东风💠超清','FF线路':'尤东风💠非凡','LZ线路':'尤东风💠量子','蓝光3':'尤东风💠蓝光3'},
-    play_parse: true,
-    lazy: '',
-    limit: 20,
-    推荐: '.section-box:eq(2)&&.module-box-inner&&.module-item;*;*;*;*',
+    filter_url: '{{fl.class}}-{{fl.area}}-{{fl.lang}}-{{fl.year}}-{{fl.by}}',
+    searchUrl: '/search?k=**&page=fypage&t=',
+    detailUrl: '',
+
+    limit: 9,
     double: false,
-    一级: '.module-item;.v-item-title&&Text;img.lazyload&&data-original;.v-item-bottom span&&Text;a&&href',
-    //一级: '.module-box-inner&&.module-item;.v-item-title:eq(1)&&Text;img:last-of-type&&data-original;.v-item-bottom&&span:eq(1)&&Text;a&&href',
-    二级: {
-        title: '.detail-pic&&img&&alt;.detail-tags&&a&&Text',
-        img: '.detail-pic&&img&&data-original',
-        desc: '.detail-info-row-main:eq(-2)&&Text;.detail-tags&&a&&Text;.detail-tags&&a:eq(1)&&Text;.detail-info-row-main:eq(1)&&Text;.detail-info-row-main&&Text',
-        content: '.detail-desc&&Text',
-        //tabs: '.source-item-label:nth-of-type(2)',
-        tabs: 'body&&.source-item-label',
-        lists: '.episode-list:eq(#id) a',
-    },
-    搜索: '.search-result-list&&a;.title:eq(1)&&Text;*;.search-result-item-header&&Text;a&&href;.desc&&Text',
+    class_name: '电影&剧集&综艺&动漫&短剧',
+    class_url: '1&2&4&3&6',
+
     预处理: $js.toString(() => {
-        let html = request(rule.host);
-        let scripts = pdfa(html, 'script');
-        let img_script = scripts.find(it => pdfh(it, 'script&&src').includes('rdul.js'));
+        const sha1ToUint8ArrayLatin1 = str => {
+            if (typeof str !== 'string') {
+                return null;
+            }
+            try {
+                let latin1Str = CryptoJS.SHA1(str).toString(CryptoJS.enc.Latin1);
+                let u8Array = Uint8Array.from(latin1Str, char => char.charCodeAt(0));
+                return u8Array;
+            } catch (e) {
+                return null;
+            }
+        }
+        let hashPre = request(HOST)?.match(/a0_0x2a54\s*=\s*\['([^']+)'/)?.[1]?.trim() ?? '';
+        if (hashPre != '' && hashPre != getItem('hashpre')) {
+            setItem('tgcookie', '');
+            setItem('hashpre', '');
+            let hashIdx = parseInt('0x' + hashPre[0], 16);
+            if (Number.isInteger(hashIdx) && hashIdx >= 0 && hashIdx <= 18) {
+                let cookieFound = false;
+                let maxLoop = 100000;
+                for (let i = 0; i < maxLoop && !cookieFound; i++) {
+                    let hashInput = `${hashPre}${i}`;
+                    let sha1Arr = sha1ToUint8ArrayLatin1(hashInput);
+                    if (sha1Arr && sha1Arr[hashIdx] === 0xb0 && sha1Arr[hashIdx + 1] === 0x0b) {
+                        let defendCookie = `cdndefend_js_cookie=${hashInput}`;
+                        setItem('hashpre', hashPre);
+                        setItem('tgcookie', defendCookie);
+                        cookieFound = true;
+                    }
+                }
+            }
+        }
+        if (getItem('tgcookie')) {
+            rule_fetch_params.headers['cookie'] = getItem('tgcookie');
+        }
+        let khtml = fetch(HOST, {
+            headers: rule_fetch_params.headers
+        });
+        let tValue = khtml.match(/<input[^>]*name="t"[^>]*value="([^"]*)"/i);
+        if (tValue && tValue[1]) {
+            rule.searchUrl = rule.searchUrl + encodeURIComponent(tValue[1]);
+        }
+        let scripts = pdfa(khtml, 'script');
+        let img_script = scripts.find((it) => pdfh(it, 'script&&src').includes('rdul.js'));
         if (img_script) {
             let img_url = img_script.match(/src="(.*?)"/)[1];
-            //console.log(img_url);
-            let img_html = request(img_url);
-            let img_host = img_html.match(/'(.*?)'/)[1];
-            log(img_host);
-            rule.图片替换 = rule.host + '=>' + img_host;
+            let img_html = fetch(img_url);
+            rule.img_host = img_html.match(/'(.*?)'/)[1];
+            rule.图片替换 = HOST + '=>' + rule.img_host;
         }
+    }),
+
+    推荐: '*',
+    一级: '.module-item;.v-item-title:eq(1)&&Text;img:eq(-1)&&data-original;span:eq(-1)&&Text;a&&href',
+    搜索: $js.toString(() => {
+        let t = pdfh(fetch(input), 'input:eq(0)&&value');
+        input = input.split('?')[0];
+        let surl = `${input}?k=${KEY}&page=${MY_PAGE}&t=${t}`;
+        let khtml = fetch(surl);
+        VODS = [];
+        let klists = pdfa(khtml, '.search-result-item');
+        klists.forEach((it) => {
+            VODS.push({
+                vod_name: pdfh(it, 'img&&alt'),
+                vod_pic: pd(it, 'img&&data-original', rule.img_host),
+                vod_remarks: pdfh(it, '.search-result-item-header&&Text'),
+                vod_id: pdfh(it, 'a&&href')
+            });
+        });
+    }),
+    二级: {
+        title: '.detail-title&&strong:eq(1)&&Text;.detail-tags&&Text',
+        img: '.detail-pic&&img&&data-original',
+        desc: '.detail-info-row-main:eq(-2)&&Text;.detail-tags-item:eq(0)&&Text;.detail-tags-item:eq(1)&&Text;.detail-info-row-main:eq(1)&&Text;.detail-info-row-main:eq(0)&&Text',
+        content: '.detail-desc&&Text',
+        tabs: '.source-item',
+        tab_text: 'span:eq(-1)&&Text',
+        lists: '.episode-list:eq(#id)&&a',
+        list_text: 'body&&Text',
+        list_url: 'a&&href',
+    },
+
+    tab_remove: ['4K(高峰不卡)'],
+    play_parse: true,
+    lazy: $js.toString(() => {
+        let kurl = input;
+        let khtml = request(kurl);
+        if (/dujia/.test(khtml)) {
+            kurl = khtml.split("PPPP = '")[1].split("';")[0];
+            const key = CryptoJS.enc.Utf8.parse('Isu7fOAvI6!&IKpAbVdhf&^F');
+            const dataObj = {
+                ciphertext: CryptoJS.enc.Base64.parse(kurl)
+            };
+            const decrypted = CryptoJS.AES.decrypt(dataObj, key, {
+                mode: CryptoJS.mode.ECB,
+                padding: CryptoJS.pad.Pkcs7
+            });
+            kurl = decrypted.toString(CryptoJS.enc.Utf8);
+        } else {
+            kurl = khtml.split('src: "')[1].split('",')[0];
+        }
+        input = {
+            jx: 0,
+            parse: 0,
+            url: kurl,
+            header: rule.headers
+        };
     }),
     filter:{
         "1":[
