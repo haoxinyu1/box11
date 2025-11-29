@@ -27,9 +27,17 @@
 {"key":"热播APP","name":"热播APP()","type":3,"api":"csp_AppRJ","searchable":1,"filterable": 0,
  "ext": {"url": "http://v.rbotv.cn"}
 },
-{"key": "农民影视","name": "农民影视()","type": 3,"api": "csp_Wwys","ext": "https://www.wwgz.cn"},
 {"key": "闪影","name": "闪影APP()","type": 3,"api": "csp_AppYs","searchable": 1,"quickSearch": 1,"filterable": 1,
  "ext": "http://38.47.213.61:41271/mogai_api.php/v1.vod"
+},
+{"key": "追剧App","name": "追剧App()", "type": 3,"quickSearch": 1,"api": "csp_AppQi",
+ "ext": {       "url": "https://qj.ggtvb.cc",
+               // "site": "https://dtqj1.gg1080.com:443/dtjp.txt",
+                "dataKey": "kecbio48dsq131ed",
+                "dataIv": "kecbio48dsq131ed",
+                "deviceId": "",
+                "version": ""
+         }
 },
 {"key": "APP云云","name": "小猪APP()","type":3,"quickSearch":1,"api": "csp_AppQi",
  "ext": {
@@ -93,6 +101,7 @@
 },
 {"key": "金牌影院","name":"金牌影视(js)","type":3,"searchable":1,"api":"./lib/drpy2.min.js","ext":"./sub/金牌影院.js"},
 {"key": "可可影视","name":"可可影视(js)","type":3,"searchable":1,"api":"./lib/drpy2.min.js","ext":"./js/可可影视.js"},
+{"key": "毒蛇电影","name":"毒蛇电影(js)","type":3,"searchable":1,"api":"./lib/drpy2.min.js","ext":"./js/毒蛇电影.js"},
 {"key":"好看影视","name":"好看影视(js)","type":3,"api":"./lib/drpy2.min.js",
  "click": "document.querySelector(\"#playleft iframe\").contentWindow.document.querySelector(\"#start\").click();",
  "ext": "./js/好看影视.js"
