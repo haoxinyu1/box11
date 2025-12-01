@@ -5,6 +5,7 @@
 {"key":"瓜子js","name":"尤东风自用接口💠他人请谨慎用之","type":3,"api":"./lib/drpy2.min.js",
  "searchable": 2,"playerType":2,"ext":"./js/瓜子.js"
 },
+{"key":"爱看机器","name":"爱看机器(js)","type":3,"api":"./lib/drpy2.min.js","ext":"./js/爱看机器.js"},
 {"key": "py_团夕","name":"团夕影视(py)","type":3,"searchable":1,"quickSearch":0,"playerType":2,
  "api": "./lib/AppV2.py",
  "ext": {"api": "http://dmmax.juxiafan.com/icciu_api.php/v1.vod",
