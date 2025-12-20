@@ -5,7 +5,7 @@
 {"key":"瓜子js","name":"尤东风自用接口💠他人请谨慎用之","type":3,"api":"./lib/drpy2.min.js",
  "searchable": 2,"playerType":2,"ext":"./js/瓜子.js"
 },
-{"key":"大米影视js","name":"大米影视","type":3,"api":"./lib/drpy2.min.js",
+{"key":"大米影视js","name":"大米影视(js)","type":3,"api":"./lib/drpy2.min.js",
  "searchable": 2,"playerType":2,"ext":"./js/大米影视.js"
 },
 {"key":"爱看机器","name":"爱看机器(js)","type":3,"api":"./lib/drpy2.min.js","ext":"./js/爱看机器.js"},
