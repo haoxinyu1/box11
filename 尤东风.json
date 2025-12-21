@@ -8,6 +8,10 @@
 {"key":"大米影视js","name":"大米影视(js)","type":3,"api":"./lib/drpy2.min.js",
  "searchable": 2,"playerType":2,"ext":"./js/大米影视.js"
 },
+{"key": "FROK影视","name": "FROK影视","type": 3,"api": "./lib/drpy2.min.js",
+ "click": "document.querySelector(\"#playleft iframe\").contentWindow.document.querySelector(\"#start\").click();",
+	"ext": "./sub/OK影视.js"
+			},
 {"key":"爱看机器","name":"爱看机器(js)","type":3,"api":"./lib/drpy2.min.js","ext":"./js/爱看机器.js"},
 {"key": "py_团夕","name":"团夕影视(py)","type":3,"searchable":1,"quickSearch":0,"playerType":2,
  "api": "./lib/AppV2.py",
