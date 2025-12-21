@@ -45,5 +45,5 @@ var rule={
     "tabs": ".hisSwiper&&span",
     "lists": ".his-tab-list:eq(#id) a"
 	},
-	tab_rename:{'OK无广':'尤东风💠OK无广','OK极速':'尤东风💠OK极速'},
+	tab_rename:{'OK无广':'尤东风💠OK无广','OK超清':'尤东风💠OK超清','OK极速':'尤东风💠OK极速'},
     搜索: 'body .module-item;.module-card-item-title&&Text;.lazyload&&data-original;.module-item-note&&Text;a&&href;.module-info-item-content&&Text',}
