@@ -43,5 +43,7 @@ var rule={
     "desc": ".module-info-item:eq(1)&&Text;.module-info-item:eq(2)&&Text;.module-info-item:eq(3)&&Text",
     "content": ".module-info-introduction&&Text",
     "tabs": ".hisSwiper&&span",
-    "lists": ".his-tab-list:eq(#id) a"},
+    "lists": ".his-tab-list:eq(#id) a"
+	},
+	tab_rename:{'OK无广':'尤东风💠OK无广','OK极速':'尤东风💠OK极速'},
     搜索: 'body .module-item;.module-card-item-title&&Text;.lazyload&&data-original;.module-item-note&&Text;a&&href;.module-info-item-content&&Text',}
