@@ -45,7 +45,7 @@ class Spider(Spider):
                 result['class'].append({
                     "type_id": i['type_id'],
                     "type_name": i['type_name']
-                })//letter  lang 语言
+                })
             name_mapping = {'class': '类型', 'area': '地区', 'letter': '字母', 'year': '年份', 'sort': '排序'}
             filter_items = []
             for filter_type in i.get('filter_type_list', []):
@@ -98,7 +98,6 @@ class Spider(Spider):
             'page': str(pg),
             'sort': ext.get('sort','最新'),
             'letter': ext.get('letter','全部'),
-            //'lang': ext.get('lang','全部'),
             'class': ext.get('class','全部')
         }
         url = f'{self.xurl}.index/typeFilterVodList'
@@ -336,4 +335,5 @@ def replace_code(text):
         text = text.replace('066', '1666')
         text = text.replace('566', '5066')
     return ''.join(replacements.get(c, c) for c in text)
+
 
