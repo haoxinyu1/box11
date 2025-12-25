@@ -23,6 +23,13 @@
          "apisignkey": "lvdoutv-1.0.0"
         }
 },
+{"key":"py小猪","name":"小猪影视(py)", "type":3,"searchable":1,"filterable":1,"api":"./lib/qijiapp.py",
+ "ext":{"host":"http://211.154.22.153:9876",
+         "api":"/api.php/qijiappapi",
+         "datakey":"seb5tq9mykp2w9ry",
+         "dataiv":"seb5tq9mykp2w9ry"
+       }
+},
 {"key":"电影天堂c","name":"电影天堂c","type":1,"api":"http://caiji.dyttzyapi.com/api.php/provide/vod","searchable":1,
  "categories": ["国产剧","香港剧","韩国剧","泰国剧","动作片","战争片","恐怖片","大陆综艺","国产动漫"]
 },
