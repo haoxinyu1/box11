@@ -28,7 +28,7 @@ class Spider(Spider):
         host = js1['host']
         if re.match(r'^https?:\/\/.*\.(txt|json)$',host):
             host = self.fetch(host, headers=headerx, timeout=10).text.rstrip('/')
-        self.xurl = host + js1.get('api','/api.php/Appgetapi')
+        self.xurl = host + js1.get('api','/api.php/getAppgetapi')
         self.key = js1['datakey']
         self.iv = js1.get('dataiv',self.key)
 
