@@ -57,14 +57,6 @@
                 "version": ""
          }
 },
-{"key": "APP云云","name": "小猪APP()","type":3,"quickSearch":1,"api": "csp_AppQi",
- "ext": {
-          "site": "https://tiantangyoulu.oss-cn-beijing.aliyuncs.com/tengxunyun.txt",
-          "dataKey": "seb5tq9mykp2w9ry",
-          "dataIv": "seb5tq9mykp2w9ry",
-          "ua": "okhttp/3.10.0"
-        }
-},
 { "key": "灵虎","name": "灵虎APP()","type":3,"quickSearch": 1,"api": "csp_AppGet",
   "ext": {
                 "url": "",
