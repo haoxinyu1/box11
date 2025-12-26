@@ -335,3 +335,6 @@ def replace_code(text):
         text = text.replace('066', '1666')
         text = text.replace('566', '5066')
     return ''.join(replacements.get(c, c) for c in text)
+
+
+
