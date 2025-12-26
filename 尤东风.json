@@ -29,12 +29,13 @@
          "dataiv":"seb5tq9mykp2w9ry"
        }
 },
-{"key": "仓鼠App","name": "仓鼠App()", "type": 3,"quickSearch": 1,"api": "csp_AppQi",
+{"key": "仓鼠App","name": "仓鼠App()", "type": 3,"quickSearch": 1,"api": "./lib/qijiapp.py",
  "ext": {
-                //"url": "https://hk421appcms.cs4k.top",
-                "site": "https://ceshi307386.oss-cn-beijing.aliyuncs.com/ceshi421.txt",
-                "dataKey": "da61247f5b662597",
-                "dataIv": "da61247f5b662597",
+                "host": "https://hk421appcms.cs4k.top",
+                //"site": "https://ceshi307386.oss-cn-beijing.aliyuncs.com/ceshi421.txt",
+                "api":"/api.php/qijiappapi",
+                "datakey": "da61247f5b662597",
+                "dataiv": "da61247f5b662597",
                 "deviceId": "",
                 "version": "120"
          }
