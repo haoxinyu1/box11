@@ -29,7 +29,7 @@
          "dataiv":"seb5tq9mykp2w9ry"
        }
 },
-{"key": "仓鼠App","name": "仓鼠App()", "type": 3,"quickSearch": 1,"api": "./lib/qijiapp.py",
+{"key": "仓鼠App","name": "仓鼠App(py)", "type": 3,"quickSearch": 1,"api": "./lib/qijiapp.py",
  "ext": {
                 "host": "https://hk421appcms.cs4k.top",
                 //"site": "https://ceshi307386.oss-cn-beijing.aliyuncs.com/ceshi421.txt",
