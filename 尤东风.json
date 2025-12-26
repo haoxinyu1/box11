@@ -29,12 +29,14 @@
          "dataiv":"seb5tq9mykp2w9ry"
        }
 },
-{"key": "仓鼠App","name": "仓鼠App(py)", "type": 3,"quickSearch": 1,"api": "./lib/qijiapp.py",
- "ext": {       //"site": "https://ceshi307386.oss-cn-beijing.aliyuncs.com/ceshi421.txt",
-                "host": "https://hk421appcms.cs4k.top",
-                "api":"/api.php/qijiappapi",
-                "datakey": "da61247f5b662597",
-                "dataiv": "da61247f5b662597"
+{"key": "仓鼠App","name": "仓鼠App()", "type": 3,"quickSearch": 1,"api": "csp_AppQi",
+ "ext": {
+                //"url": "https://hk421appcms.cs4k.top",
+                "site": "https://ceshi307386.oss-cn-beijing.aliyuncs.com/ceshi421.txt",
+                "dataKey": "da61247f5b662597",
+                "dataIv": "da61247f5b662597",
+                "deviceId": "",
+                "version": "120"
          }
 },
 {"key":"电影天堂c","name":"电影天堂c","type":1,"api":"http://caiji.dyttzyapi.com/api.php/provide/vod","searchable":1,
