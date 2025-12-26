@@ -34,7 +34,7 @@
                 "host": "https://hk421appcms.cs4k.top,
                 "api":"/api.php/qijiappapi",
                 "dataKey": "da61247f5b662597",
-                "dataIv": "da61247f5b662597",
+                "dataIv": "da61247f5b662597"
          }
 },
 {"key":"电影天堂c","name":"电影天堂c","type":1,"api":"http://caiji.dyttzyapi.com/api.php/provide/vod","searchable":1,
