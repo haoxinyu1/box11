@@ -66,11 +66,11 @@
 {"key": "闪影","name": "闪影APP()","type": 3,"api": "csp_AppYs","searchable": 1,"quickSearch": 1,"filterable": 1,
  "ext": "http://38.47.213.61:41271/mogai_api.php/v1.vod"
 },
-{"key": "追剧App","name": "追剧App()", "type": 3,"quickSearch": 1,"api": "csp_AppQi",
- "ext": {       "url": "https://qj.ggtvb.cc",
+{"key": "追剧App","name": "追剧App(py)", "type": 3,"quickSearch": 1,"api": "./lib/qijiapp.py",
+ "ext": {       "host": "https://qj.ggtvb.cc",
                // "site": "https://dtqj1.gg1080.com:443/dtjp.txt",
-                "dataKey": "kecbio48dsq131ed",
-                "dataIv": "kecbio48dsq131ed",
+                "datakey": "kecbio48dsq131ed",
+                "dataiv": "kecbio48dsq131ed",
                 "deviceId": "",
                 "version": ""
          }
