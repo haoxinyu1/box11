@@ -40,6 +40,14 @@
                 "version": "120"
          }
 },
+{"key": "奇奇(py)","name": "奇奇APP(py)","type": 3,"searchable": 1,"changeable": 1,"api": "./lib/getapp.py",
+ "ext": {
+                "host": "http://103.236.61.192:8006",
+                "api":"/api.php/getappapi",
+                "datakey": "123456789abcdefg",
+                "dataiv": "123456789abcdefg"
+        }
+},
 {"key":"电影天堂c","name":"电影天堂c","type":1,"api":"http://caiji.dyttzyapi.com/api.php/provide/vod","searchable":1,
  "categories": ["国产剧","香港剧","韩国剧","泰国剧","动作片","战争片","恐怖片","大陆综艺","国产动漫"]
 },
