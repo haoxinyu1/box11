@@ -109,10 +109,6 @@
  "click": "document.querySelector(\"#playleft iframe\").contentWindow.document.querySelector(\"#start\").click();",
  "ext": "./js/好看影视.js"
 },
-{"key":"闪影视界","name": "闪影视界(js)","type": 3,"api": "./lib/drpy2.min.js","searchable": 1,
- "quickSearch": 1,"filterable": 1,
- "ext": "./lib/AppGet.js?type=url&params=http://156.238.236.120:14500$J6AIORKJ3PQOJKM9$J6AIORKJ3PQOJKM9"
-},
 {"key": "七味影视","name":"七味影视(js)","type":3,"searchable":1,
  "api":"./lib/drpy2.min.js",
  "ext":"./js/七味影视.js"
