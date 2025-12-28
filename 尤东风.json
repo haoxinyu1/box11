@@ -76,12 +76,9 @@
 },
 {"key": "追剧App","name": "追剧App(py)", "type": 3,"quickSearch": 1,"api": "./lib/qijiapp.py",
  "ext": {       "host": "https://qj.ggtvb.cc",
-               // "site": "https://dtqj1.gg1080.com:443/dtjp.txt",
                 "api":"/api.php/qijiappapi",
                 "datakey": "kecbio48dsq131ed",
-                "dataiv": "kecbio48dsq131ed",
-                "deviceId": "",
-                "version": ""
+                "dataiv": "kecbio48dsq131ed"
          }
 },
 { "key": "灵虎","name": "灵虎APP()","type":3,"quickSearch": 1,"api": "csp_AppGet",
