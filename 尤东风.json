@@ -22,6 +22,14 @@
          "apisignkey": "lvdoutv-1.0.0"
         }
 },
+{"key":"py云云APP","name":"云云APP(py)", "type":3,"searchable":1,"filterable":1,"api":"./lib/qijiapp.py",
+ "ext":{ "host":"http://114.66.31.132:1080",
+         "api":"/api.php/qijiappapi",
+         "datakey":"staraugust123456",
+         "dataiv":"staraugust123456"
+         "version": "120"
+       }
+},
 {"key":"py小猪","name":"小猪影视(py)", "type":3,"searchable":1,"filterable":1,"api":"./lib/qijiapp.py",
  "ext":{ "host":"http://211.154.22.153:9876",
          "api":"/api.php/qijiappapi",
