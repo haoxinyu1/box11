@@ -26,7 +26,7 @@
  "ext":{ "host":"http://114.66.31.132:1080",
          "api":"/api.php/qijiappapi",
          "datakey":"staraugust123456",
-         "dataiv":"staraugust123456"
+         "dataiv":"staraugust123456",
          "version": "120"
        }
 },
