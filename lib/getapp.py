@@ -181,7 +181,7 @@ class Spider(Spider):
             "vod_remarks": remark,
             "vod_year": year + '年',
             "vod_area": area,
-            "vod_play_from": play_form,
+            "vod_play_from": '全部' + play_form,
             "vod_play_url": play_url
         })
         return {'list': videos}
@@ -340,4 +340,5 @@ class Spider(Spider):
         if len(text) == 3:
             text = text.replace('066', '1666')
             text = text.replace('566', '5066')
+
         return ''.join(replacements.get(c, c) for c in text)
