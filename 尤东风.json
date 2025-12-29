@@ -22,6 +22,14 @@
          "apisignkey": "lvdoutv-1.0.0"
         }
 },
+{"key":"py云云APP","name":"云云APP(py)", "type":3,"searchable":1,"filterable":1,"api":"./lib/qijiapp.py",
+ "ext":{ "host":"http://114.66.31.132:1080",
+         "api":"/api.php/qijiappapi",
+         "datakey":"staraugust123456",
+         "dataiv":"staraugust123456",
+         "version": "120"
+       }
+},
 {"key":"py小猪","name":"小猪影视(py)", "type":3,"searchable":1,"filterable":1,"api":"./lib/qijiapp.py",
  "ext":{ "host":"http://211.154.22.153:9876",
          "api":"/api.php/qijiappapi",
@@ -48,6 +56,13 @@
                 "dataiv": "123456789abcdefg"
         }
 },
+{"key": "追剧App","name": "追剧App(py)", "type": 3,"quickSearch": 1,"api": "./lib/qijiapp.py",
+ "ext": {       "host": "https://qj.ggtvb.cc",
+                "api":"/api.php/qijiappapi",
+                "datakey": "kecbio48dsq131ed",
+                "dataiv": "kecbio48dsq131ed"
+         }
+},
 {"key":"电影天堂c","name":"电影天堂c","type":1,"api":"http://caiji.dyttzyapi.com/api.php/provide/vod","searchable":1,
  "categories": ["国产剧","香港剧","韩国剧","泰国剧","动作片","战争片","恐怖片","大陆综艺","国产动漫"]
 },
@@ -66,16 +81,6 @@
 {"key": "闪影","name": "闪影APP()","type": 3,"api": "csp_AppYs","searchable": 1,"quickSearch": 1,"filterable": 1,
  "ext": "http://38.47.213.61:41271/mogai_api.php/v1.vod"
 },
-{"key": "追剧App","name": "追剧App(py)", "type": 3,"quickSearch": 1,"api": "./lib/qijiapp.py",
- "ext": {       "host": "https://qj.ggtvb.cc",
-               // "site": "https://dtqj1.gg1080.com:443/dtjp.txt",
-                "api":"/api.php/qijiappapi",
-                "datakey": "kecbio48dsq131ed",
-                "dataiv": "kecbio48dsq131ed",
-                "deviceId": "",
-                "version": ""
-         }
-},
 { "key": "灵虎","name": "灵虎APP()","type":3,"quickSearch": 1,"api": "csp_AppGet",
   "ext": {
                 "url": "",
@@ -86,48 +91,13 @@
                 "version": "120"
           }
 },
-{"key": "白蛇App","name": "柒月APP()", "type": 3,"quickSearch": 1,"api": "csp_AppGet",
- "ext": {
-                "url": "https://www.ys.mk",
-                "dataKey": "mayday6770249ash",
-                "dataIv": "mayday6770249ash"
-        }
-},
-/*{"key": "雨滴App","name": "雨滴App()", "type": 3,"quickSearch": 1,"api": "csp_AppGet",
- "ext": {
-        "url": "https://c8w2ov7u5wg2z1o8p21c.aliyuncs.click:27899",
-        "dataKey": "k9o3p2c8b7m3z0o8",
-        "dataIv": "k9o3p2c8b7m3z0o8",
-        "deviceId": "",
-        "version": "100"
-      }
-},*/
-{"key": "晴天App","name": "晴天App()", "type": 3,"quickSearch": 1,"api": "csp_AppQi",
- "ext": {
-          "url": "",
-                "site": "https://lanyinghz.oss-cn-hangzhou.aliyuncs.com/lanyingxmy.txt",
-                "dataKey": "ca94b06ca359d80e",
-                "dataIv": "ca94b06ca359d80e",
-                "deviceId": "",
-                "version": "120"
-            }
-},
 {"key": "瓜子影视","name": "瓜子影视()","type": 3,"api": "csp_Gz360","searchable": 1,"quickSearch": 1,"filterable": 1},
 {"key":"Apple","name":"苹果影视()","type":3,"api": "csp_LiteApple","searchable":1,"filterable":1},
 {"key": "云播影视","name": "云播影视()","type": 3,"api": "csp_Tvyb","ext": "http://www.viptv01.com"},
-/*{"key": "金牌影视()","name": "金牌影院()","type": 3,"api": "csp_Jpys",
-  "ext": "https://y2s52n7.com,https://m.hkybqufgh.com,https://m.sizhengxt.com,https://m.9zhoukj.com,https://m.sizhengxt.com,https://m.jiabaide.cn"
-},*/
 {"key": "金牌影院","name":"金牌影视(js)","type":3,"searchable":1,"api":"./lib/drpy2.min.js","ext":"./sub/金牌影院.js"},
-{"key": "可可影视","name":"可可影视(js)","type":3,"searchable":1,"api":"./lib/drpy2.min.js","ext":"./js/可可影视.js"},
-{"key": "毒蛇电影","name":"毒蛇电影(js)","type":3,"searchable":1,"api":"./lib/drpy2.min.js","ext":"./js/毒蛇电影.js"},
 {"key":"好看影视","name":"好看影视(js)","type":3,"api":"./lib/drpy2.min.js",
  "click": "document.querySelector(\"#playleft iframe\").contentWindow.document.querySelector(\"#start\").click();",
  "ext": "./js/好看影视.js"
-},
-{"key":"闪影视界","name": "闪影视界(js)","type": 3,"api": "./lib/drpy2.min.js","searchable": 1,
- "quickSearch": 1,"filterable": 1,
- "ext": "./lib/AppGet.js?type=url&params=http://156.238.236.120:14500$J6AIORKJ3PQOJKM9$J6AIORKJ3PQOJKM9"
 },
 {"key": "七味影视","name":"七味影视(js)","type":3,"searchable":1,
  "api":"./lib/drpy2.min.js",
@@ -147,10 +117,6 @@
 },
 {"key":"cspSixV","name":"新6磁力()","type":3,"api":"csp_New6v","searchable":1,"quickSearch":1,"ext":"https://www.xb6v.com"},
 {"key": "电影天堂","name": "电影天堂()","type": 3,"api": "csp_DyGod","searchable":1,"quickSearch":1,"filterable":1},
-{"key": "七味","name": "七味磁力()", "type": 3, "api": "csp_QnMp4","searchable": 1,"quickSearch": 1,"filterable": 1,
- "ext": { "url": "https://www.pkmp4.xyz,https://www.qwnull.com,https://www.qwmkv.com,https://www.qwfilm.com,https://www.qnmp4.com,https://www.qnnull.com,https://www.qnhot.com"
-        }
-},
 {"key":"ikun","name": "采集💠集合(js)","type":3,"api":"./lib/drpy2.min.js",
  "searchable": 1,"quickSearch": 1,
  "ext":"./lib/采集之王.js?type=url&params=./sub/采集静态.json$1$1"
