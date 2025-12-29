@@ -48,6 +48,13 @@
                 "version": "120"
          }
 },
+{"key": "追剧App","name": "追剧App(py)", "type": 3,"quickSearch": 1,"api": "./lib/qijiapp.py",
+ "ext": {       "host": "https://qj.ggtvb.cc",
+                "api":"/api.php/qijiappapi",
+                "datakey": "kecbio48dsq131ed",
+                "dataiv": "kecbio48dsq131ed"
+         }
+},
 {"key": "奇奇(py)","name": "奇奇APP(py)","type": 3,"searchable": 1,"changeable": 1,"api": "./lib/getapp.py",
  "ext": {
                 "host": "http://103.236.61.192:8006",
@@ -56,12 +63,13 @@
                 "dataiv": "123456789abcdefg"
         }
 },
-{"key": "追剧App","name": "追剧App(py)", "type": 3,"quickSearch": 1,"api": "./lib/qijiapp.py",
- "ext": {       "host": "https://qj.ggtvb.cc",
-                "api":"/api.php/qijiappapi",
-                "datakey": "kecbio48dsq131ed",
-                "dataiv": "kecbio48dsq131ed"
-         }
+{"key":"py_黑猫","name":" 黑猫APP(py)","type":3,"api":"./lib/getapp.py","searchable":1,"filterable":1,
+ "ext":{
+        "host":"http://app1-0-0.87333.cc",
+        "api":"/api.php/getappapi",
+        "datakey":"VwsHxkCViDXEExWa",
+        "dataiv":"VwsHxkCViDXEExWa"
+       }
 },
 {"key":"电影天堂c","name":"电影天堂c","type":1,"api":"http://caiji.dyttzyapi.com/api.php/provide/vod","searchable":1,
  "categories": ["国产剧","香港剧","韩国剧","泰国剧","动作片","战争片","恐怖片","大陆综艺","国产动漫"]
