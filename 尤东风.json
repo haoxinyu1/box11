@@ -123,7 +123,6 @@
 {"key":"南风影视","name": "南风影视(js)","type":3,"api":"./lib/drpy2.min.js",
  "searchable":1,"quickSearch": 1,"ext": "./sub/南风影视.js"
 },
-{"key":"cspSixV","name":"新6磁力()","type":3,"api":"csp_New6v","searchable":1,"quickSearch":1,"ext":"https://www.xb6v.com"},
 {"key": "电影天堂","name": "电影天堂()","type": 3,"api": "csp_DyGod","searchable":1,"quickSearch":1,"filterable":1},
 {"key":"ikun","name": "采集💠集合(js)","type":3,"api":"./lib/drpy2.min.js",
  "searchable": 1,"quickSearch": 1,
