@@ -48,6 +48,14 @@
                 "version": "120"
          }
 },
+{"key":"py橘子APP","name":"橘子APP(py)", "type":3,"searchable":1,"filterable":1,"api":"./lib/qijiapp.py",
+ "ext":{ "host":"https://juziapp.tpmbt.cn",
+         "api":"/api.php/qijiappapi",
+         "datakey":"K3h6YvSU8BTUfEcb",
+         "dataiv":"K3h6YvSU8BTUfEcb",
+         "version": "120"
+       }
+},
 {"key": "追剧App","name": "追剧App(py)", "type": 3,"quickSearch": 1,"api": "./lib/qijiapp.py",
  "ext": {       "host": "https://qj.ggtvb.cc",
                 "api":"/api.php/qijiappapi",
