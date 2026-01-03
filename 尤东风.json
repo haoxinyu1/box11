@@ -71,6 +71,14 @@
                 "dataiv": "123456789abcdefg"
         }
 },
+{"key": "雨滴(py)","name": "雨滴APP(py)","type": 3,"searchable": 1,"changeable": 1,"api": "./lib/getapp.py",
+ "ext": {
+                "host": "http://211.154.24.56:9797",
+                "api":"/api.php/getappapi",
+                "datakey": "685bf108bc47b67d",
+                "dataiv": "685bf108bc47b67d"
+        }
+},
 {"key":"py_黑猫","name":" 黑猫APP(py)","type":3,"api":"./lib/getapp.py","searchable":1,"filterable":1,
  "ext":{
         "host":"http://app1-0-0.87333.cc",
