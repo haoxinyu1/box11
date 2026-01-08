@@ -63,6 +63,14 @@
                 "dataiv": "kecbio48dsq131ed"
          }
 },
+{"key": "随看(py)","name": "随看APP(py)","type": 3,"searchable": 1,"changeable": 1,"api": "./lib/getapp.py",
+ "ext": {
+                "host": "https://suikan.tpmbt.cn",
+                "api":"/api.php/getappapi",
+                "datakey": "pHQsm6wjYaCuSPEz",
+                "dataiv": "pHQsm6wjYaCuSPEz"
+        }
+},
 {"key": "奇奇(py)","name": "奇奇APP(py)","type": 3,"searchable": 1,"changeable": 1,"api": "./lib/getapp.py",
  "ext": {
                 "host": "http://103.236.61.192:8006",
