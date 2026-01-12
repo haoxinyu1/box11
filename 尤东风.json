@@ -124,7 +124,7 @@
                 "version": "120"
           }
 },
-{"key":"爆炸AP","name":"爆炸APP()","type":3,"api":"csp_AppQi","changeable":"1","filterable":1,
+{"key":"爆炸","name":"爆炸APP","type":3,"api":"csp_AppQi","changeable":"1","filterable":1,
  "ext": {"site":"http://160.202.246.9:1996",
          "dataKey": "37kj83zs1q16jk6t",
          "dataIv": "37kj83zs1q16jk6t",
