@@ -3,13 +3,14 @@
     "urls": [
         {"url":"https://raw.githubusercontent.com/hogo18/box/main/尤东风.json","name":"东风版"},
         {"url":"http://www.饭太硬.com/tv","name":"饭硬版"},
-        {"url":"https://ghfile.geekertao.top/https://raw.githubusercontent.com/qist/tvbox/master/xiaosa/api.json","name":"潇洒版"},
+        {"url":"https://raw.githubusercontent.com/qist/tvbox/master/xiaosa/api.json","name":"潇洒版"},
         {"url":"http://pandown.pro/tvbox/tvbox.json","name":"巧技版"},
         {"url":"http://肥猫.com","name":"肥猫版"},
-        {"url":"https://ghfile.geekertao.top/https://raw.githubusercontent.com/xyq254245/xyqonlinerule/main/XYQTVBox.json",
+        {"url":"https://raw.githubusercontent.com/xyq254245/xyqonlinerule/main/XYQTVBox.json",
  "name":"香雅琴版"},
         {"url":"https://pastebin.com/raw/MSLhvPjh","name":"备用版"}
         
             ]
 
    }
+
