@@ -125,13 +125,13 @@
           }
 },
 {"key":"爆炸APP","name":"爆炸APP()","type":3,"api":"csp_AppQi","changeable":"1","filterable":1,
- "ext": {"url":"http://160.202.246.9:1996",
+ "ext": {"site": "https://daen-1256234123.cos.ap-shanghai.myqcloud.com/MuQi/mqxh.txt",
          "dataKey": "37kj83zs1q16jk6t",
          "dataIv": "37kj83zs1q16jk6t",
          "search": "searchList4",
          "init": "initV122",
          "ua": "okhttp/3.10.0"
-        }
+        }//http://160.202.246.9:1996
 },
 {"key": "瓜子影视","name": "瓜子影视()","type": 3,"api": "csp_Gz360","searchable": 1,"quickSearch": 1,"filterable": 1},
 {"key":"Apple","name":"苹果影视()","type":3,"api": "csp_LiteApple","searchable":1,"filterable":1},
