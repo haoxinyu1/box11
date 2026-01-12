@@ -1,7 +1,7 @@
 //以下全部资源均来自网络，如有冒犯请联系删除。[所有内容仅供学习使用，请勿用于违法用途]
    {
     "urls": [
-        {"url":"https://ghproxy.cn/https://raw.githubusercontent.com/hogo18/box/main/尤东风.json","name":"东风版"},
+        {"url":"https://raw.githubusercontent.com/hogo18/box/main/尤东风.json","name":"东风版"},
         {"url":"http://www.饭太硬.com/tv","name":"饭硬版"},
         {"url":"https://ghfile.geekertao.top/https://raw.githubusercontent.com/qist/tvbox/master/xiaosa/api.json","name":"潇洒版"},
         {"url":"http://pandown.pro/tvbox/tvbox.json","name":"巧技版"},
@@ -11,4 +11,5 @@
         {"url":"https://pastebin.com/raw/MSLhvPjh","name":"备用版"}
         
             ]
+
    }
