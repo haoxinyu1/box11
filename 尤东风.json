@@ -15,6 +15,15 @@
  "searchable": 2,"playerType":2,"ext":"./js/游子视频.js"
 },
 {"key":"爱看机器","name":"爱看机器(js)","type":3,"api":"./lib/drpy2.min.js","ext":"./js/爱看机器.js"},
+{"key":"爆炸APP","name":"爆炸APP()","type":3,"api":"csp_AppQi","changeable":"1","filterable":1,
+ "ext": {"site": "https://daen-1256234123.cos.ap-shanghai.myqcloud.com/MuQi/mqxh.txt",
+         "dataKey": "37kj83zs1q16jk6t",
+         "dataIv": "37kj83zs1q16jk6t",
+         "search": "searchList4",
+         "init": "initV122",
+         "ua": "okhttp/3.10.0"
+        }//http://160.202.246.9:1996
+},
 {"key": "py_团夕","name":"团夕影视(py)","type":3,"searchable":1,"quickSearch":0,"playerType":2,
  "api": "./lib/AppV2.py",
  "ext": {"api": "http://dmmax.juxiafan.com/icciu_api.php/v1.vod",
@@ -123,15 +132,6 @@
                 "deviceId": "",
                 "version": "120"
           }
-},
-{"key":"爆炸APP","name":"爆炸APP()","type":3,"api":"csp_AppQi","changeable":"1","filterable":1,
- "ext": {"site": "https://daen-1256234123.cos.ap-shanghai.myqcloud.com/MuQi/mqxh.txt",
-         "dataKey": "37kj83zs1q16jk6t",
-         "dataIv": "37kj83zs1q16jk6t",
-         "search": "searchList4",
-         "init": "initV122",
-         "ua": "okhttp/3.10.0"
-        }//http://160.202.246.9:1996
 },
 {"key": "瓜子影视","name": "瓜子影视()","type": 3,"api": "csp_Gz360","searchable": 1,"quickSearch": 1,"filterable": 1},
 {"key":"Apple","name":"苹果影视()","type":3,"api": "csp_LiteApple","searchable":1,"filterable":1},
