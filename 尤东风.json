@@ -37,6 +37,14 @@
          "dataiv":"seb5tq9mykp2w9ry"
        }
 },
+{"key":"py爆炸APP","name":"爆炸APP(py)", "type":3,"searchable":1,"filterable":1,"api":"./lib/qijiapp.py",
+ "ext":{ "host":"http://160.202.246.9:1996",
+         "api":"/api.php/qijiappapi",
+         "datakey":"37kj83zs1q16jk6t",
+         "dataiv":"37kj83zs1q16jk6t",
+         "version": "122"
+       }
+},
 {"key": "仓鼠App","name": "仓鼠App(py)", "type": 3,"quickSearch": 1,"api": "./lib/qijiapp.py",
  "ext": {
                 "host": "https://hk421appcms.cs4k.top",
