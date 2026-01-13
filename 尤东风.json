@@ -15,6 +15,15 @@
  "searchable": 2,"playerType":2,"ext":"./js/游子视频.js"
 },
 {"key":"爱看机器","name":"爱看机器(js)","type":3,"api":"./lib/drpy2.min.js","ext":"./js/爱看机器.js"},
+{"key":"爆炸APP","name":"爆炸APP()","type":3,"api":"csp_AppQi","changeable":"1","filterable":1,
+ "ext": {"site": "https://daen-1256234123.cos.ap-shanghai.myqcloud.com/MuQi/mqxh.txt",
+         "dataKey": "37kj83zs1q16jk6t",
+         "dataIv": "37kj83zs1q16jk6t",
+         "search": "searchList4",
+         "init": "initV122",
+         "ua": "okhttp/3.10.0"
+        }//http://160.202.246.9:1996
+},
 {"key": "py_团夕","name":"团夕影视(py)","type":3,"searchable":1,"quickSearch":0,"playerType":2,
  "api": "./lib/AppV2.py",
  "ext": {"api": "http://dmmax.juxiafan.com/icciu_api.php/v1.vod",
@@ -250,12 +259,6 @@
    }
  ], 
 "parses":[
-{"name": "4K解析","type": 1,"url": "http://120.46.190.255/小白白.php?url=",
-   "ext": {"header": { "User-Agent": "okhttp/4.9.1"} }
-},
-{"name": "1080解析2","type": 1,"url": "https://jxjson.icu/neibu.php?url=",
- "ext": {"header": {"User-Agent": "okhttp/4.9.1"}}
-},
 {"name":"测试解析00","url": "https://yparse.ik9.cc/index.php?url="},
 {"name":"测试解析11","url": "https://bd.jx.cn/?url="},
 {"name":"hogo解析00","url": "https://jx.m3u8.pw/?url="}, 
