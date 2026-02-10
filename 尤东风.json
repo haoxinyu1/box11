@@ -5,12 +5,6 @@
 {"key":"瓜子js","name":"尤东风自用接口💠他人请谨慎用之","type":3,"api":"./lib/drpy2.min.js",
  "searchable": 2,"playerType":2,"ext":"./js/瓜子.js"
 },
-{"key":"大米影视js","name":"大米影视(js)","type":3,"api":"./lib/drpy2.min.js",
- "searchable": 2,"playerType":2,"ext":"./js/大米影视.js"
-},
-{"key": "FROK影视","name": "好好影视(js)","type": 3,"api": "./lib/drpy2.min.js",
- "ext": "./js/好好看影视.js"
-},
 {"key":"游子视频","name":"游子视频(js)","type":3,"api":"./lib/drpy2.min.js",
  "searchable": 2,"playerType":2,"ext":"./js/游子视频.js"
 },
@@ -25,15 +19,6 @@
           "init": "initV122",
            "ua": "okhttp/3.10.0"
           }
-},
-{"key":"爆炸APP","name":"爆炸APP()","type":3,"api":"csp_AppQi","changeable":"1","filterable":1,
- "ext": {"site": "https://daen-1256234123.cos.ap-shanghai.myqcloud.com/MuQi/mqxh.txt",
-         "dataKey": "37kj83zs1q16jk6t",
-         "dataIv": "37kj83zs1q16jk6t",
-         "search": "searchList4",
-         "init": "initV122",
-         "ua": "okhttp/3.10.0"
-        }//http://160.202.246.9:1996
 },
 {"key": "py_团夕","name":"团夕影视(py)","type":3,"searchable":1,"quickSearch":0,"playerType":2,
  "api": "./lib/AppV2.py",
@@ -57,25 +42,6 @@
          "dataiv":"seb5tq9mykp2w9ry"
        }
 },
-{"key": "仓鼠App","name": "仓鼠App(py)", "type": 3,"quickSearch": 1,"api": "./lib/qijiapp.py",
- "ext": {
-                "host": "https://hk421appcms.cs4k.top",
-                //"site": "https://ceshi307386.oss-cn-beijing.aliyuncs.com/ceshi421.txt",
-                "api":"/api.php/qijiappapi",
-                "datakey": "da61247f5b662597",
-                "dataiv": "da61247f5b662597",
-                "deviceId": "",
-                "version": "120"
-         }
-},
-{"key":"py橘子APP","name":"橘子APP(py)", "type":3,"searchable":1,"filterable":1,"api":"./lib/qijiapp.py",
- "ext":{ "host":"https://juziapp.tpmbt.cn",
-         "api":"/api.php/qijiappapi",
-         "datakey":"K3h6YvSU8BTUfEcb",
-         "dataiv":"K3h6YvSU8BTUfEcb",
-         "version": "120"
-       }
-},
 {"key": "追剧App","name": "追剧App(py)", "type": 3,"quickSearch": 1,"api": "./lib/qijiapp.py",
  "ext": {       "host": "https://qj.ggtvb.cc",
                 "api":"/api.php/qijiappapi",
@@ -89,22 +55,6 @@
                 "api":"/api.php/getappapi",
                 "datakey": "pHQsm6wjYaCuSPEz",
                 "dataiv": "pHQsm6wjYaCuSPEz"
-        }
-},
-{"key": "奇奇(py)","name": "奇奇APP(py)","type": 3,"searchable": 1,"changeable": 1,"api": "./lib/getapp.py",
- "ext": {
-                "host": "http://103.236.61.192:8006",
-                "api":"/api.php/getappapi",
-                "datakey": "123456789abcdefg",
-                "dataiv": "123456789abcdefg"
-        }
-},
-{"key": "雨滴(py)","name": "雨滴APP(py)","type": 3,"searchable": 1,"changeable": 1,"api": "./lib/getapp.py",
- "ext": {
-                "host": "http://211.154.24.56:9797",
-                "api":"/api.php/getappapi",
-                "datakey": "685bf108bc47b67d",
-                "dataiv": "685bf108bc47b67d"
         }
 },
 {"key":"py_黑猫","name":" 黑猫APP(py)","type":3,"api":"./lib/getapp.py","searchable":1,"filterable":1,
