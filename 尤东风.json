@@ -23,7 +23,7 @@
            "ua": "okhttp/3.10.0"
           }
 },
-{"key": "橘子","name": "橘子APP(py)","type": 3, "api": "csp_AppQi","searchable": 1,"changeable": 1,
+{"key": "橘子","name": "橘子APP()","type": 3, "api": "csp_AppQi","searchable": 1,"changeable": 1,
  "ext": {
                 "site": "https://juziapp-1319209748.cos.ap-chengdu.myqcloud.com/juzi.txt",
                 "dataKey": "jasaFBcdV3zrUDf2",
