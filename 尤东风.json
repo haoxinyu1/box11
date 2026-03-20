@@ -41,6 +41,19 @@
                 "ua": "okhttp/3.10.0"
          }
 },
+{
+            "key": "云朵",
+            "name": "云朵APP()",
+            "type": 3,
+            "api": "csp_AppGet",
+            "searchable": 1,
+            "changeable": 1,
+            "ext": {
+                "url": "https://yd4kcms.yd4k.top",
+                "dataKey": "Tpmm9FD99lJ8Dexa",
+                "dataIv": "Tpmm9FD99lJ8Dexa"
+            }
+},
 {"key":"py云云APP","name":"云云APP(py)", "type":3,"searchable":1,"filterable":1,"api":"./lib/qijiapp.py",
  "ext":{ "host":"http://114.66.31.132:1080",
          "api":"/api.php/qijiappapi",
