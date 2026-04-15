@@ -13,14 +13,13 @@
  "filterable":1,"ext": "https://www.nntv.in/api.php/v1.vod"
 },
 { "key": "金牌APP","name":"金牌APP()","type":3, "api":"csp_AppQi","changeable":"1","quickSearch":0,"filterable":1,
-  "ext": {"url": "https://qj2.ggtvb.cc",
-          //"site": "https://dtqj.ggtvb.cc/dtjp.txt",
-          "dataKey": "eecbio48dsq131ee",
-          "dataIv": "eecbio48dsq131ee",
-          "search": "searchList4",
-          "version": "305",
-          "init": "initV122",
-           "ua": "okhttp/3.10.0"
+  "ext": {
+                "url": "https://qj4.catbb.xyz",
+                "dataKey": "eecbio48dsq13kkk",
+                "dataIv": "eecbio48dsq13kkk",
+                "search": "searchList4",
+                "init": "initV122",
+                "ua": "okhttp/3.10.0"
           }
 },
 { "key": "秒看","name": "秒看APP()","type": 3, "api": "csp_AppGet","searchable": 1, "changeable": 1,
