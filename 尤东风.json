@@ -22,44 +22,6 @@
                 "ua": "okhttp/3.10.0"
           }
 },
-{ "key": "秒看","name": "秒看APP()","type": 3, "api": "csp_AppGet","searchable": 1, "changeable": 1,
-  "ext": {
-                "site": "https://mk1080.top/get.txt",
-                "dataKey": "c60d88b2eep53za8",
-                "dataIv": "c60d88b2eep53za8",
-                "token": "4181e508e7a17657d6a6246e70b1b13553e5ae9d8d287dc47000fb2df638dffa"
-         }
-},
-{"key":"py云云APP","name":"云云APP(py)", "type":3,"searchable":1,"filterable":1,"api":"./lib/qijiapp.py",
- "ext":{ "host":"http://114.66.31.132:1080",
-         "api":"/api.php/qijiappapi",
-         "datakey":"staraugust123456",
-         "dataiv":"staraugust123456",
-         "version": "120"
-       }
-},
-{"key":"py小猪","name":"小猪影视(py)", "type":3,"searchable":1,"filterable":1,"api":"./lib/qijiapp.py",
- "ext":{ "host":"http://211.154.22.153:9876",
-         "api":"/api.php/qijiappapi",
-         "datakey":"seb5tq9mykp2w9ry",
-         "dataiv":"seb5tq9mykp2w9ry"
-       }
-},
-{"key": "追剧App","name": "追剧App(py)", "type": 3,"quickSearch": 1,"api": "./lib/qijiapp.py",
- "ext": {       "host": "https://qj.ggtvb.cc",
-                "api":"/api.php/qijiappapi",
-                "datakey": "kecbio48dsq131ed",
-                "dataiv": "kecbio48dsq131ed"
-         }
-},
-{"key": "随看(py)","name": "随看APP(py)","type": 3,"searchable": 1,"changeable": 1,"api": "./lib/getapp.py",
- "ext": {
-                "host": "https://suikan.tpmbt.cn",
-                "api":"/api.php/getappapi",
-                "datakey": "pHQsm6wjYaCuSPEz",
-                "dataiv": "pHQsm6wjYaCuSPEz"
-        }
-},
 {"key":"py_黑猫","name":" 黑猫APP(py)","type":3,"api":"./lib/getapp.py","searchable":1,"filterable":1,
  "ext":{
         "host":"http://app1-0-0.87333.cc",
