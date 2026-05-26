@@ -85,7 +85,34 @@
                 "decrypt": "1"
             }
         },
-{"key": "农民影视","name": "农民影视()", "type": 3,"api":"csp_Wwys","ext":"https://vip.wwgz.cn:5200"},
+{
+            "key": "首发",
+            "name": "首发APP()",
+            "type": 3,
+            "api": "csp_AppQi",
+            "searchable": 1,
+            "changeable": 1,
+            "ext": {
+                "site": "https://yun-1316442804.cos.ap-guangzhou.myqcloud.com/600.txt",
+                "dataKey": "FTgP4Gq8zPiqbt7M",
+                "dataIv": "FTgP4Gq8zPiqbt7M",
+                "init": "initV122",
+                "ua": "okhttp/3.10.0"
+            }
+},
+{
+            "key": "猎豹",
+            "name": "猎豹APP()",
+            "type": 3,
+            "api": "csp_AppGet",
+            "searchable": 1,
+            "changeable": 1,
+            "ext": {
+                "url": "https://444421.xyz",
+                "dataKey": "#getapp@TMD@2025",
+                "dataIv": "#getapp@TMD@2025"
+            }
+},
 {"key": "闪影","name": "闪影APP()","type": 3,"api": "csp_AppYsV2","searchable": 1,"quickSearch": 1,"filterable": 1,
  "ext": "http://38.47.213.61:41271/mogai_api.php/v1.vod"
 },
