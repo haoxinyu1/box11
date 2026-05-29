@@ -1,10 +1,12 @@
 {//以下全部资源均来自网络，如有冒犯请联系删除。[所有内容仅供学习使用，请勿用于违法用途]
 "spider":"./jar/spider.jar",
 "wallpaper":"https://wp.upx8.com/api.php",//
+"warningText": "尤东风友情提示:个人自用接口💠他人请谨慎用之",
 "sites":[
 {"key":"瓜子js","name":"尤东风自用接口💠他人请谨慎用之","type":3,"api":"./lib/drpy2.min.js",
  "searchable": 2,"playerType":2,"ext":"./js/瓜子.js"
 },
+{"key": "cat金牌影院","name": "金牌影院(js)","type": 3,"api": "./cat/金牌影院.js"},
 {"key":"游子视频","name":"游子视频(js)","type":3,"api":"./lib/drpy2.min.js",
  "searchable": 2,"playerType":2,"ext":"./js/游子视频.js"
 },
