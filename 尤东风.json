@@ -159,13 +159,11 @@
  "ext":"./lib/采集之王.js?type=url&params=./sub/采集静态.json$1$1"
 },
 {"key":"Xunlei8","name": "迅雷磁力()","type":3,"api":"csp_Xunlei8","searchable":1,"quickSearch":1,"filterable":1},
-{"key": "iysdq","name":"莫小影视(PQ)","type":3,"api":"csp_XBPQ","searchable":1,"filterable":1,
- "ext": {
-    "首页": "https://www.moxy.top",
-    "分类url": "https://www.moxy.top/show/id/{cateId}/page/{catePg}.html",
-    "分类": "电视剧$dianshiju#综艺$zongyi#动漫$dongman#短剧$duanju",
-    "图片": "data-src=\"&&\""
-       }
+{"key": "iysdq","name":"猢狸影视(PQ)","type":3,"api":"csp_XBPQ","searchable":1,"filterable":1,
+ "ext": {"搜索模式": "1","搜索url": "https://www.foxjun.com/s/?q={wd}","搜索数组": "class=\"media\">&&/div>", "搜索图片": "src=\"&&\"","搜索标题": "《&&》",
+        "搜索副标题": "》&&\"","搜索链接": "href=\"&&\"","标题": "《&&》","副标题": "》&&\"","影片年代": "上映日期：&&</p>","影片类型": "类型：&&</p>","主演": "主演：&&</p>","简介": "简介：&&</p>",
+        "播放数组": "<tbody>&&</tbody>","播放列表": "<a&&/a>[包含:magnet]","播放标题": ">&&<","播放链接": "href=\"&&\"","分类url": "https://www.foxjun.com/channel/{cateId}.html?apage1={catepg}",
+        "分类": "国产剧$guochanju#电影$dianying#动画$donghua#美欧剧$meiouju#日韩剧$rihanju"}
 },
 {"key":"红巾PQ","name":"永乐影视(PQ)","type":3,"api":"csp_XBPQ","searchable":1,"filterable":1,"quickSearch":1,
  "ext":{
