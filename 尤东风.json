@@ -176,29 +176,7 @@
     "分类url": "https://www.ylys.tv/vodshow/{cateId}-{area}-{by}-{class}-{lang}-{letter}---{catePg}---{year}.html"
      }
 },
-{"key":"飞快tv","name":"飞快tv(PQ)","type":3,"api":"csp_XBPQ","searchable":1,"filterable":1,"quickSearch":1,
- "ext":{
-        "搜索url": "https://feikuai.tv/vodsearch/{wd}----------{pg}---.html",
-        "数组": "<a&&</div></div></a>",
-        "链接": "href=\"&&\"",
-        "图片": "data-original=\"&&\"",
-        "标题": "title=\"&&\"",
-        "副标题": "module-item-note\">&&<",
-        "线路二次截取": "class=\"module-tab-items-box&&</div></div>",
-        "线路数组": "class=\"module-tab-item&&</small>",
-        "线路标题": "尤东风💠+<span>&&</span>",
-        "播放数组": "class=\"module-play-list-content&&</div>",
-        "播放标题": ">&&</span>",
-        "简介": "尤东风友情提醒🔺勿信广告，避免受骗🔺+introduction-content\"><p>&&</p>",
-        "首页": "20",
-        "起始页": "1",
-        "直接播放": "0",
-        "嗅探词": ".mp4#.m3u8",
-        "分类url": "https://feikuai.tv/vodshow/{cateId}--{by}------{catePg}---{year}.html;;mrcd0",
-        "分类": "电影&电视剧&综艺&动漫",
-        "分类值": "1&2&3&4"
-        }
-},
+{"key":"飞快tv","name":"4K影视(PQ)","type":3,"api":"csp_XBPQ","searchable":1,"filterable":1,"ext": "./json/4kvm.json"},
 {"key":"push_agent","name":"推送()","type":3,"api":"csp_Push","ext":"./lib/tokenm.json"}
 ],
 "lives": 
