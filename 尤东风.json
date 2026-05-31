@@ -100,6 +100,9 @@
 {"key": "闪影","name": "闪影APP()","type": 3,"api": "csp_AppYsV2","searchable": 1,"quickSearch": 1,"filterable": 1,
  "ext": "http://38.47.213.61:41271/mogai_api.php/v1.vod"
 },
+{"key": "五大平台","name": "五大平台()","type": 3,"api": "csp_AppYsV2","searchable":1,"playerType":2,"filterable": 1,
+ "ext": "http://39.105.18.5:5565/api.php/app/"
+},
 { "key": "灵虎","name": "灵虎APP()","type":3,"quickSearch": 1,"api": "csp_AppGet",
   "ext": {
                 "url": "",
