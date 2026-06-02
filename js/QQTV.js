@@ -76,7 +76,7 @@ var rule = {
                 type_name: json.typ.join(","),
                 vod_actor: json.nam.join(","),
                 vod_year: json.c.year,
-                vod_content:'【琉🔹芸❤广告勿信👉剧情】📢'+ json.c.description,
+                vod_content:'尤东风💠广告勿信👉剧情】📢'+ json.c.description,
                 vod_remarks: json.rec,
                 vod_pic: urljoin2(input, json.c.pic)
             }
@@ -183,7 +183,7 @@ var rule = {
             }
         }
 
-        VOD.vod_play_from = playFrom.join("$$$琉芸专属👉");
+        VOD.vod_play_from = playFrom.join("$$$尤东风💠");
         VOD.vod_play_url = playUrl.join("$$$");
     }),
 
