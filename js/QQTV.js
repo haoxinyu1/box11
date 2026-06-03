@@ -15,8 +15,8 @@ var rule = {
     },
     timeout: 5000,
     cate_exclude: '会员|游戏|全部',
-    class_name: '4K电影&4K电视剧&4K综艺&4K动漫&4K少儿&4K纪录片',
-    class_url: 'movie&tv&variety&cartoon&child&doco',
+    class_name: '电视剧&电影&综艺&动漫&少儿&纪录片',
+    class_url: 'tv&movie&variety&cartoon&child&doco',
     limit: 20,
     play_parse: true,
 
@@ -76,7 +76,7 @@ var rule = {
                 type_name: json.typ.join(","),
                 vod_actor: json.nam.join(","),
                 vod_year: json.c.year,
-                vod_content:'尤东风友情提醒🔺勿信广告，避免受骗🔺'+ json.c.description,
+                vod_content:'尤东风💠广告勿信👉剧情】📢'+ json.c.description,
                 vod_remarks: json.rec,
                 vod_pic: urljoin2(input, json.c.pic)
             }
@@ -913,6 +913,3 @@ var rule = {
         }]
     }
 };
-
-
-
