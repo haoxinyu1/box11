@@ -162,7 +162,9 @@
  "ext":"./lib/采集之王.js?type=url&params=./sub/采集静态.json$1$1"
 },
 {"key":"Xunlei8","name": "迅雷磁力()","type":3,"api":"csp_Xunlei8","searchable":1,"quickSearch":1,"filterable":1},
-{"key":"keke","name":"可可影视(PQ)","type": 3,"api":"csp_XBPQ","searchable":1,"quickSearch":1,"ext": "./json/keke.json"},
+{"key":"keke","name":"可可影视(PQ)","type": 3,"api":"csp_XBPQ","searchable":1,"quickSearch":1,
+ "jar": "./jar/XBPQ.jar","ext": "./json/keke.json"
+},
 {"key": "iysdq","name":"猢狸影视(PQ)","type":3,"api":"csp_XBPQ","searchable":1,"filterable":1,
  "ext": {"搜索模式": "1","搜索url": "https://www.foxjun.com/s/?q={wd}","搜索数组": "class=\"media\">&&/div>", "搜索图片": "src=\"&&\"","搜索标题": "《&&》",
         "搜索副标题": "》&&\"","搜索链接": "href=\"&&\"","标题": "《&&》","副标题": "》&&\"","影片年代": "上映日期：&&</p>","影片类型": "类型：&&</p>","主演": "主演：&&</p>","简介": "简介：&&</p>",
