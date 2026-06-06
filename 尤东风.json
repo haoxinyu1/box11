@@ -7,7 +7,7 @@
  "searchable": 2,"playerType":2,"ext":"./js/瓜子.js"
 },
 {"key":"猫头鹰(js)","name": "夜猫影院(js)","type":3,"searchable": 1,
- "api": "https://gitee.com/monosodium-glutamate/wjwj/raw/master/lib/get.js",
+ "api": "./lib/get.js",
  "ext": {
 				"host": "http://103.217.190.91:9999",
 				"key": "zxPtEUDGVllIUhDB",
