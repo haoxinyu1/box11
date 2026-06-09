@@ -16,7 +16,7 @@
     },
     {
         "name": "量子资源",
-        "url": "https://cj.lziapi.com/",//http://caiji.dyttzyapi.com/
+        "url": "https://cj.lziapi.com/",
         "parse_url": "",
         "cate_exclude": "电影|连续剧|综艺|动漫|伦理片|体育|爽文短剧",
         "class_name": "",
