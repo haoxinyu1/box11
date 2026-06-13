@@ -17,7 +17,7 @@
 		}
 },
 { "key": "csp_aying", "name": "亭皋秒播(js)","type": 3,
-  "api": "https://gh-proxy.com/raw.githubusercontent.com/LIUJEI/TB/master/TS/AppGet.js",
+  "api": "./lib/AppGet.js",
    "ext": {
                 "host": "http://222.211.75.252:26168",
                 "key": "nzEqOgYk3QzHuEP8",
