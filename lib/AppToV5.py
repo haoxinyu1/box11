@@ -69,7 +69,7 @@ class Spider(Spider):
         videos.append({
             'vod_id': data3.get('vod_id'),
             'vod_name': data3.get('vod_name'),
-            'vod_content': '【琉🔹芸❤广告勿信👉剧情】📢' +data3.get('vod_content'),
+            'vod_content': '【尤东风友情提醒🔺勿信广告，避免受骗】' +data3.get('vod_content'),
             'vod_remarks': data3.get('vod_remarks'),
             'vod_director': data3.get('vod_director'),
             'vod_actor': data3.get('vod_actor'),
