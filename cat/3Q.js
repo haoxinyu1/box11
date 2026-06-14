@@ -105,7 +105,7 @@ async function detail(id) {
         'vod_area': data.vod_area,
         'vod_actor': data.vod_actor,
         'vod_director': data.vod_director,
-        'vod_content':'【琉🔹芸❤广告勿信👉剧情】📢'+ data.vod_content,
+        'vod_content':'尤东风友情提醒🔺勿信广告，避免受骗🔺📢'+ data.vod_content,
         'vod_play_from': shows.join('$$$'),
         'vod_play_url': play_urls.join('$$$'),
         'type_name': data.vod_class
