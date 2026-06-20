@@ -132,7 +132,7 @@
  "searchable": 1,"quickSearch": 1,
  "ext":"./lib/采集之王.js?type=url&params=./sub/采集静态.json$1$1"
 },
-//{"key":"Xunlei8","name": "迅雷磁力()","type":3,"api":"csp_Xunlei8","searchable":1,"quickSearch":1,"filterable":1},
+{"key":"Xunlei8","name": "迅雷磁力()","type":3,"api":"csp_Xunlei8","searchable":1,"quickSearch":1,"ext": "https://xunlei8.me"},
 {"key":"keke","name":"可可影视(PQ)","type": 3,"api":"csp_XBPQ","searchable":1,"quickSearch":1,
  "jar": "./jar/XBPQ.jar","ext": "./json/keke.json"
 },
