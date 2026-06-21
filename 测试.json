@@ -1,0 +1,63 @@
+{//以下全部资源均来自网络，如有冒犯请联系删除。[所有内容仅供学习使用，请勿用于违法用途]
+"wallpaper":"https://tuapi.eees.cc/api.php?category=fengjing&type=302",
+"spider":"https://git.acwing.com/hogo18/hh/-/raw/main/jar/pg.jar",
+//"spider":"https://git.acwing.com/hogo18/hh/-/raw/main/jar/tv.jar",
+"sites":[//csp_AliShare  //,"jar":""
+{"key":"金牌影院","name": "金牌影院(js)","type":3,"api":"https://git.acwing.com/hogo18/hh/-/raw/main/lib/drpy2.min.js",
+ "searchable": 1,"playerType":2,"ext": ""
+},
+{"key":"飞飞影视PQ","name":"飞飞影视(PQ)","type":3,"api":"csp_XBPQ","searchable":1,"quickSearch":1,"filterable":1,
+ "jar":"https://git.acwing.com/hogo18/hh/-/raw/main/jar/spider.jar",
+ "ext":{
+	"分类url": "https://www.ffys.fun/vodshow/id/{cateId}/area/{area}/by/{by}/class/{class}/page/{catePg}/year/{year}.html", 
+        "分类": "电影$20#剧集$21#动漫$22#综艺$23#记录片$24#爽剧$25",
+        "简介":"尤东风友情提醒🔺勿信广告，避免受骗🔺+<p>&&</p>",
+        "线路数组": "data-dropdown-value=&&</div>",
+        "线路标题": "尤东风💠+<span>&&</span>"
+       }
+},
+{"key": "哔嘀弹幕3","name": "缘觉弹幕3","type": 3,"api": "https://git.acwing.com/hogo18/hh/-/raw/main/cat/shijue.js"}
+],
+"parses":[
+{"name": "4K解析","type": 1,"url": "http://43.139.94.96:8866/api/?key=7e67ab331ee255664f2989ca2171c2dd&url=",
+   "ext": {"flag": ["qq","腾讯","qiyi","爱奇艺"],
+	        "header": { "User-Agent": "okhttp/4.9.1"} }
+},
+{"name": "1080解析1","type": 1,"url": "https://zy.qiaoji8.com/neibu.php?url=",
+ "ext": {"header": {"User-Agent": "okhttp/4.9.1"}}
+},
+{"name": "1080解析2","type": 1,"url": "https://150.138.78.37:4399/api?key=2b879e7ecc09a112c1d9f85c42967aca&url=",
+ "ext": {"header": {"User-Agent": "okhttp/4.9.1"}}
+},
+{"name": "2160解析","type": 1,"url": "http://1.94.221.189:88/algorithm.php?url=",
+ "ext": {"header": {"User-Agent": "okhttp/4.9.1"}}
+},
+{"name":"测试解析00","url": "https://ylu.cc/index.php?url="},
+{"name":"测试解析11","url": "https://bd.jx.cn/?url="},
+{"name":"hogo解析00","url": "https://jx.m3u8.pw/?url="}, 
+{"name":"hogo解析01","url":"https://jx.2s0.cn/player/?url="},
+{"name":"hogo解析02","url":"https://www.yemu.xyz/?url="},
+{"name":"hogo解析03","url":"https://jx.xmflv.com/?url="},
+{"name":"hogo解析04","url":"https://www.ckplayer.vip/jiexi/?url="}, 
+{"name":"hogo解析05","url":"https://www.playm3u8.cn/jiexi.php?url="}
+],
+"lives": 
+ [{
+   "name":"live","type":0,"url":"https://zbds.org/tv/iptv4.m3u","playerType":1,
+   "epg":"http://epg.112114.xyz/?ch={name}&date={date}", 
+   "logo": "https://epg.112114.xyz/logo/{name}.png"
+   }
+ ], 
+"flags":["imgo","youku","qq","iqiyi","qiyi","fun","letv","leshi","sohu","tudou","xigua","cntv","1905","pptv","BYGA","mgtv","wasu","bilibili","renrenmi","斗音"
+],
+"ads":["mimg.0c1q0l.cn","www.googletagmanager.com","www.google-analytics.com","mc.usihnbcq.cn","mg.g1mm3d.cn",
+"mscs.svaeuzh.cn","cnzz.hhttm.top","tp.vinuxhome.com","cnzz.mmstat.com","www.baihuillq.com",
+"s23.cnzz.com","z3.cnzz.com","c.cnzz.com","stj.v1vo.top","z12.cnzz.com","img.mosflower.cn","tips.gamevvip.com",
+"ehwe.yhdtns.com","xdn.cqqc3.com","www.jixunkyy.cn","sp.chemacid.cn","hm.baidu.com","s9.cnzz.com","z6.cnzz.com",
+"um.cavuc.com","mav.mavuz.com","wofwk.aoidf3.com","z5.cnzz.com","xc.hubeijieshikj.cn","tj.tianwenhu.com",
+"xg.gars57.cn","k.jinxiuzhilv.com","cdn.bootcss.com","ppl.xunzhuo123.com","xomk.jiangjunmh.top","img.xunzhuo123.com",
+"z1.cnzz.com","s13.cnzz.com","xg.huataisangao.cn","z7.cnzz.com","xg.huataisangao.cn","z2.cnzz.com","s96.cnzz.com",
+"q11.cnzz.com","thy.dacedsfa.cn","xg.whsbpw.cn","s19.cnzz.com","z8.cnzz.com","s4.cnzz.com","f5w.as12df.top",
+"ae01.alicdn.com","www.92424.cn","k.wudejia.com","vivovip.mmszxc.top","qiu.xixiqiu.com","cdnjs.hnfenxun.com",
+"cms.qdwght.com"]
+}
