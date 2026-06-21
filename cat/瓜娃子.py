@@ -182,7 +182,7 @@ class Spider(Spider):
                 "vod_area": vod.get('vod_area', ''),
                 "vod_actor": vod.get('vod_actor', ''),
                 "vod_director": vod.get('vod_director', ''),
-                "vod_content":'【琉🔹芸❤广告勿信👉剧情】📢' + vod.get('vod_use_content', '').strip(),
+                "vod_content":'尤东风友情提醒🔺勿信广告，避免受骗🔺' + vod.get('vod_use_content', '').strip(),
                 "vod_play_from": "专属瓜娃子"
             }
             
