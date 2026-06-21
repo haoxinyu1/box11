@@ -36,6 +36,12 @@
 {"key":"qqjs","name":"腾云驾雾(js)","type":3,"api":"http://8.137.159.77:399/sf/Tvbox/js/drpy2.min.js",
  "searchable": 2,"playerType":2,"ext":"./js/QQTV.js"
 },
+{ "key": "py_瓜娃子","name": "瓜子影院(PY)","type": 3, "api": "./cat/瓜娃子.py",
+  "style": {
+                "type": "rect",
+                "ratio": 1.33
+            }
+},
 {"key": "py_juhey","name": "霜镜秒播(PY)", "type": 3, "api": "./lib/AppToV5.py",
  "ext": "http://43.248.117.123:4680","style": { "type": "rect","ratio": 1.485},
  "类型": "APP"
@@ -132,7 +138,7 @@
  "searchable": 1,"quickSearch": 1,
  "ext":"./lib/采集之王.js?type=url&params=./sub/采集静态.json$1$1"
 },
-//{"key":"Xunlei8","name": "迅雷磁力()","type":3,"api":"csp_Xunlei8","searchable":1,"quickSearch":1,"filterable":1},
+{"key":"Xunlei8","name": "迅雷磁力()","type":3,"api":"csp_Xunlei8","searchable":1,"quickSearch":1,"ext": "https://xunlei8.me"},
 {"key":"keke","name":"可可影视(PQ)","type": 3,"api":"csp_XBPQ","searchable":1,"quickSearch":1,
  "jar": "./jar/XBPQ.jar","ext": "./json/keke.json"
 },
