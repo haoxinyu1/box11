@@ -6,6 +6,17 @@
 {"key":"金牌影院","name": "金牌影院(js)","type":3,"api":"https://git.acwing.com/hogo18/hh/-/raw/main/lib/drpy2.min.js",
  "searchable": 1,"playerType":2,"ext": ""
 },
+{
+            "key": "py_河马短剧",
+            "name": "♨️┃短劇┃河马",
+            "type": 3,
+            "api": "https://gh-proxy.com/raw.githubusercontent.com/LIUJEI/TB/master/TS/瓜娃子.py",
+            "style": {
+                "type": "rect",
+                "ratio": 1.33
+            },
+            "类型": "短剧"
+        },
 {"key":"飞飞影视PQ","name":"飞飞影视(PQ)","type":3,"api":"csp_XBPQ","searchable":1,"quickSearch":1,"filterable":1,
  "jar":"https://git.acwing.com/hogo18/hh/-/raw/main/jar/spider.jar",
  "ext":{
