@@ -93,6 +93,19 @@ var rule = {
         }
         VOD = base_vod;
     }),
+    // 解析接口配置
+    parse_url: [
+             'http://global.apirun.xn--vsqw5hh18a8vw.com:2025/api/?key=63c856aac8b205a5cb972ae8950cfd78&url=',
+             'http://yunhai.zhujiale.cn/api/?key=a29aa5d71a4e91b991294356b864e83e&url=',
+             'https://jx.xmflv.com/?url=',
+             "https://json.xmi6.com/api/?key=2CkQXrfnaanrht0gCQ&url=",
+             "http://103.149.201.157:61233/api/?key=2e357358367229ad251e71d19fd5f9fd&url=",
+             "https://json.cfysoft.cc/api/?key=6af47759daf81f86dc123f0f519bf73d&url=",
+             'https://api.jisuyunjifei.top/api/?key=7c2c39e57dc03852ea60f0432efb2836&player&url=',
+             "https://test1.12321app.com/api.php?url=",
+             "https://test1.12321app.com/daoliansiquanjia.php?url=",
+             'http://1.94.244.214:8889/geturl?url='
+            ],
     搜索: 'json:data.longData.rows;titleTxt||titlealias;cover;cat_name;cat_id+en_id;description',
     filter: {
         "2":[
