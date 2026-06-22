@@ -33,6 +33,9 @@
 {"key":"SP360","name":"360影视(js)","type":3,"api":"./lib/drpy2.min.js",
  "searchable": 2,"playerType":2,"ext":"./sub/360.js"
 },
+{"key":"qyjs","name":"奇珍异兽(js)","type":3,"api":"./lib/drpy2.min.js",
+ "searchable": 2,"playerType":2,"ext":"https://gh-proxy.com/raw.githubusercontent.com/LIUJEI/TB/master/TS/奇艺.js"
+},
 {"key":"qqjs","name":"腾云驾雾(js)","type":3,"api":"http://8.137.159.77:399/sf/Tvbox/js/drpy2.min.js",
  "searchable": 2,"playerType":2,"ext":"./js/QQTV.js"
 },
@@ -45,9 +48,6 @@
 {"key": "py_juhey","name": "霜镜秒播(PY)", "type": 3, "api": "./lib/AppToV5.py",
  "ext": "http://43.248.117.123:4680","style": { "type": "rect","ratio": 1.485},
  "类型": "APP"
-},
-{"key":"qyjs","name":"奇珍异兽(js)","type":3,"api":"./lib/drpy2.min.js",
- "searchable": 2,"playerType":2,"ext":"./js/qy.js"
 },
 {"key":"热播APP","name":"热播APP()","type":3,"api":"csp_AppRJ","searchable":1,"filterable": 0,
  "ext": {"url": "http://v.rbotv.cn"}
