@@ -17,7 +17,57 @@ var rule = {
     multi: 1,
     searchable: 2,
     play_parse: true,
-    lazy: 'js:input=input.split("?")[0];log(input);',
+    lazy: $js.toString(() => {
+        // 保持原始URL不做截断
+        let targetUrl = input;
+
+        function tryParse(url, index) {
+            if (index >= rule.parse_url.length) {
+                log('所有解析接口都尝试失败，使用默认解析');
+                input = {
+                    header: { 'User-Agent': "" },
+                    parse: 0,
+                    url: targetUrl,
+                    jx: 1,
+                    danmaku: 'http://127.0.0.1:9978/proxy?do=danmu&site=js&url=' + targetUrl
+                };
+                return;
+            }
+
+            let parseUrl = rule.parse_url[index] + encodeURIComponent(url);
+            log('尝试解析接口 ' + (index + 1) + ': ' + parseUrl);
+
+            let result = fetch(parseUrl, {
+                method: 'GET',
+                headers: {
+                    'User-Agent': 'okhttp/3.14.9'
+                }
+            });
+
+            try {
+                let data = JSON.parse(result);
+                if (data && data.url && data.url.indexOf("http") > -1) {
+                    log('解析接口 ' + (index + 1) + ' 成功: ' + data.url);
+                    input = {
+                        header: { 'User-Agent': "" },
+                        parse: 0,
+                        url: data.url,
+                        jx: 0,
+                        danmaku: 'http://127.0.0.1:9978/proxy?do=danmu&site=js&url=' + targetUrl
+                    };
+                } else {
+                    log('解析接口 ' + (index + 1) + ' 返回数据无效，尝试下一个');
+                    tryParse(url, index + 1);
+                }
+            } catch (e) {
+                log('解析接口 ' + (index + 1) + ' 失败: ' + e.message);
+                tryParse(url, index + 1);
+            }
+        }
+
+        tryParse(targetUrl, 0);
+    }),
+    //lazy: 'js:input=input.split("?")[0];log(input);',
     // 疑似t4专用的
     // lazy:'js:input={parse: 1, playUrl: "", jx: 1, url: input.split("?")[0]}',
     // 手动调用解析请求json的url,此lazy不方便
