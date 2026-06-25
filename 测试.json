@@ -15,8 +15,8 @@
          }
 },
 {
-            "key": "csp_gulu",
-            "name": "🌐┃映画┃APP",
+            "key": "csp_gu",
+            "name": "🌐┃映画APP",
             "type": 3,
             "api": "https://gh-proxy.com/raw.githubusercontent.com/LIUJEI/TB/master/TS/AppQi.js",
             "ext": {
