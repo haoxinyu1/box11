@@ -6,11 +6,14 @@
 {"key":"金牌影院","name": "金牌影院(js)","type":3,"api":"https://git.acwing.com/hogo18/hh/-/raw/main/lib/drpy2.min.js",
  "searchable": 1,"playerType":2,"ext": ""
 },
-{ "key": "py_瓜娃子","name": "瓜子影院(PY)","type": 3, "api": "./cat/瓜娃子.py",
-  "style": {
-                "type": "rect",
-                "ratio": 1.33
-            }
+{"key": "小鹿APP","name": "小鹿APP()","type": 3, "api": "csp_AppQi",
+  "ext": {
+                "site": "https://xiaolu-1319209748.cos.ap-beijing.myqcloud.com/xiaolu.txt",
+                "dataKey": "x5Bep6Q78VCeYnPS",
+                "dataIv": "x5Bep6Q78VCeYnPS",
+                "ua": "okhttp/3.10.0",
+                "类型": "APP"
+         }
 },
 {"key": "荐片app","name": "影視荐片","type": 3,"api": "./sub/荐片.js",
 // "ext": { "host": "https://api.ztcgi.com"},
