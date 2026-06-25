@@ -20,10 +20,10 @@
             "type": 3,
             "api": "https://gh-proxy.com/raw.githubusercontent.com/LIUJEI/TB/master/TS/AppQi.js",
             "ext": {
-                "host": "http://www.yingsw.top",
-                "key": "guluyinghua_123",
-                "sign": "679543610991810f19698c187e5e106e"
-            },
+               "dataKey": "x5Bep6Q78VCeYnPS",
+                "dataIv": "x5Bep6Q78VCeYnPS",
+                "ua": "okhttp/3.10.0"
+                 },
             "类型": "APP"
         },
 {"key": "荐片app","name": "影視荐片","type": 3,"api": "./sub/荐片.js",
