@@ -41,7 +41,7 @@
  "searchable": 2,"playerType":2,"ext":"./sub/360.js"
 },
 {"key":"qyjs","name":"奇珍异兽(js)","type":3,"api":"./lib/drpy2.min.js",
- "searchable": 2,"playerType":2,"ext":".js/qy.js"
+ "searchable": 2,"playerType":2,"ext":"./js/qy.js"
 },
 {"key":"qqjs","name":"腾云驾雾(js)","type":3,"api":"http://8.137.159.77:399/sf/Tvbox/js/drpy2.min.js",
  "searchable": 2,"playerType":2,"ext":"./js/QQTV.js"
