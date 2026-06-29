@@ -17,7 +17,7 @@ var rule = {
     multi: 1,
     searchable: 2,
     play_parse: true,
-    lazy: $js.toString(() => {
+    /**lazy: $js.toString(() => {
         // 保持原始URL不做截断
         let targetUrl = input;
 
@@ -67,7 +67,8 @@ var rule = {
 
         tryParse(targetUrl, 0);
     }),
-    //lazy: 'js:input=input.split("?")[0];log(input);',
+    **/
+    lazy: 'js:input=input.split("?")[0];log(input);',
     // 疑似t4专用的
     // lazy:'js:input={parse: 1, playUrl: "", jx: 1, url: input.split("?")[0]}',
     // 手动调用解析请求json的url,此lazy不方便

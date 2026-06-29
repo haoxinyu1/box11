@@ -30,6 +30,9 @@
                 "api": 2
           }
 },
+{"name": "爱看采集","key": "AiBot","type": 3,"api": "csp_AiBotAmns","searchable": 1,"quickSearch": 1,"changeable": 0,
+ "jar": "https://zl.wpscdn.cn/2026/06/27/space_img/c74367d2-81c1-4f87-b808-2441e95e99e4.png;md5;6d682c936700dce9d70d5aba69b7b95b"
+},
 {"key": "金牌影院","name": "金牌影院(js)","type": 3,"api": "https://gh-proxy.com/raw.githubusercontent.com/LIUJEI/TB/master/TS/金牌.js"},
 {"key":"游子视频","name":"游子视频(js)","type":3,"api":"./lib/drpy2.min.js",
  "searchable": 2,"playerType":2,"ext":"./js/游子视频.js"
@@ -38,7 +41,7 @@
  "searchable": 2,"playerType":2,"ext":"./sub/360.js"
 },
 {"key":"qyjs","name":"奇珍异兽(js)","type":3,"api":"./lib/drpy2.min.js",
- "searchable": 2,"playerType":2,"ext":"https://gh-proxy.com/raw.githubusercontent.com/LIUJEI/TB/master/TS/奇艺.js"
+ "searchable": 2,"playerType":2,"ext":"./js/qy.js"
 },
 {"key":"qqjs","name":"腾云驾雾(js)","type":3,"api":"http://8.137.159.77:399/sf/Tvbox/js/drpy2.min.js",
  "searchable": 2,"playerType":2,"ext":"./js/QQTV.js"
@@ -194,7 +197,7 @@
 {"name":"测试解析00","url": "https://yparse.ik9.cc/index.php?url="},
 {"name":"测试解析11","url": "https://bd.jx.cn/?url="},
 {"name":"hogo解析01","url":"https://jx.2s0.cn/player/?url="},
-{"name":"hogo解析02","url":"https://www.yemu.xyz/?url="},
+{"name":"hogo解析02","url":"https://jx.hls.one/?url="},
 {"name":"hogo解析03","url":"https://jx.xmflv.com/?url="},
 {"name":"hogo解析04","url":"https://www.ckplayer.vip/jiexi/?url="}, 
 {"name":"hogo解析05","url":"https://www.playm3u8.cn/jiexi.php?url="}
