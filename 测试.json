@@ -11,10 +11,7 @@
 {"key":"枫叶","name": "枫叶影视(py)","type": 3,"api": "./cat/枫叶.py","searchable": 1,"quickSearch": 1,
  "filterable": 1,"changeable": 1,"playable": 1
 },
-{"key": "荐片app","name": "影視荐片","type": 3,"api": "./sub/荐片.js",
-// "ext": { "host": "https://api.ztcgi.com"},
-  "类型": "影視"
-},
+{"key": "荐片app","name": "影視荐片","type": 3,"api": "./sub/荐片.js", "类型": "影視"},
 {"key":"飞飞影视PQ","name":"飞飞影视(PQ)","type":3,"api":"csp_XBPQ","searchable":1,"quickSearch":1,"filterable":1,
  "jar":"https://git.acwing.com/hogo18/hh/-/raw/main/jar/spider.jar",
  "ext":{
