@@ -8,22 +8,10 @@
 {"name": "爱看采集","key": "AiBot","type": 3,"api": "csp_AiBotAmns","searchable": 1,"quickSearch": 1,"changeable": 0,
  "jar": "https://zl.wpscdn.cn/2026/06/27/space_img/c74367d2-81c1-4f87-b808-2441e95e99e4.png;md5;6d682c936700dce9d70d5aba69b7b95b"
 },
-{
-            "key": "csp_gu",
-            "name": "🌐┃映画APP",
-            "type": 3,
-            "api": "https://gh-proxy.com/raw.githubusercontent.com/LIUJEI/TB/master/TS/AppQi.js",
-            "ext": {
-               "dataKey": "x5Bep6Q78VCeYnPS",
-                "dataIv": "x5Bep6Q78VCeYnPS",
-                "ua": "okhttp/3.10.0"
-                 },
-            "类型": "APP"
-        },
-{"key": "荐片app","name": "影視荐片","type": 3,"api": "./sub/荐片.js",
-// "ext": { "host": "https://api.ztcgi.com"},
-  "类型": "影視"
+{"key":"枫叶","name": "枫叶影视(py)","type": 3,"api": "./cat/枫叶.py","searchable": 1,"quickSearch": 1,
+ "filterable": 1,"changeable": 1,"playable": 1
 },
+{"key": "荐片app","name": "影視荐片","type": 3,"api": "./sub/荐片.js", "类型": "影視"},
 {"key":"飞飞影视PQ","name":"飞飞影视(PQ)","type":3,"api":"csp_XBPQ","searchable":1,"quickSearch":1,"filterable":1,
  "jar":"https://git.acwing.com/hogo18/hh/-/raw/main/jar/spider.jar",
  "ext":{
