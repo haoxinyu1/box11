@@ -1,5 +1,20 @@
 [   {
-        "name": "纯净采集",
+        "name": "暴风资源",
+        "url": "https://bfzyapi.com",
+        "parse_url": "",
+        "cate_exclude": "电影片|连续剧|综艺片|动漫片|伦理片|电影解说|体育|演员|新闻资讯",
+        "class_name": "H4sIALGjdWYC/zWRa3aCMBCFd5N1+kIFj1VOLdbq0Z6iBq0VrI8qGN1MMhN20WSAP8x34c7NZMDRWYkDuh2mvEiKGVEwUy63BPUh1AJLyH11y4i6B2g65HN5SdB9l6lLX9OtEm9Ew7bep5b0c47Zj3EzNRUy5ZZgx/HxYilfT+AaEy02xkC+QQK3B/nGK5jtiM5/ahkQHZPK50Vw/6ZZimTStslmlaI4qRTmpEFSiSKxEJjdtUvjqiXPJ+1Clw2VoNxKUG4pTAiOivXQQjUPdXxi+VdL+Z59LcWrbvzq81SmPaYvRxw2GcZ7KsK3BYJYx6lyegwXdllmDOVELO/0cbSAxDc3ZLh56ounbieZhQxfElN0VDM/wWysr8UOuwICc4PVEeo9qGU6rLN8vFWbD1xn5snyplDXhm75cJqbnqUOHZlN5OPzH964N6gIAgAA",
+        "class_url": "20&21&22&23&24&25&26&27&28&29&30&31&32&33&34&35&36&37&38&39&40&41&42&43&44&45&46&47&48&49&50&51&52&53&54&55&56&57&58&65&66&67&68&69&70&71&72"
+    },
+    {
+        "name": "量子资源",
+        "url": "https://cj.lziapi.com/",
+        "parse_url": "",
+        "cate_exclude": "电影|连续剧|综艺|动漫|伦理片|体育|爽文短剧",
+        "class_name": "",
+        "class_url": ""
+    },
+    {   "name": "纯净采集",
         "url": "https://api.wsyzy.net/",
         "parse_url": "",
         "cate_exclude": "电影|电视剧|动漫|综艺",
@@ -15,14 +30,6 @@
         "class_url": "1&2&3&4&5&6&7&8&9&10&11&12&13&14&15&16&17&18&20&21&22&23&24&25&26&27"
     },
     {
-        "name": "量子资源",
-        "url": "https://cj.lziapi.com/",
-        "parse_url": "",
-        "cate_exclude": "电影|连续剧|综艺|动漫|伦理片|体育|爽文短剧",
-        "class_name": "",
-        "class_url": ""
-    },
-    {
         "name": "新浪资源",
         "url": "https://api.xinlangapi.com",
         "parse_url": "",
@@ -30,14 +37,6 @@
         "cate_exclude": "电影|电视剧|动漫|综艺|纪录片|伦理片|体育|短剧",
         "class_name": "H4sIALGjdWYC/0WOXQ6CMBCEb9Nz+hOR+qAYETUh4UWtikaQkEihPU27W24hXU18msk3m53BuLaqZBjXTgSWC2YXF+hyhm3nuGQob1Ztkc89Nyr1DsMSpjNyYm2b1jsI90ZyuuPil8I4glFCLEkHTO4o+gP1wPsJuqLGVQGNJnYXqJf/Ffgd12dXSncnkqrwYrozRoH/adTGTV4Ms8fAP2ziC/TQAAAA",
         "class_url": "1&2&3&4&5&6&7&8&9&10&11&12&13&14&15&16&17&18&20&21&22&23&24"
-    },
-    {
-        "name": "暴风资源",
-        "url": "https://bfzyapi.com",
-        "parse_url": "",
-        "cate_exclude": "电影片|连续剧|综艺片|动漫片|伦理片|电影解说|体育|演员|新闻资讯",
-        "class_name": "H4sIALGjdWYC/zWRa3aCMBCFd5N1+kIFj1VOLdbq0Z6iBq0VrI8qGN1MMhN20WSAP8x34c7NZMDRWYkDuh2mvEiKGVEwUy63BPUh1AJLyH11y4i6B2g65HN5SdB9l6lLX9OtEm9Ew7bep5b0c47Zj3EzNRUy5ZZgx/HxYilfT+AaEy02xkC+QQK3B/nGK5jtiM5/ahkQHZPK50Vw/6ZZimTStslmlaI4qRTmpEFSiSKxEJjdtUvjqiXPJ+1Clw2VoNxKUG4pTAiOivXQQjUPdXxi+VdL+Z59LcWrbvzq81SmPaYvRxw2GcZ7KsK3BYJYx6lyegwXdllmDOVELO/0cbSAxDc3ZLh56ounbieZhQxfElN0VDM/wWysr8UOuwICc4PVEeo9qGU6rLN8vFWbD1xn5snyplDXhm75cJqbnqUOHZlN5OPzH964N6gIAgAA",
-        "class_url": "20&21&22&23&24&25&26&27&28&29&30&31&32&33&34&35&36&37&38&39&40&41&42&43&44&45&46&47&48&49&50&51&52&53&54&55&56&57&58&65&66&67&68&69&70&71&72"
     },
     {
         "name": "非凡资源",
