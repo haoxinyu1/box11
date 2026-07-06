@@ -10,6 +10,13 @@
 // "ext": { "host": "https://api.ztcgi.com"},
   "类型": "影視"
 },
+{"key":"ikun","name": "采集💠集合(js)","type":3,"api":"./lib/drpy2.min.js",
+ "searchable": 1,"quickSearch": 1,
+ "ext":"./lib/采集之王.js?type=url&params=./sub/采集静态.json$1$1"
+},
+{"name": "爱看影视()","key": "AiBot","type": 3,"api": "csp_AiBotAmns","searchable": 1,"quickSearch": 1,"changeable": 0,
+ "jar": "https://zl.wpscdn.cn/2026/06/27/space_img/c74367d2-81c1-4f87-b808-2441e95e99e4.png;md5;6d682c936700dce9d70d5aba69b7b95b"
+},
 {"key": "三秋影视","name": "三秋APP(js)","type": 3, "api": "./cat/3Q.js"},
 /**{"key":"猫头鹰(js)","name": "夜猫影院(js)","type":3,"searchable": 1,
  "api": "./lib/get.js",
@@ -30,9 +37,6 @@
                 "类型": "APP",
                 "api": 2
           }
-},
-{"name": "爱看采集","key": "AiBot","type": 3,"api": "csp_AiBotAmns","searchable": 1,"quickSearch": 1,"changeable": 0,
- "jar": "https://zl.wpscdn.cn/2026/06/27/space_img/c74367d2-81c1-4f87-b808-2441e95e99e4.png;md5;6d682c936700dce9d70d5aba69b7b95b"
 },
 {"key": "金牌影院","name": "金牌影院(js)","type": 3,"api": "https://gh-proxy.com/raw.githubusercontent.com/LIUJEI/TB/master/TS/金牌.js"},
 {"key":"游子视频","name":"游子视频(js)","type":3,"api":"./lib/drpy2.min.js",
@@ -159,13 +163,6 @@
 },
 {"key":"东风影视","name": "东风影视(js)","type":3,"api":"./lib/drpy2.min.js",
  "searchable": 1,"quickSearch": 1,"ext": "./sub/东风影视.js"
-},
-{"key":"南风影视","name": "南风影视(js)","type":3,"api":"./lib/drpy2.min.js",
- "searchable":1,"quickSearch": 1,"ext": "./sub/南风影视.js"
-},
-{"key":"ikun","name": "采集💠集合(js)","type":3,"api":"./lib/drpy2.min.js",
- "searchable": 1,"quickSearch": 1,
- "ext":"./lib/采集之王.js?type=url&params=./sub/采集静态.json$1$1"
 },
 {"key":"Xunlei8","name": "迅雷磁力()","type":3,"api":"csp_Xunlei8","searchable":1,"quickSearch":1,"ext": "https://xunlei8.me"},
 {"key":"keke","name":"可可影视(PQ)","type": 3,"api":"csp_XBPQ","searchable":1,"quickSearch":1,
