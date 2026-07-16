@@ -160,7 +160,7 @@
                 "decrypt": "0"
             }
 },
-{"key": "瓜子影视","name": "瓜子影视()","type": 3,"api": "csp_Gz360","searchable": 1,"quickSearch": 1,"filterable": 1},
+//{"key": "瓜子影视","name": "瓜子影视()","type": 3,"api": "csp_Gz360","searchable": 1,"quickSearch": 1,"filterable": 1},
 //{"key": "云播影视","name": "云播影视()","type": 3,"api": "csp_Tvyb","ext": "http://www.viptv01.com"},
 {"key":"红中影视","name": "红中影视(js)","type":3,"api":"./lib/drpy2.min.js",
  "searchable": 1,"quickSearch": 1,"ext": "./sub/红中影视.js"
