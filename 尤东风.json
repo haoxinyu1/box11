@@ -3,8 +3,7 @@
 "wallpaper":"https://wp.upx8.com/api.php",//
 "warningText": "尤东风友情提示:个人自用接口💠他人请谨慎用之",
 "sites":[
-{"key":"瓜子js","name":"尤东风自用接口💠他人请谨慎用之","type":3,"api":"./cat/GZYS.py",
- "changeable":1,"filterable":1},
+{"key":"瓜子js","name":"尤东风自用接口💠他人请谨慎用之","type":3,"api":"./cat/瓜子.py","changeable":1,"filterable":1},
 {"key": "荐片app","name": "荐片影視(js)","type": 3,"api": "./sub/荐片.js",
 // "ext": { "host": "https://api.ztcgi.com"},
   "类型": "影視"
@@ -50,7 +49,7 @@
 {"key":"qqjs","name":"腾云驾雾(js)","type":3,"api":"http://8.137.159.77:399/sf/Tvbox/js/drpy2.min.js",
  "searchable": 2,"playerType":2,"ext":"./js/QQTV.js"
 },
-{ "key": "py_瓜娃子","name": "瓜子影院(PY)","type": 3,"api":"./cat/瓜子.py","searchable":1,"changeable":1,"filterable":1},
+//{ "key": "py_瓜娃子","name": "瓜子影院(PY)","type": 3,"api":"./cat/瓜子.py","searchable":1,"changeable":1,"filterable":1},
 {"key":"枫叶","name": "枫叶影视(py)","type": 3,"api": "./cat/枫叶.py","searchable": 1,"quickSearch": 1,
  "filterable": 1,"changeable": 1,"playable": 1
 },
