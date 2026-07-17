@@ -3,9 +3,8 @@
 "wallpaper":"https://wp.upx8.com/api.php",//
 "warningText": "尤东风友情提示:个人自用接口💠他人请谨慎用之",
 "sites":[
-{"key":"瓜子js","name":"尤东风自用接口💠他人请谨慎用之","type":3,"api":"./lib/drpy2.min.js",
- "searchable": 2,"playerType":2,"ext":"./js/瓜子.js"
-},
+{"key":"瓜子js","name":"尤东风自用接口💠他人请谨慎用之","type":3,"api":"./cat/GZYS.py",
+ "changeable":1,"filterable":1},
 {"key": "荐片app","name": "荐片影視(js)","type": 3,"api": "./sub/荐片.js",
 // "ext": { "host": "https://api.ztcgi.com"},
   "类型": "影視"
