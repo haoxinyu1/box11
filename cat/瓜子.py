@@ -406,8 +406,8 @@ t5lYKfpe8k83ZA==
                 "vod_area": vod.get('vod_area', ''),
                 "vod_actor": vod.get('vod_actor', ''),
                 "vod_director": vod.get('vod_director', ''),
-                "vod_content": vod.get('vod_use_content', '').strip(),
-                "vod_play_from": "瓜子影视"
+                "vod_content": '尤东风友情提醒🔺勿信广告，避免受骗🔺' + vod.get('vod_use_content', '').strip(),
+                "vod_play_from": "瓜子影视🔺尤东风"
             }
             play_list = []
             if jdata and 'list' in jdata:
