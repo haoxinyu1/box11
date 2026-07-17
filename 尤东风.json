@@ -51,12 +51,7 @@
 {"key":"qqjs","name":"腾云驾雾(js)","type":3,"api":"http://8.137.159.77:399/sf/Tvbox/js/drpy2.min.js",
  "searchable": 2,"playerType":2,"ext":"./js/QQTV.js"
 },
-{ "key": "py_瓜娃子","name": "瓜子影院(PY)","type": 3, "api": "./cat/瓜娃子.py",
-  "style": {
-                "type": "rect",
-                "ratio": 1.33
-            }
-},
+{ "key": "py_瓜娃子","name": "瓜子影院(PY)","type": 3,"api":"./cat/瓜子.py","searchable":1,"changeable":1,"filterable":1},
 {"key":"枫叶","name": "枫叶影视(py)","type": 3,"api": "./cat/枫叶.py","searchable": 1,"quickSearch": 1,
  "filterable": 1,"changeable": 1,"playable": 1
 },
@@ -165,7 +160,7 @@
                 "decrypt": "0"
             }
 },
-{"key": "瓜子影视","name": "瓜子影视()","type": 3,"api": "csp_Gz360","searchable": 1,"quickSearch": 1,"filterable": 1},
+//{"key": "瓜子影视","name": "瓜子影视()","type": 3,"api": "csp_Gz360","searchable": 1,"quickSearch": 1,"filterable": 1},
 //{"key": "云播影视","name": "云播影视()","type": 3,"api": "csp_Tvyb","ext": "http://www.viptv01.com"},
 {"key":"红中影视","name": "红中影视(js)","type":3,"api":"./lib/drpy2.min.js",
  "searchable": 1,"quickSearch": 1,"ext": "./sub/红中影视.js"
