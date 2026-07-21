@@ -4,12 +4,8 @@
 "warningText": "尤东风友情提示:个人自用接口💠他人请谨慎用之",
 "sites":[
 {"key":"瓜子js","name":"尤东风自用接口💠他人请谨慎用之","type":3,"api":"./cat/瓜子.py","changeable":1,"filterable":1},
-{"key": "荐片app","name": "荐片影視(js)","type": 3,"api": "./sub/荐片.js",
-// "ext": { "host": "https://api.ztcgi.com"},
-  "类型": "影視"
-},
-{"key":"ikun","name": "采集💠集合(js)","type":3,"api":"./lib/drpy2.min.js",
- "searchable": 1,"quickSearch": 1,
+{"key": "荐片app","name": "荐片影視(js)","type": 3,"api": "./sub/荐片.js","类型": "影視"},
+{"key":"ikun","name": "采集💠集合(js)","type":3,"api":"./lib/drpy2.min.js","searchable": 1,"quickSearch": 1,
  "ext":"./lib/采集之王.js?type=url&params=./sub/采集静态.json$1$1"
 },
 {"name": "爱看影视()","key": "AiBot","type": 3,"api": "csp_AiBotAmns","searchable": 1,"quickSearch": 1,"changeable": 0,
@@ -57,14 +53,8 @@
  "ext": "http://43.248.117.123:4680","style": { "type": "rect","ratio": 1.485},
  "类型": "APP"
 },
-{ "key": "高清APP","name": "高清APP()","type": 3, "api": "csp_AppQi","searchable": 1,"changeable": 1,
-  "ext": {
-        "site": "https://yun-1316442804.cos.ap-guangzhou.myqcloud.com/602.txt",
-        "dataKey": "FTgP4Gq8zPiqbt7M",
-        "dataIv": "FTgP4Gq8zPiqbt7M",
-        "init": "initV120",
-        "ua": "okhttp/3.10.0"
-         }
+{"key": "农民影视","name": "农民影视()","type": 3, "api": "csp_Wwys",
+  "ext": "https://vip.wwgz.cn:5200"
 },
 {"key": "小鹿APP","name": "小鹿APP()","type": 3, "api": "csp_AppQi",
   "ext": {
