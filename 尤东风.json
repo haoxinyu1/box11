@@ -12,17 +12,6 @@
  "jar": "https://zl.wpscdn.cn/2026/06/27/space_img/c74367d2-81c1-4f87-b808-2441e95e99e4.png;md5;6d682c936700dce9d70d5aba69b7b95b"
 },
 {"key": "三秋影视","name": "三秋APP(js)","type": 3, "api": "./cat/3Q.js"},
-/**{"key":"猫头鹰(js)","name": "夜猫影院(js)","type":3,"searchable": 1,
- "api": "./lib/get.js",
- "ext": {
-				"host": "http://103.217.190.91:9999",
-				"key": "zxPtEUDGVllIUhDB",
-				"init": "V122",
-				"api": 2,
-				"ua": "okhttp/3.10.0"
-		}
-},
-**/
 { "key": "csp_aying", "name": "亭皋秒播(js)","type": 3,
   "api": "./lib/AppGet.js",
    "ext": {
@@ -31,9 +20,6 @@
                 "类型": "APP",
                 "api": 2
           }
-},
-{ "key": "金牌影院","name": "金牌影院()", "type": 3, "api": "csp_Jpys",
-  "ext": "https://y2s52n7.com,https://m.hkybqufgh.com,https://m.sizhengxt.com,https://m.9zhoukj.com,https://m.sizhengxt.com,https://m.jiabaide.cn"
 },
 /**
 {"key": "金牌影院","name": "金牌影院(js)","type": 3,"api": "https://gh-proxy.com/raw.githubusercontent.com/LIUJEI/TB/master/TS/金牌.js"},
@@ -50,7 +36,6 @@
 {"key":"qqjs","name":"腾云驾雾(js)","type":3,"api":"http://8.137.159.77:399/sf/Tvbox/js/drpy2.min.js",
  "searchable": 2,"playerType":2,"ext":"./js/QQTV.js"
 },
-//{ "key": "py_瓜娃子","name": "瓜子影院(PY)","type": 3,"api":"./cat/瓜子.py","searchable":1,"changeable":1,"filterable":1},
 {"key":"枫叶","name": "枫叶影视(py)","type": 3,"api": "./cat/枫叶.py","searchable": 1,"quickSearch": 1,
  "filterable": 1,"changeable": 1,"playable": 1
 },
@@ -58,8 +43,12 @@
  "ext": "http://43.248.117.123:4680","style": { "type": "rect","ratio": 1.485},
  "类型": "APP"
 },
+{"key": "瓜子影视","name": "瓜子影视()","type": 3,"api": "csp_Gz360","searchable": 1,"quickSearch": 1,"filterable": 1},
 {"key": "农民影视","name": "农民影视()","type": 3, "api": "csp_Wwys",
   "ext": "https://vip.wwgz.cn:5200"
+},
+{ "key": "金牌影院","name": "金牌影院()", "type": 3, "api": "csp_Jpys",
+  "ext": "https://y2s52n7.com,https://m.hkybqufgh.com,https://m.sizhengxt.com,https://m.9zhoukj.com,https://m.sizhengxt.com,https://m.jiabaide.cn"
 },
 {"key": "小鹿APP","name": "小鹿APP()","type": 3, "api": "csp_AppQi",
   "ext": {
@@ -153,7 +142,6 @@
                 "decrypt": "0"
             }
 },
-{"key": "瓜子影视","name": "瓜子影视()","type": 3,"api": "csp_Gz360","searchable": 1,"quickSearch": 1,"filterable": 1},
 //{"key": "云播影视","name": "云播影视()","type": 3,"api": "csp_Tvyb","ext": "http://www.viptv01.com"},
 {"key":"红中影视","name": "红中影视(js)","type":3,"api":"./lib/drpy2.min.js",
  "searchable": 1,"quickSearch": 1,"ext": "./sub/红中影视.js"
