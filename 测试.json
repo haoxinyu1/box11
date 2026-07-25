@@ -8,7 +8,7 @@
 {"name": "爱看采集","key": "AiBot","type": 3,"api": "csp_AiBotAmns","searchable": 1,"quickSearch": 1,"changeable": 0,
  "jar": "https://zl.wpscdn.cn/2026/06/27/space_img/c74367d2-81c1-4f87-b808-2441e95e99e4.png;md5;6d682c936700dce9d70d5aba69b7b95b"
 },
-{ "key": "j_hulu", "name": "葫芦app(js)","type": 3, "api": "./lib/AppGet.js",
+{ "key": "js_hulu", "name": "葫芦app(js)","type": 3, "api": "./lib/AppGet.js",
    "ext": {
                 "host": "http://103.236.72.182:3688",
                 "key": "88689667dce61725",
