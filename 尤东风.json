@@ -11,9 +11,7 @@
 {"key": "AiBot","name": "爱看影视()","type": 3,"api": "csp_AiBotAmns","searchable": 1,"quickSearch": 1,"changeable": 0,
  "jar": "https://zl.wpscdn.cn/2026/06/27/space_img/c74367d2-81c1-4f87-b808-2441e95e99e4.png;md5;6d682c936700dce9d70d5aba69b7b95b"
 },
-{"key": "爱看影院","name": "爱看影院(py)","type": 3,"api": "./lib/AppToV5.py",
- "ext": "http://43.248.117.123:4680"
-},
+
 {"key": "三秋影视","name": "三秋APP(js)","type": 3, "api": "./cat/3Q.js"},
 { "key": "js_hulu", "name": "葫芦app(js)","type": 3, "api": "./lib/AppGet.js",
    "ext": {
