@@ -8,10 +8,22 @@
 {"key":"ikun","name": "采集💠集合(js)","type":3,"api":"./lib/drpy2.min.js","searchable": 1,"quickSearch": 1,
  "ext":"./lib/采集之王.js?type=url&params=./sub/采集静态.json$1$1"
 },
-{"name": "爱看影视()","key": "AiBot","type": 3,"api": "csp_AiBotAmns","searchable": 1,"quickSearch": 1,"changeable": 0,
+{"key": "AiBot","name": "爱看影视()","type": 3,"api": "csp_AiBotAmns","searchable": 1,"quickSearch": 1,"changeable": 0,
  "jar": "https://zl.wpscdn.cn/2026/06/27/space_img/c74367d2-81c1-4f87-b808-2441e95e99e4.png;md5;6d682c936700dce9d70d5aba69b7b95b"
 },
+{"key": "爱看影院","name": "爱看影院(py)","type": 3,"api": "./lib/AppToV5.py",
+ "ext": "http://43.248.117.123:4680"
+},
 {"key": "三秋影视","name": "三秋APP(js)","type": 3, "api": "./cat/3Q.js"},
+{ "key": "js_hulu", "name": "葫芦app(js)","type": 3, "api": "./lib/AppGet.js",
+   "ext": {
+                "host": "http://v12-1-hulucms.nmgzxrl.com",
+                "key": "8R33VQSxzmCaHpEX",
+                "类型": "APP",
+                "api": 2
+          }
+},
+/**
 { "key": "csp_aying", "name": "亭皋秒播(js)","type": 3,
   "api": "./lib/AppGet.js",
    "ext": {
@@ -21,7 +33,6 @@
                 "api": 2
           }
 },
-/**
 {"key": "金牌影院","name": "金牌影院(js)","type": 3,"api": "https://gh-proxy.com/raw.githubusercontent.com/LIUJEI/TB/master/TS/金牌.js"},
 {"key":"游子视频","name":"游子视频(js)","type":3,"api":"./lib/drpy2.min.js",
  "searchable": 2,"playerType":2,"ext":"./js/游子视频.js"
@@ -42,6 +53,10 @@
 {"key": "py_juhey","name": "霜镜秒播(PY)", "type": 3, "api": "./lib/AppToV5.py",
  "ext": "http://43.248.117.123:4680","style": { "type": "rect","ratio": 1.485},
  "类型": "APP"
+},
+{"key": "huai","name": "怀桑影视()","type": 3,"api": "csp_AppQi","searchable": 1, "changeable": 1,
+ "jar": "./jar/879949887_1_1784533310607.jar",
+ "ext": "AdYEovlEKsDy77+R58YGahWCxrDZyBxExcQNC2NSeH0n1b5mu6tvh8b4Eh0RCpoPF6eivKdrR1Hsb8X4sSVBS8zF6jkwLW+wze9yh+hSY5iimm4gM9mAtmt0obTi+6Iox/Jp4GCsN4MQyFebMK162SKnILklpXc1UMiJv9gnPOe5aOPUxCftL+x7/UGhBdFYWIegpiHvKeavUtCUkhxtDyC8KqVVPPW0StI5GdmUA3WBbnnrNiKqNc5GBmrffd6pDN+Cf9IIjzNNvos/5KXJmBbe/baAzTLkoafeIoDhO451"
 },
 {"key": "瓜子影视","name": "瓜子影视()","type": 3,"api": "csp_Gz360","searchable": 1,"quickSearch": 1,"filterable": 1},
 {"key": "农民影视","name": "农民影视()","type": 3, "api": "csp_Wwys",
@@ -77,19 +92,6 @@
                 "dataKey": "88689667dce61725",
                 "dataIv": "88689667dce61725"
           }
-},
-{ "key": "天堂","name": "天堂APP()","type": 3,"api": "csp_AppDrama","searchable": 1, "quickSearch": 1, "filterable": 1,
-  "ext": {
-                "appName": "电影天堂",
-                "publicKey": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCduNEnfxGaLuQRk5ABzXHhPV43zi00sCHjLo8BYc+Wi6xXm2b4v0i28Sq4WlNCKhseft9fz8kO/qLr6/022o1RcuOU7e4GFL3U9WnNODwRBYSYWd+K8nqpI/tAUDmZEBGRWqjrc7x6aMl3A+xpnWkLbPCLsuhbuuUE3tv09oeOpwIDAQAB",
-                "dataKey": "D2KREWRIBVNAUJJYEDL4VFHOY2Q0PQ==",
-                "dataIv": "OC1A06E197EF10CF3F6058CA7A803B5E",
-                "pkg": "com.dytiantang.one",
-                "host": "",
-                "site": "https://dyttandroid04-1372779881.cos.ap-shanghai.myqcloud.com/app_dyttandroid.txt",
-                "version": "3.0.0.7",
-                "decrypt": "0"
-         }
 },
 {"key": "宫阁","name": "宫阁APP()","type": 3,"api": "csp_App99","searchable": 1,"filterable": 1,
  "ext": {
@@ -129,8 +131,18 @@
         "decrypt": "1"
             }
 },
-{"key": "五大平台","name": "五大平台()","type": 3,"api": "csp_AppYsV2","searchable":1,"playerType":2,"filterable": 1,
- "ext": "http://39.105.18.5:5565/api.php/app/"
+{ "key": "天堂","name": "天堂APP()","type": 3,"api": "csp_AppDrama","searchable": 1, "quickSearch": 1, "filterable": 1,
+  "ext": {
+                "appName": "电影天堂",
+                "publicKey": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCduNEnfxGaLuQRk5ABzXHhPV43zi00sCHjLo8BYc+Wi6xXm2b4v0i28Sq4WlNCKhseft9fz8kO/qLr6/022o1RcuOU7e4GFL3U9WnNODwRBYSYWd+K8nqpI/tAUDmZEBGRWqjrc7x6aMl3A+xpnWkLbPCLsuhbuuUE3tv09oeOpwIDAQAB",
+                "dataKey": "D2KREWRIBVNAUJJYEDL4VFHOY2Q0PQ==",
+                "dataIv": "OC1A06E197EF10CF3F6058CA7A803B5E",
+                "pkg": "com.dytiantang.one",
+                "host": "",
+                "site": "https://dyttandroid04-1372779881.cos.ap-shanghai.myqcloud.com/app_dyttandroid.txt",
+                "version": "3.0.0.7",
+                "decrypt": "0"
+         }
 },
 { "key": "薯条", "name": "薯条APP()", "type": 3,"api": "csp_AppDrama", "searchable": 1,"quickSearch": 1,"filterable": 1,
   "ext": {
@@ -144,6 +156,9 @@
                 "version": "5.0.0.1",
                 "decrypt": "0"
             }
+},
+{"key": "五大平台","name": "五大平台()","type": 3,"api": "csp_AppYsV2","searchable":1,"playerType":2,"filterable": 1,
+ "ext": "http://39.105.18.5:5565/api.php/app/"
 },
 //{"key": "云播影视","name": "云播影视()","type": 3,"api": "csp_Tvyb","ext": "http://www.viptv01.com"},
 {"key":"红中影视","name": "红中影视(js)","type":3,"api":"./lib/drpy2.min.js",
