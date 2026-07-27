@@ -157,9 +157,7 @@
                 "decrypt": "0"
             }
 },
-{"key": "五大平台","name": "五大平台()","type": 3,"api": "csp_AppYsV2","searchable":1,"playerType":2,"filterable": 1,
- "ext": "http://39.105.18.5:5565/api.php/app/"
-},
+{"key":"五大平台","name":"五大平台()","type":3,"api":"csp_AppYsV2","searchable":1,"ext": "http://39.105.18.5:5565/api.php/app/"},
 {"key":"紫金影视","name":"紫金影视()","type":3,"api":"csp_AppYsV2","searchable":1,"ext":"http://www.zjcvod.com/api.php/app/"},
 //{"key": "云播影视","name": "云播影视()","type": 3,"api": "csp_Tvyb","ext": "http://www.viptv01.com"},
 {"key":"红中影视","name": "红中影视(js)","type":3,"api":"./lib/drpy2.min.js",
