@@ -65,6 +65,18 @@
 { "key": "金牌影院","name": "金牌影院()", "type": 3, "api": "csp_Jpys",
   "ext": "https://y2s52n7.com,https://m.hkybqufgh.com,https://m.sizhengxt.com,https://m.9zhoukj.com,https://m.sizhengxt.com,https://m.jiabaide.cn"
 },
+{"key": "云朵影视","name": "云朵APP()","type": 3,"api": "csp_App3Q",
+ "ext": {
+        "host": "https://ds3xy2yunsa.xyz",
+        "finger": "SF-F5F11CB15897115AE6BCFE063C288F730CA865588F572C780A3E8477D0DD3776",
+        "updateId": "175070c3-075c-468b-950a-bf575769f4f1",
+        "deviceBrand": "vivo",
+        "deviceModel": "V2309A",
+        "pkg": "com.tvcloud.io",
+        "sk": "SK-sk_13oXDZ7u9j2Tk1c0cawWVFfO",
+        "ver": "1"
+        }
+},
 {"key": "云播影视","name": "芸芸APP()", "type": 3,"api": "csp_AppQi","searchable":1,
   "ext": {
           "site": "https://gitee.com/lyun_1_0/tb/raw/master/lib/yun.m3u",
@@ -92,19 +104,6 @@
                 "dataKey": "88689667dce61725",
                 "dataIv": "88689667dce61725"
           }
-},
-{"key": "宫阁","name": "宫阁APP()","type": 3,"api": "csp_App99","searchable": 1,"filterable": 1,
- "ext": {
-        "host": "http://111.170.140.70:19987/app/bn",
-        "LoginPath": "/app/log",
-        "version": "",
-        "appkey": "c403317c2a2946659b0bcbabdd5de43a",
-        "versionName": "1.0.1",
-        "name": "宫阁影视",
-        "package": "com.wujiys.app",
-        "buildNumber": "2001",
-        "buildSignature": "A0859BDC35AD3E81D4051E2A4678C77C62773EDB3423DDF1DEFF94CB331D398E"
-      }
 },
 { "key": "听心99","name": "听心APP()","type": 3, "api": "csp_App99",
   "ext": {
@@ -157,9 +156,7 @@
                 "decrypt": "0"
             }
 },
-{"key": "五大平台","name": "五大平台()","type": 3,"api": "csp_AppYsV2","searchable":1,"playerType":2,"filterable": 1,
- "ext": "http://39.105.18.5:5565/api.php/app/"
-},
+{"key":"五大平台","name":"五大平台()","type":3,"api":"csp_AppYsV2","searchable":1,"ext": "http://39.105.18.5:5565/api.php/app/"},
 {"key":"紫金影视","name":"紫金影视()","type":3,"api":"csp_AppYsV2","searchable":1,"ext":"http://www.zjcvod.com/api.php/app/"},
 //{"key": "云播影视","name": "云播影视()","type": 3,"api": "csp_Tvyb","ext": "http://www.viptv01.com"},
 {"key":"红中影视","name": "红中影视(js)","type":3,"api":"./lib/drpy2.min.js",
