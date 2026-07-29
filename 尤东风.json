@@ -23,16 +23,14 @@
                 "api": 2
           }
 },
-/**
-{ "key": "csp_aying", "name": "亭皋秒播(js)","type": 3,
-  "api": "./lib/AppGet.js",
-   "ext": {
-                "host": "http://222.211.75.252:26168",
-                "key": "nzEqOgYk3QzHuEP8",
-                "类型": "APP",
+{ "key": "csp_aying", "name": "亭皋秒播(js)","type": 3,"api": "./lib/AppGet.js",
+  "ext": {
+                "host": "http://222.211.75.252:16118",
+                "key": "0UKM8jkasM8tdzgW",
                 "api": 2
-          }
+         }
 },
+/**
 {"key": "金牌影院","name": "金牌影院(js)","type": 3,"api": "https://gh-proxy.com/raw.githubusercontent.com/LIUJEI/TB/master/TS/金牌.js"},
 {"key":"游子视频","name":"游子视频(js)","type":3,"api":"./lib/drpy2.min.js",
  "searchable": 2,"playerType":2,"ext":"./js/游子视频.js"
@@ -184,8 +182,8 @@
     "分类url": "https://www.ylys.tv/vodshow/{cateId}-{area}-{by}-{class}-{lang}-{letter}---{catePg}---{year}.html"
      }
 },
-{"key":"VIP影视","name":"VIP影视(PQ)","type":3,"api":"csp_XBPQ","searchable":1,"filterable":1,"ext": "./json/VIP影视.json"},
-{"key":"飞快tv","name":"4K影视(PQ)","type":3,"api":"csp_XBPQ","searchable":1,"filterable":1,"ext": "./json/4kvm.json"},
+//{"key":"VIP影视","name":"VIP影视(PQ)","type":3,"api":"csp_XBPQ","searchable":1,"filterable":1,"ext": "./json/VIP影视.json"},
+//{"key":"飞快tv","name":"4K影视(PQ)","type":3,"api":"csp_XBPQ","searchable":1,"filterable":1,"ext": "./json/4kvm.json"},
 {"key":"push_agent","name":"推送()","type":3,"api":"csp_Push","ext":"./lib/tokenm.json"}
 ],
 "lives": 
