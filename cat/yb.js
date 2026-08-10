@@ -514,7 +514,7 @@ async function detail(id) {
             vod_remarks: vod_remarks,
             vod_actor: vod_actor,
             vod_director: vod_director,
-            vod_content: vod_content,
+            vod_content:'尤东风友情提醒🔺勿信广告，避免受骗🔺📢'+ vod_content,
             vod_play_from: playFrom.join('$$$'),
             vod_play_url: playUrls.join('$$$')
         };
