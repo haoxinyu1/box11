@@ -13,16 +13,27 @@
  "filterable": 1,"changeable": 1,"playable": 1
 },
 {"key": "荐片app","name": "影視荐片","type": 3,"api": "./sub/荐片.js", "类型": "影視"},
-{"key":"飞飞影视PQ","name":"飞飞影视(PQ)","type":3,"api":"csp_XBPQ","searchable":1,"quickSearch":1,"filterable":1,
- "jar":"https://git.acwing.com/hogo18/hh/-/raw/main/jar/spider.jar",
- "ext":{
-	"分类url": "https://www.ffys.fun/vodshow/id/{cateId}/area/{area}/by/{by}/class/{class}/page/{catePg}/year/{year}.html", 
-        "分类": "电影$20#剧集$21#动漫$22#综艺$23#记录片$24#爽剧$25",
-        "简介":"尤东风友情提醒🔺勿信广告，避免受骗🔺+<p>&&</p>",
-        "线路数组": "data-dropdown-value=&&</div>",
-        "线路标题": "尤东风💠+<span>&&</span>"
-       }
-},
+ {
+      "key": "d'd",
+      "name": "修罗|弹幕",
+      "type": 3,
+      "api": "csp_HBPQ",
+      "ext": {
+        "数组": "card card-sm card-link&&</div>",
+        "图片": "src=\"&&\"",
+        "标题": "mb-0 card-title text-truncate\">&&<",
+        "副标题": "start-0 text-red-fg\">&&</span>",
+        "链接": "href=\"&&\"",
+        "简介": "剧情简介：&&\"",
+        "线路标题": "磁力+>&&<",
+        "播放数组": "download-list&&</tbody>",
+        "播放列表": "<tr&&</tr>",
+        "播放标题": "text-muted\">&&</td>[不包含:网盘下载]",
+        "跳转播放链接": "href=\"&&\"",
+        "分类url": "https://v.xlys.ltd.ua/s/all/{catePg}?type={cateId};;d0",
+        "分类": "电影$0#电视剧$1"
+      }
+    },
 {"key": "哔嘀弹幕3","name": "缘觉弹幕3","type": 3,"api": "https://git.acwing.com/hogo18/hh/-/raw/main/cat/shijue.js"}
 ],
 "parses":[
