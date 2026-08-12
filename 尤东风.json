@@ -49,13 +49,13 @@
 {"key":"枫叶","name": "枫叶影视(py)","type": 3,"api": "./cat/枫叶.py","searchable": 1,"quickSearch": 1,
  "filterable": 1,"changeable": 1,"playable": 1
 },
-{"key": "huai","name": "怀桑影视()","type": 3,"api": "csp_AppQi","searchable": 1, "changeable": 1,
+/**{"key": "huai","name": "怀桑影视()","type": 3,"api": "csp_AppQi","searchable": 1, "changeable": 1,
  "jar": "./jar/569288413_5_1784984049293.jar",
  "ext": "AdYEovlEKsDy77+R58YGahWCxrDZyBxExcQNC2NSeH0n1b5mu6tvh8b4Eh0RCpoPF6eivKdrR1Hsb8X4sSVBS8zF6jkwLW+wze9yh+hSY5iimm4gM9mAtmt0obTi+6Iox/Jp4GCsN4MQyFebMK162SKnILklpXc1UMiJv9gnPOe5aOPUxCftL+x7/UGhBdFYWIegpiHvKeavUtCUkhxtDyC8KqVVPPW0StI5GdmUA3WBbnnrNiKqNc5GBmrffd6pDN+Cf9IIjzNNvos/5KXJmBbe/baAzTLkoafeIoDhO451"
 },
 {"key": "PianKu8","name": "片库影视()", "type":3,"api":"csp_PianKu8", "searchable":1,"filterable":1,
  "jar": "./jar/569288413_5_1784984049293.jar", "ext": "http://qkys.qukanwh.com"
-},
+},**/
 {"key": "瓜子影视","name": "瓜子影视()","type": 3,"api": "csp_Gz360","searchable": 1,"quickSearch": 1,"filterable": 1},
 {"key": "农民影视","name": "农民影视()","type": 3, "api": "csp_Wwys",
   "ext": "https://vip.wwgz.cn:5200"
