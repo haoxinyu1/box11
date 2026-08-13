@@ -49,15 +49,6 @@
 {"key":"枫叶","name": "枫叶影视(py)","type": 3,"api": "./cat/枫叶.py","searchable": 1,"quickSearch": 1,
  "filterable": 1,"changeable": 1,"playable": 1
 },
-{"key": "huai","name": "怀桑影视()","type": 3,"api": "csp_AppQi","searchable": 1, "changeable": 1,
- "ext": {
-        "site": "https://daen-1256234123.cos.ap-shanghai.myqcloud.com/MuQi/mqxhqj.txt",
-        "dataKey": "kj37zs29q22jk96t",
-        "dataIv": "kj37zs29q22jk96t",
-        "init": "initV122",
-        "ua": "okhttp/3.10.0"
-      }
-},
 {"key": "PianKu8","name": "片库影视()", "type":3,"api":"csp_PianKu8", "searchable":1,"filterable":1,
  "ext": "http://qkys.qukanwh.com"
 },
