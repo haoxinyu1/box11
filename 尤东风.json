@@ -99,18 +99,6 @@
                 "dataIv": "88689667dce61725"
           }
 },
-/**{ "key": "听心99","name": "听心APP()","type": 3, "api": "csp_App99",
-  "ext": {
-        "host": "https://api.12321app.com/api",
-        "LoginPath": "/app/log",
-        "appkey": "a0a18659a9977a47e53442cd084b536c",
-        "versionName": "2.8.1",
-        "name": "听心视频",
-        "package": "com.iksp.adsys.jjsp",
-        "buildNumber": "2001",
-        "buildSignature": "03DD38CE4C3D62D0F0DEFACC06768D14EB382C7BD77A05B2EBF4D66E154A0D47"
-        }
-},**/
 { "key": "华谊app","name": "华谊APP()","type": 3,"api": "csp_AppDrama", "searchable": 1,"quickSearch": 1,"filterable": 1,
       "ext": {
         "appName": "华谊",
@@ -150,9 +138,21 @@
                 "decrypt": "0"
             }
 },
+{"key": "橘汁APP", "name": "橘汁APP()", "type": 3,"api": "csp_AppDrama","searchable": 1,
+      "ext": {
+        "appName": "橘汁",
+        "publicKey": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCr8SzZhjYy+rsya1K09t8d2K50pWFoBkgUqMpKOiW+3IEVKd4eTdvg9RSOjQ82kypL6R9BnsmrS1V8s4PVDwjQbUtYhTPPC9Hz16qY7rpD6m0d2vr09/UpWQ5uOy9PR0QTrsioveZ+DIe9jc3C+zBCu/kZSY/R8stwJoiitki3gwIDAQAB",
+        "dataKey": "OW1WBLFZCLJ0WTNJCDMYEGXWYVP3PT0=",
+        "dataIv": "OC1A06E197EF10CF3F6058CA7A803B5E",
+        "pkg": "com.mxj.wylcjbxyx",
+        "host": "",
+        "site": "https://123-1349250429.cos.ap-shanghai.myqcloud.com/app.txt",
+        "version": "3.0.2.3",
+        "decrypt": "1"
+            }
+},
 {"key":"五大平台","name":"五大平台()","type":3,"api":"csp_AppYsV2","searchable":1,"ext": "http://39.105.18.5:5565/api.php/app/"},
 {"key":"紫金影视","name":"紫金影视()","type":3,"api":"csp_AppYsV2","searchable":1,"ext":"http://www.zjcvod.com/api.php/app/"},
-//{"key": "云播影视","name": "云播影视()","type": 3,"api": "csp_Tvyb","ext": "http://www.viptv01.com"},
 {"key":"红中影视","name": "红中影视(js)","type":3,"api":"./lib/drpy2.min.js",
  "searchable": 1,"quickSearch": 1,"ext": "./sub/红中影视.js"
 },
