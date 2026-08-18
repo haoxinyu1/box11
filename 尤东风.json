@@ -1,7 +1,7 @@
 {//以下全部资源均来自网络，如有冒犯请联系删除。[所有内容仅供学习使用，请勿用于违法用途]
 "spider":"./jar/spider.jar",
 "wallpaper":"https://wp.upx8.com/api.php",//
-"warningText": "尤东风友情提示:个人自用接口💠他人请谨慎用之",
+"warningText": "尤东风友情提示:个人自用接口💠他人请谨慎用之",//
 "sites":[
 {"key":"瓜子js","name":"尤东风自用接口💠他人请谨慎用之","type":3,"api":"./cat/瓜子.py","changeable":1,"filterable":1},
 {"key": "荐片app","name": "荐片影視(js)","type": 3,"api": "./sub/荐片.js","类型": "影視"},
@@ -15,6 +15,7 @@
 {"key": "爱看影院","name": "爱看影院(py)","type": 3,"api": "./lib/AppToV5.py",
  "ext": "http://43.248.117.123:4680"
 },
+{"key":"云朵影视","name": "云朵影视(py)","type":3,"searchable":1,"api":"./py/yunduo.py"},
 {"key": "三秋影视","name": "三秋APP(js)","type": 3, "api": "./cat/3Q.js"},
 { "key": "js_hulu", "name": "葫芦app(js)","type": 3, "api": "./lib/AppGet.js",
    "ext": {
