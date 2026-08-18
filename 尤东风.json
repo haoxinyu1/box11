@@ -8,7 +8,7 @@
 {"key":"ikun","name": "采集💠集合(js)","type":3,"api":"./lib/drpy2.min.js","searchable": 1,"quickSearch": 1,
  "ext":"./lib/采集之王.js?type=url&params=./sub/采集静态.json$1$1"
 },
-{"key":"歪比巴卜","name": "歪比巴卜(py)","type":3,"searchable":1,"playerType":2,"api":"./py/yb.py"},
+{"key":"歪比巴卜","name": "歪比巴卜(py)","type":3,"searchable":1,"playerType":2,"api":"./cat/yb.js"},
 {"key": "AiBot","name": "爱看影视()","type": 3,"api": "csp_AiBotAmns","searchable": 1,"quickSearch": 1,"changeable": 0,
  "jar": "https://nos.netease.com/ysf/94fce0ad0fb002e36283e7beb2440f64.png;md5;c01dcf611c00ffadf8584263214da7f7"
 },
