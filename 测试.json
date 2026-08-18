@@ -9,9 +9,8 @@
  "jar": "https://zl.wpscdn.cn/2026/06/27/space_img/c74367d2-81c1-4f87-b808-2441e95e99e4.png;md5;6d682c936700dce9d70d5aba69b7b95b"
 },
 {"key":"py_juhey","name":"霜镜秒播(PY)","type":3,"api":"./lib/AppToV5.py","ext":"http://43.248.117.123:4680"},
-{"key":"枫叶","name": "枫叶影视(py)","type": 3,"api": "./cat/枫叶.py","searchable": 1,"quickSearch": 1,
- "filterable": 1,"changeable": 1,"playable": 1
-},
+{"key":"py云朵影视","name": "云朵影视(py)","type":3,"searchable":1,"api":"./py/yunduo.py"},
+{"key":"枫叶","name": "枫叶影视(py)","type": 3,"api": "./cat/枫叶.py","searchable": 1,"quickSearch": 1},
 {"key": "荐片app","name": "影視荐片","type": 3,"api": "./sub/荐片.js", "类型": "影視"},
  {
       "key": "d'd",
