@@ -17,7 +17,6 @@
  "ext": "http://43.248.117.123:4680"
 },
 {"key":"py云朵影视","name": "云朵影视(py)","type":3,"searchable":1,"api":"./py/yunduo.py"},
-{"key": "三秋影视","name": "三秋APP(js)","type": 3, "api": "./cat/3Q.js"},
 { "key": "js_hulu", "name": "葫芦app(js)","type": 3, "api": "./lib/AppGet.js",
    "ext": {
                 "host": "http://v12-1-hulucms.nmgzxrl.com",
@@ -26,13 +25,13 @@
                 "api": 2
           }
 },
-{ "key": "csp_aying", "name": "亭皋秒播(js)","type": 3,"api": "./lib/AppGet.js",
+/*{ "key": "csp_aying", "name": "亭皋秒播(js)","type": 3,"api": "./lib/AppGet.js",
   "ext": {
                 "host": "http://222.211.75.252:16118",
                 "key": "0UKM8jkasM8tdzgW",
                 "api": 2
          }
-},
+},*/
 {"key":"SP360","name":"360影视(js)","type":3,"api":"./lib/drpy2.min.js",
  "searchable": 2,"playerType":2,"ext":"./sub/360.js"
 },
