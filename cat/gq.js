@@ -172,7 +172,7 @@ async function detail(id) {
                 vod_id: id,
                 vod_name: vod_name,
                 vod_pic: vod_pic,
-                vod_content: vod_content,
+                vod_content: '尤东风友情提醒🔺勿信广告，避免受骗🔺📢'+ vod_content,
                 vod_play_from: playFrom.join('$$$'),
                 vod_play_url: playUrl.join('$$$')
             }]
