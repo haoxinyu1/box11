@@ -150,6 +150,9 @@
  "searchable": 1,"quickSearch": 1,"ext": "./sub/东风影视.js"
 },
 {"key":"Xunlei8","name": "迅雷磁力()","type":3,"api":"csp_Xunlei8","searchable":1,"quickSearch":1,"ext": "https://xunlei8.me"},
+{"key": "New6v","name": "New6V磁力()", "type": 3, "api": "csp_New6v","searchable": 1,"quickSearch": 1, "filterable": 1,
+  "ext": "https://www.xb6v.com"
+},
 {"key":"keke","name":"可可影视(PQ)","type": 3,"api":"csp_XBPQ","searchable":1,"quickSearch":1,
  "jar": "./jar/XBPQ.jar","ext": "./json/keke.json"
 },
