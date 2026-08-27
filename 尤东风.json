@@ -61,14 +61,14 @@
            "dataIv": "O3K6rYx75Q4xtiIE"
         }
 },
-{"key": "云播影视","name": "芸芸APP()", "type": 3,"api": "csp_AppQi","searchable":1,
+{"key": "云播影视","name": "蓝鸟APP()", "type": 3,"api": "csp_AppQi","searchable":1,
   "ext": {
-          "site": "https://gitee.com/lyun_1_0/tb/raw/master/lib/yun.m3u",
-          "dataKey": "kj37zs29q22jk96t",
-          "dataIv": "kj37zs29q22jk96t",
-          "init": "initV122",
-          "ua": "okhttp/3.10.0"
-         }
+        "site": "https://lanyingjisu.oss-cn-wuhan-lr.aliyuncs.com/lyjszx.txt",
+        "dataKey": "oW5UxZ5kWVr1DI69",
+        "dataIv": "oW5UxZ5kWVr1DI69",
+        "init": "initV122",
+        "ua": "okhttp/3.10.0"
+      }
 },
 {"key": "小鹿APP","name": "小鹿APP()","type": 3, "api": "csp_AppQi","searchable":1,
   "ext": {
