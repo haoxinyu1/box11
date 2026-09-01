@@ -44,13 +44,11 @@
 {"key":"枫叶","name": "枫叶影视(py)","type": 3,"api": "./cat/枫叶.py","searchable": 1,"quickSearch": 1,
  "filterable": 1,"changeable": 1,"playable": 1
 },
+{"key": "咕噜APP", "name": "咕噜APP()","type": 3, "api": "csp_Gulu","searchable": 1,"filterable": 1},
 {"key": "PianKu8","name": "片库影视()", "type":3,"api":"csp_PianKu8", "searchable":1,"filterable":1,
  "ext": "http://qkys.qukanwh.com"
 },
 {"key": "瓜子影视","name": "瓜子影视()","type": 3,"api": "csp_Gz360","searchable": 1,"quickSearch": 1,"filterable": 1},
-{"key": "农民影视","name": "农民影视()","type": 3, "api": "csp_Wwys",
-  "ext": "https://vip.wwgz.cn:5200"
-},
 { "key": "金牌影院","name": "金牌影院()", "type": 3, "api": "csp_Jpys",
   "ext": "https://y2s52n7.com,https://m.hkybqufgh.com,https://m.sizhengxt.com,https://m.9zhoukj.com,https://m.sizhengxt.com,https://m.jiabaide.cn"
 },
