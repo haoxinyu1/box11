@@ -25,6 +25,7 @@
                 "api": 2
           }
 },
+{"key":"飞猫影视","name": "飞猫影视(py)","type": 3,"api": "./py/Ncat.py","searchable": 1,"quickSearch": 1},
 /*{ "key": "csp_aying", "name": "亭皋秒播(js)","type": 3,"api": "./lib/AppGet.js",
   "ext": {
                 "host": "http://222.211.75.252:16118",
