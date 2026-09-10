@@ -170,8 +170,12 @@
     "分类url": "https://www.ylys.tv/vodshow/{cateId}-{area}-{by}-{class}-{lang}-{letter}---{catePg}---{year}.html"
      }
 },
-//{"key":"VIP影视","name":"VIP影视(PQ)","type":3,"api":"csp_XBPQ","searchable":1,"filterable":1,"ext": "./json/VIP影视.json"},
-//{"key":"飞快tv","name":"4K影视(PQ)","type":3,"api":"csp_XBPQ","searchable":1,"filterable":1,"ext": "./json/4kvm.json"},
+{"key": "养生堂", "name": "养生💠知识","type": 3,"api": "csp_YST","searchable": 0,"changeable": 0,
+ "style": {
+        "type": "rect",
+        "ratio": 1.618
+          }
+},
 {"key":"push_agent","name":"推送()","type":3,"api":"csp_Push","ext":"./lib/tokenm.json"}
 ],
 "lives": 
