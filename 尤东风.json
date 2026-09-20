@@ -88,7 +88,17 @@
                 "dataIv": "88689667dce61725"
           }
 },
-{ "key": "华谊app","name": "华谊APP()","type": 3,"api": "csp_AppDrama", "searchable": 1,"quickSearch": 1,"filterable": 1,
+{"key": "半日99", "name": "半日APP()", "type": 3, "api": "csp_App99",
+      "ext": {
+        "host": "http://103.217.190.91:19987/app/bn",
+        "versionName": "3.5.8",
+        "name": "半日闲",
+        "package": "com.yf.lelian",
+        "buildNumber": "2001",
+        "buildSignature": "A40DA80A59D170CAA950CF15C18C454D47A39B26989D8B640ECD745BA71BF5DC"
+             }
+},
+/*{ "key": "华谊app","name": "华谊APP()","type": 3,"api": "csp_AppDrama", "searchable": 1,"quickSearch": 1,"filterable": 1,
       "ext": {
         "appName": "华谊",
         "publicKey": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCp9Ek4wIlQAtwFnuBRlsFiow2tr+4UOciGeNKbY7nL74etUqUb6fvpOSOHhFEfaWlfwUpOB17x3JEL3No19nfjCeVYrYPjlJcgoqUWH/tfIfFAQWvtxBIBlKazkhw8d3ChysWmeWRikKqkBsVRY4oqNPuj4sjm6Zult0U4I4prRQIDAQAB",
@@ -100,7 +110,7 @@
         "version": "1.0.0.4",
         "decrypt": "1"
             }
-},
+},*/
 { "key": "天堂","name": "天堂APP()","type": 3,"api": "csp_AppDrama","searchable": 1, "quickSearch": 1, "filterable": 1,
   "ext": {
                 "appName": "电影天堂",
@@ -114,31 +124,18 @@
                 "decrypt": "0"
          }
 },
-{ "key": "薯条", "name": "薯条APP()", "type": 3,"api": "csp_AppDrama", "searchable": 1,"quickSearch": 1,"filterable": 1,
-  "ext": {
-                "appName": "薯条影视",
-                "publicKey": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCduNEnfxGaLuQRk5ABzXHhPV43zi00sCHjLo8BYc+Wi6xXm2b4v0i28Sq4WlNCKhseft9fz8kO/qLr6/022o1RcuOU7e4GFL3U9WnNODwRBYSYWd+K8nqpI/tAUDmZEBGRWqjrc7x6aMl3A+xpnWkLbPCLsuhbuuUE3tv09oeOpwIDAQAB",
-                "dataKey": "A1VACZJWDKRZY1P3MFV0DDRAZ3F3PT0=",
-                "dataIv": "OC1A06E197EF10CF3F6058CA7A803B5E",
-                "pkg": "com.st.standroid",
-                "host": "",
-                "site": "https://dyttandroid-1372779881.cos.ap-guangzhou.myqcloud.com/app_dyttandroid.txt",
-                "version": "5.0.0.1",
-                "decrypt": "0"
-            }
-},
 {"key": "橘汁APP", "name": "橘汁APP()", "type": 3,"api": "csp_AppDrama","searchable": 1,
       "ext": {
         "appName": "橘汁",
         "publicKey": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCr8SzZhjYy+rsya1K09t8d2K50pWFoBkgUqMpKOiW+3IEVKd4eTdvg9RSOjQ82kypL6R9BnsmrS1V8s4PVDwjQbUtYhTPPC9Hz16qY7rpD6m0d2vr09/UpWQ5uOy9PR0QTrsioveZ+DIe9jc3C+zBCu/kZSY/R8stwJoiitki3gwIDAQAB",
-        "dataKey": "OW1WBLFZCLJ0WTNJCDMYEGXWYVP3PT0=",
+        "dataKey": "OW1WBLFZCLJ0WTNJQMRSZ2DYSGNBPT0=",
         "dataIv": "OC1A06E197EF10CF3F6058CA7A803B5E",
         "pkg": "com.mxj.wylcjbxyx",
         "host": "",
         "site": "https://123-1349250429.cos.ap-shanghai.myqcloud.com/app.txt",
-        "version": "3.0.2.3",
+        "version": "3.0.2.4",
         "decrypt": "1"
-            }
+      }
 },
 {"key":"五大平台","name":"五大平台()","type":3,"api":"csp_AppYsV2","searchable":1,"ext": "http://39.105.18.5:5565/api.php/app/"},
 {"key":"紫金影视","name":"紫金影视()","type":3,"api":"csp_AppYsV2","searchable":1,"ext":"http://www.zjcvod.com/api.php/app/"},
