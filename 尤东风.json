@@ -12,7 +12,7 @@
 //{"key":"歪比巴卜","name": "歪比巴卜(js)","type":3,"searchable":1,"playerType":2,"api":"./cat/yb.js"},
 {"key": "AiBot","name": "爱看影视()","type": 3,"api": "csp_Ikanbot","searchable": 1,"quickSearch":1,"changeable":0},
 {"key": "爱看影院","name": "爱看影院(py)","type": 3,"api": "./lib/AppToV5.py",
- "ext": "http://43.248.117.123:4680"
+ "ext": "http://43.248.117.123:14680"
 },
 //{"key":"py云朵影视","name": "云朵影视(py)","type":3,"searchable":1,"api":"./py/yunduo.py"},
 { "key": "js_hulu", "name": "葫芦app(js)","type": 3, "api": "./lib/AppGet.js",
