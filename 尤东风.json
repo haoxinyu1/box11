@@ -42,13 +42,13 @@
 { "key": "金牌影院","name": "金牌影院()", "type": 3, "api": "csp_Jpys",
   "ext": "https://y2s52n7.com,https://m.hkybqufgh.com,https://m.sizhengxt.com,https://m.9zhoukj.com,https://m.sizhengxt.com,https://m.jiabaide.cn"
 },
-{ "key": "世界APP", "name": "世界APP()", "type": 3, "api": "csp_AppGet", "searchable": 1, "changeable": 1,
+/*{ "key": "世界APP", "name": "世界APP()", "type": 3, "api": "csp_AppGet", "searchable": 1, "changeable": 1,
   "ext": {
            "url": "https://appcms.4ksj.app",
            "dataKey": "O3K6rYx75Q4xtiIE",
            "dataIv": "O3K6rYx75Q4xtiIE"
         }
-},
+},*/
 {"key": "云播影视","name": "蓝鸟APP()", "type": 3,"api": "csp_AppQi","searchable":1,
   "ext": {
         "site": "https://lanyingjisu.oss-cn-wuhan-lr.aliyuncs.com/lyjszx.txt",
@@ -86,7 +86,7 @@
         "buildNumber": "2001",
         "buildSignature": "A40DA80A59D170CAA950CF15C18C454D47A39B26989D8B640ECD745BA71BF5DC"
              }
-},
+},/*
 { "key": "华谊app","name": "华谊APP()","type": 3,"api": "csp_AppDrama", "searchable": 1,"quickSearch": 1,"filterable": 1,
   "ext": {
         "appName": "华谊",
@@ -99,7 +99,7 @@
         "version": "1.0.0.4",
         "decrypt": "1"
       }
-},
+},*/
 { "key": "天堂","name": "天堂APP()","type": 3,"api": "csp_AppDrama","searchable": 1, "quickSearch": 1, "filterable": 1,
   "ext": {
                 "appName": "电影天堂",
