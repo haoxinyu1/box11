@@ -23,13 +23,6 @@
           }
 },
 {"key":"飞猫影视","name": "飞猫影视(py)","type": 3,"api": "./py/Ncat.py","searchable": 1,"quickSearch": 1},
-{ "key": "csp_aying", "name": "亭皋秒播(js)","type": 3,"api": "./lib/AppGet.js",
-  "ext": {
-                "host": "http://222.211.75.252:16118",
-                "key": "0UKM8jkasM8tdzgW",
-                "api": 2
-         }
-},
 {"key":"SP360","name":"360影视(js)","type":3,"api":"./lib/drpy2.min.js",
  "searchable": 2,"playerType":2,"ext":"./sub/360.js"
 },
