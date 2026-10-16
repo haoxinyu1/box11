@@ -88,7 +88,7 @@
              }
 },
 { "key": "华谊app","name": "华谊APP()","type": 3,"api": "csp_AppDrama", "searchable": 1,"quickSearch": 1,"filterable": 1,
-  "jar": "https://gitee.com/easy999/test1/raw/main/easy10.16.png",
+  "jar": "https://gitee.com/easy999/test1/raw/main/easy10.16.png;md5;123b2449928590f6f26ceb44038bbe57",
   "ext": {
         "appName": "华谊",
         "publicKey": 
