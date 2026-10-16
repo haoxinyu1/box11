@@ -86,7 +86,7 @@
         "buildNumber": "2001",
         "buildSignature": "A40DA80A59D170CAA950CF15C18C454D47A39B26989D8B640ECD745BA71BF5DC"
              }
-},
+},/*
 { "key": "华谊app","name": "华谊APP()","type": 3,"api": "csp_AppDrama", "searchable": 1,"quickSearch": 1,"filterable": 1,
   "jar": "https://gitee.com/easy999/test1/raw/main/easy10.16.png;md5;123b2449928590f6f26ceb44038bbe57",
   "ext": {
@@ -101,7 +101,7 @@
         "version": "1.0.0.4",
         "decrypt": "1"
       }
-},
+},*/
 { "key": "天堂","name": "天堂APP()","type": 3,"api": "csp_AppDrama","searchable": 1, "quickSearch": 1, "filterable": 1,
   "ext": {
                 "appName": "电影天堂",
