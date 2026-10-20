@@ -7,7 +7,7 @@
 {"key": "荐片app","name": "荐片影視(js)","type": 3,"api": "./sub/荐片.js","类型": "影視"},
 {"key": "咖啡","name": "咖啡4k(T4)","type": 4,"api": "http://8.134.205.252:39466/pz/co4k.php/api.php/provide/vod/?ac=list"},
 {"key":"未来4K","name":"未来4K","type":1,"api":"http://110.42.66.100:12678/api.php",
- //"playUrl":"json:http://110.42.66.100:5666/api/?key=c31bfd818ac47875ab4922f03834afcc&url=",
+ "playUrl":"json:http://110.42.66.100:5666/api/?key=c31bfd818ac47875ab4922f03834afcc&url=",
  "searchable":1,"quickSearch":1
 },
 //{"key": "熊大","name": "熊大4k(T4)","type": 4,"api": "http://sy.xuntuyun.cn:20394/ctyx.php/api.php/provide/vod/?ac=list"},
