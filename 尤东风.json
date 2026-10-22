@@ -10,6 +10,7 @@
  "playUrl":"json:http://110.42.66.100:5666/api/?key=c31bfd818ac47875ab4922f03834afcc&url=",
  "searchable":1,"quickSearch":1
 },
+{"key": "爱看影院","name": "Emby4K(js)","type": 3,"api": "./cat/Emby.js","searchable": 1,"quickSearch":1},
 {"key":"巨量资源","name":"巨量资源","type":1,"api":"https://api.juliang.live/api/provide/vod","searchable":1,"quickSearch":1},
 //{"key": "熊大","name": "熊大4k(T4)","type": 4,"api": "http://sy.xuntuyun.cn:20394/ctyx.php/api.php/provide/vod/?ac=list"},
 {"key":"ikun","name": "采集💠集合(js)","type":3,"api":"./lib/drpy2.min.js","searchable": 1,"quickSearch": 1,
@@ -18,7 +19,6 @@
 //{"key":"高清点播","name": "高清点播(js)","type":3,"searchable":1,"api":"./cat/gq.js"},
 //{"key":"歪比巴卜","name": "歪比巴卜(js)","type":3,"searchable":1,"playerType":2,"api":"./cat/yb.js"},
 {"key": "AiBot","name": "爱看影视()","type": 3,"api": "csp_Ikanbot","searchable": 1,"quickSearch":1,"changeable":0},
-{"key": "爱看影院","name": "Emby4K(js)","type": 3,"api": "./cat/Emby.js","searchable": 1,"quickSearch":1},
 { "key": "js_hulu", "name": "葫芦app(js)","type": 3, "api": "./lib/AppGet.js",
    "ext": {
                 "host": "http://v12-1-hulucms.nmgzxrl.com",
