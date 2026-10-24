@@ -10,6 +10,7 @@
  "playUrl":"json:http://110.42.66.100:5666/api/?key=c31bfd818ac47875ab4922f03834afcc&url=",
  "searchable":1,"quickSearch":1
 },
+{"key": "Emby4K","name": "Emby4K免扫(js)","type": 3,"api": "./cat/Em-Easy.js","searchable": 1,"quickSearch":1},
 {"key": "爱看影院","name": "Emby4K(js)","type": 3,"api": "./cat/Emby.js","searchable": 1,"quickSearch":1},
 {"key":"巨量资源","name":"巨量资源","type":1,"api":"https://api.juliang.live/api/provide/vod","searchable":1,"quickSearch":1},
 //{"key": "熊大","name": "熊大4k(T4)","type": 4,"api": "http://sy.xuntuyun.cn:20394/ctyx.php/api.php/provide/vod/?ac=list"},
