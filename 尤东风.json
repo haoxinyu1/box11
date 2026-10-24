@@ -31,13 +31,13 @@
 {"key":"飞猫影视","name": "飞猫影视(py)","type": 3,"api": "./py/Ncat.py","searchable": 1,"quickSearch": 1},
 {"key":"SP360","name":"360影视(js)","type":3,"api":"./lib/drpy2.min.js",
  "searchable": 2,"playerType":2,"ext":"./sub/360.js"
-},
+},/*
 {"key":"qyjs","name":"奇珍异兽(js)","type":3,"api":"./lib/drpy2.min.js",
  "searchable": 2,"playerType":2,"ext":"./js/qy.js"
 },
 {"key":"qqjs","name":"腾云驾雾(js)","type":3,"api":"http://8.137.159.77:399/sf/Tvbox/js/drpy2.min.js",
  "searchable": 2,"playerType":2,"ext":"./js/QQTV.js"
-},
+},*/
 {"key":"枫叶","name": "枫叶影视(py)","type": 3,"api": "./cat/枫叶.py","searchable": 1,"quickSearch": 1,
  "filterable": 1,"changeable": 1,"playable": 1
 },
