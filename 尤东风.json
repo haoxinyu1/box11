@@ -17,8 +17,7 @@
 {"key":"ikun","name": "采集💠集合(js)","type":3,"api":"./lib/drpy2.min.js","searchable": 1,"quickSearch": 1,
  "ext":"./lib/采集之王.js?type=url&params=./sub/采集静态.json$1$1"
 },
-//{"key":"高清点播","name": "高清点播(js)","type":3,"searchable":1,"api":"./cat/gq.js"},
-//{"key":"歪比巴卜","name": "歪比巴卜(js)","type":3,"searchable":1,"playerType":2,"api":"./cat/yb.js"},
+{"key": "dr_xigua","name":"西瓜视频","type":3,"api": "https://gitee.com/lyun_1_0/tb/raw/master/YS/西瓜.js"},
 {"key": "AiBot","name": "爱看影视()","type": 3,"api": "csp_Ikanbot","searchable": 1,"quickSearch":1,"changeable":0},
 { "key": "js_hulu", "name": "葫芦app(js)","type": 3, "api": "./lib/AppGet.js",
    "ext": {
@@ -34,10 +33,8 @@
 },/*
 {"key":"qyjs","name":"奇珍异兽(js)","type":3,"api":"./lib/drpy2.min.js",
  "searchable": 2,"playerType":2,"ext":"./js/qy.js"
-},
-{"key":"qqjs","name":"腾云驾雾(js)","type":3,"api":"http://8.137.159.77:399/sf/Tvbox/js/drpy2.min.js",
- "searchable": 2,"playerType":2,"ext":"./js/QQTV.js"
 },*/
+{"key":"qqjs","name":"腾云驾雾(js)","type":3,"api":"https://gitee.com/lyun_1_0/tb/raw/master/YS/qq4K.js"},
 {"key":"枫叶","name": "枫叶影视(py)","type": 3,"api": "./cat/枫叶.py","searchable": 1,"quickSearch": 1,
  "filterable": 1,"changeable": 1,"playable": 1
 },
