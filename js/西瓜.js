@@ -11,7 +11,7 @@ const LVIDEO_API = 'https://ib.snssdk.com/vapp/lvideo/api/info/';
 const PLAY_API = 'https://vas.snssdk.com/video/openapi/v1/';
 const ARTICLE_API = 'https://ib.snssdk.com/video/app/article/full/0/0/';
 const PAGE_SIZE = 18;
-const INTRO_PREFIX = '【琉🔹芸❤广告勿信👉剧情】📢';
+const INTRO_PREFIX = '【广告勿信👉剧情】📢';
 
 const HEADER = {
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36',
