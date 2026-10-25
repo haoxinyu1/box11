@@ -6,7 +6,7 @@
 
 const PC_UA = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36';
 const SEARCH_UA = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.139 Safari/537.36';
-const INTRO_PREFIX = '【尤东风友情提醒🔺勿信广告，避免受骗📢';
+const INTRO_PREFIX = '尤东风友情提醒🔺勿信广告，避免受骗📢';
 
 const PARSE_URLS = [
     'http://8.134.205.252:39466/ceshi/qianyi.php?key=rkd&url=',
