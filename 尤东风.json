@@ -34,7 +34,7 @@
 {"key":"qyjs","name":"奇珍异兽(js)","type":3,"api":"./lib/drpy2.min.js",
  "searchable": 2,"playerType":2,"ext":"./js/qy.js"
 },*/
-{"key":"qqjs","name":"腾云驾雾(js)","type":3,"api":"https://gitee.com/lyun_1_0/tb/raw/master/YS/qq4K.js"},
+{"key":"qqjs","name":"腾云驾雾(js)","type":3,"api":"./js/QQTV.js"},
 {"key":"枫叶","name": "枫叶影视(py)","type": 3,"api": "./cat/枫叶.py","searchable": 1,"quickSearch": 1,
  "filterable": 1,"changeable": 1,"playable": 1
 },
