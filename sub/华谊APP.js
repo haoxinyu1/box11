@@ -219,13 +219,13 @@ function pbFirst(fields, n, def) { const v = fields[n]; return v && v.length ? v
 
 // ==================== 橘汁业务 ====================
 let CFG = {
-    appName: "橘汁",
-    publicKey: "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCr8SzZhjYy+rsya1K09t8d2K50pWFoBkgUqMpKOiW+3IEVKd4eTdvg9RSOjQ82kypL6R9BnsmrS1V8s4PVDwjQbUtYhTPPC9Hz16qY7rpD6m0d2vr09/UpWQ5uOy9PR0QTrsioveZ+DIe9jc3C+zBCu/kZSY/R8stwJoiitki3gwIDAQAB",
-    dataKey: "OW1WBLFZCLJ0WTNJQMRSZ2DYSGNBPT0=",
+    appName: "华谊",
+    publicKey: "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCp9Ek4wIlQAtwFnuBRlsFiow2tr+4UOciGeNKbY7nL74etUqUb6fvpOSOHhFEfaWlfwUpOB17x3JEL3No19nfjCeVYrYPjlJcgoqUWH/tfIfFAQWvtxBIBlKazkhw8d3ChysWmeWRikKqkBsVRY4oqNPuj4sjm6Zult0U4I4prRQIDAQAB",
+    dataKey: "NDBYSZR1DMRRZ05NSUCWEJNIYWLBPT0=",
     dataIv: "OC1A06E197EF10CF3F6058CA7A803B5E",
-    pkg: "com.mxj.wylcjbxyx",
-    host: "http://juziapp.hzhcbkj.cn",
-    site: "https://123-1349250429.cos.ap-shanghai.myqcloud.com/app.txt",
+    pkg: "com.muyue.tool",
+    host: "http://43.240.158.156:8002",
+    site: "https://vip.123pan.cn/1851089669/oss/az5.txt",
     version: "3.0.2.4",
     decrypt: "1"
 };
