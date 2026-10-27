@@ -219,14 +219,14 @@ function pbFirst(fields, n, def) { const v = fields[n]; return v && v.length ? v
 
 // ==================== 橘汁业务 ====================
 let CFG = {
-    appName: "电影天堂",
-    publicKey: "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCduNEnfxGaLuQRk5ABzXHhPV43zi00sCHjLo8BYc+Wi6xXm2b4v0i28Sq4WlNCKhseft9fz8kO/qLr6/022o1RcuOU7e4GFL3U9WnNODwRBYSYWd+K8nqpI/tAUDmZEBGRWqjrc7x6aMl3A+xpnWkLbPCLsuhbuuUE3tv09oeOpwIDAQAB",
-    dataKey: "D2KREWRIBVNAUJJYEDL4VFHOY2Q0PQ==",
+    appName: "华谊",
+    publicKey: "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCr8SzZhjYy+rsya1K09t8d2K50pWFoBkgUqMpKOiW+3IEVKd4eTdvg9RSOjQ82kypL6R9BnsmrS1V8s4PVDwjQbUtYhTPPC9Hz16qY7rpD6m0d2vr09/UpWQ5uOy9PR0QTrsioveZ+DIe9jc3C+zBCu/kZSY/R8stwJoiitki3gwIDAQAB",
+    dataKey: "V04XQZNYRWN6T0JODZFIAG5CTZB3PT0=",
     dataIv: "OC1A06E197EF10CF3F6058CA7A803B5E",
-    pkg: "com.dytiantang.one",
-    host: "http://122.228.193.211:18008",
-    site: "https://dyttandroid04-1372779881.cos.ap-shanghai.myqcloud.com/app_dyttandroid.txt",
-    version: "3.0.0.7",
+    pkg: "com.lxf.sncgtzxyx",
+    host: "http://43.240.158.154:18004",
+    site: "https://1851089669.cdn.123clouddisk.com/1851089669/44107727",
+    version: "6.0.0.1",
     decrypt: "0"
 };
 const COMMON_KEY = "ed5fdsgucxumegqa";
