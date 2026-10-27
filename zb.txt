@@ -70,7 +70,7 @@
 我的中国心,http://em.21dtv.com/songs/60045353.mkv #我的中国心,http://em.21dtv.com/songs/60045354.mkv
 归来是故乡,http://mobi.kuwo.cn/tmevideo/tme1700466.mp4
 新闻综合,#genre#
-CCTV13,http://gslbmgsplive.miguvideo.com/envivo_x/2018/SD/cctv13/1000/index.m3u8?msisdn=20261027084137e48db01ee20e46b09c16e4fbed63f8ff&mdspid=&spid=699004&netType=0&sid=2202208864&pid=2028597139&timestamp=20261027084137&Channel_ID=0116_2600000900-99000-201600010010027&ProgramID=608807423&ParentNodeID=-99&assertID=2202208864&client_ip=2409:8a00:6030:db21:d06e:22e9:7063:f5dc&SecurityKey=20261027084137&promotionId=&mvid=2202208864&mcid=500020&playurlVersion=ZQ-A1-9.10.1-SNAPSHOT&userid=&jmhm=&videocodec=h264&appCode=miguvideo_android&bean=mgspad&tid=android&conFee=0&puData=86d289c16673642e07a5d36fb306a94c&ddCalcu=c846e9d2a28680093cb1f66637d356a4720e
+CCTV13,http://171.119.206.17:6000/rtp/226.0.2.165:9232$山西联通11
 CCTV13,http://115.171.216.32:4000/rtp/225.1.8.168:8130$北京电信11
 北京卫视,http://115.171.216.32:4000/rtp/225.1.8.21:8002$北京电信11
 北京卫视,http://106.59.2.53:55555/rtp/239.200.200.5:8024$云南电信11
