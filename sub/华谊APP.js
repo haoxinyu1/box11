@@ -221,13 +221,13 @@ function pbFirst(fields, n, def) { const v = fields[n]; return v && v.length ? v
 let CFG = {
     appName: "华谊",
     publicKey: "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCp9Ek4wIlQAtwFnuBRlsFiow2tr+4UOciGeNKbY7nL74etUqUb6fvpOSOHhFEfaWlfwUpOB17x3JEL3No19nfjCeVYrYPjlJcgoqUWH/tfIfFAQWvtxBIBlKazkhw8d3ChysWmeWRikKqkBsVRY4oqNPuj4sjm6Zult0U4I4prRQIDAQAB",
-    dataKey: "NDBYSZR1DMRRZ05NSUCWEJNIYWLBPT0=",
+    dataKey: "D2KREWRIBVNAUJJYEDL4VFHOY2Q0PQ==",
     dataIv: "OC1A06E197EF10CF3F6058CA7A803B5E",
-    pkg: "com.muyue.tool",
-    host: "http://43.240.158.156:8002",
-    site: "https://vip.123pan.cn/1851089669/oss/az5.txt",
-    version: "3.0.2.4",
-    decrypt: "1"
+    pkg: "com.dytiantang.one",
+    host: "http://122.228.193.211:18008",
+    site: "https://dyttandroid04-1372779881.cos.ap-shanghai.myqcloud.com/app_dyttandroid.txt",
+    version: "3.0.0.7",
+    decrypt: "0"
 };
 const COMMON_KEY = "ed5fdsgucxumegqa";
 const UA = "okhttp/3.12.1";
