@@ -95,7 +95,7 @@
         "decrypt": "1"
       }
 },
-{ "key": "天堂","name": "天堂APP()","type": 3,"api": "./cat/天堂APP.js","searchable": 1, "quickSearch": 1, "filterable": 1},
+{ "key": "天堂","name": "天堂APP(js)","type": 3,"api": "./cat/天堂APP.js","searchable": 1, "quickSearch": 1, "filterable": 1},
 {"key": "橘汁APP", "name": "橘汁APP(js)", "type": 3,"api": "./cat/橘汁.js","searchable": 1},
 {"name": "嗷呜①线影视","key": "AppV7Fz", "type": 3, "api": "csp_AppV7Amns","searchable": 1, "quickSearch": 1,"changeable": 1,
  "jar": "https://file.icve.com.cn/file_doc/305/994/4C4F8A2CE645A5539405DEFE99D17FA3.png",
