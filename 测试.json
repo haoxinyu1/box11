@@ -12,10 +12,10 @@
 {"key":"云朵影视/","name": "云朵影视(js)","type":3,"searchable":1,"api":"./cat/gq.js"},
 {"key":"华谊影视","name": "华谊影视(py)","type": 3,"api": "./sub/华谊APP.js","searchable": 1,"quickSearch": 1},
 {
-      "key": "咕噜直播",
-      "name": "咕噜直播",
+      "key": "央视频",
+      "name": "央视频",
       "type": 3,
-      "api": "https://gitee.com/kevin0973/lc/raw/master/lib/glzb.py",
+      "api": "https://gitee.com/kevin0973/lc/raw/master/lib/yangshipin.py",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 0,
