@@ -12,18 +12,15 @@
 {"key":"云朵影视/","name": "云朵影视(js)","type":3,"searchable":1,"api":"./cat/gq.js"},
 {"key":"华谊影视","name": "华谊影视(py)","type": 3,"api": "./sub/华谊APP.js","searchable": 1,"quickSearch": 1},
 {
-      "key": "光盘APP",
-      "name": "📀┃光盘┃APP",
+      "key": "咕噜直播",
+      "name": "咕噜直播",
       "type": 3,
-      "api": "csp_AppQi",
-      "ext": {
-        "host": "http://103.217.190.91:5566",
-        "dataKey": "hagYExMdMkeWfemK",
-        "dataIv": "hagYExMdMkeWfemK",
-        "init": "initV122",
-        "ua": "okhttp/3.10.0"
-      }
-    },
+      "api": "https://gitee.com/kevin0973/lc/raw/master/lib/glzb.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": ""
+    } ,
 {"key": "咕噜APP", "name": "咕噜APP()","type": 3, "api": "csp_Gulu","searchable": 1,"filterable": 1},
 {"key": "哔嘀弹幕3","name": "缘觉弹幕3","type": 3,"api": "https://git.acwing.com/hogo18/hh/-/raw/main/cat/shijue.js"}
 ],
