@@ -6,13 +6,12 @@
 {"key":"瓜子js","name":"尤东风自用接口💠他人请谨慎用之","type":3,"api":"./cat/瓜子.py","changeable":1,"filterable":1},
 {"key": "荐片app","name": "荐片影視(js)","type": 3,"api": "./sub/荐片.js","类型": "影視"},
 {"key": "咖啡","name": "咖啡4k(T4)","type": 4,"api": "http://8.134.205.252:39466/pz/co4k.php/api.php/provide/vod/?ac=list"},
-{"key":"未来影視","name":"未来4K影視","type":1,"api":"http://110.42.66.100:12678/api.php",
- "playUrl":"json:http://110.42.66.100:5666/api/?key=c31bfd818ac47875ab4922f03834afcc&url=",
- "searchable":1,"quickSearch":1
+{"key":"未来影視","name":"未来4K影視","type":1,"api":"http://110.42.66.100:12678/api.php","searchable":1,"quickSearch":1,
+ "playUrl":"json:http://110.42.66.100:5666/api/?key=c31bfd818ac47875ab4922f03834afcc&url="
 },
+{"key":"巨量资源","name":"巨量资源","type":1,"api":"https://api.juliang.live/api/provide/vod","searchable":1,"quickSearch":1},
 {"key": "Emby4K","name": "Emby4K免扫(js)","type": 3,"api": "./cat/Em-Easy.js","searchable": 1,"quickSearch":1},
 {"key": "爱看影院","name": "Emby4K(js)","type": 3,"api": "./cat/Emby.js","searchable": 1,"quickSearch":1},
-{"key":"巨量资源","name":"巨量资源","type":1,"api":"https://api.juliang.live/api/provide/vod","searchable":1,"quickSearch":1},
 { "key":"华谊app","name":"华谊APP(js)","type":3,"api":"https://cnb.cool/hogo_box/box/-/git/raw/main/JS/华谊APP.js","searchable":1},
 {"key": "橘汁APP", "name": "橘汁APP(js)", "type": 3,"api": "./cat/橘汁.js","searchable": 1},
 { "key": "天堂","name": "天堂APP(js)","type": 3,"api": "./cat/天堂APP.js","searchable": 1, "quickSearch": 1, "filterable": 1},
@@ -20,7 +19,7 @@
 {"key":"ikun","name": "采集💠集合(js)","type":3,"api":"./lib/drpy2.min.js","searchable": 1,"quickSearch": 1,
  "ext":"./lib/采集之王.js?type=url&params=./sub/采集静态.json$1$1"
 },
-{"key": "xigua","name":"西瓜视频","type":3,"api": "./js/西瓜.js"},
+{"key": "xigua","name":"西瓜视频(js)","type":3,"api": "./js/西瓜.js"},
 { "key": "js_hulu", "name": "葫芦app(js)","type": 3, "api": "./lib/AppGet.js",
    "ext": {
                 "host": "http://v12-1-hulucms.nmgzxrl.com",
@@ -31,10 +30,7 @@
 },
 {"key":"SP360","name":"360影视(js)","type":3,"api":"./lib/drpy2.min.js",
  "searchable": 2,"playerType":2,"ext":"./sub/360.js"
-},/*
-{"key":"qyjs","name":"奇珍异兽(js)","type":3,"api":"./lib/drpy2.min.js",
- "searchable": 2,"playerType":2,"ext":"./js/qy.js"
-},*/
+},
 {"key":"qqjs","name":"腾云驾雾(js)","type":3,"api":"./js/QQTV.js"},
 {"key":"枫叶","name": "枫叶影视(py)","type": 3,"api": "./cat/枫叶.py","searchable": 1,"quickSearch": 1,
  "filterable": 1,"changeable": 1,"playable": 1
