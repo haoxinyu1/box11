@@ -10,17 +10,7 @@
 },
 {"key":"py_juhey","name":"霜镜秒播(PY)","type":3,"api":"./lib/AppToV5.py","ext":"http://43.248.117.123:4680"},
 {"key":"云朵影视/","name": "云朵影视(js)","type":3,"searchable":1,"api":"./cat/gq.js"},
-{"key":"华谊影视","name": "华谊影视(py)","type": 3,"api": "./sub/华谊APP.js","searchable": 1,"quickSearch": 1},
-{
-      "key": "咕噜直播",
-      "name": "咕噜直播",
-      "type": 3,
-      "api": "https://gitee.com/kevin0973/lc/raw/master/lib/glzb.py",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0,
-      "ext": ""
-    } ,
+{"key":"苹果APP","name": "苹果APP()","type": 3,"api": "https://cnb.cool/hogo_box/box/-/git/raw/main/JS/%E8%8B%B9%E6%9E%9CAPP.js","searchable": 1,"quickSearch": 1},
 {"key": "咕噜APP", "name": "咕噜APP()","type": 3, "api": "csp_Gulu","searchable": 1,"filterable": 1},
 {"key": "哔嘀弹幕3","name": "缘觉弹幕3","type": 3,"api": "https://git.acwing.com/hogo18/hh/-/raw/main/cat/shijue.js"}
 ],
