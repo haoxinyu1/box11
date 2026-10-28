@@ -13,12 +13,14 @@
 {"key": "Emby4K","name": "Emby4K免扫(js)","type": 3,"api": "./cat/Em-Easy.js","searchable": 1,"quickSearch":1},
 {"key": "爱看影院","name": "Emby4K(js)","type": 3,"api": "./cat/Emby.js","searchable": 1,"quickSearch":1},
 {"key":"巨量资源","name":"巨量资源","type":1,"api":"https://api.juliang.live/api/provide/vod","searchable":1,"quickSearch":1},
-//{"key": "熊大","name": "熊大4k(T4)","type": 4,"api": "http://sy.xuntuyun.cn:20394/ctyx.php/api.php/provide/vod/?ac=list"},
+{ "key":"华谊app","name":"华谊APP(js)","type":3,"api":"https://cnb.cool/hogo_box/box/-/git/raw/main/JS/华谊APP.js","searchable":1},
+{"key": "橘汁APP", "name": "橘汁APP(js)", "type": 3,"api": "./cat/橘汁.js","searchable": 1},
+{ "key": "天堂","name": "天堂APP(js)","type": 3,"api": "./cat/天堂APP.js","searchable": 1, "quickSearch": 1, "filterable": 1},
+{"key":"苹果APP","name": "苹果APP(js)","type": 3,"api": "https://cnb.cool/hogo_box/box/-/git/raw/main/JS/苹果APP.js","searchable":1},
 {"key":"ikun","name": "采集💠集合(js)","type":3,"api":"./lib/drpy2.min.js","searchable": 1,"quickSearch": 1,
  "ext":"./lib/采集之王.js?type=url&params=./sub/采集静态.json$1$1"
 },
 {"key": "xigua","name":"西瓜视频","type":3,"api": "./js/西瓜.js"},
-{"key": "AiBot","name": "爱看影视()","type": 3,"api": "csp_Ikanbot","searchable": 1,"quickSearch":1,"changeable":0},
 { "key": "js_hulu", "name": "葫芦app(js)","type": 3, "api": "./lib/AppGet.js",
    "ext": {
                 "host": "http://v12-1-hulucms.nmgzxrl.com",
@@ -27,7 +29,6 @@
                 "api": 2
           }
 },
-{"key":"飞猫影视","name": "飞猫影视(py)","type": 3,"api": "./py/Ncat.py","searchable": 1,"quickSearch": 1},
 {"key":"SP360","name":"360影视(js)","type":3,"api":"./lib/drpy2.min.js",
  "searchable": 2,"playerType":2,"ext":"./sub/360.js"
 },/*
@@ -38,6 +39,7 @@
 {"key":"枫叶","name": "枫叶影视(py)","type": 3,"api": "./cat/枫叶.py","searchable": 1,"quickSearch": 1,
  "filterable": 1,"changeable": 1,"playable": 1
 },
+{"key":"飞猫影视","name": "飞猫影视(py)","type": 3,"api": "./py/Ncat.py","searchable": 1,"quickSearch": 1},
 {"key": "咕噜APP", "name": "咕噜APP()","type": 3, "api": "csp_Gulu","searchable": 1,"filterable": 1},
 {"key": "瓜子影视","name": "瓜子影视()","type": 3,"api": "csp_Gz360","searchable": 1,"quickSearch": 1,"filterable": 1},
 { "key": "金牌影院","name": "金牌影院()", "type": 3, "api": "csp_Jpys",
@@ -72,10 +74,7 @@
         "buildSignature": "A40DA80A59D170CAA950CF15C18C454D47A39B26989D8B640ECD745BA71BF5DC"
              }
 },
-{ "key":"华谊app","name":"华谊APP(js)","type":3,"api":"https://cnb.cool/hogo_box/box/-/git/raw/main/JS/华谊APP.js","searchable":1},
-{"key": "橘汁APP", "name": "橘汁APP(js)", "type": 3,"api": "./cat/橘汁.js","searchable": 1},
-{ "key": "天堂","name": "天堂APP(js)","type": 3,"api": "./cat/天堂APP.js","searchable": 1, "quickSearch": 1, "filterable": 1},
-{"key":"苹果APP","name": "苹果APP(js)","type": 3,"api": "https://cnb.cool/hogo_box/box/-/git/raw/main/JS/苹果APP.js","searchable":1},
+{"key": "AiBot","name": "爱看影视()","type": 3,"api": "csp_Ikanbot","searchable": 1,"quickSearch":1,"changeable":0},
 {"name": "嗷呜①线影视","key": "AppV7Fz", "type": 3, "api": "csp_AppV7Amns","searchable": 1, "quickSearch": 1,"changeable": 1,
  "jar": "https://file.icve.com.cn/file_doc/305/994/4C4F8A2CE645A5539405DEFE99D17FA3.png",
  "ext": "AppV7Fz"
