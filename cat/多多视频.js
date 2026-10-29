@@ -4,7 +4,7 @@ const api = host + '/api.php/web';
 const UA = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36';
 const WEB_SIGN = 'ddtvf65f3a83d6d9ad6f';
 const X_CLIENT = '8f3d2a1c7b6e5d4c9a0b1f2e3d4c5b6a';
-const DESC_PREFIX = '【琉🔹芸❤广告勿信👉剧情】📢';
+const DESC_PREFIX = '【尤东风友情提醒🔺勿信广告，避免受骗】';
 
 // ---- 签名常量（逆向自 web_app_wasm）----
 const DEV = 'com.web.player';
