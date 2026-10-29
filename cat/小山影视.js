@@ -10,7 +10,7 @@ var CONFIG = {
     auto_fallback: 1
 };
 var DESC_PREFIX = '【尤东风友情提醒🔺勿信广告，避免受骗】';
-var KNOWN_TYPES = [[2, '连续剧'],[1, '电影'], [3, '综艺'], [4, '动漫'], [20, '短剧'], [21, '少儿'], [22, '漫剧'], [23, '纪录片']];
+var KNOWN_TYPES = [[1, '电影'],[2, '连续剧'], [3, '综艺'], [4, '动漫'], [20, '短剧'], [21, '少儿'], [22, '漫剧'], [23, '纪录片']];
 var INIT_FILLER = { sign: 's', signature: 's', app_id: '1', app_key: '1', app_version: '1.0', version: '1', platform: 'android', device: 'android', version_code: 1, uid: '1', source_id: '1', site_id: '1', type: '1' };
 
 var BASE = CONFIG.base;
