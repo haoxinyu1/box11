@@ -7,7 +7,7 @@ var USER_AGENT = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 C
 var CACHE_TTL = 1800000;
 var TIMEOUT = 20000;
 
-var DESC_PREFIX = '【琉🔹芸❤广告勿信👉剧情】📢';
+var DESC_PREFIX = '【尤东风友情提醒🔺勿信广告，避免受骗】📢';
 
 // 分组封面覆盖(键=分组名, 值=图片地址)
 var GROUP_PIC_OVERRIDE = {
