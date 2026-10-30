@@ -1,186 +1,173 @@
-var rule = {
-	title:'4KHDR[磁]',
-	host:'https://www.4khdr.cn',
-        homeUrl: "/forum.php?mod=forumdisplay&fid=2&page=1",
-	url: '/forum.php?mod=forumdisplay&fid=2&filter=typeid&typeid=fyclass&page=fypage',
-	filter_url:'{{fl.class}}',
-	filter:{
-	},
-	searchUrl: '/search.php#searchsubmit=yes&srchtxt=**;post',
-	searchable:2,
-	quickSearch:1,
-	filterable:0,
-	headers:{
-		'User-Agent': 'PC_UA',
-         	'Cookie':'http://127.0.0.1:9978/file:///tvbox/JS/lib/4khdr.txt',
-	},
-	timeout:5000,
-	class_name: "4K电影&4K美剧&4K华语&4K动画&4K纪录片&4K日韩印&蓝光电影&蓝光美剧&蓝光华语&蓝光动画&蓝光日韩印",
-	class_url:"3&8&15&6&11&4&29&31&33&32&34",
-	play_parse:true,
-	play_json:[{
-		re:'*',
-		json:{
-			parse:0,
-			jx:0
-		}
-	}],
-	lazy:'',
-	limit:6,
-	推荐:'ul#waterfall li;a&&title;img&&src;div.auth.cl&&Text;a&&href',
-	一级:'ul#waterfall li;a&&title;img&&src;div.auth.cl&&Text;a&&href',
-	二级:{
-		title:"#thead_subject&&Text",
-		img:"img.zoom&&src",
-		desc:'td[id^="postmessage_"] font&&Text',
-		content:'td[id^="postmessage_"] font&&Text',
-		tabs:`js:
-pdfh=jsp.pdfh;pdfa=jsp.pdfa;pd=jsp.pd;
-TABS=[]
-let d = pdfa(html, 'div.pcb table.t_table a');
-let tabsa = [];
-let tabsq = [];
-let tabsm = false;
-let tabse = false;
-d.forEach(function(it) {
-	let burl = pdfh(it, 'a&&href');
-	if (burl.startsWith("https://www.aliyundrive.com/s/") || burl.startsWith("https://www.alipan.com/s/")){
-		tabsa.push("阿里雲盤");
-	}else if (burl.startsWith("https://pan.quark.cn/s/")){
-		tabsq.push("夸克網盤");
-	}else if (burl.startsWith("magnet")){
-		tabsm = true;
-	}else if (burl.startsWith("ed2k")){
-		tabse = true;
-	}
-});
-if (tabsm === true){
-	TABS.push("磁力");
-}
-if (tabse === true){
-	TABS.push("電驢");
-}
-if (false && tabsa.length + tabsq.length > 1){
-	TABS.push("選擇右側綫路");
-}
-let tmpIndex;
-tmpIndex=1;
-tabsa.forEach(function(it){
-	TABS.push(it + tmpIndex);
-	tmpIndex = tmpIndex + 1;
-});
-tmpIndex=1;
-tabsq.forEach(function(it){
-	TABS.push(it + tmpIndex);
-	tmpIndex = tmpIndex + 1;
-});
-log('4khdr TABS >>>>>>>>>>>>>>>>>>' + TABS);
-`,
-		lists:`js:
-log(TABS);
-pdfh=jsp.pdfh;pdfa=jsp.pdfa;pd=jsp.pd;
-LISTS = [];
-let d = pdfa(html, 'div.pcb table.t_table a');
-let lista = [];
-let listq = [];
-let listm = [];
-let liste = [];
-d.forEach(function(it){
-	let burl = pdfh(it, 'a&&href');
-	let title = pdfh(it, 'a&&Text');
-	log('4khdr title >>>>>>>>>>>>>>>>>>>>>>>>>>' + title);
-	log('4khdr burl >>>>>>>>>>>>>>>>>>>>>>>>>>' + burl);
-	let loopresult = title + '$' + burl;
-	if (burl.startsWith("https://www.aliyundrive.com/s/") || burl.startsWith("https://www.alipan.com/s/")){
-		if (true){
-		if (TABS.length==1){
-			burl = "http://127.0.0.1:9978/proxy?do=ali&type=push&confirm=0&url=" + encodeURIComponent(burl);
-		}else{
-			burl = "http://127.0.0.1:9978/proxy?do=ali&type=push&url=" + encodeURIComponent(burl);
-		}
-		}else{
-			burl = 'push://' + burl;
-		}
-		loopresult = title + '$' + burl;
-		lista.push(loopresult);
-	}else if (burl.startsWith("https://pan.quark.cn/s/")){
-		if (true){
-		if (TABS.length==1){
-			burl = "http://127.0.0.1:9978/proxy?do=quark&type=push&confirm=0&url=" + encodeURIComponent(burl);
-		}else{
-			burl = "http://127.0.0.1:9978/proxy?do=quark&type=push&url=" + encodeURIComponent(burl);
-		}
-		}else{
-			burl = 'push://' + burl;
-		}
-		loopresult = title + '$' + burl;
-		listq.push(loopresult);
-	}else if (burl.startsWith("magnet")){
-		listm.push(loopresult);
-	}else if (burl.startsWith("ed2k")){
-		liste.push(loopresult);
-	}
-});
-if (listm.length>0){
-	LISTS.push(listm);
-}
-if (liste.length>0){
-	LISTS.push(liste);
-}
-if (false && lista.length + listq.length > 1){
-	LISTS.push(["選擇右側綫路，或3秒後自動跳過$http://127.0.0.1:10079/delay/"]);
-}
-lista.forEach(function(it){
-	LISTS.push([it]);
-});
-listq.forEach(function(it){
-	LISTS.push([it]);
-});
-`,
+// 芸直播 - TVBox QuickJS (txt 直播源直连版)
+// 源格式: 分组名,#genre#  +  频道名,URL$备注
+// 分组: / 📡咪咕央卫 / 📡咪咕頻道 / 📺港澳代理 / 🎹音樂欣賞 / 👑會員頻道
 
-	},
-	搜索:`js:
-pdfh=jsp.pdfh;pdfa=jsp.pdfa;pd=jsp.pd;
-if (rule_fetch_params.headers.Cookie.startsWith("http")){
-	rule_fetch_params.headers.Cookie=fetch(rule_fetch_params.headers.Cookie);
-	let cookie = rule_fetch_params.headers.Cookie;
-	setItem(RULE_CK, cookie);
+var SRC_URL = 'https://cnb.cool/my-liuyun/TVbox/-/git/raw/main/lib/%E8%8A%B8%E7%9B%B4%E6%92%AD.txt';
+var USER_AGENT = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/120.0.0.0 Safari/537.36';
+var CACHE_TTL = 1800000;
+var TIMEOUT = 20000;
+
+var DESC_PREFIX = '【琉🔹芸❤广告勿信👉剧情】📢';
+
+// 分组封面覆盖(键=分组名, 值=图片地址)
+var GROUP_PIC_OVERRIDE = {
+   '📡咪咕頻道': 'https://gitee.com/lyun_1_0/TS/raw/main/lib/咪咕.jpg',
+   '🇨🇳央视频道': 'https://gitee.com/lyun_1_0/TS/raw/main/lib/央视.jpg',
+   '📡卫视頻道': 'https://gitee.com/lyun_1_0/TS/raw/main/lib/卫视.jpg',
+   '📺港澳代理': 'https://gitee.com/lyun_1_0/TS/raw/main/lib/yecao.png',
+   '🎹音樂欣賞': 'https://gitee.com/lyun_1_0/TS/raw/main/lib/音乐.jpg'
 };
-log('4khdr search cookie>>>>>>>>>>>>>>>' + rule_fetch_params.headers.Cookie);
-let new_host= HOST + '/search.php';
-let new_html=request(new_host);
-let formhash = pdfh(new_html, 'input[name="formhash"]&&value');
-log("4khdr formhash>>>>>>>>>>>>>>>" + formhash);
-let params = 'formhash=' + formhash + '&searchsubmit=yes&srchtxt=' + encodeURIComponent(KEY);
-let _fetch_params = JSON.parse(JSON.stringify(rule_fetch_params));
-let postData = {
-    body: params
-};
-Object.assign(_fetch_params, postData);
-log("4khdr search postData>>>>>>>>>>>>>>>" + JSON.stringify(_fetch_params));
-let search_html = post( HOST + '/search.php?mod=forum', _fetch_params)
-//log("4khdr search result>>>>>>>>>>>>>>>" + search_html);
-let d=[];
-let dlist = pdfa(search_html, 'div#threadlist ul li');
-dlist.forEach(function(it){
-	let title = pdfh(it, 'h3&&Text');
-	if (searchObj.quick === true){
-		if (title.includes(KEY)){
-			title = KEY;
-		}
-	}
-	let img = "";
-	let content = pdfh(it, 'p:eq(2)&&Text');
-	let desc = pdfh(it, 'p:eq(3)&&Text');
-	let url = pd(it, 'a&&href', HOST);
-	d.push({
-		title:title,
-		img:img,
-		content:content,
-		desc:desc,
-		url:url
-		})
-});
-setResult(d);
-	`,
+
+var CACHE = { ts: 0, groups: null };
+
+function fetchGroups() {
+    var now = (new Date()).getTime();
+    if (CACHE.groups && now - CACHE.ts < CACHE_TTL) return CACHE.groups;
+    var res = req(SRC_URL, { headers: { 'User-Agent': USER_AGENT }, timeout: TIMEOUT });
+    var content = '';
+    if (typeof res === 'object' && res !== null) {
+        content = res.content !== undefined ? res.content : (res.body || '');
+    } else {
+        content = String(res || '');
+    }
+    if (!content) throw new Error('直播源拉取失败');
+    var groups = parseTxt(content);
+    if (!groups.length) throw new Error('直播源解析为空');
+    CACHE.ts = now;
+    CACHE.groups = groups;
+    return groups;
 }
+
+function parseTxt(text) {
+    var lines = String(text).replace(/\r/g, '').split('\n');
+    var groups = [], cur = null, i, line, idx, gname, name, rest, url, note, di;
+    for (i = 0; i < lines.length; i++) {
+        line = lines[i].replace(/^\s+|\s+$/g, '');
+        if (!line) continue;
+        idx = line.indexOf(',#genre#');
+        if (idx > -1) {
+            gname = line.substring(0, idx).replace(/^\s+|\s+$/g, '');
+            cur = { name: gname, channels: [] };
+            groups.push(cur);
+            continue;
+        }
+        idx = line.indexOf(',');
+        if (idx < 1 || !cur) continue;
+        name = line.substring(0, idx).replace(/^\s+|\s+$/g, '');
+        rest = line.substring(idx + 1).replace(/^\s+|\s+$/g, '');
+        if (!rest) continue;
+        url = rest; note = '';
+        di = rest.indexOf('$');
+        if (di > -1) { url = rest.substring(0, di); note = rest.substring(di + 1); }
+        if (!url) continue;
+        cur.channels.push({ name: name, url: url, note: note });
+    }
+    return groups;
+}
+
+function findGroup(tid) {
+    var groups = fetchGroups();
+    var name = String(tid || '');
+    try { name = decodeURIComponent(name); } catch (e) { }
+    for (var i = 0; i < groups.length; i++) {
+        if (groups[i].name === name) return groups[i];
+    }
+    return null;
+}
+
+function groupPic(gname) {
+    return GROUP_PIC_OVERRIDE[gname] || '';
+}
+
+function card(gname, ch, idx) {
+    return {
+        vod_id: encodeURIComponent(gname) + '|' + idx,
+        vod_name: ch.name,
+        vod_pic: groupPic(gname),
+        vod_remarks: ch.note || ''
+    };
+}
+
+var spider = {
+    init: function (cfg) {
+        if (cfg && cfg.ext) {
+            var ext = typeof cfg.ext === 'string' ? cfg.ext : (cfg.ext.url || '');
+            if (ext) SRC_URL = ext;
+        }
+    },
+
+    home: function (filter) {
+        var groups = fetchGroups();
+        var classes = [], i;
+        for (i = 0; i < groups.length; i++) {
+            classes.push({ type_id: encodeURIComponent(groups[i].name), type_name: groups[i].name });
+        }
+        return JSON.stringify({ class: classes, filters: {} });
+    },
+
+    homeVod: function () {
+        var groups = fetchGroups();
+        var list = [], i, j;
+        for (i = 0; i < groups.length; i++) {
+            for (j = 0; j < groups[i].channels.length && j < 8; j++) {
+                list.push(card(groups[i].name, groups[i].channels[j], j));
+            }
+        }
+        return JSON.stringify({ list: list });
+    },
+
+    category: function (tid, pg, filter, extend) {
+        var g = findGroup(tid);
+        var list = [], i;
+        if (g) {
+            for (i = 0; i < g.channels.length; i++) list.push(card(g.name, g.channels[i], i));
+        }
+        return JSON.stringify({ list: list, page: 1, pagecount: 1, limit: list.length, total: list.length });
+    },
+
+    detail: function (ids) {
+        var id = typeof ids === 'string' ? ids : (ids && ids[0]) || '';
+        var parts = String(id).split('|');
+        var g = findGroup(parts[0]);
+        var idx = parseInt(parts[1] || '0', 10);
+        if (!g || !g.channels[idx]) return JSON.stringify({ list: [] });
+        var ch = g.channels[idx];
+        return JSON.stringify({
+            list: [{
+                vod_id: id,
+                vod_name: ch.name,
+                vod_pic: groupPic(g.name),
+                vod_content: DESC_PREFIX + ch.name + (ch.note ? ' ' + ch.note : ''),
+                vod_play_from: '琉芸直播',
+                vod_play_url: '立即播放$' + encodeURIComponent(ch.url)
+            }]
+        });
+    },
+
+    play: function (flag, id, flags) {
+        var url = String(id || '');
+        try { url = decodeURIComponent(url); } catch (e) { }
+        return JSON.stringify({
+            parse: 0,
+            playUrl: '',
+            url: url,
+            header: { 'User-Agent': USER_AGENT }
+        });
+    },
+
+    search: function (wd, quick) {
+        var groups = fetchGroups();
+        var k = String(wd || '');
+        var list = [], i, j;
+        for (i = 0; i < groups.length; i++) {
+            for (j = 0; j < groups[i].channels.length; j++) {
+                if (groups[i].channels[j].name.indexOf(k) > -1) {
+                    list.push(card(groups[i].name, groups[i].channels[j], j));
+                }
+            }
+        }
+        return JSON.stringify({ list: list });
+    }
+};
+
+export default spider;
