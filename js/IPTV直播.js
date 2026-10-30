@@ -138,7 +138,7 @@ var spider = {
                 vod_name: ch.name,
                 vod_pic: groupPic(g.name),
                 vod_content: DESC_PREFIX + ch.name + (ch.note ? ' ' + ch.note : ''),
-                vod_play_from: '琉芸直播',
+                vod_play_from: '直播源',
                 vod_play_url: '立即播放$' + encodeURIComponent(ch.url)
             }]
         });
