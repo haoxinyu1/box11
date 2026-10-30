@@ -123,16 +123,11 @@
 {"key":"keke","name":"可可影视(PQ)","type": 3,"api":"csp_XBPQ","searchable":1,"quickSearch":1,
  "jar": "./jar/XBPQ.jar","ext": "./json/keke.json"
 },
-{ "key":"IPTV直播","name": "IPTV直播(py)","type": 3,"api": "./py/IPTV直播.py","changeable":1,"playerType":2},
 {"key": "养生堂", "name": "养生💠知识","type": 3,"api": "csp_YST","searchable": 0,"changeable": 0,
  "style": {
         "type": "rect",
         "ratio": 1.618
           }
-},
-{"key":"直播转点播1","name":"电视直播","type":3,"api":"https://gh-proxy.com/https://raw.githubusercontent.com/longgogo/js/refs/heads/main/zbzdb.js",
- "ext":"https://gh-proxy.com/https://raw.githubusercontent.com/longgogo/live/refs/heads/main/直播.txt",
- "searchable":0,"quickSearch":0
 },
 {"key":"push_agent","name":"推送()","type":3,"api":"csp_Push","ext":"./lib/tokenm.json"}
 ],
