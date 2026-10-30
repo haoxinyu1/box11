@@ -2,7 +2,7 @@
 // 源格式: 分组名,#genre#  +  频道名,URL$备注
 // 分组: / 📡咪咕央卫 / 📡咪咕頻道 / 📺港澳代理 / 🎹音樂欣賞 / 👑會員頻道
 
-var SRC_URL = 'https://cnb.cool/my-liuyun/TVbox/-/git/raw/main/lib/%E8%8A%B8%E7%9B%B4%E6%92%AD.txt';
+var SRC_URL = 'https://cnb.cool/hogo_box/box/-/git/raw/main/JS/ZB.txt';
 var USER_AGENT = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/120.0.0.0 Safari/537.36';
 var CACHE_TTL = 1800000;
 var TIMEOUT = 20000;
