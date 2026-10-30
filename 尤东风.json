@@ -129,6 +129,7 @@
         "ratio": 1.618
           }
 },
+{ "key":"IPTV直播","name": "IPTV直播","type": 3,"api": "./js/IPTV直播.js"},
 {"key":"push_agent","name":"推送()","type":3,"api":"csp_Push","ext":"./lib/tokenm.json"}
 ],
 "lives": 
