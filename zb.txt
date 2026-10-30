@@ -99,7 +99,6 @@ CCTV8K,http://198.204.228.26/live/cctv8k.m3u8
 湖南卫视,http://114.254.38.234:8888/rtp/239.3.1.132:8012$北京联通11
 湖南卫视,http://115.171.216.23:4000/udp/225.1.8.41:8012$北京电信21
 
-东方卫视,https://txmov2.a.kwimgs.com/bs3/video-hls/5219953535631090825_hlsb.m3u8
 东方卫视,http://38.75.136.137:98/gslb/dsdqbv/dfwshd.m3u8?auth=test20251009
 东方卫视,http://38.75.136.137:98/gslb/dsdqpub/dfwshd.m3u8?auth=testpub
 东方卫视,http://116.76.254.170:44330/tsfile/live/0107_1.m3u8?key=txiptv&playlive=0&authid=0
