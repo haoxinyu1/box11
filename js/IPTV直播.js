@@ -11,8 +11,8 @@ var DESC_PREFIX = '【尤东风友情提醒🔺勿信广告，避免受骗】�
 
 // 分组封面覆盖(键=分组名, 值=图片地址)
 var GROUP_PIC_OVERRIDE = {
-   '📡咪咕頻道': 'https://gitee.com/lyun_1_0/TS/raw/main/lib/咪咕.jpg',
    '🇨🇳央视频道': 'https://gitee.com/lyun_1_0/TS/raw/main/lib/央视.jpg',
+   '📡咪咕頻道': 'https://gitee.com/lyun_1_0/TS/raw/main/lib/咪咕.jpg',
    '📡卫视頻道': 'https://gitee.com/lyun_1_0/TS/raw/main/lib/卫视.jpg',
    '📺港澳代理': 'https://gitee.com/lyun_1_0/TS/raw/main/lib/yecao.png',
    '🎹音樂欣賞': 'https://gitee.com/lyun_1_0/TS/raw/main/lib/音乐.jpg'
